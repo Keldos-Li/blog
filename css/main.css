@@ -213,7 +213,7 @@ body {
 body {
   background: var(--body-bg-color);
   color: var(--text-color);
-  font-family: Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: Monda, Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1em;
   line-height: 2;
   transition: all 0.2s ease-in-out;
@@ -224,7 +224,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Lora, Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: Lora, Monda, Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 20px 0 15px;
@@ -1334,7 +1334,7 @@ pre code {
   color: var(--brand-hover-color);
 }
 .site-title {
-  font-family: Permanent Marker, Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: Permanent Marker, Monda, Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 3em;
   font-weight: normal;
   margin: 0;
@@ -1898,7 +1898,7 @@ pre code {
   bottom: 0;
 }
 .post-body {
-  font-family: Merriweather, PingFang SC, Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: Merriweather, PingFang SC, Monda, Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
   overflow-wrap: break-word;
 }
 @media (min-width: 1200px) {
@@ -2216,7 +2216,7 @@ pre code {
 }
 .posts-expand .post-meta {
   color: #999;
-  font-family: Merriweather, PingFang SC, Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: Merriweather, PingFang SC, Monda, Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 0.75em;
   margin-top: 3px;
 }
