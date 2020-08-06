@@ -605,7 +605,7 @@ pre {
 }
 pre,
 code {
-  font-family: SF Mono Regular, Courier, consolas, Menlo, monospace, "PingFang SC", "Microsoft YaHei";
+  font-family: SF Mono, Courier, consolas, Menlo, monospace, "PingFang SC", "Microsoft YaHei";
 }
 code {
   border-radius: 3px;
@@ -2950,7 +2950,6 @@ mjx-container[display="true"] + br {
   position: sticky;
   top: 12px;
   width: 240px;
-  visibility: hidden;
 }
 @media (max-width: 991px) {
   .sidebar {
