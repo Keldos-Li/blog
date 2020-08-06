@@ -224,7 +224,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: Lora, Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 20px 0 15px;
@@ -605,7 +605,7 @@ pre {
 }
 pre,
 code {
-  font-family: consolas, Menlo, monospace, "PingFang SC", "Microsoft YaHei";
+  font-family: SF Mono Regular, Courier, consolas, Menlo, monospace, "PingFang SC", "Microsoft YaHei";
 }
 code {
   border-radius: 3px;
@@ -1334,8 +1334,8 @@ pre code {
   color: var(--brand-hover-color);
 }
 .site-title {
-  font-family: Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 1.375em;
+  font-family: Permanent Marker, Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 3em;
   font-weight: normal;
   margin: 0;
 }
@@ -1898,7 +1898,7 @@ pre code {
   bottom: 0;
 }
 .post-body {
-  font-family: Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: Merriweather, PingFang SC, Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
   overflow-wrap: break-word;
 }
 @media (min-width: 1200px) {
@@ -2216,7 +2216,7 @@ pre code {
 }
 .posts-expand .post-meta {
   color: #999;
-  font-family: Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: Merriweather, PingFang SC, Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 0.75em;
   margin-top: 3px;
 }
