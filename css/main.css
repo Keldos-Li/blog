@@ -1228,8 +1228,7 @@ pre code {
   margin: 0;
   padding: 0;
 }
-.pagination .page-number.current,
-.algolia-pagination .current .page-number {
+.pagination .page-number.current {
   background: #ccc;
   border-color: #ccc;
   color: var(--content-bg-color);
@@ -1797,6 +1796,68 @@ pre code {
   }
   50%, 70% {
     transform: scale(1.1);
+  }
+}
+@media (max-width: 567px) {
+  .main-inner {
+    padding: initial !important;
+  }
+  .posts-expand .post-header {
+    margin-bottom: 10px !important;
+  }
+  .post-block {
+    margin-top: initial !important;
+    padding: 8px 18px 8px !important;
+  }
+  .posts-collapse {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .post-body h1,
+  .post-body h2,
+  .post-body h3,
+  .post-body h4,
+  .post-body h5,
+  .post-body h6 {
+    margin: 10px 0 8px;
+  }
+  .post-body .note h1,
+  .post-body .tabs .tab-content .tab-pane h1,
+  .post-body .note h2,
+  .post-body .tabs .tab-content .tab-pane h2,
+  .post-body .note h3,
+  .post-body .tabs .tab-content .tab-pane h3,
+  .post-body .note h4,
+  .post-body .tabs .tab-content .tab-pane h4,
+  .post-body .note h5,
+  .post-body .tabs .tab-content .tab-pane h5,
+  .post-body .note h6,
+  .post-body .tabs .tab-content .tab-pane h6 {
+    margin: 0 5px;
+  }
+  .post-body > p {
+    margin: 0 0 10px 0;
+  }
+  .post-body .note > p,
+  .post-body .tabs .tab-content .tab-pane > p {
+    padding: 0 5px;
+  }
+  .post-body img,
+  .post-body video {
+    margin-bottom: 10px !important;
+  }
+  .post-body .note {
+    margin-bottom: 10px !important;
+    padding: 10px !important;
+  }
+  .post-body .tabs .tab-content .tab-pane {
+    padding: 10px 10px 0 10px !important;
+  }
+  .post-eof {
+    margin: 40px auto 20px !important;
+  }
+  .pagination {
+    margin-top: 40px;
   }
 }
 .back-to-top {
@@ -2666,48 +2727,37 @@ ul.breadcrumb li + li:last-child {
 .search-popup input.search-input::-webkit-search-cancel-button {
   display: none;
 }
-.search-input-container {
+.search-popup .search-input-container {
   flex-grow: 1;
-}
-.search-input-container form {
   padding: 2px;
 }
-.algolia-powered {
-  float: right;
+.search-popup ul.search-result-list {
+  margin: 0 5px;
+  padding: 0;
+  width: 100%;
 }
-.algolia-powered img {
-  display: inline-block;
-  height: 18px;
-  vertical-align: middle;
+.search-popup p.search-result {
+  border-bottom: 1px dashed #ccc;
+  padding: 5px 0;
 }
-.algolia-results {
+.search-popup a.search-result-title {
+  font-weight: bold;
+}
+.search-popup #search-result {
+  display: flex;
   height: calc(100% - 55px);
   overflow: auto;
-  padding: 5px 30px;
+  padding: 5px 25px;
 }
-.algolia-results hr {
-  margin: 10px 0;
+.search-popup #no-result {
+  color: #ccc;
+  margin: auto;
 }
-.algolia-hit-item {
-  margin: 15px 0;
-}
-.algolia-hit-item-link {
-  border-bottom: 1px dashed #ccc;
-  display: block;
-}
-.algolia-pagination {
-  margin: 40px 0;
-  opacity: 1;
-  padding: 0;
-}
-.algolia-pagination .pagination-item {
-  display: inline-block;
-}
-.algolia-pagination .current .page-number {
-  cursor: default;
-}
-.algolia-pagination .disabled-item {
-  visibility: hidden;
+mark.search-keyword {
+  background: transparent;
+  border-bottom: 1px dashed #ff2a2a;
+  color: #ff2a2a;
+  font-weight: bold;
 }
 mjx-container[jax="CHTML"][display="true"],
 .has-jax {
