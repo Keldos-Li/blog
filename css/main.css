@@ -3045,3 +3045,12 @@ mjx-container[display="true"] + br {
 .headband {
   display: none;
 }
+.post-eof {
+  background: #ccc;
+  height: 1px;
+  margin: 80px auto 60px;
+  width: 72%;
+}
+.post-block:last-of-type .post-eof {
+  display: none;
+}
