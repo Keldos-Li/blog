@@ -472,6 +472,17 @@ if (document.querySelectorAll('pre.mermaid').length) {
     
 
   
+<script>
+NexT.utils.loadComments('#valine-comments', () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
+    new Valine(Object.assign({
+      el  : '#valine-comments',
+      path: location.pathname,
+    }, {"enable":true,"appId":"TbgW0Qi88zAoNwLElExphnwY-9Nh9j0Va","appKey":"C0c208zWqG809oXBq7nONaCS","placeholder":"发表评论吧","avatar":"mm","meta":["nick","mail"],"pageSize":10,"language":"zh-cn","visitor":false,"comment_count":true,"recordIP":true,"serverURLs":"blog.keldos.me","enableQQ":false,"requiredFields":["nick"]}
+    ));
+  }, window.Valine);
+});
+</script>
 
 </body>
 </html>
