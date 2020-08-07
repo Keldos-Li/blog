@@ -10,10 +10,11 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
   <link rel="mask-icon" href="/images/logo.png" color="#222">
   <link rel="manifest" href="/images/manifest.json">
+  <meta name="baidu-site-verification" content="fbxuSwJZWA">
 
 <link rel="stylesheet" href="/css/main.css">
 
-<link rel="stylesheet" href="//fonts.googleapis.cnpmjs.org/css?family=Monda:300,300italic,400,400italic,700,700italic|Lato:300,300italic,400,400italic,700,700italic|Permanent+Marker:300,300italic,400,400italic,700,700italic|Lora:300,300italic,400,400italic,700,700italic|Merriweather:300,300italic,400,400italic,700,700italic|PingFang+SC:300,300italic,400,400italic,700,700italic|Courier+Prime:300,300italic,400,400italic,700,700italic|SF+Mono:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+<link rel="stylesheet" href="//fonts.googleapis.cnpmjs.org/css?family=Monda:300,300italic,400,400italic,700,700italic|Lato:300,300italic,400,400italic,700,700italic|Permanent+Marker:300,300italic,400,400italic,700,700italic|Lora:300,300italic,400,400italic,700,700italic|Merriweather:300,300italic,400,400italic,700,700italic|:300,300italic,400,400italic,700,700italic|Courier+Prime:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
 
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/css/all.min.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
@@ -404,6 +405,15 @@
 
 
   
+  <script>
+    (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      bp.src = (curProtocol === 'https') ? 'https://zz.bdstatic.com/linksubmit/push.js' : 'http://push.zhanzhang.baidu.com/push.js';
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
+  </script>
 
 
 
@@ -512,6 +522,16 @@ if (document.querySelectorAll('pre.mermaid').length) {
     
 
   
+  <script src="//cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <script>
+      window.addEventListener('load', () => {
+      quicklink.listen({
+        timeout : 3000,
+        priority: true,
+        ignores : [uri => uri.includes('#'),uri => uri === 'https://blog.keldos.me/archives/2020/08/',]
+      });
+      });
+  </script>
 <script>
 NexT.utils.loadComments('#valine-comments', () => {
   NexT.utils.getScript('//cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
