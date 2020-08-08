@@ -1,31 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>建设中</title>
-    <url>/2020/08/%E5%BB%BA%E8%AE%BE%E4%B8%AD/</url>
-    <content><![CDATA[<p>正在建设……</p>
-<p>完成后将将原博客搬运至此处。 <a id="more"></a></p>
-<blockquote>
-<p>占位 测试引用</p>
-</blockquote>
-<h2 id="标题一">标题一</h2>
-<h3 id="标题二">标题二</h3>
-<p>啦啦啦一号</p>
-<p><em>斜体</em></p>
-<p><strong>粗体</strong></p>
-<p>### 标题不知道</p>
-<hr />
-<p>LaTeX渲染测试</p>
-<p><span class="math display">\[
-\ce{Zn^2+  &lt;=&gt;[+ 2OH-][+ 2H+]  $\underset{\text{amphoteres Hydroxid}}{\ce{Zn(OH)2 v}}$  &lt;=&gt;[+ 2OH-][+ 2H+]  $\underset{\text{Hydroxozikat}}{\ce{[Zn(OH)4]^2-}}$}
-\]</span></p>
-<p>哇好厉害</p>
-]]></content>
-      <tags>
-        <tag>测试</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>博文非HTML语法小计</title>
     <url>/2020/08/hello-world/</url>
     <content><![CDATA[<h2 id="centered-quote">Centered Quote</h2>
@@ -60,7 +35,7 @@
 <p>Ut enim <em><mark class="label warning">ad</mark></em> minim veniam, quis <strong><mark class="label danger">nostrud</mark></strong> exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 <p>Duis aute irure dolor in reprehenderit in voluptate <del><mark class="label default">velit</mark></del> <mark>esse</mark> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <h2 id="mermaid">mermaid</h2>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% mermaid type %&#125;</span><br><span class="line">&#123;% endmermaid %&#125;</span><br><span class="line"></span><br><span class="line">type : type of the mermaid chart, visit https:&#x2F;&#x2F;github.com&#x2F;mermaid-js&#x2F;mermaid for more information.</span><br></pre></td></tr></table></figure>
+<p>为什么不行……感觉是插件js路径不对……或者js 的cdn缓存不对...先放着吧。等自动修复。 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% mermaid type %&#125;</span><br><span class="line">&#123;% endmermaid %&#125;</span><br><span class="line"></span><br><span class="line">type : type of the mermaid chart, visit https:&#x2F;&#x2F;github.com&#x2F;mermaid-js&#x2F;mermaid for more information.</span><br></pre></td></tr></table></figure></p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% mermaid graph TD %&#125;</span><br><span class="line">A[Hard] --&gt;|Text| B(Round)</span><br><span class="line">B --&gt; C&#123;Decision&#125;</span><br><span class="line">C --&gt;|One| D[Result 1]</span><br><span class="line">C --&gt;|Two| E[Result 2]</span><br><span class="line">&#123;% endmermaid %&#125;</span><br></pre></td></tr></table></figure>
 <pre class="mermaid" style="text-align: center;">
 graph TD
@@ -191,6 +166,31 @@ section Go home
 ]]></content>
       <tags>
         <tag>tech</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>建设中</title>
+    <url>/2020/08/%E5%BB%BA%E8%AE%BE%E4%B8%AD/</url>
+    <content><![CDATA[<p>正在建设……</p>
+<p>完成后将将原博客搬运至此处。 <a id="more"></a></p>
+<blockquote>
+<p>占位 测试引用</p>
+</blockquote>
+<h2 id="标题一">标题一</h2>
+<h3 id="标题二">标题二</h3>
+<p>啦啦啦一号</p>
+<p><em>斜体</em></p>
+<p><strong>粗体</strong></p>
+<p>### 标题不知道</p>
+<hr />
+<p>LaTeX渲染测试</p>
+<p><span class="math display">\[
+\ce{Zn^2+  &lt;=&gt;[+ 2OH-][+ 2H+]  $\underset{\text{amphoteres Hydroxid}}{\ce{Zn(OH)2 v}}$  &lt;=&gt;[+ 2OH-][+ 2H+]  $\underset{\text{Hydroxozikat}}{\ce{[Zn(OH)4]^2-}}$}
+\]</span></p>
+<p>哇好厉害</p>
+]]></content>
+      <tags>
+        <tag>测试</tag>
       </tags>
   </entry>
 </search>
