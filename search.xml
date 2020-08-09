@@ -34,6 +34,7 @@
 <p>居中引用</p>
 
 </blockquote>
+<a id="more"></a>
 <h2 id="video">video</h2>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% video https:&#x2F;&#x2F;example.com&#x2F;sample.mp4 %&#125;</span><br></pre></td></tr></table></figure>
 <p>可能需要我自己传cdn存吧orz</p>
