@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>建设中</title>
+    <url>/2020/08/%E5%BB%BA%E8%AE%BE%E4%B8%AD/</url>
+    <content><![CDATA[<p>正在建设……</p>
+<p>完成后将将原博客搬运至此处。 <a id="more"></a></p>
+<blockquote>
+<p>占位 测试引用</p>
+</blockquote>
+<h2 id="标题一">标题一</h2>
+<h3 id="标题二">标题二</h3>
+<p>啦啦啦一号</p>
+<p><em>斜体</em></p>
+<p><strong>粗体</strong></p>
+<p>### 标题不知道</p>
+<hr />
+<p>LaTeX渲染测试</p>
+<p><span class="math display">\[
+\ce{Zn^2+  &lt;=&gt;[+ 2OH-][+ 2H+]  $\underset{\text{amphoteres Hydroxid}}{\ce{Zn(OH)2 v}}$  &lt;=&gt;[+ 2OH-][+ 2H+]  $\underset{\text{Hydroxozikat}}{\ce{[Zn(OH)4]^2-}}$}
+\]</span></p>
+<p>哇好厉害</p>
+]]></content>
+      <tags>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>博文非HTML语法小计</title>
     <url>/2020/08/hello-world/</url>
     <content><![CDATA[<h2 id="centered-quote">Centered Quote</h2>
@@ -166,31 +191,6 @@ section Go home
 ]]></content>
       <tags>
         <tag>tech</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>建设中</title>
-    <url>/2020/08/%E5%BB%BA%E8%AE%BE%E4%B8%AD/</url>
-    <content><![CDATA[<p>正在建设……</p>
-<p>完成后将将原博客搬运至此处。 <a id="more"></a></p>
-<blockquote>
-<p>占位 测试引用</p>
-</blockquote>
-<h2 id="标题一">标题一</h2>
-<h3 id="标题二">标题二</h3>
-<p>啦啦啦一号</p>
-<p><em>斜体</em></p>
-<p><strong>粗体</strong></p>
-<p>### 标题不知道</p>
-<hr />
-<p>LaTeX渲染测试</p>
-<p><span class="math display">\[
-\ce{Zn^2+  &lt;=&gt;[+ 2OH-][+ 2H+]  $\underset{\text{amphoteres Hydroxid}}{\ce{Zn(OH)2 v}}$  &lt;=&gt;[+ 2OH-][+ 2H+]  $\underset{\text{Hydroxozikat}}{\ce{[Zn(OH)4]^2-}}$}
-\]</span></p>
-<p>哇好厉害</p>
-]]></content>
-      <tags>
-        <tag>测试</tag>
       </tags>
   </entry>
 </search>
