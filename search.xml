@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>班徽评选</title>
+    <url>/2020/11/banhui/</url>
+    <content><![CDATA[<p>我尽量把优秀的作品转成矢量图格式以便在网络上查看...放在我的个人网站上以便访问评选.</p>
+<h3 id="李京蔚">314-李京蔚</h3>
+<figure>
+<img src="/assets/banhui/ljw.svg" alt="李京蔚" /><figcaption aria-hidden="true">李京蔚</figcaption>
+</figure>
+<h3 id="汪琦浩">314-汪琦浩</h3>
+<p><img src="/assets/banhui/wqh1.svg" alt="汪琦浩1" /> <img src="/assets/banhui/wqh2.svg" alt="汪琦浩2" /></p>
+<h3 id="黄睿琦郑淳远">316-黄睿琦&amp;郑淳远</h3>
+<figure>
+<img src="/assets/banhui/zcy.svg" alt="啦啦啦" /><figcaption aria-hidden="true">啦啦啦</figcaption>
+</figure>
+<h3 id="高元亮">319-高元亮</h3>
+<figure>
+<img src="/assets/banhui/gyl.jpg" alt="高元亮" /><figcaption aria-hidden="true">高元亮</figcaption>
+</figure>
+]]></content>
+  </entry>
+  <entry>
     <title>博文非HTML语法小计</title>
     <url>/2020/08/hello-world/</url>
     <content><![CDATA[<h2 id="centered-quote">Centered Quote</h2>
@@ -168,26 +188,6 @@ section Go home
       <tags>
         <tag>tech</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>班徽评选</title>
-    <url>/2020/11/banhui/</url>
-    <content><![CDATA[<p>我尽量把优秀的作品转成矢量图格式以便在网络上查看...放在我的个人网站上以便访问评选.</p>
-<h3 id="李京蔚">314-李京蔚</h3>
-<figure>
-<img src="/assets/banhui/ljw.svg" alt="李京蔚" /><figcaption aria-hidden="true">李京蔚</figcaption>
-</figure>
-<h3 id="汪琦浩">314-汪琦浩</h3>
-<p><img src="/assets/banhui/wqh1.svg" alt="汪琦浩1" /> <img src="/assets/banhui/wqh2.svg" alt="汪琦浩2" /></p>
-<h3 id="黄睿琦郑淳远">316-黄睿琦&amp;郑淳远</h3>
-<figure>
-<img src="/assets/banhui/zcy.svg" alt="啦啦啦" /><figcaption aria-hidden="true">啦啦啦</figcaption>
-</figure>
-<h3 id="高元亮">319-高元亮</h3>
-<figure>
-<img src="/assets/banhui/gyl.jpg" alt="高元亮" /><figcaption aria-hidden="true">高元亮</figcaption>
-</figure>
-]]></content>
   </entry>
   <entry>
     <title>今译王世贞《蔺相如完璧归赵论》</title>
