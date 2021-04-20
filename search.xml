@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>班徽评选</title>
-    <url>/2020/11/banhui/</url>
-    <content><![CDATA[<p>原班徽设计已留档删除，不再放在我的网站。需要查看请联系我。</p>
-]]></content>
-  </entry>
-  <entry>
     <title>今译王世贞《蔺相如完璧归赵论》</title>
     <url>/2017/05/translate-wanbiguizhao/</url>
     <content><![CDATA[<p>翻《古文观止》的时候，看到王世贞此文，惊叹不已，便想到试着译成现代汉语。译稿如下： <a id="more"></a></p>
@@ -197,6 +191,12 @@ section Go home
       <tags>
         <tag>tech</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>班徽评选</title>
+    <url>/2020/11/banhui/</url>
+    <content><![CDATA[<p>原班徽设计已留档删除，不再放在我的网站。需要查看请联系我。</p>
+]]></content>
   </entry>
   <entry>
     <title>莊子淺摘（內篇）</title>
