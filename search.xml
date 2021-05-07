@@ -199,18 +199,6 @@ section Go home
       </tags>
   </entry>
   <entry>
-    <title>名片设计作业说明文档</title>
-    <url>/2021/04/%E5%90%8D%E7%89%87%E8%AE%BE%E8%AE%A1%E4%BD%9C%E4%B8%9A/</url>
-    <content><![CDATA[<p>　　把我上课作业拿过来看看效果。导出时用的 300 ppi，说不定会加载很慢？ <a id="more"></a><!-- 这里看不到图片，但是网站可以看到 --></p>
-<hr />
-<p><img src="/assets/mingpiansheji/名片_说明文档.png" /> <img src="/assets/mingpiansheji/名片_说明文档2.png" /> <img src="/assets/mingpiansheji/名片_说明文档3.png" /> <img src="/assets/mingpiansheji/名片_说明文档4.png" /> <img src="/assets/mingpiansheji/名片_说明文档5.png" /> <img src="/assets/mingpiansheji/名片_说明文档6.png" /> <img src="/assets/mingpiansheji/名片_说明文档7.png" /> <img src="/assets/mingpiansheji/名片_说明文档8.png" /> <img src="/assets/mingpiansheji/名片_说明文档9.png" /> <img src="/assets/mingpiansheji/名片_说明文档10.png" /></p>
-]]></content>
-      <tags>
-        <tag>笔记</tag>
-        <tag>作业</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>莊子淺摘（內篇）</title>
     <url>/2017/01/zhuangzi-1/</url>
     <content><![CDATA[<p><small> <em>这篇是在原博客上的老文章了，如今不再读庄子,但文章还是搬运回来。</em> </small></p>
@@ -612,6 +600,18 @@ y &amp;= x^x\\
 ]]></content>
       <tags>
         <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>名片设计作业说明文档</title>
+    <url>/2021/04/%E5%90%8D%E7%89%87%E8%AE%BE%E8%AE%A1%E4%BD%9C%E4%B8%9A/</url>
+    <content><![CDATA[<p>　　把我上课作业拿过来看看效果。导出时用的 300 ppi，说不定会加载很慢？ <a id="more"></a><!-- 这里看不到图片，但是网站可以看到 --></p>
+<hr />
+<p><img src="/assets/mingpiansheji/名片_说明文档.png" /> <img src="/assets/mingpiansheji/名片_说明文档2.png" /> <img src="/assets/mingpiansheji/名片_说明文档3.png" /> <img src="/assets/mingpiansheji/名片_说明文档4.png" /> <img src="/assets/mingpiansheji/名片_说明文档5.png" /> <img src="/assets/mingpiansheji/名片_说明文档6.png" /> <img src="/assets/mingpiansheji/名片_说明文档7.png" /> <img src="/assets/mingpiansheji/名片_说明文档8.png" /> <img src="/assets/mingpiansheji/名片_说明文档9.png" /> <img src="/assets/mingpiansheji/名片_说明文档10.png" /></p>
+]]></content>
+      <tags>
+        <tag>笔记</tag>
+        <tag>作业</tag>
       </tags>
   </entry>
 </search>
