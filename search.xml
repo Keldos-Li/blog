@@ -199,6 +199,18 @@ section Go home
       </tags>
   </entry>
   <entry>
+    <title>名片设计作业说明文档</title>
+    <url>/2021/04/%E5%90%8D%E7%89%87%E8%AE%BE%E8%AE%A1%E4%BD%9C%E4%B8%9A/</url>
+    <content><![CDATA[<p>　　把我上课作业拿过来看看效果。导出时用的 300 ppi，说不定会加载很慢？ <a id="more"></a><!-- 这里看不到图片，但是网站可以看到 --></p>
+<hr />
+<p><img src="/assets/mingpiansheji/名片_说明文档.png" /> <img src="/assets/mingpiansheji/名片_说明文档2.png" /> <img src="/assets/mingpiansheji/名片_说明文档3.png" /> <img src="/assets/mingpiansheji/名片_说明文档4.png" /> <img src="/assets/mingpiansheji/名片_说明文档5.png" /> <img src="/assets/mingpiansheji/名片_说明文档6.png" /> <img src="/assets/mingpiansheji/名片_说明文档7.png" /> <img src="/assets/mingpiansheji/名片_说明文档8.png" /> <img src="/assets/mingpiansheji/名片_说明文档9.png" /> <img src="/assets/mingpiansheji/名片_说明文档10.png" /></p>
+]]></content>
+      <tags>
+        <tag>笔记</tag>
+        <tag>作业</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>莊子淺摘（內篇）</title>
     <url>/2017/01/zhuangzi-1/</url>
     <content><![CDATA[<p><small> <em>这篇是在原博客上的老文章了，如今不再读庄子,但文章还是搬运回来。</em> </small></p>
@@ -603,15 +615,18 @@ y &amp;= x^x\\
       </tags>
   </entry>
   <entry>
-    <title>名片设计作业说明文档</title>
-    <url>/2021/04/%E5%90%8D%E7%89%87%E8%AE%BE%E8%AE%A1%E4%BD%9C%E4%B8%9A/</url>
-    <content><![CDATA[<p>　　把我上课作业拿过来看看效果。导出时用的 300 ppi，说不定会加载很慢？ <a id="more"></a><!-- 这里看不到图片，但是网站可以看到 --></p>
-<hr />
-<p><img src="/assets/mingpiansheji/名片_说明文档.png" /> <img src="/assets/mingpiansheji/名片_说明文档2.png" /> <img src="/assets/mingpiansheji/名片_说明文档3.png" /> <img src="/assets/mingpiansheji/名片_说明文档4.png" /> <img src="/assets/mingpiansheji/名片_说明文档5.png" /> <img src="/assets/mingpiansheji/名片_说明文档6.png" /> <img src="/assets/mingpiansheji/名片_说明文档7.png" /> <img src="/assets/mingpiansheji/名片_说明文档8.png" /> <img src="/assets/mingpiansheji/名片_说明文档9.png" /> <img src="/assets/mingpiansheji/名片_说明文档10.png" /></p>
+    <title>把markdown伪装成LaTeX</title>
+    <url>/2021/05/md-latex-template/</url>
+    <content><![CDATA[<p>　　今日见该文章：<a href="https://zhuanlan.zhihu.com/p/357096043">https://zhuanlan.zhihu.com/p/357096043</a>，就拿源码玩起来了，彻底忘了自己还有微积分和美术作业。</p>
+<p>　　作者是个好人。我现在才发现<span class="math inline">\(\LaTeX\)</span>的精髓是它的字体_(:з」∠)_。</p>
+<p>　　反正就这样吧，画了一天自己改成了适合浙大的模板，加了好多改了好多，效果大概这样：</p>
+<p>　　里面的文章是我自己上学期的作业从word里贴进去的，很多图丢了，我有些也就胡乱粘贴到某些地方，没仔细看格式，主要是图能把各种样式感受感受，我也删了一整节的内容等等。具体内容不重要orz。后面是在原作者的markdown里面改的。（再次感谢原作者）</p>
+<div class="pdfobject-container" data-target="https://gitee.com/Keldos-Li/picture/raw/master/img/tempForPrev.pdf" data-height="1200px"></div>
+<p>以后有空会贴源码的。等我什么时候闲下来吧。</p>
+<p>这是个有趣的项目。如果可以的话说不定真的可以替代我以后的大部分需求。</p>
 ]]></content>
       <tags>
-        <tag>笔记</tag>
-        <tag>作业</tag>
+        <tag>技术</tag>
       </tags>
   </entry>
 </search>
