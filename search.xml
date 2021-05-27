@@ -815,9 +815,8 @@ y &amp;= x^x\\
 <ul>
 <li>安装前，请确保您已经安装Typora或其他markdown编辑器（也可以用某些IDLE），并拥有基本的markdown语法知识；
 <ul>
-<li><p>什么是<strong>Typora</strong>？ <a href="https://typora.io/">Typora</a>是一个超级好用的实时预览markdown编辑器；</p></li>
-<li><p>什么是<strong>markdown</strong>？ <a href="https://daringfireball.net/projects/markdown/">markdown</a> 是一种轻量级标记语言，用于使用纯文本创建格式化文本。 约翰·格鲁伯和亚伦·斯沃茨于2004年创建了Markdown，作为一种以源代码形式吸引人类读者的标记语言。 Markdown排版语法简洁，让人们更多地关注内容本身而非排版。它可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式等文件。 Markdown广泛用于博客、即时消息、在线论坛、协作软件、文档页面和阅读文件。</p>
-<p>参考：</p>
+<li>什么是<strong>Typora</strong>？<br> <a href="https://typora.io/">Typora</a>是一个超级好用的实时预览markdown编辑器；</li>
+<li>什么是<strong>markdown</strong>？<br> <a href="https://daringfireball.net/projects/markdown/">markdown</a> 是一种轻量级标记语言，用于使用纯文本创建格式化文本。 约翰·格鲁伯和亚伦·斯沃茨于2004年创建了Markdown，作为一种以源代码形式吸引人类读者的标记语言。 Markdown排版语法简洁，让人们更多地关注内容本身而非排版。它可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式等文件。 Markdown广泛用于博客、即时消息、在线论坛、协作软件、文档页面和阅读文件。 参考：
 <ul>
 <li><a href="https://markdown.com.cn/">Markdown中文语法简介</a></li>
 <li><a href="https://support.typora.io/Markdown-Reference/">Typora使用的markdown语法参考</a> <br></li>
@@ -829,9 +828,9 @@ y &amp;= x^x\\
 </ul></li>
 <li>解压这个文件，然后将<code>css</code>文件夹中的<code>latex.css</code>和<code>latex-dark.css</code>两个文件复制到你的Typora主题文件夹下；
 <ul>
-<li>从<code>文件</code> – <code>偏好设置</code>中打开设置面板，然后单击“打开主题文件夹”。 对于Windows/Linux，这个文件夹一般是<code>C:\Users\&#123;username&#125;\AppData\Roaming\Typora\themes</code>； 对于Mac，这个文件夹一般是<code>/Users/&#123;username&#125;/Library/Application Support/abnerworks.Typora/themes/</code>。</li>
+<li>从<code>文件</code> – <code>偏好设置</code>中打开设置面板，然后单击“打开主题文件夹”。<br> 对于Windows/Linux，这个文件夹一般是<code>C:\Users\&#123;username&#125;\AppData\Roaming\Typora\themes</code>；<br> 对于Mac，这个文件夹一般是<code>/Users/&#123;username&#125;/Library/Application Support/abnerworks.Typora/themes/</code>。</li>
 </ul></li>
-<li>打开<code>/Supplemental/Fonts</code>文件夹，安装需要的字体。 其中<code>Latin Modern</code>文件夹存放了常规LaTeX文档使用的英文字体，请所有用户安装。（大家都会喜欢这个字体的，所以安装吧，就不把它们放在主题文件夹下再import了。<del>绝不是因为我懒</del>）； 其他文件夹存放了一些中文字体和代码字体，可以选择性安装（特别是如果您已经拥有其中的一些字体的话）。请注意，如果您不拥有这些字体也不希望安装的话，请到css文件中自行更改选用的字体（本项目没有写太多字体回退机制）；
+<li>打开<code>/Supplemental/Fonts</code>文件夹，安装需要的字体。<br> 其中<code>Latin Modern</code>文件夹存放了常规LaTeX文档使用的英文字体，请所有用户安装。（大家都会喜欢这个字体的，所以安装吧，就不把它们放在主题文件夹下再import了。<del>绝不是因为我懒</del>）；<br> 其他文件夹存放了一些中文字体和代码字体，可以选择性安装（特别是如果您已经拥有其中的一些字体的话）。请注意，如果您不拥有这些字体也不希望安装的话，请到css文件中自行更改选用的字体（本项目没有写太多字体回退机制）；
 <ul>
 <li>中文字体文件较大，所以均进行了压缩处理，安装前请解压；</li>
 <li>如果您选用自己的其他字体，请尽量使用有完整字体系列的字体集作为正文字体。对于中文字体，一个完整的字体系列应该包括：常规体（regular）、粗体（bold），如果您希望粗体风格更强，它应当还包含黑体（Heavy）。</li>
@@ -864,11 +863,11 @@ y &amp;= x^x\\
 <li>或先导出为html，然后在Chrome中打开打印。<br>（不能用Safari！Safari会自行设置最小边距而且非常不合理，这会导致您无法精确控制页边距；另一方面，在某次更新后Safari取消了对CSS本地字体读取的支持（理由是隐私问题），会导致您无法显示很多字体！）</li>
 <li>或者直接用pandoc的命令行设置。 <br></li>
 </ul></li>
-<li><p><strong>超链接</strong>： 显然，我们不希望打印的论文存在蓝色的超链接（？），我在CSS中修改了部分代码，使得在页面编辑和导出html预览中可以得到正常的超链接样式，但打印时会取消颜色和下划线（仍可以点击链接）。<br>不知道大家是否有这个需求，如果有更合适的方法可以联系我。</p></li>
-<li><p><strong>多级列表</strong>： 因为我的技术原因，请暂时不要在<strong>二级有序列表</strong>之后<strong>混用</strong> <em>有序列表</em> 和 <em>无序列表</em> 以及<em>核对清单</em>，会出现一些bug。（虽然感觉会这么干的人应该不多。）如果您有解决方案，请联系我。</p></li>
-<li><p><strong>页眉和页脚</strong>： 目前似乎不能直接定义，请在Typora的导出设置里设置好您需要的页眉和页脚文字，导出后在PDF编辑器中调整您喜欢的样式风格。</p></li>
-<li><p><strong>引用参考文献</strong> 目前没有更好的方式，请您主动编号……（或许小型课程论文不需要大量参考文献。）</p></li>
-<li><p><strong>专注模式</strong>和<strong>打字机模式</strong>： 还没写这部分的代码。本主题样式初衷不在于此，如果您有需求，可以提交issue或进入讨论区讨论，我视需求和精力再进行开发。</p></li>
+<li><p><strong>超链接</strong>：<br> 显然，我们不希望打印的论文存在蓝色的超链接（？），我在CSS中修改了部分代码，使得在页面编辑和导出html预览中可以得到正常的超链接样式，但打印时会取消颜色和下划线（仍可以点击链接）。<br>不知道大家是否有这个需求，如果有更合适的方法可以联系我。</p></li>
+<li><p><strong>多级列表</strong>：<br> 因为我的技术原因，请暂时不要在<strong>二级有序列表</strong>之后<strong>混用</strong> <em>有序列表</em> 和 <em>无序列表</em> 以及<em>核对清单</em>，会出现一些bug。（虽然感觉会这么干的人应该不多。）如果您有解决方案，请联系我。</p></li>
+<li><p><strong>页眉和页脚</strong>：<br> 目前似乎不能直接定义，请在Typora的导出设置里设置好您需要的页眉和页脚文字，导出后在PDF编辑器中调整您喜欢的样式风格。</p></li>
+<li><p><strong>引用参考文献</strong><br> 目前没有更好的方式，请您主动编号……（或许小型课程论文不需要大量参考文献。）</p></li>
+<li><p><strong>专注模式</strong>和<strong>打字机模式</strong>：<br> 还没写这部分的代码。本主题样式初衷不在于此，如果您有需求，可以提交issue或进入讨论区讨论，我视需求和精力再进行开发。</p></li>
 </ul>
 <h2 id="说明">说明</h2>
 <p>本人呢，本来是打算自己用的，所以字体文件都直接安装引用了_(:з」∠)_<br>相比原作者的代码，<strong>其他部分各种部分都重新编写了一点，修改了一点。</strong>_(:з」∠)_<br>主要改动在于：(截止2021.5.27)</p>
