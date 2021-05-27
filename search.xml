@@ -816,7 +816,7 @@ y &amp;= x^x\\
 <li>安装前，请确保您已经安装Typora或其他markdown编辑器（也可以用某些IDLE），并拥有基本的markdown语法知识；
 <ul>
 <li>什么是<strong>Typora</strong>？<br> <a href="https://typora.io/">Typora</a>是一个超级好用的实时预览markdown编辑器；</li>
-<li>什么是<strong>markdown</strong>？<br> <a href="https://daringfireball.net/projects/markdown/">markdown</a> 是一种轻量级标记语言，用于使用纯文本创建格式化文本。 约翰·格鲁伯和亚伦·斯沃茨于2004年创建了Markdown，作为一种以源代码形式吸引人类读者的标记语言。 Markdown排版语法简洁，让人们更多地关注内容本身而非排版。它可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式等文件。 Markdown广泛用于博客、即时消息、在线论坛、协作软件、文档页面和阅读文件。 参考：
+<li>什么是<strong>markdown</strong>？<br> <a href="https://daringfireball.net/projects/markdown/">markdown</a> 是一种轻量级标记语言，用于使用纯文本创建格式化文本。 约翰·格鲁伯和亚伦·斯沃茨于2004年创建了Markdown，作为一种以源代码形式吸引人类读者的标记语言。 Markdown排版语法简洁，让人们更多地关注内容本身而非排版。它可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式等文件。 Markdown广泛用于博客、即时消息、在线论坛、协作软件、文档页面和阅读文件。<br> 参考：
 <ul>
 <li><a href="https://markdown.com.cn/">Markdown中文语法简介</a></li>
 <li><a href="https://support.typora.io/Markdown-Reference/">Typora使用的markdown语法参考</a> <br></li>
