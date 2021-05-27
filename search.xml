@@ -7,28 +7,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>把markdown伪装成LaTeX</title>
-    <url>/2021/05/md-latex-template/</url>
-    <content><![CDATA[<p>　　今日见该文章：<a href="https://zhuanlan.zhihu.com/p/357096043">https://zhuanlan.zhihu.com/p/357096043</a>，就拿源码玩起来了，彻底忘了自己还有微积分和美术作业。</p>
-<p>　　作者是个好人。我现在才发现<span class="math inline">\(\LaTeX\)</span>的精髓是它的字体_(:з」∠)_。</p>
-<p>　　反正就这样吧，花了一天自己改成了适合浙大的模板，加了好多改了好多，效果大概这样：</p>
-<p>　　里面的文章是我自己上学期的作业从word里贴进去的，很多图丢了，我有些也就胡乱粘贴到某些地方，没仔细看格式，主要是图能把各种样式感受感受，我也删了一整节的内容等等。具体内容不重要orz。后面是在原作者的markdown里面改的。（再次感谢原作者）</p>
-<div class="pdfobject-container" data-target="/assets/tempForPrev.pdf" data-height="1000px"></div>
-<p>　　以后有空会贴源码和讲解的。 等我什么时候闲下来吧。</p>
-<p>　　这是个有趣的项目。如果可以的话说不定真的可以替代我以后的大部分需求。</p>
-<a id="more"></a>
-<p>前面摘要啊封面啥的代码（封面代码改的是@<a href="https://www.zhihu.com/people/lan-du-94-23">LAN DU</a>的）：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;cover&quot;</span> <span class="attr">style</span>=<span class="string">&quot;page-break-after:always;font-family:方正公文仿宋;width:100%;height:100%;border:none;margin: 0 auto;text-align:center;&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;width:50%;margin: 0 auto;height:0;padding-bottom:10%;&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://gitee.com/Keldos-Li/picture/raw/master/img/%E6%A0%A1%E5%90%8D-%E9%BB%91%E8%89%B2.svg&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;校名&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width:100%;&quot;</span>/&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;width:50%;margin: 0 auto;height:0;padding-bottom:40%;&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://gitee.com/Keldos-Li/picture/raw/master/img/%E6%A0%A1%E5%BE%BD-%E9%BB%91%E8%89%B2.svg&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;校徽&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width:100%;&quot;</span>/&gt;</span></span><br><span class="line">   <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;font-family:华文黑体Bold;text-align:center;font-size:20pt;margin: 10pt auto;line-height:30pt;&quot;</span>&gt;</span>《论文名称》<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">&quot;text-align:center;font-size:14pt;margin: 0 auto&quot;</span>&gt;</span>论文类型 <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">br</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">br</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">table</span> <span class="attr">style</span>=<span class="string">&quot;border:none;text-align:center;width:72%;font-family:仿宋;font-size:14px; margin: 0 auto;&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">tbody</span> <span class="attr">style</span>=<span class="string">&quot;font-family:方正公文仿宋;font-size:12pt;&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tr</span> <span class="attr">style</span>=<span class="string">&quot;font-weight:normal;&quot;</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:20%;text-align:right;&quot;</span>&gt;</span>题　　目<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:2%&quot;</span>&gt;</span>：<span class="tag">&lt;/<span class="name">td</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:仿宋&quot;</span>&gt;</span> 论文题目<span class="tag">&lt;/<span class="name">td</span>&gt;</span>     <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tr</span> <span class="attr">style</span>=<span class="string">&quot;font-weight:normal;&quot;</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:20%;text-align:right;&quot;</span>&gt;</span>上课时间<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:2%&quot;</span>&gt;</span>：<span class="tag">&lt;/<span class="name">td</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:仿宋&quot;</span>&gt;</span> 上课时间<span class="tag">&lt;/<span class="name">td</span>&gt;</span>     <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tr</span> <span class="attr">style</span>=<span class="string">&quot;font-weight:normal;&quot;</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:20%;text-align:right;&quot;</span>&gt;</span>授课教师<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:2%&quot;</span>&gt;</span>：<span class="tag">&lt;/<span class="name">td</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:仿宋&quot;</span>&gt;</span>教师姓名 <span class="tag">&lt;/<span class="name">td</span>&gt;</span>     <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tr</span> <span class="attr">style</span>=<span class="string">&quot;font-weight:normal;&quot;</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:20%;text-align:right;&quot;</span>&gt;</span>姓　　名<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:2%&quot;</span>&gt;</span>：<span class="tag">&lt;/<span class="name">td</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:仿宋&quot;</span>&gt;</span> 你的名字<span class="tag">&lt;/<span class="name">td</span>&gt;</span>     <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tr</span> <span class="attr">style</span>=<span class="string">&quot;font-weight:normal;&quot;</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:20%;text-align:right;&quot;</span>&gt;</span>学　　号<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:2%&quot;</span>&gt;</span>：<span class="tag">&lt;/<span class="name">td</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:仿宋&quot;</span>&gt;</span>你的学号 <span class="tag">&lt;/<span class="name">td</span>&gt;</span>     <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tr</span> <span class="attr">style</span>=<span class="string">&quot;font-weight:normal;&quot;</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:20%;text-align:right;&quot;</span>&gt;</span>组　　别<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:%&quot;</span>&gt;</span>：<span class="tag">&lt;/<span class="name">td</span>&gt;</span> </span><br><span class="line">         <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:仿宋&quot;</span>&gt;</span> 你的组别<span class="tag">&lt;/<span class="name">td</span>&gt;</span>     <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tr</span> <span class="attr">style</span>=<span class="string">&quot;font-weight:normal;&quot;</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:20%;text-align:right;&quot;</span>&gt;</span>日　　期<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:2%&quot;</span>&gt;</span>：<span class="tag">&lt;/<span class="name">td</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:仿宋&quot;</span>&gt;</span>完成日期<span class="tag">&lt;/<span class="name">td</span>&gt;</span>     <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">tbody</span>&gt;</span>              </span><br><span class="line">    <span class="tag">&lt;/<span class="name">table</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 计算机工作枢纽——操作系统</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">center</span>&gt;</span><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&#x27;height:2mm;&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;font-family:华文楷体-Regular-SC;font-size:14pt;&quot;</span>&gt;</span>李京蔚，1234567890<span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="tag">&lt;/<span class="name">center</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">center</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;font-family:华文楷体-Regular-SC;font-size:9pt;line-height:9mm&quot;</span>&gt;</span>浙江大学云峰学园<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">center</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;width:52px;float:left; font-family:方正公文黑体;&quot;</span>&gt;</span>摘　要：<span class="tag">&lt;/<span class="name">div</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;overflow:hidden; font-family:华文楷体-Regular-SC;&quot;</span>&gt;</span>在信息化时代背景下，计算机操作系统在各行业领域中得到广泛应用。本文试图通过对计算机系统概念、功能和分类、历史的介绍，大致地给出对计算机操作系统的认识，并通过对当前主流桌面操作系统Windows和macOS的简要介绍，使读者能够对现代图形界面操作系统有一个较为全面的了解，从而喜欢上某一个操作系统，供读者参考。<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;width:52px;float:left; font-family:方正公文黑体;&quot;</span>&gt;</span>关键词：<span class="tag">&lt;/<span class="name">div</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;overflow:hidden; font-family:华文楷体-Regular-SC;&quot;</span>&gt;</span>计算机；操作系统；功能；发展；Windows；macOS；<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># Computer Work Hub — Operating System</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">center</span>&gt;</span><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&#x27;height:2mm;&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;font-size:14pt;&quot;</span>&gt;</span>Li Jingwei<span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="tag">&lt;/<span class="name">center</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">center</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;font-size:9pt;line-height:9mm&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">i</span>&gt;</span>Zhejiang University<span class="tag">&lt;/<span class="name">i</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">center</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;width:82px;float:left;line-height:16pt&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">b</span>&gt;</span>Abstract: <span class="tag">&lt;/<span class="name">b</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;overflow:hidden;line-height:16pt&quot;</span>&gt;</span>Under the background of the information age, computer operating systems are widely used in various industries. This paper tries to give a general understanding of the computer operating system by introducing the concept, functions and classifications, and history of computer systems. And by briefly introducing the current mainstream desktop operating systems Windows and macOS, readers can have a comprehensive view of modern graphical interface operating systems, and get to know thus begin to like one of them. This article is for readers&#x27; reference.<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;width:82px;float:left;line-height:16pt&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">b</span>&gt;</span>Key Words: <span class="tag">&lt;/<span class="name">b</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;overflow:hidden;line-height:16pt&quot;</span>&gt;</span>Computer; Operating System; Function; Development; Windows; macOS;<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>CSS的话……emm，我看看贴到哪里好。</p>
-<p>本来没打算在github上搞的，还是上去好了，待会把仓库和ssh连一下orz，妈的校网github又上不了了。。。。</p>
-<p>在<a href="https://github.com/Keldos-Li/typora-latex-theme">这里</a>。</p>
-]]></content>
-      <tags>
-        <tag>tech</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>博文非HTML语法小计</title>
     <url>/2020/08/hello-world/</url>
     <content><![CDATA[<h2 id="centered-quote">Centered Quote</h2>
@@ -221,6 +199,52 @@ section Go home
       </tags>
   </entry>
   <entry>
+    <title>把markdown伪装成LaTeX</title>
+    <url>/2021/05/md-latex-template/</url>
+    <content><![CDATA[<p>　　今日见该文章：<a href="https://zhuanlan.zhihu.com/p/357096043">https://zhuanlan.zhihu.com/p/357096043</a>，就拿源码玩起来了，彻底忘了自己还有微积分和美术作业。</p>
+<p>　　作者是个好人。我现在才发现<span class="math inline">\(\LaTeX\)</span>的精髓是它的字体_(:з」∠)_。</p>
+<p>　　反正就这样吧，花了一天自己改成了适合浙大的模板，加了好多改了好多，效果大概这样：</p>
+<p>　　里面的文章是我自己上学期的作业从word里贴进去的，很多图丢了，我有些也就胡乱粘贴到某些地方，没仔细看格式，主要是图能把各种样式感受感受，我也删了一整节的内容等等。具体内容不重要orz。后面是在原作者的markdown里面改的。（再次感谢原作者）</p>
+<div class="pdfobject-container" data-target="/assets/tempForPrev.pdf" data-height="1000px"></div>
+<p>　　以后有空会贴源码和讲解的。 等我什么时候闲下来吧。</p>
+<p>　　这是个有趣的项目。如果可以的话说不定真的可以替代我以后的大部分需求。</p>
+<a id="more"></a>
+<p>前面摘要啊封面啥的代码（封面代码改的是@<a href="https://www.zhihu.com/people/lan-du-94-23">LAN DU</a>的）：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;cover&quot;</span> <span class="attr">style</span>=<span class="string">&quot;page-break-after:always;font-family:方正公文仿宋;width:100%;height:100%;border:none;margin: 0 auto;text-align:center;&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;width:50%;margin: 0 auto;height:0;padding-bottom:10%;&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://gitee.com/Keldos-Li/picture/raw/master/img/%E6%A0%A1%E5%90%8D-%E9%BB%91%E8%89%B2.svg&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;校名&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width:100%;&quot;</span>/&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;width:50%;margin: 0 auto;height:0;padding-bottom:40%;&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://gitee.com/Keldos-Li/picture/raw/master/img/%E6%A0%A1%E5%BE%BD-%E9%BB%91%E8%89%B2.svg&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;校徽&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width:100%;&quot;</span>/&gt;</span></span><br><span class="line">   <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;font-family:华文黑体Bold;text-align:center;font-size:20pt;margin: 10pt auto;line-height:30pt;&quot;</span>&gt;</span>《论文名称》<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">&quot;text-align:center;font-size:14pt;margin: 0 auto&quot;</span>&gt;</span>论文类型 <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">br</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">br</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">table</span> <span class="attr">style</span>=<span class="string">&quot;border:none;text-align:center;width:72%;font-family:仿宋;font-size:14px; margin: 0 auto;&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">tbody</span> <span class="attr">style</span>=<span class="string">&quot;font-family:方正公文仿宋;font-size:12pt;&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tr</span> <span class="attr">style</span>=<span class="string">&quot;font-weight:normal;&quot;</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:20%;text-align:right;&quot;</span>&gt;</span>题　　目<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:2%&quot;</span>&gt;</span>：<span class="tag">&lt;/<span class="name">td</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:仿宋&quot;</span>&gt;</span> 论文题目<span class="tag">&lt;/<span class="name">td</span>&gt;</span>     <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tr</span> <span class="attr">style</span>=<span class="string">&quot;font-weight:normal;&quot;</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:20%;text-align:right;&quot;</span>&gt;</span>上课时间<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:2%&quot;</span>&gt;</span>：<span class="tag">&lt;/<span class="name">td</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:仿宋&quot;</span>&gt;</span> 上课时间<span class="tag">&lt;/<span class="name">td</span>&gt;</span>     <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tr</span> <span class="attr">style</span>=<span class="string">&quot;font-weight:normal;&quot;</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:20%;text-align:right;&quot;</span>&gt;</span>授课教师<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:2%&quot;</span>&gt;</span>：<span class="tag">&lt;/<span class="name">td</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:仿宋&quot;</span>&gt;</span>教师姓名 <span class="tag">&lt;/<span class="name">td</span>&gt;</span>     <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tr</span> <span class="attr">style</span>=<span class="string">&quot;font-weight:normal;&quot;</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:20%;text-align:right;&quot;</span>&gt;</span>姓　　名<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:2%&quot;</span>&gt;</span>：<span class="tag">&lt;/<span class="name">td</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:仿宋&quot;</span>&gt;</span> 你的名字<span class="tag">&lt;/<span class="name">td</span>&gt;</span>     <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tr</span> <span class="attr">style</span>=<span class="string">&quot;font-weight:normal;&quot;</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:20%;text-align:right;&quot;</span>&gt;</span>学　　号<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:2%&quot;</span>&gt;</span>：<span class="tag">&lt;/<span class="name">td</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:仿宋&quot;</span>&gt;</span>你的学号 <span class="tag">&lt;/<span class="name">td</span>&gt;</span>     <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tr</span> <span class="attr">style</span>=<span class="string">&quot;font-weight:normal;&quot;</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:20%;text-align:right;&quot;</span>&gt;</span>组　　别<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:%&quot;</span>&gt;</span>：<span class="tag">&lt;/<span class="name">td</span>&gt;</span> </span><br><span class="line">         <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:仿宋&quot;</span>&gt;</span> 你的组别<span class="tag">&lt;/<span class="name">td</span>&gt;</span>     <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tr</span> <span class="attr">style</span>=<span class="string">&quot;font-weight:normal;&quot;</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:20%;text-align:right;&quot;</span>&gt;</span>日　　期<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:2%&quot;</span>&gt;</span>：<span class="tag">&lt;/<span class="name">td</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:仿宋&quot;</span>&gt;</span>完成日期<span class="tag">&lt;/<span class="name">td</span>&gt;</span>     <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">tbody</span>&gt;</span>              </span><br><span class="line">    <span class="tag">&lt;/<span class="name">table</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 计算机工作枢纽——操作系统</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">center</span>&gt;</span><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&#x27;height:2mm;&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;font-family:华文楷体-Regular-SC;font-size:14pt;&quot;</span>&gt;</span>李京蔚，1234567890<span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="tag">&lt;/<span class="name">center</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">center</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;font-family:华文楷体-Regular-SC;font-size:9pt;line-height:9mm&quot;</span>&gt;</span>浙江大学云峰学园<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">center</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;width:52px;float:left; font-family:方正公文黑体;&quot;</span>&gt;</span>摘　要：<span class="tag">&lt;/<span class="name">div</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;overflow:hidden; font-family:华文楷体-Regular-SC;&quot;</span>&gt;</span>在信息化时代背景下，计算机操作系统在各行业领域中得到广泛应用。本文试图通过对计算机系统概念、功能和分类、历史的介绍，大致地给出对计算机操作系统的认识，并通过对当前主流桌面操作系统Windows和macOS的简要介绍，使读者能够对现代图形界面操作系统有一个较为全面的了解，从而喜欢上某一个操作系统，供读者参考。<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;width:52px;float:left; font-family:方正公文黑体;&quot;</span>&gt;</span>关键词：<span class="tag">&lt;/<span class="name">div</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;overflow:hidden; font-family:华文楷体-Regular-SC;&quot;</span>&gt;</span>计算机；操作系统；功能；发展；Windows；macOS；<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># Computer Work Hub — Operating System</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">center</span>&gt;</span><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&#x27;height:2mm;&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;font-size:14pt;&quot;</span>&gt;</span>Li Jingwei<span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="tag">&lt;/<span class="name">center</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">center</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;font-size:9pt;line-height:9mm&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">i</span>&gt;</span>Zhejiang University<span class="tag">&lt;/<span class="name">i</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">center</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;width:82px;float:left;line-height:16pt&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">b</span>&gt;</span>Abstract: <span class="tag">&lt;/<span class="name">b</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;overflow:hidden;line-height:16pt&quot;</span>&gt;</span>Under the background of the information age, computer operating systems are widely used in various industries. This paper tries to give a general understanding of the computer operating system by introducing the concept, functions and classifications, and history of computer systems. And by briefly introducing the current mainstream desktop operating systems Windows and macOS, readers can have a comprehensive view of modern graphical interface operating systems, and get to know thus begin to like one of them. This article is for readers&#x27; reference.<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;width:82px;float:left;line-height:16pt&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">b</span>&gt;</span>Key Words: <span class="tag">&lt;/<span class="name">b</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;overflow:hidden;line-height:16pt&quot;</span>&gt;</span>Computer; Operating System; Function; Development; Windows; macOS;<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>CSS的话……emm，我看看贴到哪里好。</p>
+<p>本来没打算在github上搞的，还是上去好了，待会把仓库和ssh连一下orz，妈的校网github又上不了了。。。。</p>
+<p>在<a href="https://github.com/Keldos-Li/typora-latex-theme">这里</a>。</p>
+]]></content>
+      <tags>
+        <tag>tech</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>莊子淺摘（後記）</title>
+    <url>/2017/05/zhuangzi-houji/</url>
+    <content><![CDATA[<p>这也是老文章啊，在我以前还有一个“学霸”的信心的时候……算了算了吧。</p>
+<p>以下是原文: <a id="more"></a></p>
+<hr />
+<p>　　我知道当我安利同学们参观这个网站的时候，映入眼帘的竟是一堆“看不懂”的繁体字时的感受（也不得不说有些同学的国文素养差），也知道大家完全没兴趣看我所作的摘注（大多只是看了每篇粗体的吧？）。写这一篇，完全是兴趣。</p>
+<p>　　一次，我问父亲对庄子有多了解，他倒问我庄子是不是早于老子……看来我有必要对庄子做一个介绍：</p>
+<blockquote>
+<p>庄子，宋国蒙城人，名同。曾著书十万余言，《汉书·艺文志》道家类有《庄子》52篇。今存33篇，分内外杂3类，为晋郭象所定，其中内七篇一般断为庄子自作，而外、杂篇则多为庄子后学之作。</p>
+</blockquote>
+<p>　　庄子是一位有趣的伟大的哲学家。如果你喜欢，可以仅仅去看他写的寓言故事（据庄子自己记录，“重言十九，寓言十七”，寓言至少占了十分之七——尽管我没摘）。其中关于“儒家”的故事占了很大篇幅，不少是孔子（颜回）的故事。不过庄子当然不会宣扬儒家思想，他不过是借孔子之口宣传“道”，顺便批判一下孔子（儒家）的不明大道以及其言行相悖etc.，指责他们要求“仁”，违背人性自然的性情而使得天下大乱。这样，看道儒两家互相攻击会变得极其有意思（如<田子方>篇鲁哀公与庄子的故事）。</p>
+<p>　　不过，作为哲学家，不少寓言故事的终极寓意于我们现今的大多浅显理解是不尽相同的。如庖丁解牛，我们理解为要掌握方法才能得心应手，而庄子可能意在指出社会肌理复杂，我们要顺着“道”（自然），小心地游刃于其肌理间（喻为牛的筋骨），才能安然处世，保持完好（刀都不用磨）；又如混沌开窍，我们可能单纯当睡前故事读了，或理解为不要好心帮倒忙之类，而庄子之意却是统治者今日立一政（开一窍），明日颁一法（开一窍），人民就生活在水深火热之中了（混沌死）——尽管君王的出发点可能是好的。诸如此类的还有螳螂捕蝉，黄雀在后、佝偻承蜩、呆若木鸡、邯郸学步等等，不加赘述（具体见《浅摘》文）。总之，国人之前受的教育实在太浅显了，没有领会出哲学的深意。</p>
+<p>　　《庄子》中议论也占了较大的篇幅。庄子的思想内涵是极深刻而深远的，其自由安逸的生活态度给我以很大的启迪。他是老子之后先秦道家学派的集大成者，从内七篇看来，他的哲学是继承老子而来，但庄子更加突出了“道”之为“整体性”的特点，还建立了一个独特而完整的认识论系统，这是老子所不及的。庄子对老子思想的最大发展，是他把在老子那里主要是宇宙论及本体论的“道”转化而为心灵的境界。在自然说方面，庄子更为深广地发挥了人的自由性与自在性。尤其著名的<逍遥游>一文，描绘了一种透脱的心灵，为人所称道。在治身的另一些方面，可以说庄子和老子是有相近的地方的。比方说，他劝人们忌太张扬，忌追名逐利……然而，后世一般以为庄子消极，出世，大概是很表面的。庄子置身于战祸连绵，危机四伏的环境中，对不幸的现实有深切的体验，因而思想表现追求“逍遥游”，但他的“逍遥”不是出世的，而是<strong>寄沉痛于悠闲之中</strong>。可以说他是“出世”的精神入世。庄子主张扬弃的是现实世界中的世俗价值网，从中解脱出来。由于庄子并不舍弃这个世界本身，这种出世与宗教的离弃此世截然不同。[陈《庄子的悲剧意识和自由精神》]</p>
+<p>　　想要弄懂《庄子》不是懂文言就可以了。单把文章拿来也可能让人不得要旨。因此我参考了陈鼓应的《庄子今注今译》，陈先生是一位著作颇丰的哲学教授，要真让某些读者对庄子产生兴趣 <del>（不会）</del> ，不妨找他的原书一阅。（若是入门书，不妨选择林语堂的《老子的智慧》，是用庄子文章解释老子的，但尽是翻译，有些也不得要旨，加之是文言译英，再译回现代汉语，原意尽失，大概翻翻就可以扔了。）</p>
+<p>　　我本没有对哲学有过多的思考，但却惊奇地发现自己竟有那么浓厚的兴趣，相信自己今后也会对庄子老子有更深的理解。在网站上放这个，一是充实兴趣，二是练练手，治治学，但苦于没有时间——以及自己无奈的打字技巧。《浅摘》中写不“不摘”的，可能是虽然理解深刻但是太长，也可能是通篇寓言，均懒得输入。我尽量选择精辟而深刻的摘录（参考归有光批阅·郭象辑注《南华真经评注》明·天启四年刊本影印本），但学识有限，必然有略过精华而拾了糟粕的，也希望不过苛求。 　　这是一项长时间的工程，记得从一七年的一月十八日开写，到大年三十才赶完了<内篇>（然而白天都在上辅导班，都是晚上写的），之后迫于学业就几乎再没动。这篇后记也是百忙之中拼凑得的。嗐！我实在算不上一个学者啊！</p>
+<p><small> 丁酉二月初八于冻风中<br /> 2017年3月4日初稿</p>
+<p>2017年5月7日改过<br /> 5月29日录毕 </small></p>
+]]></content>
+      <tags>
+        <tag>随笔</tag>
+        <tag>庄子</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>莊子淺摘（內篇）</title>
     <url>/2017/01/zhuangzi-1/</url>
     <content><![CDATA[<p><small> <em>这篇是在原博客上的老文章了，如今不再读庄子,但文章还是搬运回来。</em> </small></p>
@@ -329,81 +353,20 @@ section Go home
 <hr />
 ]]></content>
       <tags>
+        <tag>庄子</tag>
         <tag>哲学</tag>
-        <tag>庄子</tag>
       </tags>
   </entry>
   <entry>
-    <title>励志联</title>
-    <url>/2017/06/%E5%8A%B1%E5%BF%97%E8%81%94/</url>
-    <content><![CDATA[<p>也是老文章了啊……在hexo的nexT主题更新之后，删除了汉字标准格式的支持，原来的竖排文本现在要实现也太麻烦了……唉</p>
+    <title>名片设计作业说明文档</title>
+    <url>/2021/04/%E5%90%8D%E7%89%87%E8%AE%BE%E8%AE%A1%E4%BD%9C%E4%B8%9A/</url>
+    <content><![CDATA[<p>　　把我上课作业拿过来看看效果。导出时用的 300 ppi，说不定会加载很慢？ <a id="more"></a><!-- 这里看不到图片，但是网站可以看到 --></p>
 <hr />
-<p>要中考了，学校里挂出两副对联，很有意思。如下（从右向左读，希望没侵犯著作权）：</p>
-<h4 id="一">一</h4>
-<center>
-<span style="display: inline-block; vertical-align: text-top; writing-mode: vertical-rl; -webkit-writing-mode:vertical-rl; writing-mode: tb-rl;-ms-writing-mode: tb-rl; layout-flow:vertical-ideographic;font-family:kaiti">曲 院 桥 前 三 中 学 子 鱼 跃 龙 门 海 天 阔<br><br><br>北 山 脚 下 四 方 少 年 翅 展 凌 云 气 宇 昂</span>
-</center>
-<h5 id="点评">点评</h5>
-<p>“三中”对“四方”真是好对！ <a id="more"></a></p>
-<hr />
-<h4 id="二">二</h4>
-<center>
-<span style="display: inline-block; vertical-align: text-top; writing-mode: vertical-rl; -webkit-writing-mode:vertical-rl; writing-mode: tb-rl;-ms-writing-mode: tb-rl; layout-flow:vertical-ideographic;font-family:STKaiti
-">九 载 积 淀<span style="color:#FFF">，</span> 看 我 追 梦 赤 子 六 角 室 中 六 月 抒 壮 志<br><br><br>一 朝 拼 搏<span style="color:#FFF">，</span> 等 你 有 为 少 年 三 中 校 内 三 天 写 前 程</span>
-</center>
-<h5 id="点评-1">点评</h5>
-<p>“三中”对“六角”真是好对！</p>
-<hr />
-<h4 id="三">三</h4>
-<center>
-<span style="display: inline-block; vertical-align: text-top; writing-mode: vertical-rl; -webkit-writing-mode:vertical-rl; writing-mode: tb-rl;-ms-writing-mode: tb-rl; layout-flow:vertical-ideographic;font-family:kaiti">扬 起 喜 悦 脸 <span style="color:#FFF">，</span>轻 松 迎 中 考<br><br><br>保 持 平 常 心 <span style="color:#FFF">，</span>营 造 好 心 情</span>
-</center>
-<h5 id="点评-2">点评</h5>
-<p>除了音韵和谐外一无是处。</p>
-<hr />
-<h4 id="四">四</h4>
-<center>
-<span style="display: inline-block; vertical-align: text-top; writing-mode: vertical-rl; -webkit-writing-mode:vertical-rl; writing-mode: tb-rl;-ms-writing-mode: tb-rl; layout-flow:vertical-ideographic;font-family:kaiti">三 年 磨 剑 哪 怕 它 题 深 似 海<br><br><br>临 卷 凝 神 且 看 你 笔 下 生 花</span>
-</center>
-<h5 id="点评-3">点评</h5>
-<p>这真的是对联？？？</p>
-<hr />
-<p>原文有注释，这里删掉了。</p>
-<p>
-<small>
-<div style="float:right;font-family:Fangsong">
-六月二日摘得<br>距中考一个星期<br><br>六月十六日更新<br>中考结束一天
-</div>
-</small>
-</p>
-<p><br /><br /><br /><br /></p>
+<p><img src="/assets/mingpiansheji/名片_说明文档.png" /> <img src="/assets/mingpiansheji/名片_说明文档2.png" /> <img src="/assets/mingpiansheji/名片_说明文档3.png" /> <img src="/assets/mingpiansheji/名片_说明文档4.png" /> <img src="/assets/mingpiansheji/名片_说明文档5.png" /> <img src="/assets/mingpiansheji/名片_说明文档6.png" /> <img src="/assets/mingpiansheji/名片_说明文档7.png" /> <img src="/assets/mingpiansheji/名片_说明文档8.png" /> <img src="/assets/mingpiansheji/名片_说明文档9.png" /> <img src="/assets/mingpiansheji/名片_说明文档10.png" /></p>
 ]]></content>
       <tags>
-        <tag>随笔</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>莊子淺摘（後記）</title>
-    <url>/2017/05/zhuangzi-houji/</url>
-    <content><![CDATA[<p>这也是老文章啊，在我以前还有一个“学霸”的信心的时候……算了算了吧。</p>
-<p>以下是原文: <a id="more"></a></p>
-<hr />
-<p>　　我知道当我安利同学们参观这个网站的时候，映入眼帘的竟是一堆“看不懂”的繁体字时的感受（也不得不说有些同学的国文素养差），也知道大家完全没兴趣看我所作的摘注（大多只是看了每篇粗体的吧？）。写这一篇，完全是兴趣。</p>
-<p>　　一次，我问父亲对庄子有多了解，他倒问我庄子是不是早于老子……看来我有必要对庄子做一个介绍：</p>
-<blockquote>
-<p>庄子，宋国蒙城人，名同。曾著书十万余言，《汉书·艺文志》道家类有《庄子》52篇。今存33篇，分内外杂3类，为晋郭象所定，其中内七篇一般断为庄子自作，而外、杂篇则多为庄子后学之作。</p>
-</blockquote>
-<p>　　庄子是一位有趣的伟大的哲学家。如果你喜欢，可以仅仅去看他写的寓言故事（据庄子自己记录，“重言十九，寓言十七”，寓言至少占了十分之七——尽管我没摘）。其中关于“儒家”的故事占了很大篇幅，不少是孔子（颜回）的故事。不过庄子当然不会宣扬儒家思想，他不过是借孔子之口宣传“道”，顺便批判一下孔子（儒家）的不明大道以及其言行相悖etc.，指责他们要求“仁”，违背人性自然的性情而使得天下大乱。这样，看道儒两家互相攻击会变得极其有意思（如<田子方>篇鲁哀公与庄子的故事）。</p>
-<p>　　不过，作为哲学家，不少寓言故事的终极寓意于我们现今的大多浅显理解是不尽相同的。如庖丁解牛，我们理解为要掌握方法才能得心应手，而庄子可能意在指出社会肌理复杂，我们要顺着“道”（自然），小心地游刃于其肌理间（喻为牛的筋骨），才能安然处世，保持完好（刀都不用磨）；又如混沌开窍，我们可能单纯当睡前故事读了，或理解为不要好心帮倒忙之类，而庄子之意却是统治者今日立一政（开一窍），明日颁一法（开一窍），人民就生活在水深火热之中了（混沌死）——尽管君王的出发点可能是好的。诸如此类的还有螳螂捕蝉，黄雀在后、佝偻承蜩、呆若木鸡、邯郸学步等等，不加赘述（具体见《浅摘》文）。总之，国人之前受的教育实在太浅显了，没有领会出哲学的深意。</p>
-<p>　　《庄子》中议论也占了较大的篇幅。庄子的思想内涵是极深刻而深远的，其自由安逸的生活态度给我以很大的启迪。他是老子之后先秦道家学派的集大成者，从内七篇看来，他的哲学是继承老子而来，但庄子更加突出了“道”之为“整体性”的特点，还建立了一个独特而完整的认识论系统，这是老子所不及的。庄子对老子思想的最大发展，是他把在老子那里主要是宇宙论及本体论的“道”转化而为心灵的境界。在自然说方面，庄子更为深广地发挥了人的自由性与自在性。尤其著名的<逍遥游>一文，描绘了一种透脱的心灵，为人所称道。在治身的另一些方面，可以说庄子和老子是有相近的地方的。比方说，他劝人们忌太张扬，忌追名逐利……然而，后世一般以为庄子消极，出世，大概是很表面的。庄子置身于战祸连绵，危机四伏的环境中，对不幸的现实有深切的体验，因而思想表现追求“逍遥游”，但他的“逍遥”不是出世的，而是<strong>寄沉痛于悠闲之中</strong>。可以说他是“出世”的精神入世。庄子主张扬弃的是现实世界中的世俗价值网，从中解脱出来。由于庄子并不舍弃这个世界本身，这种出世与宗教的离弃此世截然不同。[陈《庄子的悲剧意识和自由精神》]</p>
-<p>　　想要弄懂《庄子》不是懂文言就可以了。单把文章拿来也可能让人不得要旨。因此我参考了陈鼓应的《庄子今注今译》，陈先生是一位著作颇丰的哲学教授，要真让某些读者对庄子产生兴趣 <del>（不会）</del> ，不妨找他的原书一阅。（若是入门书，不妨选择林语堂的《老子的智慧》，是用庄子文章解释老子的，但尽是翻译，有些也不得要旨，加之是文言译英，再译回现代汉语，原意尽失，大概翻翻就可以扔了。）</p>
-<p>　　我本没有对哲学有过多的思考，但却惊奇地发现自己竟有那么浓厚的兴趣，相信自己今后也会对庄子老子有更深的理解。在网站上放这个，一是充实兴趣，二是练练手，治治学，但苦于没有时间——以及自己无奈的打字技巧。《浅摘》中写不“不摘”的，可能是虽然理解深刻但是太长，也可能是通篇寓言，均懒得输入。我尽量选择精辟而深刻的摘录（参考归有光批阅·郭象辑注《南华真经评注》明·天启四年刊本影印本），但学识有限，必然有略过精华而拾了糟粕的，也希望不过苛求。 　　这是一项长时间的工程，记得从一七年的一月十八日开写，到大年三十才赶完了<内篇>（然而白天都在上辅导班，都是晚上写的），之后迫于学业就几乎再没动。这篇后记也是百忙之中拼凑得的。嗐！我实在算不上一个学者啊！</p>
-<p><small> 丁酉二月初八于冻风中<br /> 2017年3月4日初稿</p>
-<p>2017年5月7日改过<br /> 5月29日录毕 </small></p>
-]]></content>
-      <tags>
-        <tag>随笔</tag>
-        <tag>庄子</tag>
+        <tag>笔记</tag>
+        <tag>作业</tag>
       </tags>
   </entry>
   <entry>
@@ -625,15 +588,248 @@ y &amp;= x^x\\
       </tags>
   </entry>
   <entry>
-    <title>名片设计作业说明文档</title>
-    <url>/2021/04/%E5%90%8D%E7%89%87%E8%AE%BE%E8%AE%A1%E4%BD%9C%E4%B8%9A/</url>
-    <content><![CDATA[<p>　　把我上课作业拿过来看看效果。导出时用的 300 ppi，说不定会加载很慢？ <a id="more"></a><!-- 这里看不到图片，但是网站可以看到 --></p>
+    <title>励志联</title>
+    <url>/2017/06/%E5%8A%B1%E5%BF%97%E8%81%94/</url>
+    <content><![CDATA[<p>也是老文章了啊……在hexo的nexT主题更新之后，删除了汉字标准格式的支持，原来的竖排文本现在要实现也太麻烦了……唉</p>
 <hr />
-<p><img src="/assets/mingpiansheji/名片_说明文档.png" /> <img src="/assets/mingpiansheji/名片_说明文档2.png" /> <img src="/assets/mingpiansheji/名片_说明文档3.png" /> <img src="/assets/mingpiansheji/名片_说明文档4.png" /> <img src="/assets/mingpiansheji/名片_说明文档5.png" /> <img src="/assets/mingpiansheji/名片_说明文档6.png" /> <img src="/assets/mingpiansheji/名片_说明文档7.png" /> <img src="/assets/mingpiansheji/名片_说明文档8.png" /> <img src="/assets/mingpiansheji/名片_说明文档9.png" /> <img src="/assets/mingpiansheji/名片_说明文档10.png" /></p>
+<p>要中考了，学校里挂出两副对联，很有意思。如下（从右向左读，希望没侵犯著作权）：</p>
+<h4 id="一">一</h4>
+<center>
+<span style="display: inline-block; vertical-align: text-top; writing-mode: vertical-rl; -webkit-writing-mode:vertical-rl; writing-mode: tb-rl;-ms-writing-mode: tb-rl; layout-flow:vertical-ideographic;font-family:kaiti">曲 院 桥 前 三 中 学 子 鱼 跃 龙 门 海 天 阔<br><br><br>北 山 脚 下 四 方 少 年 翅 展 凌 云 气 宇 昂</span>
+</center>
+<h5 id="点评">点评</h5>
+<p>“三中”对“四方”真是好对！ <a id="more"></a></p>
+<hr />
+<h4 id="二">二</h4>
+<center>
+<span style="display: inline-block; vertical-align: text-top; writing-mode: vertical-rl; -webkit-writing-mode:vertical-rl; writing-mode: tb-rl;-ms-writing-mode: tb-rl; layout-flow:vertical-ideographic;font-family:STKaiti
+">九 载 积 淀<span style="color:#FFF">，</span> 看 我 追 梦 赤 子 六 角 室 中 六 月 抒 壮 志<br><br><br>一 朝 拼 搏<span style="color:#FFF">，</span> 等 你 有 为 少 年 三 中 校 内 三 天 写 前 程</span>
+</center>
+<h5 id="点评-1">点评</h5>
+<p>“三中”对“六角”真是好对！</p>
+<hr />
+<h4 id="三">三</h4>
+<center>
+<span style="display: inline-block; vertical-align: text-top; writing-mode: vertical-rl; -webkit-writing-mode:vertical-rl; writing-mode: tb-rl;-ms-writing-mode: tb-rl; layout-flow:vertical-ideographic;font-family:kaiti">扬 起 喜 悦 脸 <span style="color:#FFF">，</span>轻 松 迎 中 考<br><br><br>保 持 平 常 心 <span style="color:#FFF">，</span>营 造 好 心 情</span>
+</center>
+<h5 id="点评-2">点评</h5>
+<p>除了音韵和谐外一无是处。</p>
+<hr />
+<h4 id="四">四</h4>
+<center>
+<span style="display: inline-block; vertical-align: text-top; writing-mode: vertical-rl; -webkit-writing-mode:vertical-rl; writing-mode: tb-rl;-ms-writing-mode: tb-rl; layout-flow:vertical-ideographic;font-family:kaiti">三 年 磨 剑 哪 怕 它 题 深 似 海<br><br><br>临 卷 凝 神 且 看 你 笔 下 生 花</span>
+</center>
+<h5 id="点评-3">点评</h5>
+<p>这真的是对联？？？</p>
+<hr />
+<p>原文有注释，这里删掉了。</p>
+<p>
+<small>
+<div style="float:right;font-family:Fangsong">
+六月二日摘得<br>距中考一个星期<br><br>六月十六日更新<br>中考结束一天
+</div>
+</small>
+</p>
+<p><br /><br /><br /><br /></p>
 ]]></content>
       <tags>
-        <tag>笔记</tag>
-        <tag>作业</tag>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Typora伪装LaTeX中文样式主题简介</title>
+    <url>/2021/05/typora-latex-css/</url>
+    <content><![CDATA[<p>前往<a href="https://github.com/Keldos-Li/typora-latex-theme">GitHub地址</a>给我一个Star呀！谢谢！可以的话来参与测试呀！</p>
+<hr />
+<p>本项目的初衷是为了简化中国大陆本科生<strong>小型通识课论文</strong>（或<strong>实验报告</strong>）撰写的负担。这里基本采用了浙江大学要求的格式（字体较小，页边距较小），但大部分同学都可以自行在css中修改适合自己学校的格式。</p>
+<p>markdown的轻量化特性，使您可以专注于论文内容而不用担心格式。</p>
+<p>这是一个Typora的markdown主题样式，该主题理论上适用于所有平台，CSS也适用于部分其他编辑器。macOS和Windows中的个别特性可能不同。</p>
+<h2 id="预览">预览</h2>
+<p>（较完整的论文预览见这里: <a href="https://blog.keldos.me/2021/05/md-latex-template/">😀</a>）：</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">code</th>
+<th style="text-align: center;">light mode</th>
+<th style="text-align: center;">dark mode</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>封面，摘要和关键词</td>
+<td style="text-align: center;">–</td>
+<td style="text-align: center;"><img src="/assets/preview/sample-essay_1.png" alt="sample-essay_1" /></td>
+<td style="text-align: center;"><img src="/assets/preview/sample-essay_2.png" alt="sample-essay_2" /></td>
+</tr>
+<tr class="even">
+<td>预览模式</td>
+<td style="text-align: center;">–</td>
+<td style="text-align: center;"><img src="/assets/preview/preview-l.png" alt="preview-l" /></td>
+<td style="text-align: center;"><img src="/assets/preview/preview-d.png" alt="preview-d" /></td>
+</tr>
+<tr class="odd">
+<td>编辑模式</td>
+<td style="text-align: center;">–</td>
+<td style="text-align: center;"><img src="/assets/preview/edit-l.png" alt="edit-l" /></td>
+<td style="text-align: center;"><img src="/assets/preview/edit-d.png" alt="edit-d" /></td>
+</tr>
+<tr class="even">
+<td>层级标题</td>
+<td style="text-align: center;"><img src="/assets/preview/heading-c.png" alt="heading-c" /></td>
+<td style="text-align: center;"><img src="/assets/preview/heading-l.png" alt="heading-l" /></td>
+<td style="text-align: center;"><img src="/assets/preview/heading-d.png" /></td>
+</tr>
+<tr class="odd">
+<td>表格</td>
+<td style="text-align: center;"><img src="/assets/preview/table-c.png" alt="table-c" /></td>
+<td style="text-align: center;"><img src="/assets/preview/table-l.png" alt="table-l" /></td>
+<td style="text-align: center;"><img src="/assets/preview/table-d.png" alt="table-d" /></td>
+</tr>
+<tr class="even">
+<td>项目列表</td>
+<td style="text-align: center;"><img src="/assets/preview/item-c.png" alt="item-c" /></td>
+<td style="text-align: center;"><img src="/assets/preview/item-l.png" alt="item-l" /></td>
+<td style="text-align: center;"><img src="/assets/preview/item-d.png" alt="item-d" /></td>
+</tr>
+<tr class="odd">
+<td>代码块</td>
+<td style="text-align: center;"><img src="/assets/preview/code-c.png" alt="code-c" /></td>
+<td style="text-align: center;"><img src="/assets/preview/code-l.png" /></td>
+<td style="text-align: center;"><img src="/assets/preview/code-d.png" alt="code-d" /></td>
+</tr>
+<tr class="even">
+<td>Mermaid</td>
+<td style="text-align: center;"><img src="/assets/preview/mermaid-c.png" alt="mermaid-c" /></td>
+<td style="text-align: center;"><img src="/assets/preview/mermaid-l.png" alt="mermaid-l" /></td>
+<td style="text-align: center;"><img src="/assets/preview/mermaid-d.png" alt="mermaid-d" /></td>
+</tr>
+<tr class="odd">
+<td>公式</td>
+<td style="text-align: center;"><img src="/assets/preview/equation-c.png" alt="equation-c" /></td>
+<td style="text-align: center;"><img src="/assets/preview/equation-l.png" alt="equation-l" /></td>
+<td style="text-align: center;"><img src="/assets/preview/equation-d.png" alt="equation-d" /></td>
+</tr>
+</tbody>
+</table>
+<a id="more"></a>
+<h2 id="安装">安装</h2>
+<ul>
+<li>安装前，请确保您已经安装Typora或其他markdown编辑器（也可以用某些IDLE），并拥有基本的markdown语法知识；
+<ul>
+<li><p>什么是<strong>Typora</strong>？</p>
+<p><a href="https://typora.io/">Typora</a>是一个超级好用的实时预览markdown编辑器；</p></li>
+<li><p>什么是<strong>markdown</strong>？</p>
+<p><a href="https://daringfireball.net/projects/markdown/">markdown</a> 是一种轻量级标记语言，用于使用纯文本创建格式化文本。 约翰·格鲁伯和亚伦·斯沃茨于2004年创建了Markdown，作为一种以源代码形式吸引人类读者的标记语言。 Markdown排版语法简洁，让人们更多地关注内容本身而非排版。它可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式等文件。 Markdown广泛用于博客、即时消息、在线论坛、协作软件、文档页面和阅读文件。</p>
+<p>参考：</p>
+<ul>
+<li><a href="https://markdown.com.cn/">Markdown中文语法简介</a></li>
+<li><a href="https://support.typora.io/Markdown-Reference/">Typora使用的markdown语法参考</a></li>
+</ul></li>
+</ul>
+<br></li>
+<li>最简单的安装办法是在该GitHub页面的右侧找到最新的release（或选用最新的正式版的release，标志是它的版本号不包含“b”，如“v0.0.4”而不是“v0.0.3-b1"）；<br> release中包含了单独的<code>.css</code>样式文件，如果您不需要字体文件和样例文件，可以仅下载它们，这会大大减小下载大小。
+<ul>
+<li>当然你也可以使用命令行下载最新版（虽然没用，只是可能酷一点？）： <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> &lt;你常用的下载文件夹&gt;</span><br><span class="line">$ git <span class="built_in">clone</span> https://github.com/Keldos-Li/typora-latex-theme.git</span><br></pre></td></tr></table></figure></li>
+</ul></li>
+<li>解压这个文件，然后将<code>css</code>文件夹中的<code>latex.css</code>和<code>latex-dark.css</code>两个文件复制到你的Typora主题文件夹下；
+<ul>
+<li>从<code>文件</code> – <code>偏好设置</code>中打开设置面板，然后单击“打开主题文件夹”。<br> 对于Windows/Linux，这个文件夹一般是<code>C:\Users\&#123;username&#125;\AppData\Roaming\Typora\themes</code>；<br> 对于Mac，这个文件夹一般是<code>/Users/&#123;username&#125;/Library/Application Support/abnerworks.Typora/themes/</code>。</li>
+</ul></li>
+<li>打开<code>/assets/Fonts</code>文件夹，安装需要的字体。<br> 其中<code>Latin Modern</code>文件夹存放了常规LaTeX文档使用的英文字体，请所有用户安装。（大家都会喜欢这个字体的，所以安装吧，就不把它们放在主题文件夹下再import了。<del>绝不是因为我懒</del>）；<br> 其他文件夹存放了一些中文字体和代码字体，可以选择性安装（特别是如果您已经拥有其中的一些字体的话）。请注意，如果您不拥有这些字体也不希望安装的话，请到css文件中自行更改选用的字体（本项目没有写太多字体回退机制）；
+<ul>
+<li>中文字体文件较大，所以均进行了压缩处理，安装前请解压；</li>
+<li>如果您选用自己的其他字体，请尽量使用有完整字体系列的字体集作为正文字体。对于中文字体，一个完整的字体系列应该包括：常规体（regular）、粗体（bold），如果您希望粗体风格更强，它应当还包含黑体（Heavy）。</li>
+<li>本项目还包含了一些方正公文系列字体，选用它们是因为它们已经存在粗体效果，可以直接应用为标题字体而跳过Typora的伪粗体机制。</li>
+<li><strong>所有的字体文件请自行获取授权</strong>，本人不对您使用字体造成的法律纠纷负责。（当然，本项目包含的部分字体是免费可商用的和非商业使用免费的。） <br></li>
+</ul></li>
+<li>启动或重新启动Typora，然后从主题菜单中选择<code>Latex</code>或<code>Latex Dark</code>选项。</li>
+</ul>
+<h2 id="使用">使用</h2>
+<ul>
+<li>如果您不希望您的论文有段后的额外行距，请在Typora的<code>偏好设置</code> – <code>Markdown</code> 中选取<code>保留连续的空格与单个换行</code>；</li>
+<li>尽管Typora不希望您直接编辑您下载的主题文件，但我暂时推荐您直接修改我们的样式文件，得以充分达到自定义的效果，我为此写了大量的注释。
+<ul>
+<li>在当前版本中设置点较为分散，我后期应该会将设置点整合到<code>:root</code>设置中，届时您将可以直接在css样式表的最顶端修改。但目前，您不得不记住所有您更改过的位置，并在获取我们之后的更新后重新修改一遍（对不起！🙇🏻）</li>
+<li>如果您看不懂注释，或不知道修改代码会造成什么效果，请先自行百度/谷歌/必应，然后尝试联系我。</li>
+<li>修改CSS后请重新启动Typora以查看效果。</li>
+</ul></li>
+<li><code>/assets</code>文件夹中的<code>sample-essay.md</code>和<code>sample-essay.pdf</code>可以展示一篇小论文在该主题下的效果（其中文字来源于我本人的课程作业，请不要在意过多细节），其中论文封面、摘要、关键词和其他一些特别的元素使用HTML代码来编写。您可以自行取用修改它们的HTML代码来完成您的课程论文。
+<ul>
+<li>如果您看不懂HTML代码，请先自行百度/谷歌/必应，然后尝试联系您在计算机系的同学；</li>
+</ul></li>
+<li>如果可以的话，或许您可以在论文致谢中提到这个项目。(/ω＼)</li>
+<li>这本质是一个适用于所有markdown编辑器的CSS样式（但对Typora编辑器做了额外的优化），您也可以将其用于其他您喜欢的markdown编辑器的自定义样式（尚未经过完整测试）。</li>
+</ul>
+<h3 id="特别注意">特别注意</h3>
+<ul>
+<li>PDF页面<strong>页边距</strong>： 在Windos/Linux中，您可以很好地使用 <figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="keyword">@media</span> print&#123;</span><br><span class="line">  <span class="keyword">@page</span>&#123;</span><br><span class="line">    <span class="attribute">margin</span>: <span class="number">1.8cm</span> <span class="number">2cm</span> <span class="number">1.2cm</span> <span class="number">2cm</span> <span class="meta">!important</span>; </span><br><span class="line">    <span class="comment">/* 按次序为 上 右 下 左 的页边距 */</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure> 来更改打印PDF的页边距。<br> 但对于macOS用户，因为<a href="https://github.com/typora/typora-issues/issues/998">Typora本身的问题</a>，暂时不能使用这一方法调整页边距。
+<ul>
+<li>可以在Typora的导出设置里重新设置自定义页边距。</li>
+<li>或先导出为html，然后在Chrome中打开打印。<br> （不能用Safari！Safari会自行设置最小边距而且非常不合理，这会导致您无法精确控制页边距；另一方面，在某次更新后Safari取消了对CSS本地字体读取的支持（理由是隐私问题），会导致您无法显示很多字体！）</li>
+<li>或者直接用pandoc的命令行设置。</li>
+</ul></li>
+</ul>
+<p><br> * <strong>超链接</strong>： 显然，我们不希望打印的论文存在蓝色的超链接（？），我在CSS中修改了部分代码，使得在页面编辑和导出html预览中可以得到正常的超链接样式，但打印时会取消颜色和下划线（仍可以点击链接）。<br> 不知道大家是否有这个需求，如果有更合适的方法可以联系我。</p>
+<ul>
+<li><p><strong>多级列表</strong>： 因为我的技术原因，请暂时不要在<strong>二级有序列表</strong>之后<strong>混用</strong> <em>有序列表</em> 和 <em>无序列表</em> 以及<em>核对清单</em>，会出现一些bug。（虽然感觉会这么干的人应该不多。）如果您有解决方案，请联系我。</p></li>
+<li><p><strong>页眉和页脚</strong>： 目前似乎不能直接定义，请在Typora的导出设置里设置好您需要的页眉和页脚文字，导出后在PDF编辑器中调整您喜欢的样式风格。</p></li>
+<li><p><strong>引用参考文献</strong> 目前没有更好的方式，请您主动编号……（或许小型课程论文不需要大量参考文献。）</p></li>
+<li><p><strong>专注模式</strong>和<strong>打字机模式</strong>： 还没写这部分的代码。本主题样式初衷不在于此，如果您有需求，可以提交issue或进入讨论区讨论，我视需求和精力再进行开发。</p></li>
+</ul>
+<h2 id="说明">说明</h2>
+<p>本人呢，本来是打算自己用的，所以字体文件都直接安装引用了_(:з」∠)_。<br> 相比原作者的代码，<strong>其他部分各种部分都重新编写了一点，修改了一点。</strong>_(:з」∠)_<br> 主要改动在于：(截止2021.5.27)</p>
+<ul>
+<li>修订了部分mermaid样式；</li>
+<li>修改了页面边框样式；</li>
+<li>增订了较为完整的黑色模式；</li>
+<li>修改了多级列表编号样式（有一定bug）；</li>
+<li>增加了代码块字体和代码块样式；</li>
+<li>修改了表格样式；</li>
+<li>修改了字体样式；</li>
+<li>整理了代码编写风格使其更美观；</li>
+<li>增订了大部分注释；（当然我写得很随意啦啦啦）</li>
+<li>增加了侧边栏字体修改等；</li>
+<li>其他细节修改。</li>
+</ul>
+<p>已知的bug:</p>
+<ul>
+<li>无编号项目列表有很大的bug！！在二级项目之后，你不能混用有序列表和无序列表！因为全都是重新定义的content，我不能理解它为什么会对子项目产生影响！！可恶！</li>
+<li>当行间代码太长跨页的时候好像也会有点问题，到时候再改……</li>
+<li>mermaid字体无法修改，我找遍了mermaid的最新文档和Typora的其他样式资源都没找到这个应该怎么在CSS样式表里修改……呜呜呜。</li>
+</ul>
+<p>未来的预期的话我应该会搞成前导root定义统一颜色字体字号啥最后引用的，同时加入定义CSS完成摘要和关键词的定制。现在的代码就是东拼西凑的，最后肯定需要整合重构的。<br> <em>（具体时间不确定。。）</em></p>
+<blockquote>
+<p>虽然是都开源项目，但这个项目似乎经过三手每个人都重新做了仓库而不是fork😂，不过确实每经一次手都有很多深化和改进orz，感觉目前代码已经没有办法merge了，害。感觉不是很符合开源精神。有点对不起原作者的感觉🥲（虽然我们谈过话）。</p>
+</blockquote>
+<h2 id="反馈">反馈</h2>
+<ul>
+<li>在 <a href="https://github.com/Keldos-Li/typora-latex-theme/issues/new?labels=bug">GitHub Issues</a> 报告Bug。</li>
+<li>在 <a href="https://github.com/Keldos-Li/typora-latex-theme/issues/new?labels=Feature+Request">GitHub</a> 请求新的功能。</li>
+<li>联系<a href="mailto:i@keldos.me">我本人</a>。</li>
+</ul>
+<h2 id="鸣谢">鸣谢</h2>
+<p>该项目最初来自于知乎作者 <span class="citation" data-cites="让幻想飞">@让幻想飞</span> （清华大佬，没想到和我一样年轻，但可能不喜欢及时回消息_(:з」∠)_）他的原注释：</p>
+<blockquote>
+<p>这篇样式基于知乎大佬LAN DU的样式，</p>
+<p>原文知乎链接：https://zhuanlan.zhihu.com/p/158767474</p>
+<p>GitHub链接：https://github.com/du33169/typora-theme-essay_cn</p>
+<p>主要改动：</p>
+<ul>
+<li><p>适配LaTeX的字体。选用像LaTeX的字体是装“哔”的重要手段。</p></li>
+<li><p>更改标题、目录和大纲的编号样式。改成1. ，1.1 ， 1.1.1 ，……这样的编号更有一种浓厚的论文感觉。</p></li>
+<li><p>二级及以下标题全部靠左，适应文章样式。后面加上大空白，适配LaTeX样式</p></li>
+</ul>
+<p>不足之处：</p>
+<ul>
+<li>仍然无法添加页眉页脚。 适用于小论文、实验报告等对格式要求较松的情况，在不写代码的前提下装“哔”*/</li>
+</ul>
+</blockquote>
+<p><span class="citation" data-cites="让幻想飞">@让幻想飞</span> 的<strong>知乎文章地址</strong>：https://zhuanlan.zhihu.com/p/357096043；</p>
+<p><strong>GitHub项目地址</strong>: https://github.com/yfzhao20/Typora-markdown。</p>
+]]></content>
+      <tags>
+        <tag>tech</tag>
       </tags>
   </entry>
 </search>
