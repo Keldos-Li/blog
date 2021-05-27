@@ -903,7 +903,17 @@ y &amp;= x^x\\
 <h2 id="鸣谢">鸣谢</h2>
 <p>该项目最初来自于知乎作者 <span class="citation" data-cites="让幻想飞">@让幻想飞</span> （清华大佬，没想到和我一样年轻，但可能不喜欢及时回消息_(:з」∠)_）他的原注释：</p>
 <blockquote>
-<p>这篇样式基于知乎大佬LAN DU的样式，<br> 原文知乎链接：https://zhuanlan.zhihu.com/p/158767474<br> GitHub链接：https://github.com/du33169/typora-theme-essay_cn<br> 主要改动：<br> * 适配LaTeX的字体。选用像LaTeX的字体是装“哔”的重要手段。<br> * 更改标题、目录和大纲的编号样式。改成1. ，1.1 ， 1.1.1 ，……这样的编号更有一种浓厚的论文感觉。<br> * 二级及以下标题全部靠左，适应文章样式。后面加上大空白，适配LaTeX样式<br> 不足之处：<br> * 仍然无法添加页眉页脚。<br> * 适用于小论文、实验报告等对格式要求较松的情况，在不写代码的前提下装“哔”</p>
+<p>这篇样式基于知乎大佬LAN DU的样式，<br> 原文知乎链接：https://zhuanlan.zhihu.com/p/158767474<br> GitHub链接：https://github.com/du33169/typora-theme-essay_cn<br> 主要改动：</p>
+<ul>
+<li>适配LaTeX的字体。选用像LaTeX的字体是装“哔”的重要手段。<br></li>
+<li>更改标题、目录和大纲的编号样式。改成1. ，1.1 ， 1.1.1 ，……这样的编号更有一种浓厚的论文感觉。<br></li>
+<li>二级及以下标题全部靠左，适应文章样式。后面加上大空白，适配LaTeX样式</li>
+</ul>
+<p>不足之处：</p>
+<ul>
+<li>仍然无法添加页眉页脚。<br></li>
+<li>适用于小论文、实验报告等对格式要求较松的情况，在不写代码的前提下装“哔”</li>
+</ul>
 </blockquote>
 <p><span class="citation" data-cites="让幻想飞">@让幻想飞</span> 的<strong>知乎文章地址</strong>：https://zhuanlan.zhihu.com/p/357096043；<br> <strong>GitHub项目地址</strong>: https://github.com/yfzhao20/Typora-markdown。</p>
 ]]></content>
