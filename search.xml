@@ -934,4 +934,203 @@ D(x)=\left\{
 <p>如需验证本人身份，可拨打电话等。若您没有本人电话，询问问题也是合理的。</p>
 ]]></content>
   </entry>
+  <entry>
+    <title>混音</title>
+    <url>/2022/02/sound-mix/</url>
+    <content><![CDATA[<h1 id="基础篇"><a class="markdownIt-Anchor" href="#基础篇"></a> 基础篇</h1>
+<h2 id="音乐的听觉"><a class="markdownIt-Anchor" href="#音乐的听觉"></a> 音乐的听觉</h2>
+<h3 id="音乐频率的划分"><a class="markdownIt-Anchor" href="#音乐频率的划分"></a> 音乐频率的划分</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">频段</th>
+<th style="text-align:center">频率</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">超低频</td>
+<td style="text-align:center">20Hz ~ 80Hz</td>
+</tr>
+<tr>
+<td style="text-align:left">低频</td>
+<td style="text-align:center">80Hz ~ 250Hz</td>
+</tr>
+<tr>
+<td style="text-align:left">中低频</td>
+<td style="text-align:center">250Hz ~ 800Hz</td>
+</tr>
+<tr>
+<td style="text-align:left">中频</td>
+<td style="text-align:center">800Hz ~ 2500Hz</td>
+</tr>
+<tr>
+<td style="text-align:left">中高频</td>
+<td style="text-align:center">2500Hz ~ 5000Hz</td>
+</tr>
+<tr>
+<td style="text-align:left">高频</td>
+<td style="text-align:center">5000Hz ~ 8000Hz</td>
+</tr>
+<tr>
+<td style="text-align:left">超高频</td>
+<td style="text-align:center">8000Hz ~ 12000Hz</td>
+</tr>
+<tr>
+<td style="text-align:left">极高频</td>
+<td style="text-align:center">12000Hz ~ 16000Hz</td>
+</tr>
+<tr>
+<td style="text-align:left">空气声</td>
+<td style="text-align:center">16000Hz+</td>
+</tr>
+</tbody>
+</table>
+<a id="more"></a>
+<p>下面从EQ<strong>提升</strong>某个频段增益的角度分析。</p>
+<h4 id="超低频20hz-~-80hz"><a class="markdownIt-Anchor" href="#超低频20hz-~-80hz"></a> 超低频（20Hz ~ 80Hz）</h4>
+<blockquote>
+<p>硬　：几乎没有弹性；<br />
+弹性：有余音，但声音本体仍有力度；<br />
+软　：声音余音比例超过本体比例（轰隆隆）；没有明确力度。</p>
+</blockquote>
+<ol>
+<li>声音松软；</li>
+<li>降低整体声音低频乐器的力度；</li>
+<li>具有柔和的低频弹性。</li>
+</ol>
+<h4 id="低频80hz-~-250hz"><a class="markdownIt-Anchor" href="#低频80hz-~-250hz"></a> 低频（80Hz ~ 250Hz）</h4>
+<ol>
+<li>增加声音低频力度；</li>
+<li>使整个低频部分更有活力。</li>
+</ol>
+<h4 id="中低频250hz-~-800hz"><a class="markdownIt-Anchor" href="#中低频250hz-~-800hz"></a> 中低频（250Hz ~ 800Hz）</h4>
+<p>中低频是温暖和清晰度的临界点。</p>
+<ol>
+<li>更温暖；</li>
+<li>但更糊。</li>
+</ol>
+<h4 id="中频800hz-~-2500hz"><a class="markdownIt-Anchor" href="#中频800hz-~-2500hz"></a> 中频（800Hz ~ 2500Hz）</h4>
+<ol>
+<li>声音更结实；</li>
+<li>声音距离感变近（更贴脸）；</li>
+</ol>
+<p>但人声如果太多中频可能会显得很硬。</p>
+<h4 id="中高频2500hz-~-5000hz"><a class="markdownIt-Anchor" href="#中高频2500hz-~-5000hz"></a> 中高频（2500Hz ~ 5000Hz）</h4>
+<ol>
+<li>开始有刺耳感、撕裂感；</li>
+<li>冲击力增加。</li>
+</ol>
+<h4 id="高频5000hz-~-8000hz"><a class="markdownIt-Anchor" href="#高频5000hz-~-8000hz"></a> 高频（5000Hz ~ 8000Hz）</h4>
+<ol>
+<li>出现“磁性”（但提升过多会刺耳）；</li>
+<li>有颗粒感；</li>
+<li>声音变清晰；</li>
+<li>同时更加“冰冷”和“脆”。</li>
+</ol>
+<p>一般军鼓需要适量的高频。</p>
+<h4 id="超高频8khz-~-12khz"><a class="markdownIt-Anchor" href="#超高频8khz-~-12khz"></a> 超高频（8kHz ~ 12kHz）</h4>
+<ol>
+<li>细节感；（同时磁性？）</li>
+<li>开阔感；？</li>
+</ol>
+<h4 id="极高频12khz-~-16khz"><a class="markdownIt-Anchor" href="#极高频12khz-~-16khz"></a> 极高频（12kHz ~ 16kHz）</h4>
+<ol>
+<li>细节感消退，乐队开始变脏；</li>
+<li>人声的齿音出现在1.3kHz左右。</li>
+</ol>
+<h4 id="空气声18khz"><a class="markdownIt-Anchor" href="#空气声18khz"></a> 空气声（18kHz+）</h4>
+<ol>
+<li>人声清晰度下降；</li>
+<li>音乐更加甜美；</li>
+<li>整体力度下降；</li>
+<li>提升太多会脏且模糊。</li>
+</ol>
+<h2 id="效果均衡器eq"><a class="markdownIt-Anchor" href="#效果均衡器eq"></a> 效果均衡器（EQ）</h2>
+<h3 id="eq的作用"><a class="markdownIt-Anchor" href="#eq的作用"></a> EQ的作用</h3>
+<ol>
+<li>查找并修正声音的问题——使用衰减的方式；</li>
+<li>调整声音的远近层次——使用衰减的方式；</li>
+<li>美化声音——衰减和提升都有可能用到。</li>
+</ol>
+<p>在大多数情况下，EQ所做的动作都是<strong>衰减</strong>而不是提升。因为EQ的提升会产生相位失真，而相位失真的叠加会使得声音难听。该结果是由EQ的工作原理决定的，与数字或模拟无关（相比较而言，数字的相位失真更难听）。</p>
+<h4 id="查找并修正声音的问题"><a class="markdownIt-Anchor" href="#查找并修正声音的问题"></a> 查找并修正声音的问题</h4>
+<h5 id="扫频"><a class="markdownIt-Anchor" href="#扫频"></a> 扫频</h5>
+<p>将某频段的Q值调整为6~10左右，Gain提升至12dB以上，缓慢地移动它的频率。找到响度变化大的几个点（称为“共振点”），然后调整Q值并进行衰减。<br />
+　　Q值对于低频高频有所不同。对于非低频为主的乐器，低频用稍宽的Q值（6~15），高频则用相对窄的Q值（15~50）。</p>
+<h5 id="高切和低切"><a class="markdownIt-Anchor" href="#高切和低切"></a> 高切和低切</h5>
+<p>适当的高低切能保持音乐足够的清晰度。</p>
+<p>一般从听觉上来说，斜率越高，声音切得越干净，声音的硬度和力度越好。<br />
+　　在寻找低切点时，寻找一个让低频紧实有力的频点，但却不让低频变得发虚或者听起来很薄；在寻找高切点时，寻找一个让高频干净而不松散的频率，但却不让声音失去活性。</p>
+<h4 id="调整声音的远近层次"><a class="markdownIt-Anchor" href="#调整声音的远近层次"></a> 调整声音的远近层次</h4>
+<p>离音源较远可能中低频较多，随人走近，高频逐渐增加。</p>
+<h4 id="美化声音"><a class="markdownIt-Anchor" href="#美化声音"></a> 美化声音</h4>
+<p>很少提升EQ，在底鼓、Bass、人声和少量情况的军鼓使用。</p>
+<h2 id="动态处理器dynamic-processor"><a class="markdownIt-Anchor" href="#动态处理器dynamic-processor"></a> 动态处理器（Dynamic Processor）</h2>
+<h3 id="动态处理器简介"><a class="markdownIt-Anchor" href="#动态处理器简介"></a> 动态处理器简介</h3>
+<table>
+<thead>
+<tr>
+<th>动态处理器</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>压缩器</strong></td>
+<td>将输入信号电平与阈值进行比较后，将高于阈值的电平按一定比例进行降低</td>
+</tr>
+<tr>
+<td><strong>扩展器</strong></td>
+<td>将输入信号电平与阈值进行比较后，将低于阈值的电平按一定比例进行压缩<br />（低电平信号更低，高电平信号不变）</td>
+</tr>
+</tbody>
+</table>
+<h3 id="压缩器基本参数"><a class="markdownIt-Anchor" href="#压缩器基本参数"></a> 压缩器基本参数</h3>
+<table>
+<thead>
+<tr>
+<th>概念</th>
+<th>介绍</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>压缩比（R）</strong><br />Ratio</td>
+<td>在压缩器处于启动时间和稳态工作过程中，<br /><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>R</mi><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mrow><mi>I</mi><mo>−</mo><mi>T</mi></mrow><mrow><mi>O</mi><mo>−</mo><mi>T</mi></mrow></mfrac></mstyle><mo>=</mo><mi>n</mi><mo>:</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">R=\dfrac{I-T}{O-T}=n:1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.1296600000000003em;vertical-align:-0.7693300000000001em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.36033em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">T</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07847em;">I</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">T</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7693300000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">n</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span>；<br />在压缩器处于释放时间过程中，<br /><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>R</mi><mo>=</mo><mstyle displaystyle="true" scriptlevel="0"><mfrac><mrow><mi>O</mi><mo>−</mo><mi>T</mi></mrow><mrow><mi>I</mi><mo>−</mo><mi>T</mi></mrow></mfrac></mstyle></mrow><annotation encoding="application/x-tex">R=\dfrac{O-T}{I-T}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.1296600000000003em;vertical-align:-0.7693300000000001em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.36033em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07847em;">I</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">T</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">T</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7693300000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>。<br /><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>I</mi></mrow><annotation encoding="application/x-tex">I</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.07847em;">I</span></span></span></span> 输入电平；<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>O</mi></mrow><annotation encoding="application/x-tex">O</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span></span></span></span> 输出电平；<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>T</mi></mrow><annotation encoding="application/x-tex">T</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">T</span></span></span></span> 阈值。</td>
+</tr>
+<tr>
+<td><strong>阈值（T）</strong><br />Threshold</td>
+<td>压缩器用于和输入电平进行比较的电平值</td>
+</tr>
+<tr>
+<td><strong>启动时间</strong><br />Attack</td>
+<td>当电平超过阈值时，压缩器的压缩比从 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn><mo>:</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">1:1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span> <br />无压缩状态变为设定好的压缩比所用的时间</td>
+</tr>
+<tr>
+<td><strong>释放时间</strong><br />Release</td>
+<td>当电平自上而下低于阈值时，压缩器的压缩比<br />从设定好的压缩比变为 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn><mo>:</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">1:1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span> 无压缩状态所用的时间</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>压缩器启动、压缩比升高是一个过程，并非突变，这个过程的时间就是启动时间。释放时间也是类似的。要注意释放时间压缩比的公式时和工作过程时相反。</p>
+</blockquote>
+<h3 id="用压缩器美化声音"><a class="markdownIt-Anchor" href="#用压缩器美化声音"></a> 用压缩器美化声音</h3>
+<h4 id="启动时间"><a class="markdownIt-Anchor" href="#启动时间"></a> 启动时间</h4>
+<p>当启动时间由短变长时，声音由<em>软</em>变<em>硬</em>；当启动时间由长变得更长时，声音由<em>硬</em>变得<em>有弹性</em>。分别存在“第一临界点”和“第二临界点”导致这两种变化，当在这两个临界点时，能够避免压缩带来的污浊感。</p>
+<h4 id="释放时间"><a class="markdownIt-Anchor" href="#释放时间"></a> 释放时间</h4>
+<p>由音乐律动决定释放时间。基准时间即一拍的时间长度。</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">基</mi><mi mathvariant="normal">准</mi><mi mathvariant="normal">时</mi><mi mathvariant="normal">间</mi><mo>=</mo><mfrac><mn>60</mn><mrow><mi mathvariant="normal">B</mi><mi mathvariant="normal">P</mi><mi mathvariant="normal">M</mi></mrow></mfrac></mrow><annotation encoding="application/x-tex">基准时间 = \dfrac{60}{\rm{BPM}} 
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mord cjk_fallback">基</span><span class="mord cjk_fallback">准</span><span class="mord cjk_fallback">时</span><span class="mord cjk_fallback">间</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.00744em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord"><span class="mord mathrm">B</span><span class="mord mathrm">P</span><span class="mord mathrm">M</span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">6</span><span class="mord">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+<p>释放时间通常是这个长度的 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mn>2</mn><mi>n</mi></msup></mrow><annotation encoding="application/x-tex">2^n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.664392em;vertical-align:0em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.664392em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">n</span></span></span></span></span></span></span></span></span></span></span> 或 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mn>1</mn><msup><mn>2</mn><mi>n</mi></msup></mfrac></mrow><annotation encoding="application/x-tex">\frac{1}{2^n}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.190108em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mtight">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.5935428571428571em;"><span style="top:-2.786em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mathdefault mtight">n</span></span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span> 倍，且一般在 0.05 秒和 1.5 秒之间。</p>
+<p>当释放时间较长时，声音更圆润、温暖、自然、有弹性，压缩痕迹较小（过长的压缩时间使声音死板、没有活力）；当释放时间较短时，声音比较有力，硬度感和颗粒感增加，压缩痕迹稍大（过短时可能有点“脏”）。</p>
+<h4 id="压缩比和阈值"><a class="markdownIt-Anchor" href="#压缩比和阈值"></a> 压缩比和阈值</h4>
+<p>一般成对使用。高压缩比配合高阈值，低圧缩比配合低阈值。</p>
+<p>高压缩比+高阈值时，声音有力度，紧凑有力，中高频更多，压缩痕迹重；低圧缩比+低阈值时，声音更自然、宽厚、柔和，松弛有弹性，压缩痕迹小。</p>
+]]></content>
+      <tags>
+        <tag>音乐</tag>
+      </tags>
+  </entry>
 </search>
