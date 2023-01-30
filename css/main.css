@@ -224,7 +224,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Lora", "Long Cang", STSongti-SC-Bold, SourceHanSerifSC-Bold, SourceHanSerifCN-Bold, STSongti-TC-Bold, SourceHanSerifTC-Bold, Lora, Long Cang, Monda, Lato, "PingFang SC", "PingFangSC", "PingFangSC-Regular", "PingFang TC", "PingFangTC", "PingFangTC-Regular", "Microsoft YaHei", sans-serif;
+  font-family: Rubik, Monda, Lato, "PingFang SC", "PingFangSC", "PingFangSC-Regular", "PingFang TC", "PingFangTC", "PingFangTC-Regular", "Microsoft YaHei", sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 20px 0 15px;
@@ -605,7 +605,7 @@ pre {
 }
 pre,
 code {
-  font-family: "SF Mono", SF Mono, Courier Prime, consolas, Menlo, monospace, "PingFang SC", "PingFangSC", "PingFangSC-Regular", "PingFang TC", "PingFangTC", "PingFangTC-Regular", "Microsoft YaHei";
+  font-family: SF Mono, Courier Prime, consolas, Menlo, monospace, "PingFang SC", "PingFangSC", "PingFangSC-Regular", "PingFang TC", "PingFangTC", "PingFangTC-Regular", "Microsoft YaHei";
 }
 code {
   border-radius: 3px;
@@ -1882,7 +1882,7 @@ pre code {
   bottom: 0;
 }
 .post-body {
-  font-family: "PingFangSC-Thin", "PingFangTC-Thin", Merriweather, Monda, Lato, "PingFang SC", "PingFangSC", "PingFangSC-Regular", "PingFang TC", "PingFangTC", "PingFangTC-Regular", "Microsoft YaHei", sans-serif;
+  font-family: "PingFangSC-Light", "PingFangTC-Light", Merriweather, Monda, Lato, "PingFang SC", "PingFangSC", "PingFangSC-Regular", "PingFang TC", "PingFangTC", "PingFangTC-Regular", "Microsoft YaHei", sans-serif;
   overflow-wrap: break-word;
 }
 @media (min-width: 1200px) {
@@ -2200,7 +2200,7 @@ pre code {
 }
 .posts-expand .post-meta {
   color: #999;
-  font-family: "PingFangSC-Thin", "PingFangTC-Thin", Merriweather, Monda, Lato, "PingFang SC", "PingFangSC", "PingFangSC-Regular", "PingFang TC", "PingFangTC", "PingFangTC-Regular", "Microsoft YaHei", sans-serif;
+  font-family: "PingFangSC-Light", "PingFangTC-Light", Merriweather, Monda, Lato, "PingFang SC", "PingFangSC", "PingFangSC-Regular", "PingFang TC", "PingFangTC", "PingFangTC-Regular", "Microsoft YaHei", sans-serif;
   font-size: 0.75em;
   margin-top: 3px;
 }
