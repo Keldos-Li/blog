@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.0.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="mask-icon" href="/images/logo.png" color="#222">
+  <link rel="manifest" href="/images/manifest.json">
+  <meta name="google-site-verification" content="xZpP_ThhmwUDO5xwUSkBpRyBKpBGbfi8WSSTdubYcqk">
+  <meta name="msvalidate.01" content="4B605A19AAFA58DABDA408918660A869">
+  <meta name="baidu-site-verification" content="fbxuSwJZWA">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.font.im/css?family=Monda:300,300italic,400,400italic,700,700italic|Lato:300,300italic,400,400italic,700,700italic|Permanent+Marker:300,300italic,400,400italic,700,700italic|Rubik:300,300italic,400,400italic,700,700italic|Merriweather:300,300italic,400,400italic,700,700italic|SF+Mono:300,300italic,400,400italic,700,700italic|Courier+Prime:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/themes/blue/pace-theme-minimal.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js"></script>
+
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"blog.keldos.me","root":"/","scheme":"Pisces","version":"8.0.0-rc.5","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"bounceInDown","post_body":"fadeInLeft","coll_header":"bounceInDown","sidebar":null}},"prism":false,"path":"search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
+  </script>
+
+  <meta name="description" content="Typora伪装LaTeX中文样式主题简介 　　这篇文章是对我开发和维护的 typora-latex-theme 项目的介绍和说明。如果能帮助到你，欢迎前往GitHub地址给我一个 Star⭐️~  　　本项目的初衷是为了简化中国大陆本科生小型通识课论文（或实验报告）撰写的负担。这里基本采用了浙江大学要求的格式（字体较小，页边距较小），但大部分同学都可以自行在css中修改适合自己学校的格式。 预览">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Keldos !">
+<meta property="og:url" content="https://blog.keldos.me/2021/05/typora-latex-css%20(copy)/">
+<meta property="og:site_name" content="Keldos !">
+<meta property="og:description" content="Typora伪装LaTeX中文样式主题简介 　　这篇文章是对我开发和维护的 typora-latex-theme 项目的介绍和说明。如果能帮助到你，欢迎前往GitHub地址给我一个 Star⭐️~  　　本项目的初衷是为了简化中国大陆本科生小型通识课论文（或实验报告）撰写的负担。这里基本采用了浙江大学要求的格式（字体较小，页边距较小），但大部分同学都可以自行在css中修改适合自己学校的格式。 预览">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://localhost:4000/assets/preview/preview-l.png">
+<meta property="og:image" content="http://localhost:4000/assets/preview/preview-d.png">
+<meta property="og:image" content="http://localhost:4000/assets/preview/edit-l.png">
+<meta property="og:image" content="http://localhost:4000/assets/preview/edit-d.png">
+<meta property="og:image" content="http://localhost:4000/assets/preview/heading-c.png">
+<meta property="og:image" content="http://localhost:4000/assets/preview/heading-l.png">
+<meta property="og:image" content="http://localhost:4000/assets/preview/heading-d.png">
+<meta property="og:image" content="http://localhost:4000/assets/preview/table-c.png">
+<meta property="og:image" content="http://localhost:4000/assets/preview/table-l.png">
+<meta property="og:image" content="http://localhost:4000/assets/preview/table-d.png">
+<meta property="og:image" content="http://localhost:4000/assets/preview/item-c.png">
+<meta property="og:image" content="http://localhost:4000/assets/preview/item-l.png">
+<meta property="og:image" content="http://localhost:4000/assets/preview/item-d.png">
+<meta property="og:image" content="http://localhost:4000/assets/preview/code-c.png">
+<meta property="og:image" content="http://localhost:4000/assets/preview/code-l.png">
+<meta property="og:image" content="http://localhost:4000/assets/preview/code-d.png">
+<meta property="og:image" content="http://localhost:4000/assets/preview/mermaid-c.png">
+<meta property="og:image" content="http://localhost:4000/assets/preview/mermaid-l.png">
+<meta property="og:image" content="http://localhost:4000/assets/preview/mermaid-d.png">
+<meta property="og:image" content="http://localhost:4000/assets/preview/equation-c.png">
+<meta property="og:image" content="http://localhost:4000/assets/preview/equation-l.png">
+<meta property="og:image" content="http://localhost:4000/assets/preview/equation-d.png">
+<meta property="og:image" content="http://localhost:4000/assets/preview/new-cover.png">
+<meta property="og:image" content="https://pub.idqqimg.com/wpa/images/group.png">
+<meta property="article:published_time" content="2021-05-27T12:00:34.982Z">
+<meta property="article:modified_time" content="2023-11-19T16:58:39.303Z">
+<meta property="article:author" content="Keldos">
+<meta property="article:tag" content="城市规划, Keldos, 博客">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://localhost:4000/assets/preview/preview-l.png">
+
+<link rel="canonical" href="https://blog.keldos.me/2021/05/typora-latex-css%20(copy)/">
+
+
+<script class="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+<script>
+  (function(){
+      if(''){
+          if (prompt('请输入文章密码') !== ''){
+              alert('密码错误!');
+              history.back();
+          }
+      }
+  })();
+</script>
+
+<script async="" referrerpolicy="no-referrer" src="/assets/av-min.js"></script>
+
+  <title> | Keldos !</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/keldosrss.xml" title="Keldos !" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <main class="main">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+        <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">Keldos !</h1>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">Keldos の 博客</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-map-marker-alt fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-info fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-folder-open fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-notes">
+
+    <a href="/notes/" rel="section"><i class="fa fa-sticky-note fa-fw"></i>便笺</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <section class="post-toc-wrap sidebar-panel">
+          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#typora%E4%BC%AA%E8%A3%85latex%E4%B8%AD%E6%96%87%E6%A0%B7%E5%BC%8F%E4%B8%BB%E9%A2%98%E7%AE%80%E4%BB%8B"><span class="nav-number">1.</span> <span class="nav-text">Typora伪装LaTeX中文样式主题简介</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%A2%84%E8%A7%88"><span class="nav-number">1.1.</span> <span class="nav-text">预览</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85"><span class="nav-number">1.2.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8"><span class="nav-number">1.3.</span> <span class="nav-text">使用</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%B0%83%E6%95%B4%E5%AD%97%E5%8F%B7"><span class="nav-number">1.3.1.</span> <span class="nav-text">调整字号</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9B%B4%E6%94%B9%E7%BC%96%E8%BE%91%E6%A8%A1%E5%BC%8F%E4%B8%AD%E7%9A%84%E9%A1%B5%E9%9D%A2%E5%A4%A7%E5%B0%8F"><span class="nav-number">1.3.2.</span> <span class="nav-text">更改编辑模式中的页面大小</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E5%B0%81%E9%9D%A2"><span class="nav-number">1.3.3.</span> <span class="nav-text">使用封面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%96%E6%B6%88%E9%A2%9D%E5%A4%96%E8%A1%8C%E8%B7%9D"><span class="nav-number">1.3.4.</span> <span class="nav-text">取消额外行距</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A1%B5%E8%BE%B9%E8%B7%9D"><span class="nav-number">1.3.5.</span> <span class="nav-text">页边距</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%BC%E5%87%BA%E6%97%B6%E8%B6%85%E9%93%BE%E6%8E%A5%E6%A0%B7%E5%BC%8F"><span class="nav-number">1.3.6.</span> <span class="nav-text">导出时超链接样式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A4%9A%E7%BA%A7%E5%88%97%E8%A1%A8"><span class="nav-number">1.3.7.</span> <span class="nav-text">多级列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A1%B5%E7%9C%89%E5%92%8C%E9%A1%B5%E8%84%9A"><span class="nav-number">1.3.8.</span> <span class="nav-text">页眉和页脚</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BC%95%E7%94%A8%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE"><span class="nav-number">1.3.9.</span> <span class="nav-text">引用参考文献</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%93%E6%B3%A8%E6%A8%A1%E5%BC%8F%E5%92%8C%E6%89%93%E5%AD%97%E6%9C%BA%E6%A8%A1%E5%BC%8F"><span class="nav-number">1.3.10.</span> <span class="nav-text">专注模式和打字机模式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B6%E4%BB%96%E6%9C%89%E7%9A%84%E6%B2%A1%E7%9A%84"><span class="nav-number">1.3.11.</span> <span class="nav-text">其他有的没的</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%8D%E9%A6%88%E4%B8%8E%E8%B4%A1%E7%8C%AE"><span class="nav-number">1.4.</span> <span class="nav-text">反馈与贡献</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%B8%A3%E8%B0%A2"><span class="nav-number">1.5.</span> <span class="nav-text">鸣谢</span></a></li></ol></li></ol></div>
+      </section>
+      <!--/noindex-->
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Keldos"
+      src="/images/avatar.jpeg">
+  <p class="site-author-name" itemprop="name">Keldos</p>
+  <div class="site-description" itemprop="description">竟然是规划狗</div>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Keldos-Li" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Keldos-Li" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkyMzM4NDA5NA==&scene=124#wechat_redirect" title="公众号 → https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;mp&#x2F;profile_ext?action&#x3D;home&amp;__biz&#x3D;MzkyMzM4NDA5NA&#x3D;&#x3D;&amp;scene&#x3D;124#wechat_redirect" rel="noopener" target="_blank"><i class="fab fa-weixin fa-fw"></i>公众号</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:hi@keldos.me" title="E-Mail → mailto:hi@keldos.me" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/keldosrss.xml" title="RSS订阅 → &#x2F;keldosrss.xml"><i class="fa fa-rss fa-fw"></i>RSS订阅</a>
+      </span>
+  </div>
+  <div class="cc-license animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/zh-CN" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+  <div class="links-of-blogroll animated">
+    <div class="links-of-blogroll-title"><i class="fa fa-street-view fa-fw"></i>
+      再逛逛……
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://keldos.me/" title="https:&#x2F;&#x2F;Keldos.me" rel="noopener" target="_blank">Keldos 主页</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://新民学会.keldos.me/" title="https:&#x2F;&#x2F;新民学会.keldos.me" rel="noopener" target="_blank">新民学会</a>
+        </li>
+    </ul>
+  </div>
+
+      </section>
+        <div class="back-to-top animated">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </header>
+
+      
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div id="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+      <div class="main-inner">
+        
+
+        <div class="content post posts-expand">
+          
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://blog.keldos.me/2021/05/typora-latex-css%20(copy)/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpeg">
+      <meta itemprop="name" content="Keldos">
+      <meta itemprop="description" content="竟然是规划狗">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Keldos !">
+    </span>
+
+    
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-05-27 20:00:34" itemprop="dateCreated datePublished" datetime="2021-05-27T20:00:34+08:00">2021-05-27</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-11-20 00:58:39" itemprop="dateModified" datetime="2023-11-20T00:58:39+08:00">2023-11-20</time>
+              </span>
+
+          
+            <span id="/2021/05/typora-latex-css%20(copy)/" class="post-meta-item leancloud_visitors" data-flag-title="" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2021/05/typora-latex-css%20(copy)/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2021/05/typora-latex-css%20(copy)/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h1 id="typora伪装latex中文样式主题简介">Typora伪装LaTeX中文样式主题简介</h1>
+<p>　　这篇文章是对我开发和维护的 <a target="_blank" rel="noopener" href="https://github.com/Keldos-Li/typora-latex-theme">typora-latex-theme</a> 项目的介绍和说明。如果能帮助到你，欢迎前往<a target="_blank" rel="noopener" href="https://github.com/Keldos-Li/typora-latex-theme">GitHub地址</a>给我一个 Star⭐️~</p>
+<hr />
+<p>　　本项目的初衷是为了简化中国大陆本科生<strong>小型通识课论文</strong>（或<strong>实验报告</strong>）撰写的负担。这里基本采用了浙江大学要求的格式（字体较小，页边距较小），但大部分同学都可以自行在css中修改适合自己学校的格式。</p>
+<h2 id="预览">预览</h2>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">code</th>
+<th style="text-align: center;">light mode</th>
+<th style="text-align: center;">dark mode</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>预览<br />模式</td>
+<td style="text-align: center;">–</td>
+<td style="text-align: center;"><img src="http://localhost:4000/assets/preview/preview-l.png" /></td>
+<td style="text-align: center;"><img src="http://localhost:4000/assets/preview/preview-d.png" /></td>
+</tr>
+<tr class="even">
+<td>编辑<br />模式</td>
+<td style="text-align: center;">–</td>
+<td style="text-align: center;"><img src="http://localhost:4000/assets/preview/edit-l.png" /></td>
+<td style="text-align: center;"><img src="http://localhost:4000/assets/preview/edit-d.png" /></td>
+</tr>
+<tr class="odd">
+<td>层级<br />标题</td>
+<td style="text-align: center;"><img src="http://localhost:4000/assets/preview/heading-c.png" /></td>
+<td style="text-align: center;"><img src="http://localhost:4000/assets/preview/heading-l.png" /></td>
+<td style="text-align: center;"><img src="http://localhost:4000/assets/preview/heading-d.png" /></td>
+</tr>
+<tr class="even">
+<td>表格</td>
+<td style="text-align: center;"><img src="http://localhost:4000/assets/preview/table-c.png" /></td>
+<td style="text-align: center;"><img src="http://localhost:4000/assets/preview/table-l.png" /></td>
+<td style="text-align: center;"><img src="http://localhost:4000/assets/preview/table-d.png" /></td>
+</tr>
+<tr class="odd">
+<td>项目<br />列表</td>
+<td style="text-align: center;"><img src="http://localhost:4000/assets/preview/item-c.png" /></td>
+<td style="text-align: center;"><img src="http://localhost:4000/assets/preview/item-l.png" /></td>
+<td style="text-align: center;"><img src="http://localhost:4000/assets/preview/item-d.png" /></td>
+</tr>
+<tr class="even">
+<td>代码块</td>
+<td style="text-align: center;"><img src="http://localhost:4000/assets/preview/code-c.png" /></td>
+<td style="text-align: center;"><img src="http://localhost:4000/assets/preview/code-l.png" /></td>
+<td style="text-align: center;"><img src="http://localhost:4000/assets/preview/code-d.png" /></td>
+</tr>
+<tr class="odd">
+<td>Mermaid</td>
+<td style="text-align: center;"><img src="http://localhost:4000/assets/preview/mermaid-c.png" /></td>
+<td style="text-align: center;"><img src="http://localhost:4000/assets/preview/mermaid-l.png" /></td>
+<td style="text-align: center;"><img src="http://localhost:4000/assets/preview/mermaid-d.png" /></td>
+</tr>
+<tr class="even">
+<td>公式</td>
+<td style="text-align: center;"><img src="http://localhost:4000/assets/preview/equation-c.png" /></td>
+<td style="text-align: center;"><img src="http://localhost:4000/assets/preview/equation-l.png" /></td>
+<td style="text-align: center;"><img src="http://localhost:4000/assets/preview/equation-d.png" /></td>
+</tr>
+</tbody>
+</table>
+<a id="more"></a>
+<h2 id="安装">安装</h2>
+<ol type="1">
+<li><p>安装前，请确保您已经安装 Typora（也可以用某些IDLE），并拥有基本的markdown语法知识；</p>
+<ul>
+<li>什么是<strong>Typora</strong>？<br> <a target="_blank" rel="noopener" href="https://typora.io/">Typora</a>是一个超级好用的实时预览markdown编辑器；</li>
+<li>什么是<strong>markdown</strong>？<br> <a target="_blank" rel="noopener" href="https://daringfireball.net/projects/markdown/">markdown</a> 是一种轻量级标记语言，用于使用纯文本创建格式化文本。 约翰·格鲁伯和亚伦·斯沃茨于2004年创建了Markdown，作为一种以源代码形式吸引人类读者的标记语言。 Markdown排版语法简洁，让人们更多地关注内容本身而非排版。它可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式等文件。 Markdown广泛用于博客、即时消息、在线论坛、协作软件、文档页面和阅读文件。<br> 参考：
+<ul>
+<li><a target="_blank" rel="noopener" href="https://markdown.com.cn/">Markdown中文语法简介</a></li>
+<li><a target="_blank" rel="noopener" href="https://support.typora.io/Markdown-Reference/">Typora使用的markdown语法参考</a></li>
+</ul></li>
+</ul></li>
+<li><p>前往本项目的 <a target="_blank" rel="noopener" href="https://github.com/Keldos-Li/typora-latex-theme/releases">release</a> 页面，下载适合您操作系统的最新版本压缩包。比如，如果您在使用 Windows 操作系统，您就应该下载 <code>latex-theme-windows.zip</code>。</p>
+<ul>
+<li>当然你也可以使用命令行下载最新版（<del>虽然没用，只是可能酷一点？</del>）： <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> &lt;你常用的下载文件夹&gt;</span><br><span class="line">$ git <span class="built_in">clone</span> https://github.com/Keldos-Li/typora-latex-theme.git</span><br></pre></td></tr></table></figure></li>
+</ul></li>
+<li><p>解压这个文件，然后您将可以选择手动安装还是自动安装（cool~）！ <div class="tabs" id="安装方式"><ul class="nav-tabs"><li class="tab"><a href="#安装方式-1">手动安装</a></li><li class="tab active"><a href="#安装方式-2">自动安装</a></li></ul><div class="tab-content"><div class="tab-pane" id="安装方式-1"><pre><code>请您打开安装包的 `target` 文件夹，按照[官方教程（英文）](https://theme.typora.io/doc/Install-Theme/)，将这个文件夹里的所有 CSS 文件复制到指定的 [Typora 主题文件夹](技术细节#主题文件夹)中。 </code></pre></div><div class="tab-pane active" id="安装方式-2"><pre><code>- 如果您在使用 Windows ，请运行 `install.ps1` 文件。具体的运行方式是：右键点击 `install.ps1` 文件，然后点击“使用 PowerShell 运行”。  
+  若您看到了以下提示，请输入`Y`，然后按下回车`enter`： 
+
+  &gt; 执行策略更改  
+  &gt; 执行策略可帮助你防止执行不信任的脚本。更改执行策略可能会产生安全风险，如 https:/go.microsoft.com/fwlink/?LinkID=135170 中的 about_Execution_Policies 帮助主题所述。是否要更改执行策略?  
+  &gt; [Y] 是(Y)  [A] 全是(A)  [N] 否(N)  [L] 全否(L)  [S] 暂停(S)  [?] 帮助 (默认值为“N”):  
+  
+ - 如果您在使用 macOS 或 Linux ，只需在终端执行 `sh ./install.sh` 即可完成安装。 
+
+    &gt; 什么？你是 mac 用户却不知道怎么用*终端*？好吧。打开*终端*，将 `install.sh` 文件拖入终端窗口中也是可以执行的。什么？你不知道怎么打开*终端*？请参考以下步骤：打开[启动台](https://support.apple.com/zh-cn/HT202635)；在启动台顶部的搜索栏里，搜索“终端”，然后点击搜索结果中的终端图标。</code></pre>
+<p>​</p></div></div></div></p></li>
+<li><p>安装字体。<strong>以上步骤执行完毕后， Typora 显示的结果可能并不符合您的预期。比如，中文字体缺少衬线，或中文字体是点阵字体等。这时，您需要安装本主题依赖的所有字体。</strong> 对于 macOS 和 Windows 用户，您可以在 <a target="_blank" rel="noopener" href="https://github.com/Keldos-Li/typora-latex-theme-fonts">Keldos-Li/typora-latex-theme-fonts</a> 仓库下载并安装您需要的字体； Linux 用户应确保相关字体在您的发行版上被正确安装。具体而言：</p>
+<ul>
+<li>macOS 用户可以前往 <a target="_blank" rel="noopener" href="https://github.com/Keldos-Li/typora-latex-theme-fonts/tree/main/macOS"><code>/macOS</code></a> 和 <a target="_blank" rel="noopener" href="https://github.com/Keldos-Li/typora-latex-theme-fonts/tree/main/General%20platform"><code>/General platform</code></a> 获取适用于 macOS 的额外字体。<br />
+</li>
+<li>Windows 用户可以前往 <a target="_blank" rel="noopener" href="https://github.com/Keldos-Li/typora-latex-theme-fonts/tree/main/Windows"><code>/Windows</code></a> 和 <a target="_blank" rel="noopener" href="https://github.com/Keldos-Li/typora-latex-theme-fonts/tree/main/General%20platform"><code>/General platform</code></a> 获取适用于 Windows 的额外字体。<br />
+</li>
+<li>Linux 用户请去查看github项目地址中的wiki，我懒得写了。<del>这年头还有人用Linux写文档？</del></li>
+</ul>
+<p>　　对字体再做一点补充吧。 <code>Latin Modern</code> 家族是常规 LaTeX 发行版文档使用的英文字体，请所有用户安装。（大家都会喜欢这个字体的，所以安装吧，就不把它们放在主题文件夹下再 import 了。<del>绝不是因为我懒</del>）；</p>
+<p>　　其他文件夹存放了一些中文字体和代码字体，可以选择性安装。其中 <code>家族宋</code>通过将楷体重新映射为宋体的斜体，拥有了完整的常规体（宋体）、<em>斜体</em>（楷体）、<strong>黑体</strong>（粗宋体）、<strong><em>黑斜体</em></strong>（粗楷体），并且可以在 Typora 中直接通过 <code>*</code> 的输入，以媲美西文的方式调整字体风格。<strong>本字体文件仅供个人本地试用，不得将其用于商业出版领域，请勿传播</strong>。</p>
+<p>　　请注意，如果您不拥有这些字体也不希望安装的话，请到CSS文件中自行更改选用的字体：</p>
+<ul>
+<li>如果您选用自己的其他字体，请尽量使用有完整字体系列的字体集作为正文字体。对于中文字体，一个完整的字体系列应该包括：常规体（regular）、<strong>粗体（bold）</strong>，如果您希望粗体风格更强，它应当还包含<strong>黑体（Heavy）</strong>。</li>
+<li>本项目还包含了一些方正公文系列字体，选用它们是因为它们已经存在粗体效果，可以直接应用为标题字体而跳过Typora的伪粗体机制。</li>
+<li><strong>所有的字体文件请自行获取授权</strong>，本人不对您使用字体造成的法律纠纷负责。（当然，本项目包含的部分字体是免费可商用的和非商业使用免费的。）</li>
+</ul></li>
+<li><p>重新启动 Typora，然后在菜单栏的<strong>主题</strong>下拉菜单中选择 <code>Latex</code> 或 <code>Latex Dark</code> 选项。如果您在手动安装字体后，依然出现与字体相关的问题，请尝试重启您的计算机。</p></li>
+</ol>
+<h2 id="使用">使用</h2>
+<p>　　在完成安装后，您可以选择<a target="_blank" rel="noopener" href="https://github.com/Keldos-Li/typora-latex-theme/wiki/常见问题#为什么要个性化设置">按照学校的要求进行个性化设置</a>。在 CSS 文件中，您可以根据代码中的注释提示修改变量取值，轻松地更换正文、标题等不同元素的字体、字号、行距、页边距等：</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* 代码字体（代码中的中文会调用ui-font） */</span></span><br><span class="line"><span class="selector-tag">--code-font</span>: &quot;<span class="selector-tag">Latin</span> <span class="selector-tag">Modern</span> <span class="selector-tag">Mono</span>&quot;, &quot;<span class="selector-tag">Latin</span> <span class="selector-tag">Modern</span> <span class="selector-tag">Mono</span> 10&quot;;  <span class="comment">/* 您可以修改这里的值 */</span></span><br><span class="line"><span class="comment">/* 侧边栏字体 */</span></span><br><span class="line"><span class="selector-tag">--ui-font</span>: &quot;阿里巴巴普惠体 2<span class="selector-class">.0</span>&quot;;  <span class="comment">/* 您可以修改这里的值 */</span></span><br><span class="line"><span class="comment">/* source mode 字体 */</span></span><br><span class="line"><span class="selector-tag">--sourceMode-font</span>: &quot;<span class="selector-tag">SF</span> <span class="selector-tag">Mono</span>&quot;, &quot;阿里巴巴普惠体 2<span class="selector-class">.0</span>&quot;;  <span class="comment">/* 您可以修改这里的值 */</span></span><br></pre></td></tr></table></figure>
+<p>　　进行个性化设置有两种方案：</p>
+<ol type="1">
+<li>您可以直接在您下载的安装包中进行修改。<strong>在完成修改后，请重新执行与您操作系统相匹配的脚本（<code>install.ps1</code> 或 <code>install.sh</code>），并重新启动 Typora，以应用您的更改</strong>。<br />
+</li>
+<li>您也可以直接更改 <a href="技术细节/#主题文件夹">Typora 主题文件夹</a>的文件。进入这个文件夹后，与本主题相关的两个文件分别是 <code>latex.css</code> 和 <code>latex-dark.css</code>，请您按需修改。<strong>在完成修改后，请重新启动 Typora，以应用您的更改</strong>。</li>
+</ol>
+<p>　　蛤？你不知道咋打开 CSS 文件？请考虑使用 <em>记事本</em>（Windows）或<em>文本编辑</em>（macOS）打开它。</p>
+<p>　　您可能已经注意到，我们已经将主要的个性化设置变量放置在主题文件的最前面（<code>:root &#123;&#125;</code>）。对大部分普通用户来说，您只需要关注最前面（约前70行）的代码即可： <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">@charset</span> <span class="string">&quot;UTF-8&quot;</span>;</span><br><span class="line"><span class="selector-pseudo">:root</span> &#123;</span><br><span class="line">  <span class="comment">/* == 字体设置 == */</span></span><br><span class="line">  ……（其他设置）</span><br><span class="line">  ……（其他设置）</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure> 　　当然，如果你是个 Pro User，有更多的修改需求，请直接在 <code>latex.css</code> 和 <code>latex-dark.css</code> 中编辑（或者，你也可以编辑我们的 <code>.scss</code> 源文件然后编译为 CSS）。但请记得在未来更新本主题时重新编写您做过的修改。</p>
+<p>　　如果您看不懂注释，或不知道修改代码会造成什么效果，请首先尝试百度/谷歌/必应，然后尝试联系开发者。</p>
+<h3 id="调整字号">调整字号</h3>
+<p>　　从 v0.3.0 开始，本主题支持根据 <code>--base-font-size</code>（正文字号）全局调整各元素（如小标题、脚注、代码，甚至行距）大小。</p>
+<p>　　一般而言，如果需要调整正文字号大小，您只需要更改 CSS 文件中这一行（可能是第8行）中“9.5pt”这一数值： <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">--base-font-size</span>: 9<span class="selector-class">.5pt</span>;</span><br></pre></td></tr></table></figure> 　　您只需要调整这一项数值，其他元素的大小会自动根据该基准字号进行合适倍率的缩放，以达成美观的效果。例如，在 v0.3.0 的主题文件中，默认的引文的字号设置为： <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">--quote-font-size</span>: 1<span class="selector-class">.05em</span>;</span><br></pre></td></tr></table></figure> 　　在这里，em单位为一个正文字符（<code>--base-font-size</code>）大小，此时 1.05em = 1.05x9.5pt ≈ 10pt。其他元素也遵循相应的规则。</p>
+<blockquote>
+<p>当然，如果学校或您有明确的要求，您也可以直接设置以 pt 或 px 为单位的数值，将元素的大小固定下来，如 <code>--quote-font-size: 10pt</code>;</p>
+</blockquote>
+<details class="note primary"><summary><p>参阅：字号对照表</p>
+</summary>
+<table>
+<thead>
+<tr class="header">
+<th>中文字号</th>
+<th>英文字号（磅）/pt</th>
+<th>毫米/mm</th>
+<th>像素/px</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>初号</td>
+<td>42</td>
+<td>14.82</td>
+<td>56</td>
+</tr>
+<tr class="even">
+<td>小初</td>
+<td>36</td>
+<td>12.7</td>
+<td>48</td>
+</tr>
+<tr class="odd">
+<td>一号</td>
+<td>26</td>
+<td>9.17</td>
+<td>34.7</td>
+</tr>
+<tr class="even">
+<td>小一</td>
+<td>24</td>
+<td>8.47</td>
+<td>32</td>
+</tr>
+<tr class="odd">
+<td>二号</td>
+<td>22</td>
+<td>7.76</td>
+<td>29.3</td>
+</tr>
+<tr class="even">
+<td>小二</td>
+<td>18</td>
+<td>6.35</td>
+<td>24</td>
+</tr>
+<tr class="odd">
+<td>三号</td>
+<td>16</td>
+<td>5.64</td>
+<td>21.3</td>
+</tr>
+<tr class="even">
+<td>小三</td>
+<td>15</td>
+<td>5.29</td>
+<td>20</td>
+</tr>
+<tr class="odd">
+<td>四号</td>
+<td>14</td>
+<td>4.94</td>
+<td>18.7</td>
+</tr>
+<tr class="even">
+<td>小四</td>
+<td>12</td>
+<td>4.23</td>
+<td>16</td>
+</tr>
+<tr class="odd">
+<td>五号</td>
+<td>10.5</td>
+<td>3.7</td>
+<td>14</td>
+</tr>
+<tr class="even">
+<td>小五</td>
+<td>9</td>
+<td>3.18</td>
+<td>12</td>
+</tr>
+<tr class="odd">
+<td>六号</td>
+<td>7.5</td>
+<td>2.56</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td>小六</td>
+<td>6.5</td>
+<td>2.29</td>
+<td>8.7</td>
+</tr>
+<tr class="odd">
+<td>七号</td>
+<td>5.5</td>
+<td>1.94</td>
+<td>7.3</td>
+</tr>
+<tr class="even">
+<td>八号</td>
+<td>5</td>
+<td>1.76</td>
+<td>6.7</td>
+</tr>
+</tbody>
+</table>
+
+</details>
+<h3 id="更改编辑模式中的页面大小">更改编辑模式中的页面大小</h3>
+<p>　　在 Typora 中，您可以使用以下两个快捷键将页面进行放大或缩小：</p>
+<ul>
+<li><code>ctrl</code> <code>shift</code> <code>=</code> 放大<br />
+</li>
+<li><code>ctrl</code> <code>shift</code> <code>-</code> 缩小</li>
+</ul>
+<p>　　对于 macOS 用户，请将上面快捷键中的 <code>ctrl</code> 替换为 <code>command</code>。如果您的 Typora 有菜单栏，您也可以选择 <code>视图</code> 中的 <code>放大</code> 或 <code>缩小</code> 功能。</p>
+<h3 id="使用封面">使用封面</h3>
+<p>　　<code>resources</code> 文件夹中的 <code>essay-template.md</code> 和 <code>essay-template.pdf</code> 展示了一篇小论文在该主题下的效果（其中文字来源于我本人的课程作业以及一些拼凑，请不要在意过多细节），其中论文封面（也单独放置在 <code>cover-template.md</code> 文件中）、摘要、关键词和其他一些特别的元素使用 HTML 代码来编写。您可以自行取用修改它们的文字内容部分和代码部分来完成您的课程论文。</p>
+<ul>
+<li>如果您还是看不懂HTML代码，请先自行百度/谷歌/必应，然后尝试联系您在计算机系的同学；</li>
+<li><del>或者您还是用Word来写文档吧。</del></li>
+</ul>
+<p>　　我后面自己用的时候，把浙江大学的图标又缩小了一些hhh：</p>
+<p><img src="http://localhost:4000/assets/preview/new-cover.png" alt="改后自用的封面" style="width: 50%;border:1px solid #ccc"></p>
+<h3 id="取消额外行距">取消额外行距</h3>
+<p>　　如果您不希望论文有段后的额外行距，可以在 Typora 的<code>偏好设置</code> – <code>Markdown</code> 中选取<code>保留连续的空格与单个换行</code>。</p>
+<h3 id="页边距">页边距</h3>
+<p>　　若要修改页边距，您首先需要打开您想要修改的 CSS 文件。您需要在这个 CSS 文件中，分别找到两段类似这样的代码：</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* == 页面设置 == */</span></span><br><span class="line"><span class="comment">/* 打印页边距 */</span></span><br><span class="line"><span class="selector-tag">--set-margin</span>: 1<span class="selector-class">.8cm</span> 2<span class="selector-tag">cm</span> 1<span class="selector-class">.2cm</span> 2<span class="selector-tag">cm</span> !<span class="selector-tag">important</span>;</span><br></pre></td></tr></table></figure>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">@media</span> print &#123;</span><br><span class="line">    <span class="keyword">@page</span> &#123;</span><br><span class="line">        <span class="comment">/* size: A4;  强制A4大小 */</span></span><br><span class="line">         <span class="attribute">margin</span>: <span class="number">1.8cm</span> <span class="number">2cm</span> <span class="number">1.2cm</span> <span class="number">2cm</span> <span class="meta">!important</span>;</span><br><span class="line">         <span class="comment">/* 按次序为 上 右 下 左 的页边距 */</span></span><br></pre></td></tr></table></figure>
+<p>　　真实的代码内容可能与以上描述不完全相同，但是嵌套关系一定是相同的。推荐您搜索<code>页边距</code>这个关键词，从而快速找到这两段代码。<br />
+　　以上的第一处的设置调整了 Typora 预览界面包括导出 HTML 时的页面边距，第二处调整了 Typora 导出 PDF 时的页边距。</p>
+<p>　　在 Windows 中，您在两个 CSS 文件中同时修改页边距后即可导出正确的页面。</p>
+<p>　　<strong>但对于 macOS 用户，因为 <a target="_blank" rel="noopener" href="https://github.com/typora/typora-issues/issues/998">Typora 本身的问题</a> ，第二处设置无效</strong>。也就是说，第一处设置能够保证编辑预览时的页面边距正确，但直接导出时的页面边距无法精确修改。只能通过以下的办法：</p>
+<ul>
+<li>在 Typora 的导出设置里自定义页边距。</li>
+<li>先导出为 HTML ，然后在 Chrome 中打开打印。请注意，<strong>不能用 Safari</strong>！Safari 会自行设置它认为的最小边距，这会导致您无法精确控制页边距；另一方面，在某次更新后 Safari 取消了对 CSS 本地字体读取的支持（理由是隐私问题），会导致您无法显示很多字体！</li>
+<li>直接用 pandoc 的命令行导出。</li>
+</ul>
+<h3 id="导出时超链接样式">导出时超链接样式</h3>
+<p>　　对于文章中的超链接，本主题在导出PDF时默认保留超链接颜色和下划线。如果您需要导出为打印版本（超链接为黑色且无下划线），请在您想要修改的 CSS 文件中找到下面的代码段：</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* ========== VERY IMPORTANT 请注意看下面的几行: ================</span></span><br><span class="line"><span class="comment">   如果您需要在输出PDF时隐藏超链接的颜色和下划线，请取消注释下面的代码块，即删去下面的 Ln.1 和 Ln.2</span></span><br><span class="line"><span class="comment">   如果您需要在输出PDF时保持超链接的显示效果，则不用更改 ============= */</span></span><br><span class="line"><span class="comment">/* 如要取消注释代码，请把本行删去 Ln.1</span></span><br><span class="line"><span class="comment">@media print &#123;</span></span><br><span class="line"><span class="comment">  #write a &#123;</span></span><br><span class="line"><span class="comment">    color: inherit !important;</span></span><br><span class="line"><span class="comment">    text-decoration: none;</span></span><br><span class="line"><span class="comment">  &#125; </span></span><br><span class="line"><span class="comment">&#125;</span></span><br><span class="line"><span class="comment">如要取消注释代码，请把本行删去 Ln.2 */</span></span><br></pre></td></tr></table></figure>
+<p>　　您只需要删去 <code>/* 如要取消注释代码，请把本行删去 Ln.1</code> 和 <code>/* 如要取消注释代码，请把本行删去 Ln.1</code> 这两整行即可。</p>
+<p>　　如果您之后重新需要导出时保留超链接颜色和下划线，您可以将您删去的两行之间的代码块重新注释掉。</p>
+<h3 id="多级列表">多级列表</h3>
+<p>　　预设的多级列表样式参考了 CTeX 的风格。如果需要，您可以在代码中自行更改多级列表（无论是有序还是无序）的样式。</p>
+<p>　　另外，在 v0.3.0 及之前的版本中，在<strong>二级有序列表</strong>之后<strong>混用</strong> <em>有序列表</em> 和 <em>无序列表</em> 以及<em>核对清单</em>，仍有概率出现一些 bug。（虽然感觉会这么干的人应该不多。）我应该已经修复了这个bug，马上发新版本！但如果还有问题，请及时提 issue。</p>
+<h3 id="页眉和页脚">页眉和页脚</h3>
+<p>　　由于 Typora 的限制，目前似乎不能直接定义，请在 Typora 的导出设置里设置好您需要的页眉和页脚文字，导出后在 PDF 编辑器中调整您喜欢的样式风格。</p>
+<h3 id="引用参考文献">引用参考文献</h3>
+<p>　　目前没有更好的方式，请您主动编号（或许小型课程论文不需要大量参考文献……？maybe我之后想想要不要重新定义一个新的列表样式）。</p>
+<h3 id="专注模式和打字机模式">专注模式和打字机模式</h3>
+<p>　　还没写这部分的代码。本主题样式初衷不在于此，如果您有需求，可以提交 issue 或进入讨论区讨论。<del>我可能也懒得写</del></p>
+<h3 id="其他有的没的">其他有的没的</h3>
+<ul>
+<li>如果可以的话（大概不可以），或许您可以在论文致谢中提到这个项目（bushi。(/ω＼)</li>
+<li>这本质是一个适用于所有markdown编辑器的CSS样式（但对Typora编辑器做了额外的优化），您也可以将其用于其他您喜欢的markdown编辑器的自定义样式（尚未经过完整测试）。</li>
+</ul>
+<h2 id="反馈与贡献">反馈与贡献</h2>
+<p>　　wiki里写了<a target="_blank" rel="noopener" href="https://github.com/Keldos-Li/typora-latex-theme/wiki/贡献指南">贡献指南</a>。</p>
+<p>如果您在使用过程中遇到任何问题，或想为本项目做出任何贡献，请优先考虑：</p>
+<ul>
+<li>前往 GitHub Discussions <a target="_blank" rel="noopener" href="https://github.com/Keldos-Li/typora-latex-theme/discussions/new">发起讨论</a></li>
+<li>前往 GitHub Issues <a target="_blank" rel="noopener" href="https://github.com/Keldos-Li/typora-latex-theme/issues/new?labels=bug">报告故障</a></li>
+<li>前往 GitHub Issues <a target="_blank" rel="noopener" href="https://github.com/Keldos-Li/typora-latex-theme/issues/new?labels=Feature+Request">请求新功能</a></li>
+<li>如果您希望在本地修改这个项目的代码，推荐您在 fork 后使用 <code>git clone $&#123;target&#125; --depth 1</code> 进行克隆。这是因为，本仓库的历史中有大量二进制文件，而这些二进制文件对当前开发并无作用，可以舍弃。设置较浅的克隆深度可帮助您更快地获取到此项目的最新代码。在完成您的修改后，<strong>请向我们的 <code>develop</code> 分支提出拉取请求</strong>。</li>
+</ul>
+<p>如果还是不行…</p>
+<ul>
+<li>联系 <a href="mailto:hi@keldos.me">我</a> 或 <a href="mailto:RalXYZ@pm.me">RalXYZ</a>.</li>
+<li>或者 <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=8Vy0m_9-phExgORJKwVTZ2Hix19yScCn&jump_from=webapi" style="border: none;"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="加入交流反馈QQ群" title="Typora伪LaTeX交流反馈" style="display: inline; margin: 0;"></a>之后和大家一起讨论</li>
+</ul>
+<h2 id="鸣谢">鸣谢</h2>
+<p>本项目是在下面两个开源项目的基础上完成的：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/yfzhao20/Typora-markdown">yfzhao20/Typora-markdown</a> <br>（<span class="citation" data-cites="让幻想飞">@让幻想飞</span> 的<strong>知乎文章地址</strong>：https://zhuanlan.zhihu.com/p/357096043）</li>
+<li><a target="_blank" rel="noopener" href="https://github.com/du33169/typora-theme-essay_cn">du33169/typora-theme-essay_cn</a></li>
+</ul>
+<p>感谢 <a target="_blank" rel="noopener" href="https://space.bilibili.com/239828907">大啊好我r中之</a> 制作介绍视频。</p>
+<hr />
+<div class="note default"><p>　　BTW，看到有个所谓的电子笔记大赛，顺便投一下，临时挂个自己的名字：李京蔚。</p>
+<p>　　网页是基于hexo的NexT主题制作的，无法说这完全是我的设计。我想活动组织者在策划的时候没考虑吧，大部分文档都是基于模板做的，现在谁完全自己从头设计制作啊？不可能的。如果有谁用我的主题导出的文档拿奖了，岂不是也该把奖励分我一份？</p>
+</div>
+
+    </div>
+
+    
+    
+    
+        <div class="reward-container">
+  <div>求鼓励求支持QAQ</div>
+  <button onclick="document.getElementById('post-reward').classList.toggle('active');">
+    赞赏
+  </button>
+  <div id="post-reward">
+      
+      <div>
+        <img src="/images/Alipay.png" alt="Keldos 支付宝">
+        <p>支付宝</p>
+      </div>
+
+  </div>
+</div>
+
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>Keldos
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://blog.keldos.me/2021/05/typora-latex-css%20(copy)/" title="">https://blog.keldos.me/2021/05/typora-latex-css (copy)/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/zh-CN" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/05/typora-latex-css/" rel="prev" title="Typora伪装LaTeX中文样式主题简介">
+      <i class="fa fa-chevron-left"></i> Typora伪装LaTeX中文样式主题简介
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2021/06/QQ%E5%8F%98%E6%9B%B4%E5%A3%B0%E6%98%8E/" rel="next" title="QQ变更声明">
+      QQ变更声明 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+        </div>
+        
+    <div class="comments" id="valine-comments"></div>
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+  <div class="beian"><a href="http://www.beian.miit.gov.cn/" rel="noopener" target="_blank">ICP占位（.me域名备不了案……呜呜） </a>
+  </div>
+
+<div class="copyright">
+  
+  &copy; 2017 – 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-pen"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Keldos</span>
+</div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+  
+  <script>
+    (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      bp.src = (curProtocol === 'https') ? 'https://zz.bdstatic.com/linksubmit/push.js' : 'http://push.zhanzhang.baidu.com/push.js';
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
+  </script>
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+<script>
+document.querySelectorAll('.pdfobject-container').forEach(element => {
+  let url = element.dataset.target;
+  let pdfOpenParams = {
+    navpanes : 0,
+    toolbar  : 0,
+    statusbar: 0,
+    pagemode : 'thumbs',
+    view     : 'FitH'
+  };
+  let pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
+  let fullURL = `/lib/pdf/web/viewer?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
+
+  if (NexT.utils.supportsPDFs()) {
+    element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;
+  } else {
+    element.innerHTML = `<iframe src="${fullURL}" style="height: ${element.dataset.height};" frameborder="0"></iframe>`;
+  }
+});
+</script>
+
+
+<script>
+if (document.querySelectorAll('pre.mermaid').length) {
+  NexT.utils.getScript('//cdnjs.cloudflare.com/ajax/libs/mermaid/8.6.4/mermaid.min.js', () => {
+    mermaid.init({
+      theme    : 'forest',
+      logLevel : 3,
+      flowchart: { curve     : 'linear' },
+      gantt    : { axisFormat: '%m/%d/%Y' },
+      sequence : { actorMargin: 50 }
+    }, '.mermaid');
+  }, window.mermaid);
+}
+</script>
+
+
+  
+
+  
+      <script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      const script = document.createElement('script');
+      script.src = '//cdnjs.cloudflare.com/ajax/libs/mathjax/3.0.5/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+    
+
+  
+<script>
+NexT.utils.loadComments('#valine-comments', () => {
+  NexT.utils.getScript('//cdnjs.cloudflare.com/ajax/libs/valine/1.4.14/Valine.min.js', () => {
+    new Valine(Object.assign({
+      el  : '#valine-comments',
+      path: location.pathname,
+    }, {"enable":true,"appId":"vI22dhb3chuQi7swGpcod9VR-gzGzoHsz","appKey":"cKvYX5ualg1YLB13AfCB1pDj","placeholder":"该说什么好🤔","avatar":"mm","meta":["nick","mail"],"pageSize":8,"language":"zh-cn","visitor":true,"comment_count":false,"recordIP":true,"serverURLs":null,"enableQQ":false,"requiredFields":["nick"]}
+    ));
+  }, window.Valine);
+});
+</script>
+</body>
+</html>
