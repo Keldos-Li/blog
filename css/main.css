@@ -213,7 +213,7 @@ body {
 body {
   background: var(--body-bg-color);
   color: var(--text-color);
-  font-family: Monda, Lato, "PingFang SC", "PingFangSC", "PingFangSC-Regular", "PingFang TC", "PingFangTC", "PingFangTC-Regular", "Microsoft YaHei", sans-serif;
+  font-family: Monda, Lato, "PingFang SC", "PingFangSC", "PingFang TC", "PingFangTC", "思源黑体", "思源黑体 CN", "SourceHanSansSC", "SourceHanSansTC", "Microsoft YaHei", sans-serif;
   font-size: 1em;
   line-height: 2;
   transition: all 0.2s ease-in-out;
@@ -224,7 +224,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Rubik, Monda, Lato, "PingFang SC", "PingFangSC", "PingFangSC-Regular", "PingFang TC", "PingFangTC", "PingFangTC-Regular", "Microsoft YaHei", sans-serif;
+  font-family: Rubik, Monda, Lato, "PingFang SC", "PingFangSC", "PingFang TC", "PingFangTC", "思源黑体", "思源黑体 CN", "SourceHanSansSC", "SourceHanSansTC", "Microsoft YaHei", sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 20px 0 15px;
@@ -605,7 +605,7 @@ pre {
 }
 pre,
 code {
-  font-family: SF Mono, Courier Prime, consolas, Menlo, monospace, "PingFang SC", "PingFangSC", "PingFangSC-Regular", "PingFang TC", "PingFangTC", "PingFangTC-Regular", "Microsoft YaHei";
+  font-family: SF Mono, Courier Prime, consolas, Menlo, monospace, "PingFang SC", "PingFangSC", "PingFang TC", "PingFangTC", "思源黑体", "思源黑体 CN", "SourceHanSansSC", "SourceHanSansTC", "Microsoft YaHei";
 }
 code {
   border-radius: 3px;
@@ -1380,7 +1380,7 @@ pre code {
   color: var(--brand-hover-color);
 }
 .site-title {
-  font-family: "Permanent Marker", "Baskerville-BoldItalic", "BellMT-BoldItalic", Baskerville, Permanent Marker, Monda, Lato, "PingFang SC", "PingFangSC", "PingFangSC-Regular", "PingFang TC", "PingFangTC", "PingFangTC-Regular", "Microsoft YaHei", sans-serif;
+  font-family: "Permanent Marker", "Baskerville-BoldItalic", "BellMT-BoldItalic", Baskerville, Permanent Marker, Monda, Lato, "PingFang SC", "PingFangSC", "PingFang TC", "PingFangTC", "思源黑体", "思源黑体 CN", "SourceHanSansSC", "SourceHanSansTC", "Microsoft YaHei", sans-serif;
   font-size: 2.5em;
   font-weight: normal;
   margin: 0;
@@ -1882,13 +1882,9 @@ pre code {
   bottom: 0;
 }
 .post-body {
-  font-family: "PingFangSC-Light", "PingFangTC-Light", Merriweather, Monda, Lato, "PingFang SC", "PingFangSC", "PingFangSC-Regular", "PingFang TC", "PingFangTC", "PingFangTC-Regular", "Microsoft YaHei", sans-serif;
+  font-family: Cairo, Monda, Lato, "PingFang SC", "PingFangSC", "PingFang TC", "PingFangTC", "思源黑体", "思源黑体 CN", "SourceHanSansSC", "SourceHanSansTC", "Microsoft YaHei", sans-serif;
+  font-weight: 200;
   overflow-wrap: break-word;
-}
-@media (min-width: 1200px) {
-  .post-body {
-    font-size: 1.125em;
-  }
 }
 .post-body .exturl .fa {
   font-size: 0.875em;
@@ -1900,7 +1896,7 @@ pre code {
   font-size: 0.875em;
   font-weight: bold;
   line-height: 1;
-  margin: -20px auto 15px;
+  margin: -12px auto 15px;
   text-align: center;
 }
 .post-sticky-flag {
@@ -1924,6 +1920,9 @@ pre code {
 }
 .use-motion .collection-header {
   visibility: hidden;
+}
+figcaption {
+  display: none;
 }
 .posts-collapse {
   margin-bottom: 35px;
@@ -2200,7 +2199,7 @@ pre code {
 }
 .posts-expand .post-meta {
   color: #999;
-  font-family: "PingFangSC-Light", "PingFangTC-Light", Merriweather, Monda, Lato, "PingFang SC", "PingFangSC", "PingFangSC-Regular", "PingFang TC", "PingFangTC", "PingFangTC-Regular", "Microsoft YaHei", sans-serif;
+  font-family: Cairo, Monda, Lato, "PingFang SC", "PingFangSC", "PingFang TC", "PingFangTC", "思源黑体", "思源黑体 CN", "SourceHanSansSC", "SourceHanSansTC", "Microsoft YaHei", sans-serif;
   font-size: 0.75em;
   margin-top: 3px;
 }
