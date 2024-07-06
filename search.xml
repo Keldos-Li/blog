@@ -119,6 +119,190 @@
       </tags>
   </entry>
   <entry>
+    <title>QQ变更声明</title>
+    <url>/2021/06/QQ%E5%8F%98%E6%9B%B4%E5%A3%B0%E6%98%8E/</url>
+    <content><![CDATA[<p>因本人操作不慎，腾讯将我原来的QQ账号（2570358726）永久冻结。经过几次申诉均无效。封号原因不便多说。个人坚持认为是腾讯僭越管理职能封号，本人所作所为合理合法。</p>
+<p>如需要QQ联系请加新账号（不放了，盲猜我会来加你），或请添加我微信账号。</p>
+<p>如需验证本人身份，可拨打电话等。若您没有本人电话，询问问题也是合理的。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>班徽评选</title>
+    <url>/2020/11/banhui/</url>
+    <content><![CDATA[<p>原班徽设计已留档删除，不再放在我的网站。需要查看请联系我。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>，逗号还在行首？【图纸中的文字排印之标点悬挂】</title>
+    <url>/2024/07/douhaozaihangshou/</url>
+    <content><![CDATA[<p>由于建筑学和规划的教学共性呢，（几乎）所有同学的图纸排版和设计都是自学的。这带来了一个很大的问题，那就是大家对<strong>平面设计</strong>的基础知识了解太少，做出来的图纸要么很丑陋，要么尽力做好看和花哨了，但许多细节有大问题。怎么说平面设计也是设计，虽然优秀与否见仁见智，但有没有<strong>错误</strong>是客观的，就好比控规图居住用地不能用红色填充一样，一个基础错误往往会导致整张图纸惨不忍睹。</p>
+<p>至少是我自己看不下去。我每次找图纸看，看到排版问题，我内心对这张图的评价就会直接拉低（「这图凭什么拿一等奖！垃圾🤮」），所以，为了避免我吐tong槽ma你的图纸，请学一些基础的排版知识吧！</p>
+<p>我不敢说自己图纸排版做的多好看，但<strong>文字排印</strong>（typography）应该是没有硬伤的。这个专栏里，Keldos 打算针对建筑学和城乡规划（风景园林呢？景观的同学早点转行吧谢谢）的图纸科普一些文字排印的细节。让我们慢慢来。这是该系列的第一篇，让我来讲讲「<strong>标点悬挂</strong>」。<a id="more"></a></p>
+<h2 id="在行首的标点">在行首的标点</h2>
+<p>这个学期在做 WUPENICITY 的城市设计竞赛，一直在翻前两年的获奖图纸。说实话，如果认真看，（无论是好看的提名作品还是难看的一等奖作品）几乎没有一张图能做到没有问题。真烂啊，要我肯定不给一等奖。我随手就截了几张图，大家能发现这几张优秀图纸里的文字有什么问题没有？</p>
+<p><img src="https://r2.keldos.me/d1bfdf36e1e2587f032d3d7afd6684fd.png" alt="错图1" /> <img src="https://r2.keldos.me/2180ddf9b62fa17dd6e4765d8e782f9d_720.png" alt="错图2" /> <img src="https://r2.keldos.me/speedxsick.png" alt="错图3" /></p>
+<p>上完小学二年级的你已经发现了——</p>
+<p>第一张图的顿号「、」和分号「；」，第二张图的后引号「”」和第三张图的顿号「、」出现在了行首！</p>
+<p>「小学老师就告诉我，这些标点不能放在一行的开头。」你委屈地说，「要是我在稿纸上写我肯定不会犯这些错误。」</p>
+<p>是啊，都2024年了，计算机为什么还不帮我把这些标点挪到行尾呢？明明 Word 这种垃圾软件都不会出这些问题呀！</p>
+<figure>
+<img src="https://r2.keldos.me/Pasted%20image%2020240706162412.png" alt="气疯设计师" /><figcaption aria-hidden="true">气疯设计师</figcaption>
+</figure>
+<p>你是不是在用 Adobe Photoshop 或者 Adobe Illustrator 画图？？</p>
+<p>——！！！你怎么知道的！！垃圾 Adobe！我已经一个一个词删过去调整了额，这里剩下几个忘记了。</p>
+<p>😐</p>
+<p>好吧，下面让我们重新从中文标点讲起……</p>
+<h2 id="标点避头尾">标点避头尾</h2>
+<p>小学二年级老师就教过我们，有一些标点符号不能出现在行头（而另外一些不能出现在行尾），因此在排版时要分别让它们避开行头、行尾的位置，简称「避头尾」。</p>
+<p>实际上，针对各种标点，各种编辑风格其实不尽统一——但如果你高考前语文成绩不错，你可能知道要来找国标的推荐性规范，避免高考前几个病句选择题选不出来，因此你找到了<a href="http://c.gb688.cn/bzgk/gb/showGb?type=online&amp;hcno=22EA6D162E4110E752259661E1A0D0A8">国标 GB/T 15834-2011《标点符号用法》</a>，这正是我国教育部接受的指定用法，里面「<strong>5. 标点符号的位置和书写形式</strong>」中，正写明了：</p>
+<ul>
+<li>着重号、专名号不在「行内」而在「行间」，不属于避头尾处理范围。</li>
+<li>点号，包括句号、问号、叹号、逗号、顿号、分号、冒号，都要避头。</li>
+<li>标号中的引号、括号、书名号：前一半避尾，后一半避头。</li>
+<li>标号中的连接号（–）、间隔号（·）都不能出现在行头。</li>
+<li>标号中的分隔号（/）不能出现在行头也不出现在行尾。</li>
+</ul>
+<figure>
+<img src="https://r2.keldos.me/国标对标点位置要求.png" alt="国标对标点位置要求" /><figcaption aria-hidden="true">国标对标点位置要求</figcaption>
+</figure>
+<p>这里还是得提一句，这份国标只是一份推荐性标准，其他排版或出版的行业性规范中，对分隔号与连接号、间隔号的避头尾规则可能有其他的要求……尤其是省略号与破折号的避头尾规则，有不同的<strong>风格</strong>选择。这又涉及到了<em>间距调整</em>的知识……让我们下一篇再讲吧。</p>
+<p>聪明的你可能还会提醒我，除了标点，还有各种符号，尤其是与数字相关的符号在文章中也需要避头尾，比如百分号 ％、千分号 ‰ 需要避头，前置货币符号如￥＄需要避尾。这会是一个<em>如何断行</em>的问题……嗯，又是另一篇文章了。</p>
+<p>好了，现在你已经复习了标点的避头尾要求，你开始疑惑了：「我知道，你给我400字的稿纸我绝对不会搞错的，我还知道要把冒号和前引号放在同一个格子里（<em>标点挤压</em>，之后再讲吧），可是为什么我画图的时候就不对了呢？」</p>
+<p>下面，让我们进入计算机中的文字排印的原理吧！（bushi）</p>
+<h2 id="避头尾是怎么实现的">避头尾是怎么实现的？</h2>
+<p>在纸质书写的时候，我们可以手动控制标点的位置。在铅字排版的时候，我们可以手动调整标点铅块的位置。显然那，电脑排版的时候，我们也可以手动换行，避免标点出现在第一个字（bushi）。</p>
+<p>开个玩笑，我们并不想手动换行或者删字（虽然确实很多人会这么做）。我们希望计算机能够智能地预判标点是否可能会出现在行首（或者行尾），并以此智能地动态调整。</p>
+<p>不同的软件实现避头尾有不同的内部算法和不同的风格选择，尤其是涉及到标点挤压或标点悬挂之后。让我借用 Eric 文章中的图来解释决策算法：</p>
+<p>如下图，最后一个字是「客」，然后是句号。如果不做任何处理，句号将会出现在下一行的开头。</p>
+<figure>
+<img src="https://www.thetype.com/wp-content/uploads/2018/03/bitouwei-duanhang.png" alt="例句" /><figcaption aria-hidden="true">例句</figcaption>
+</figure>
+<p>如果你对排版规则了解更多，你可能会知道这行字在各排版软件中更容易执行标点挤压，也就是把最后一个字挤进这一行，如 InDesign：</p>
+<figure>
+<img src="https://r2.keldos.me/20240706210722.png" alt="InDesign中的默认处理" /><figcaption aria-hidden="true">InDesign中的默认处理</figcaption>
+</figure>
+<p>标点挤压也有很多策略，比如你会发现 InDesign 挤压了几个点号的宽度而没动文字。这里先不展开。</p>
+<p>但如果是网页排版等策略，或无法挤进，或风格选择，决定把「客。」字段整段推出到下一行，而上一行空出了一个字宽的空间。根据不同方针，在撑开调整时，也会有不同的策略选择：</p>
+<figure>
+<img src="https://www.thetype.com/wp-content/uploads/2018/04/bitouwei-tuichu1.png" alt="不同的推出效果" /><figcaption aria-hidden="true">不同的推出效果</figcaption>
+</figure>
+<blockquote>
+<p>「甲」的效果，是包括国产字处理软件 WPS 以及很多网页排版唯一能实现的效果，即推出字段之后，上一行所有字符根据「两端对齐」算法指令强行拉开，把一个字宽均摊到二十处字间距里。这个方法虽然把每处的调整空隙降到最低（1/20 字宽），但其打破了字距的密排原则，实际的字距会与其他行不同。 ……</p>
+</blockquote>
+<p>（其他效果是不同的风格选择或策略造成的，这里不展开了。）</p>
+<p>大家不用知道更细的算法原理了，下面让我来看怎么画图吧！</p>
+<h2 id="画图时的设置">画图时的设置</h2>
+<p>先等等，我们从文本和汇报开始！<del>什么你是建筑学的不用做文本？😢</del></p>
+<h3 id="microsoft-word">Microsoft Word</h3>
+<p>Word 默认是开启避头尾的，所以你可能很满意自己的排版。如果你想要进行更具体的调整，可以在「段落→中文版式→选项」里的「首尾字符」选项中进行设置。</p>
+<figure>
+<img src="https://r2.keldos.me/20240706212424.png" alt="Word设置避头尾" /><figcaption aria-hidden="true">Word设置避头尾</figcaption>
+</figure>
+<p>另外，Word 在默认情况下开启了「压缩标点符号」，因此从实际效果来说，Word 在避头尾时是执行「先挤进」原则：当行尾不足以放一个标点或者遇到避头点时，Word 会先尝试对行内标点宽度进行挤压，腾出空间把标点放到行尾上。</p>
+<h3 id="microsoft-powerpoint">Microsoft PowerPoint</h3>
+<p>我知道，现在你全在用 PPT 做汇报文本，根本不用 Word。放心，学会了这个技能，设计院也<strong>不会</strong>给你我多发工资的！</p>
+<p>PowerPoint 的避头尾设置则在「段落→换行符和对齐方式」中换行符的选项菜单中。（聪明的你甚至发现了PPT是没有标点挤压的，真难过呀。）</p>
+<figure>
+<img src="https://r2.keldos.me/20240706213748.png" alt="PowerPoint 设置避头尾" /><figcaption aria-hidden="true">PowerPoint 设置避头尾</figcaption>
+</figure>
+<h3 id="adobe-photoshop-和-adobe-illustrator">Adobe Photoshop 和 Adobe Illustrator</h3>
+<p>为什么我一眼就可以瞄出你的图纸是用 PS 或者 Ai 做的呢？诶，因为它们默认都没有帮你启用避头尾规则！显然，用 PS 的都是专业的平面设计师，做规划的小萌新画图为什么不直接用 PPT 画呢？</p>
+<figure>
+<img src="https://r2.keldos.me/20240706221523.png" alt="左侧是默认的效果，右侧是调整后的效果" /><figcaption aria-hidden="true">左侧是默认的效果，右侧是调整后的效果</figcaption>
+</figure>
+<p>其实很简单，在 PS 中，你只需要在「段落」面板中将避头尾设置为 「JIS 宽松」，将「标点挤压」设置为「间距组合1」；</p>
+<p>在 Ai 中，则是「段落」面板中将「避头尾集」设置为「宽松」，「标点挤压集」设置为「行尾挤压全角」。</p>
+<figure>
+<img src="https://r2.keldos.me/20240706225247.png" alt="PS与Ai中 设置避头尾" /><figcaption aria-hidden="true">PS与Ai中 设置避头尾</figcaption>
+</figure>
+<p>你可能发现了，为啥好像不管是 Word 还是这里避头尾都有个「宽松」还是「严格」的预设集合可以选择。这又是什么意思？这两个设置有什么区别？</p>
+<p>答案是，如果你是中文用户，也不用它们写日文，那么就是……没有什么太大区别。目前各家软件「严格」「宽松」的设置基本都是针对日文排版需求的设置，二者最大的区别是针对日文「拗促音」的小写假名以及片假名长音等符号的不同处理方式，与中文排版无关。所以我推荐大家选择「宽松」就好。</p>
+<p>至于下面的标点挤压集应该选什么，倒开始偏向风格选择了。我个人会习惯按照「行尾挤压全角」类似的设置来，这样标点会宽一些，两端对齐需要添加的多余空白不会太影响到文字间距。</p>
+<figure>
+<img src="https://r2.keldos.me/20240706225956.png" alt="标点挤压风格对比" /><figcaption aria-hidden="true">标点挤压风格对比</figcaption>
+</figure>
+<p>当然了，这是风格选择喜好。只要不出现逗号出现在行首这种错误，我一般是不会骂别人开启两端对齐之后字间距太大这种问题的。</p>
+<h3 id="adobe-indesign">Adobe InDesign</h3>
+<p>InDesign 作为专业的排版软件，对避头尾也有非常强大和全面的调整和算法。一般来说，如果你下载使用<strong>中文版</strong>的 InDesign，保持默认的效果即可。如果想要有更好的效果，也可以在「段落」面板中将「避头尾间断类型」选择「确定调整量优先级」。</p>
+<figure>
+<img src="https://r2.keldos.me/20240706215516.png" alt="InDesign设置避头尾" /><figcaption aria-hidden="true">InDesign设置避头尾</figcaption>
+</figure>
+<p>所以，如果我没有指责你的图纸错误百出，你应该感谢你使用的是 InDesign。</p>
+<h3 id="用网页排版">用网页排版……</h3>
+<p>我知道有人在用 Figma 之类的基于网页技术的软件做排版，或者就是在排一个网页。网页的标点避头尾和挤压规则可以参考 W3C 《中文排版需求》的<a href="https://www.w3.org/TR/clreq/#prohibition_rules_for_line_start_end">「3.1.4 行首行尾禁则」</a>等节和 <a href="http://unicode.org/reports/tr14/">Unicode 标准附件第十四号《Unicode 断行算法》（UAX14）</a> 以及 《CSS 文本模块》第五章<a href="https://drafts.csswg.org/css-text-3/#line-breaking">「断行与词界」</a>。值得注意的是，由于现代中文蝌蚪引号与西文共享一个码位，也会产生不少问题。但这里也不展开了哦。</p>
+<p>恭喜！现在，你已经学会做出一个基本正确的文本框了，下面，试一试排一本30万字的书吧！（bushi）</p>
+<p><strong>参考资料</strong></p>
+<ul>
+<li>刘庆. <a href="https://www.thetype.com/2018/05/14501/">挤进推出避头尾</a>.</li>
+<li><a href="http://c.gb688.cn/bzgk/gb/showGb?type=online&amp;hcno=22EA6D162E4110E752259661E1A0D0A8">GB/T 15834-2011 标点符号用法</a>.</li>
+</ul>
+<hr />
+<h2 id="附1-我对标点的看法">附1　我对标点的看法</h2>
+<p>我其实是个不太纠结别人用不用标点或者有没有滥用标点的人，你要是用句号代替省略号。。。或者用，，，来体现你的纠结语气，甚至一整段话完全不打标点 只用空格 来代替一句话的停顿甚至完全不打标点或空格就像古文一样我都非常可以接受。</p>
+<p>川虎之前给我看<a href="https://www.gzblog.tech/2024/03/blog-post.html">他对现代网民乱用标点的看法</a>，觉得用标点体现对对方尊重，我是不太认同的。</p>
+<p>毕竟，标点本身就是一个新东西，你感兴趣甚至可以看 <a href="https://zh.wikisource.org/zh/請頒行新式標點符號議案（修正案）">《请颁行新式标点符号议案（修正案）》</a>，这是马裕藻、周作人、朱希祖、刘复、钱玄同、胡适于 1919 年编撰的，可是中文标点的雏形啊。虽然我们现在基本约定俗成了各种标点的规范用法，但它们仍然只是刚形成100年左右的新东西。某种程度上讲，标点符号使用还在不断演变和优化过程中。</p>
+<p>所以你要是发明什么，。？。的用法，然后通篇这么用，我可不介意。只要你这个使用方式是表达了你的什么混沌的意识或者阴暗爬行的精神状态之类，就没关系。</p>
+<p>但是，如果你正在试着在<strong>以某种正确的方式使用标点</strong>，比如，你正在写你的设计说明，你一句话停顿用逗号，一句话结束用句号，这些都很符合一般的规则。这时候你突然说我要用「。。。」来代替省略号啦，我要把逗号放在一行开头啦，我则会觉得莫名其妙。</p>
+<p>反正就是，你要是好好用了，你就通篇好好用，不要混一两个错误进来觉得无所谓。</p>
+<p>说是网络时代大家都乱用标点也好，或者是现代网页排版技术不支持太多标点规则也好，你可能对这些不太感冒，「我就这么用了，没关系吧」「只是推荐性标准罢了，又不是强制性，凭什么说我错？」</p>
+<p>Eric 写得很好：</p>
+<blockquote>
+<p>在中华人民共和国新闻出版总署发布的《图书质量管理规定》里所附「图书编校质量差错率计算方法」明确指出「标点符号误在行首、行末的，每处计 0.1 个差错。」不避头尾，在正规出版社的出版物里是应该杜绝的纠错现象，为什么到了现代的软件里却可以熟视无睹？</p>
+</blockquote>
+<p>总之，要乱用就乱用，要好好用就好好用，不要一边好好用一边乱用。</p>
+<h2 id="附2-标点和字体的关系">附2　标点和字体的关系</h2>
+<p>看一个例子。</p>
+<p>2017 年 8 月，微软公司在「Window 10 秋季创意者」版本里对「微软雅黑」进行了更新，第一点就提到了「标点符号位置改进」。</p>
+<figure>
+<img src="https://www.thetype.com/wp-content/uploads/2018/03/MS-Yahei-Update.png" alt="微软更新微软雅黑" /><figcaption aria-hidden="true">微软更新微软雅黑</figcaption>
+</figure>
+<p>正如版本更新的说明所述，微软雅黑这次修改的原因是要「严格遵照标准」。反过来也就是说，自 2007 年诞生直到 2017 年新版发布，十年以来这款字体的标点位置一直都不符合国家标准……</p>
+<p>也就是说，标点用的对不对，和字体可能也是有关系的。除了这些基础的标点，还容易体现在字体上的是破折号「——」，破折号的中间能不能连上？嗯，这又涉及到了 OpenType 字体的 <code>ccmp</code> 特性，下次再讲吧。</p>
+<p>补充一句，微软雅黑真的是一款很差劲的字体。我不知道为什么大家这么喜欢在 PPT 和汇报文本里面用它，它现在甚至不是默认的中文字体了。是因为眼瞎觉得微软雅黑很好看吗？</p>
+<p>说到字体，我这几天试着制作了一款像素风格的西文可变字体（暂时只支持英文使用的部分拉丁化字母），如果有人有兴趣可以看看：<a href="https://github.com/Keldos-Li/slantel-dos-pixel">Slantel Dos Pixel</a>。</p>
+<p><img src="https://r2.keldos.me/A4_0@12x.png" alt="样张1" /> <img src="https://r2.keldos.me/A4_1@12x.png" alt="样张2" /> <img src="https://r2.keldos.me/A4_2@12x.png" alt="样张3" /> <img src="https://r2.keldos.me/A4_3@12x.png" alt="样张4" /></p>
+]]></content>
+      <tags>
+        <tag>排版</tag>
+        <tag>文字排印</tag>
+        <tag>教学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>祝我生日快乐~</title>
+    <url>/2023/04/happy-birthday-2023/</url>
+    <content><![CDATA[<p>又一年了哇。祝我生日快乐。<a id="more"></a></p>
+<p>或许生日的时机太不合适了。每年这个时候都是期中考，出图，论文，pre，考试，甚至体测……全都撞在一起了……今年还有hhy，天哪，本来就是每周都想去死了，而这周要完整的方案汇报。唉。太痛苦了。</p>
+<p>这个学期，太难了，太难了。每周都是为了周一的交图而度过的。每周日，我早早来到专教，开始画图，啪，毫无节律的一天，晚上七八点吃个晚饭，十点跑个步，十一点去吃个宵夜，然后接着画，画到两三点，实在受不了了，回寝睡个觉，早上八点多起来接着画。大概率还是画不完的。午饭也可能来不及吃。翘了毛概课，然后在专教接着画到两点五十，然后急急忙忙打开学在浙大，把一坨图和ppt和pdf交上去。周二汇报完，就感觉一切都结束了。放空到周五，期间当然是还要赶别的课的作业的，然后，啪，又开始噩梦循环。</p>
+<p>我不知道为什么会这样。为什么呢？</p>
+<p>是够累了。我仿佛回到了大一那会儿。专教还在东教，我也还没自行车。每天晚上两三点，从顶楼走到地下车库，走一圈找不到共享单车，便慢慢沿着人行道从东教漫步回紫云，听着垃圾车在路上跑，路灯简单地发着黄光，我的影子长长的。这段路走得慢，大概要二十分钟。要是到四点，还能听见鸟儿在喳喳叫。回去的路上说不定还能碰上保洁阿姨骑着电驴往教学楼赶，人家上班我下班，不错。</p>
+<p>现在倒是有自行车了，终于。戴上耳机，两点，整条车道就我一个人在路上晃晃悠悠地骑，放上 Kanye West 的 Run away，眼泪一下子就流下来了：为什么呢？为什么会过成现在这个样子呢？</p>
+<p>我真的不理解。怎么就成了现在这个样子。一天，一天，一天，一周，一周，一周。我恨。</p>
+<p>这样的生活真的，太没有意义了。我好像什么都没有学到。但我什么都要做。</p>
+<hr />
+<p>说点开心的事吧。今天确实几乎啥也没干了。我想给自己放个假——当然，可能几天之后更来不及了。算了。通个宵没什么问题，要是不行，就通两个。</p>
+<p>这学期，我至少做了些有意义的事情……或者说，能让我开心的事情。</p>
+<p>我在给 https://github.com/GaiZhenbiao/ChuanhuChatGPT 打下手。截止我写这段话的时候，它已经有 8.7k star 了！</p>
+<p>我知道我的主要读者都是不懂技术的，大概连github也不会上……所以我就不详细介绍了。大家明白这个项目为 ChatGPT/ChatGLM/LLaMA 等多种 LLM （大型语言模型）提供了一个轻快好用的Web图形界面 就行了。要是还是不明白，要不就理解为，<strong>它可以提供本地部署ChatGPT 的对话服务就行。</strong></p>
+<figure>
+<img src="https://user-images.githubusercontent.com/51039745/226255695-6b17ff1f-ea8d-464f-b69b-a7b6b68fffe8.gif" alt="preview" /><figcaption aria-hidden="true">preview</figcaption>
+</figure>
+<p>奇妙啊，写写CSS，JavaScript，管管issue、pr，写点文档，这些琐事，tmd我都感觉是一种美妙的消遣！debug 相比画图，都是多么美妙的体验啊！至少它真的能给我点成就感。而临浦镇呢？天哪，又有什么规划的意义呢？我真的没有动力给一个普普通通的小镇做假的规划。假题假做，反正一切都不会实现，做起来不过是苦逼画图工罢了。</p>
+<p>哦，这部分我不该散布不好的情绪。</p>
+<p>但今晚我确实很开心！啊，我可爱的朋友们。</p>
+<p>烟囱已经第二年为我提供大会员服务了~（除了可能有点缺乏新意……但我确实很能用上这个hhh）</p>
+<p><img src="https://pic.imgdb.cn/item/6436da700d2dde5777f957a7.jpg" /></p>
+<p>以及……感谢 <a href="https://space.bilibili.com/29125536">川虎</a> 和 <a href="https://space.bilibili.com/24807452">昭昭</a>！我收获了一大堆杭电计算机学院的纪念品！哈哈哈，不过我没有那么多钥匙能挂上那么多钥匙扣（）。也没有那么多鼠标能用上那么多鼠标垫（）。（我的桌子上全是源源头像，源源立牌，源源贴纸，甚至还有一个源源玩偶！<del>我一直以为是猿猿，结果他俩告诉我是源源，好吧</del>） 还有超大号的回车键！太奇怪了！它真的能用！</p>
+<p><img src="https://pic.imgdb.cn/item/6436db580d2dde5777fb338b.jpg" /></p>
+<p>真好哇。</p>
+<p>又12点多了。今天宜早睡。</p>
+<p>各位晚安。明天会是美好的一天。（但我并不保证后天以及大后天以及周末和下周到学期末）</p>
+]]></content>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>博文非HTML语法小计</title>
     <url>/2020/08/hello-world/</url>
     <content><![CDATA[<h2 id="centered-quote">Centered Quote</h2>
@@ -288,52 +472,156 @@ section Go home
       </tags>
   </entry>
   <entry>
-    <title>班徽评选</title>
-    <url>/2020/11/banhui/</url>
-    <content><![CDATA[<p>原班徽设计已留档删除，不再放在我的网站。需要查看请联系我。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>祝我生日快乐~</title>
-    <url>/2023/04/happy-birthday-2023/</url>
-    <content><![CDATA[<p>又一年了哇。祝我生日快乐。<a id="more"></a></p>
-<p>或许生日的时机太不合适了。每年这个时候都是期中考，出图，论文，pre，考试，甚至体测……全都撞在一起了……今年还有hhy，天哪，本来就是每周都想去死了，而这周要完整的方案汇报。唉。太痛苦了。</p>
-<p>这个学期，太难了，太难了。每周都是为了周一的交图而度过的。每周日，我早早来到专教，开始画图，啪，毫无节律的一天，晚上七八点吃个晚饭，十点跑个步，十一点去吃个宵夜，然后接着画，画到两三点，实在受不了了，回寝睡个觉，早上八点多起来接着画。大概率还是画不完的。午饭也可能来不及吃。翘了毛概课，然后在专教接着画到两点五十，然后急急忙忙打开学在浙大，把一坨图和ppt和pdf交上去。周二汇报完，就感觉一切都结束了。放空到周五，期间当然是还要赶别的课的作业的，然后，啪，又开始噩梦循环。</p>
-<p>我不知道为什么会这样。为什么呢？</p>
-<p>是够累了。我仿佛回到了大一那会儿。专教还在东教，我也还没自行车。每天晚上两三点，从顶楼走到地下车库，走一圈找不到共享单车，便慢慢沿着人行道从东教漫步回紫云，听着垃圾车在路上跑，路灯简单地发着黄光，我的影子长长的。这段路走得慢，大概要二十分钟。要是到四点，还能听见鸟儿在喳喳叫。回去的路上说不定还能碰上保洁阿姨骑着电驴往教学楼赶，人家上班我下班，不错。</p>
-<p>现在倒是有自行车了，终于。戴上耳机，两点，整条车道就我一个人在路上晃晃悠悠地骑，放上 Kanye West 的 Run away，眼泪一下子就流下来了：为什么呢？为什么会过成现在这个样子呢？</p>
-<p>我真的不理解。怎么就成了现在这个样子。一天，一天，一天，一周，一周，一周。我恨。</p>
-<p>这样的生活真的，太没有意义了。我好像什么都没有学到。但我什么都要做。</p>
-<hr />
-<p>说点开心的事吧。今天确实几乎啥也没干了。我想给自己放个假——当然，可能几天之后更来不及了。算了。通个宵没什么问题，要是不行，就通两个。</p>
-<p>这学期，我至少做了些有意义的事情……或者说，能让我开心的事情。</p>
-<p>我在给 https://github.com/GaiZhenbiao/ChuanhuChatGPT 打下手。截止我写这段话的时候，它已经有 8.7k star 了！</p>
-<p>我知道我的主要读者都是不懂技术的，大概连github也不会上……所以我就不详细介绍了。大家明白这个项目为 ChatGPT/ChatGLM/LLaMA 等多种 LLM （大型语言模型）提供了一个轻快好用的Web图形界面 就行了。要是还是不明白，要不就理解为，<strong>它可以提供本地部署ChatGPT 的对话服务就行。</strong></p>
-<figure>
-<img src="https://user-images.githubusercontent.com/51039745/226255695-6b17ff1f-ea8d-464f-b69b-a7b6b68fffe8.gif" alt="preview" /><figcaption aria-hidden="true">preview</figcaption>
-</figure>
-<p>奇妙啊，写写CSS，JavaScript，管管issue、pr，写点文档，这些琐事，tmd我都感觉是一种美妙的消遣！debug 相比画图，都是多么美妙的体验啊！至少它真的能给我点成就感。而临浦镇呢？天哪，又有什么规划的意义呢？我真的没有动力给一个普普通通的小镇做假的规划。假题假做，反正一切都不会实现，做起来不过是苦逼画图工罢了。</p>
-<p>哦，这部分我不该散布不好的情绪。</p>
-<p>但今晚我确实很开心！啊，我可爱的朋友们。</p>
-<p>烟囱已经第二年为我提供大会员服务了~（除了可能有点缺乏新意……但我确实很能用上这个hhh）</p>
-<p><img src="https://pic.imgdb.cn/item/6436da700d2dde5777f957a7.jpg" /></p>
-<p>以及……感谢 <a href="https://space.bilibili.com/29125536">川虎</a> 和 <a href="https://space.bilibili.com/24807452">昭昭</a>！我收获了一大堆杭电计算机学院的纪念品！哈哈哈，不过我没有那么多钥匙能挂上那么多钥匙扣（）。也没有那么多鼠标能用上那么多鼠标垫（）。（我的桌子上全是源源头像，源源立牌，源源贴纸，甚至还有一个源源玩偶！<del>我一直以为是猿猿，结果他俩告诉我是源源，好吧</del>） 还有超大号的回车键！太奇怪了！它真的能用！</p>
-<p><img src="https://pic.imgdb.cn/item/6436db580d2dde5777fb338b.jpg" /></p>
-<p>真好哇。</p>
-<p>又12点多了。今天宜早睡。</p>
-<p>各位晚安。明天会是美好的一天。（但我并不保证后天以及大后天以及周末和下周到学期末）</p>
+    <title>把markdown伪装成LaTeX</title>
+    <url>/2021/05/md-latex-template/</url>
+    <content><![CDATA[<p>　　今日见该文章：<a href="https://zhuanlan.zhihu.com/p/357096043">https://zhuanlan.zhihu.com/p/357096043</a>，就拿源码玩起来了，彻底忘了自己还有微积分和美术作业。</p>
+<p>　　作者是个好人。我现在才发现<span class="math inline">\(\LaTeX\)</span>的精髓是它的字体_(:з」∠)_。</p>
+<p>　　反正就这样吧，花了一天自己改成了适合浙大的模板，加了好多改了好多，效果大概这样：</p>
+<p>　　里面的文章是我自己上学期的作业从word里贴进去的，很多图丢了，我有些也就胡乱粘贴到某些地方，没仔细看格式，主要是图能把各种样式感受感受，我也删了一整节的内容等等。具体内容不重要orz。后面是在原作者的markdown里面改的。（再次感谢原作者）</p>
+<div class="pdfobject-container" data-target="/assets/sample-essay.pdf" data-height="1000px"></div>
+<a id="more"></a>
+<p>下面这个是第一次写的预览，后面包含了更多的样式测试。新版本的项目对部分输出效果做出了改进，这里未能体现。</p>
+<div class="pdfobject-container" data-target="/assets/tempForPrev.pdf" data-height="1000px"></div>
+<p>　　以后有空会贴源码和讲解的。 等我什么时候闲下来吧。</p>
+<p>　　这是个有趣的项目。如果可以的话说不定真的可以替代我以后的大部分需求。</p>
+<p>下面是我给GitHub项目写的readme的部分：</p>
+<h2 id="预览">预览</h2>
+<h3 id="封面摘要和关键词">封面，摘要和关键词</h3>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/sample-essay_1.png" alt="sample-essay_1" /></th>
+<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/sample-essay_2.png" alt="sample-essay_2" /></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<h3 id="预览与编写">预览与编写</h3>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/preview-l.png" alt="preview-l" /></th>
+<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/preview-d.png" alt="preview-d" /></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/edit-l.png" alt="edit-l" /></td>
+<td style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/edit-d.png" alt="edit-d" /></td>
+</tr>
+</tbody>
+</table>
+<h4 id="层级标题">层级标题</h4>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/heading-l.png" alt="heading-l" /></th>
+<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/heading-d.png" /></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">层级标题：</span><br><span class="line"></span><br><span class="line"><span class="section">### 标题3</span></span><br><span class="line"></span><br><span class="line"><span class="section">#### 标题4</span></span><br><span class="line"></span><br><span class="line"><span class="section">##### 标题5</span></span><br><span class="line"></span><br><span class="line"><span class="section">###### 标题6</span></span><br></pre></td></tr></table></figure>
+<h4 id="表格">表格</h4>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/table-l.png" alt="table-l" /></th>
+<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/table-d.png" alt="table-d" /></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">表格：</span><br><span class="line"></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">center</span>&gt;</span></span><span class="xml"><span class="tag">&lt;<span class="name">strong</span>&gt;</span></span>表 2  全球/中国桌面操作系统市场份额占比（%）<span class="xml"><span class="tag">&lt;/<span class="name">strong</span>&gt;</span></span><span class="xml"><span class="tag">&lt;/<span class="name">center</span>&gt;</span></span></span><br><span class="line"></span><br><span class="line">| OS   | Windows | macOS | Unknown | Linux | Chrome OS | 其他 |</span><br><span class="line">| ---- | ------- | ----- | ------- | ----- | --------- | ---- |</span><br><span class="line">| 全球 | 76.56   | 17.1  | 2.68    | 1.93  | 1.72      | 0.01 |</span><br><span class="line">| 中国 | 87.55   | 5.44  | 6.24    | 0.75  | 0.01      | 0.01 |</span><br></pre></td></tr></table></figure>
+<h4 id="项目列表">项目列表</h4>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/item-l.png" alt="item-l" /></th>
+<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/item-d.png" alt="item-d" /></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">项目列表：</span><br><span class="line"></span><br><span class="line"><span class="bullet">1.</span>  有序列表项</span><br><span class="line"><span class="bullet">2.</span>   有序列表项2</span><br><span class="line"><span class="bullet">    +</span>   无序列表项1</span><br><span class="line"><span class="bullet">    +</span>   无序列表项2. </span><br><span class="line"><span class="bullet">        *</span>   [x] 表示已完成。 <span class="strong">**<span class="emphasis">*==(请尽量不要使用此功能，因为它的对齐效果不佳)==<span class="strong">**<span class="emphasis">*</span></span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">        *</span>   [ ] 表示未完成。</span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong"></span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">*   项目1 </span></span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">    *</span>   项目2 </span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong">        <span class="emphasis">*   项目3 </span></span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"></span></span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">1. 项目1 </span></span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">2. 项目2 </span></span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">    1. 项目2.1 </span></span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">    2. 项目2.2 </span></span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">        1. 项目2.2.1 </span></span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">        2. 项目2.2.2</span></span></span></span></span><br></pre></td></tr></table></figure>
+<h4 id="代码块">代码块</h4>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/code-l.png" alt="code-l" /></th>
+<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/code-d.png" alt="code-d" /></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">代码块</span><br><span class="line"></span><br><span class="line">​<span class="code">```html</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">&lt;!DOCTYPE html&gt;</span></span><br><span class="line"><span class="code">&lt;html&gt;</span></span><br><span class="line"><span class="code">&lt;body&gt;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">&lt;h1&gt;The *= Operator&lt;/h1&gt;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">&lt;p id=&quot;demo&quot;&gt;&lt;/p&gt;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">&lt;script&gt;</span></span><br><span class="line"><span class="code">var x = 10;</span></span><br><span class="line"><span class="code">x *= 5;</span></span><br><span class="line"><span class="code">document.getElementById(&quot;demo&quot;).innerHTML = x;</span></span><br><span class="line"><span class="code">&lt;/script&gt;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">&lt;/body&gt;</span></span><br><span class="line"><span class="code">&lt;/html&gt;</span></span><br><span class="line"><span class="code">​```</span></span><br></pre></td></tr></table></figure>
+<h4 id="mermaid">Mermaid</h4>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/mermaid-l.png" alt="mermaid-l" /></th>
+<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/mermaid-d.png" alt="mermaid-d" /></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">mermaid 图形</span><br><span class="line"></span><br><span class="line">​<span class="code">```mermaid</span></span><br><span class="line"><span class="code">graph LR</span></span><br><span class="line"><span class="code">A(开始) --&gt;</span></span><br><span class="line"><span class="code">input[/输入a,b/] --&gt; if&#123;a%b=0 ?&#125;</span></span><br><span class="line"><span class="code">if ---&gt;|yes| f1[GCD = b] --&gt; B(结束)</span></span><br><span class="line"><span class="code">if ---&gt;|no| f2[&quot;a, b = b, a % b &quot;]--&gt;if</span></span><br><span class="line"><span class="code">​```</span></span><br></pre></td></tr></table></figure>
+<h4 id="公式">公式</h4>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/equation-l.png" alt="equation-l" /></th>
+<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/equation-d.png" alt="equation-d" /></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">公式:</span><br><span class="line"></span><br><span class="line">$$</span><br><span class="line">\iint\limits<span class="emphasis">_&#123;x^2 + y^2 \leq R^2&#125; f(x,y)\,\mathrm&#123;d&#125;x\,\mathrm&#123;d&#125;y = \int_</span>&#123;\theta=0&#125;^&#123;2\pi&#125; \mathrm&#123;d&#125;\theta\int<span class="emphasis">_&#123;r=0&#125;^R f(r\cos\theta,r\sin\theta) r\,\mathrm&#123;d&#125;r\, \tag&#123;1&#125;</span></span><br><span class="line"><span class="emphasis">$$</span></span><br></pre></td></tr></table></figure>
+<h4 id="其他">其他</h4>
+<p>还有支持其他语法特性功能，这里不再展示，请参考Typora的语法库。</p>
+<p>前面摘要啊封面啥的代码（封面代码改的是@<a href="https://www.zhihu.com/people/lan-du-94-23">LAN DU</a>的）：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;cover&quot;</span> <span class="attr">style</span>=<span class="string">&quot;page-break-after:always;font-family:方正公文仿宋;width:100%;height:100%;border:none;margin: 0 auto;text-align:center;&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;width:50%;margin: 0 auto;height:0;padding-bottom:10%;&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://gitee.com/Keldos-Li/picture/raw/master/img/%E6%A0%A1%E5%90%8D-%E9%BB%91%E8%89%B2.svg&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;校名&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width:100%;&quot;</span>/&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;width:50%;margin: 0 auto;height:0;padding-bottom:40%;&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://gitee.com/Keldos-Li/picture/raw/master/img/%E6%A0%A1%E5%BE%BD-%E9%BB%91%E8%89%B2.svg&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;校徽&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width:100%;&quot;</span>/&gt;</span></span><br><span class="line">   <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;font-family:华文黑体Bold;text-align:center;font-size:20pt;margin: 10pt auto;line-height:30pt;&quot;</span>&gt;</span>《论文名称》<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">&quot;text-align:center;font-size:14pt;margin: 0 auto&quot;</span>&gt;</span>论文类型 <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">br</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">br</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">table</span> <span class="attr">style</span>=<span class="string">&quot;border:none;text-align:center;width:72%;font-family:仿宋;font-size:14px; margin: 0 auto;&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">tbody</span> <span class="attr">style</span>=<span class="string">&quot;font-family:方正公文仿宋;font-size:12pt;&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tr</span> <span class="attr">style</span>=<span class="string">&quot;font-weight:normal;&quot;</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:20%;text-align:right;&quot;</span>&gt;</span>题　　目<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:2%&quot;</span>&gt;</span>：<span class="tag">&lt;/<span class="name">td</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:仿宋&quot;</span>&gt;</span> 论文题目<span class="tag">&lt;/<span class="name">td</span>&gt;</span>     <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tr</span> <span class="attr">style</span>=<span class="string">&quot;font-weight:normal;&quot;</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:20%;text-align:right;&quot;</span>&gt;</span>上课时间<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:2%&quot;</span>&gt;</span>：<span class="tag">&lt;/<span class="name">td</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:仿宋&quot;</span>&gt;</span> 上课时间<span class="tag">&lt;/<span class="name">td</span>&gt;</span>     <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tr</span> <span class="attr">style</span>=<span class="string">&quot;font-weight:normal;&quot;</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:20%;text-align:right;&quot;</span>&gt;</span>授课教师<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:2%&quot;</span>&gt;</span>：<span class="tag">&lt;/<span class="name">td</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:仿宋&quot;</span>&gt;</span>教师姓名 <span class="tag">&lt;/<span class="name">td</span>&gt;</span>     <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tr</span> <span class="attr">style</span>=<span class="string">&quot;font-weight:normal;&quot;</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:20%;text-align:right;&quot;</span>&gt;</span>姓　　名<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:2%&quot;</span>&gt;</span>：<span class="tag">&lt;/<span class="name">td</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:仿宋&quot;</span>&gt;</span> 你的名字<span class="tag">&lt;/<span class="name">td</span>&gt;</span>     <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tr</span> <span class="attr">style</span>=<span class="string">&quot;font-weight:normal;&quot;</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:20%;text-align:right;&quot;</span>&gt;</span>学　　号<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:2%&quot;</span>&gt;</span>：<span class="tag">&lt;/<span class="name">td</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:仿宋&quot;</span>&gt;</span>你的学号 <span class="tag">&lt;/<span class="name">td</span>&gt;</span>     <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tr</span> <span class="attr">style</span>=<span class="string">&quot;font-weight:normal;&quot;</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:20%;text-align:right;&quot;</span>&gt;</span>组　　别<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:%&quot;</span>&gt;</span>：<span class="tag">&lt;/<span class="name">td</span>&gt;</span> </span><br><span class="line">         <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:仿宋&quot;</span>&gt;</span> 你的组别<span class="tag">&lt;/<span class="name">td</span>&gt;</span>     <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tr</span> <span class="attr">style</span>=<span class="string">&quot;font-weight:normal;&quot;</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:20%;text-align:right;&quot;</span>&gt;</span>日　　期<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:2%&quot;</span>&gt;</span>：<span class="tag">&lt;/<span class="name">td</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:仿宋&quot;</span>&gt;</span>完成日期<span class="tag">&lt;/<span class="name">td</span>&gt;</span>     <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">tbody</span>&gt;</span>              </span><br><span class="line">    <span class="tag">&lt;/<span class="name">table</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"># 计算机工作枢纽——操作系统</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">center</span>&gt;</span><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&#x27;height:2mm;&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;font-family:华文楷体-Regular-SC;font-size:14pt;&quot;</span>&gt;</span>李京蔚，1234567890<span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="tag">&lt;/<span class="name">center</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">center</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;font-family:华文楷体-Regular-SC;font-size:9pt;line-height:9mm&quot;</span>&gt;</span>浙江大学云峰学园<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">center</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;width:52px;float:left; font-family:方正公文黑体;&quot;</span>&gt;</span>摘　要：<span class="tag">&lt;/<span class="name">div</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;overflow:hidden; font-family:华文楷体-Regular-SC;&quot;</span>&gt;</span>在信息化时代背景下，计算机操作系统在各行业领域中得到广泛应用。本文试图通过对计算机系统概念、功能和分类、历史的介绍，大致地给出对计算机操作系统的认识，并通过对当前主流桌面操作系统Windows和macOS的简要介绍，使读者能够对现代图形界面操作系统有一个较为全面的了解，从而喜欢上某一个操作系统，供读者参考。<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;width:52px;float:left; font-family:方正公文黑体;&quot;</span>&gt;</span>关键词：<span class="tag">&lt;/<span class="name">div</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;overflow:hidden; font-family:华文楷体-Regular-SC;&quot;</span>&gt;</span>计算机；操作系统；功能；发展；Windows；macOS；<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># Computer Work Hub — Operating System</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">center</span>&gt;</span><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&#x27;height:2mm;&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;font-size:14pt;&quot;</span>&gt;</span>Li Jingwei<span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="tag">&lt;/<span class="name">center</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">center</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;font-size:9pt;line-height:9mm&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">i</span>&gt;</span>Zhejiang University<span class="tag">&lt;/<span class="name">i</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">center</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;width:82px;float:left;line-height:16pt&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">b</span>&gt;</span>Abstract: <span class="tag">&lt;/<span class="name">b</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;overflow:hidden;line-height:16pt&quot;</span>&gt;</span>Under the background of the information age, computer operating systems are widely used in various industries. This paper tries to give a general understanding of the computer operating system by introducing the concept, functions and classifications, and history of computer systems. And by briefly introducing the current mainstream desktop operating systems Windows and macOS, readers can have a comprehensive view of modern graphical interface operating systems, and get to know thus begin to like one of them. This article is for readers&#x27; reference.<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;width:82px;float:left;line-height:16pt&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">b</span>&gt;</span>Key Words: <span class="tag">&lt;/<span class="name">b</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;overflow:hidden;line-height:16pt&quot;</span>&gt;</span>Computer; Operating System; Function; Development; Windows; macOS;<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>CSS的话……emm，我看看贴到哪里好。</p>
+<p>本来没打算在github上搞的，还是上去好了，待会把仓库和ssh连一下orz，妈的校网github又上不了了。。。。</p>
+<p>在<a href="https://github.com/Keldos-Li/typora-latex-theme">这里</a>。</p>
 ]]></content>
       <tags>
-        <tag>随笔</tag>
+        <tag>tech</tag>
+        <tag>笔记</tag>
       </tags>
   </entry>
   <entry>
-    <title>QQ变更声明</title>
-    <url>/2021/06/QQ%E5%8F%98%E6%9B%B4%E5%A3%B0%E6%98%8E/</url>
-    <content><![CDATA[<p>因本人操作不慎，腾讯将我原来的QQ账号（2570358726）永久冻结。经过几次申诉均无效。封号原因不便多说。个人坚持认为是腾讯僭越管理职能封号，本人所作所为合理合法。</p>
-<p>如需要QQ联系请加新账号（不放了，盲猜我会来加你），或请添加我微信账号。</p>
-<p>如需验证本人身份，可拨打电话等。若您没有本人电话，询问问题也是合理的。</p>
+    <title>一些美术作业</title>
+    <url>/2022/05/meishu/</url>
+    <content><![CDATA[<p>放一点点美术作业吧，部分的拍摄是随便拍的，现在也没法回头去拍，还有些反光褶皱之类的没法解决了……还有很多美术作业忘了拍照留念orz。</p>
+<p><strong><em>点击以查看放大图片。</em></strong></p>
+<a id="more"></a>
+<h3 id="大二">大二</h3>
+<p>要画不完了。。。</p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/assets/painting/水彩多色渲染.jpeg" /></div><div class="group-picture-column"><img src="/assets/painting/水彩单色渲染.jpeg" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/assets/painting/小室内.jpeg" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/assets/painting/大室内.jpeg" /></div><div class="group-picture-column"><img src="/assets/painting/临摹.jpeg" /></div></div></div>
+<p>大二下学期……：</p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/assets/painting/城市建筑渲染.jpeg" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/assets/painting/中室内.jpeg" /></div><div class="group-picture-column"><img src="/assets/painting/城市大室内.jpeg" /></div><div class="group-picture-column"><img src="/assets/painting/城市夜景.jpeg" /></div></div></div>
+<p>大三开学前还有个美术实习，画得水彩惨不忍睹，但是可以放两张我喜欢的铅笔速写：</p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/assets/painting/纪念碑1.jpeg" /></div><div class="group-picture-column"><img src="/assets/painting/纪念碑2.jpeg" /></div></div></div>
+<h3 id="大一">大一</h3>
+<p>丢了很多作业忘了拍。开始用炭笔和炭条。小河直街的写生的几张真的社死，素描大店面和通高空间都是紫金港南门出去的那个天街里写生的（不过是拍照回来画），两张2开的素描真的累。</p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/assets/painting/大店面.jpeg" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/assets/painting/小河直街写生.jpeg" /></div><div class="group-picture-column"><img src="/assets/painting/室内大场景.jpeg" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/assets/painting/桥.jpeg" /></div></div></div>
+<h3 id="初中作品">初中作品</h3>
+<p>初二那会儿考西画A级时的习作，石膏头像应该都是3小时写生。水粉现在看其实画的很不好啦……色彩感觉完全没有，也可能是这张的水平不是我最好的（？）</p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/assets/painting/小卫.jpeg" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/assets/painting/伏尔泰.jpeg" /></div><div class="group-picture-column"><img src="/assets/painting/阿格里巴.jpeg" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/assets/painting/色彩.jpeg" /></div></div></div>
 ]]></content>
+      <tags>
+        <tag>笔记</tag>
+        <tag>作业</tag>
+      </tags>
   </entry>
   <entry>
     <title>混音</title>
@@ -531,318 +819,6 @@ section Go home
 ]]></content>
       <tags>
         <tag>音乐</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>把markdown伪装成LaTeX</title>
-    <url>/2021/05/md-latex-template/</url>
-    <content><![CDATA[<p>　　今日见该文章：<a href="https://zhuanlan.zhihu.com/p/357096043">https://zhuanlan.zhihu.com/p/357096043</a>，就拿源码玩起来了，彻底忘了自己还有微积分和美术作业。</p>
-<p>　　作者是个好人。我现在才发现<span class="math inline">\(\LaTeX\)</span>的精髓是它的字体_(:з」∠)_。</p>
-<p>　　反正就这样吧，花了一天自己改成了适合浙大的模板，加了好多改了好多，效果大概这样：</p>
-<p>　　里面的文章是我自己上学期的作业从word里贴进去的，很多图丢了，我有些也就胡乱粘贴到某些地方，没仔细看格式，主要是图能把各种样式感受感受，我也删了一整节的内容等等。具体内容不重要orz。后面是在原作者的markdown里面改的。（再次感谢原作者）</p>
-<div class="pdfobject-container" data-target="/assets/sample-essay.pdf" data-height="1000px"></div>
-<a id="more"></a>
-<p>下面这个是第一次写的预览，后面包含了更多的样式测试。新版本的项目对部分输出效果做出了改进，这里未能体现。</p>
-<div class="pdfobject-container" data-target="/assets/tempForPrev.pdf" data-height="1000px"></div>
-<p>　　以后有空会贴源码和讲解的。 等我什么时候闲下来吧。</p>
-<p>　　这是个有趣的项目。如果可以的话说不定真的可以替代我以后的大部分需求。</p>
-<p>下面是我给GitHub项目写的readme的部分：</p>
-<h2 id="预览">预览</h2>
-<h3 id="封面摘要和关键词">封面，摘要和关键词</h3>
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/sample-essay_1.png" alt="sample-essay_1" /></th>
-<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/sample-essay_2.png" alt="sample-essay_2" /></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-<h3 id="预览与编写">预览与编写</h3>
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/preview-l.png" alt="preview-l" /></th>
-<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/preview-d.png" alt="preview-d" /></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/edit-l.png" alt="edit-l" /></td>
-<td style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/edit-d.png" alt="edit-d" /></td>
-</tr>
-</tbody>
-</table>
-<h4 id="层级标题">层级标题</h4>
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/heading-l.png" alt="heading-l" /></th>
-<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/heading-d.png" /></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">层级标题：</span><br><span class="line"></span><br><span class="line"><span class="section">### 标题3</span></span><br><span class="line"></span><br><span class="line"><span class="section">#### 标题4</span></span><br><span class="line"></span><br><span class="line"><span class="section">##### 标题5</span></span><br><span class="line"></span><br><span class="line"><span class="section">###### 标题6</span></span><br></pre></td></tr></table></figure>
-<h4 id="表格">表格</h4>
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/table-l.png" alt="table-l" /></th>
-<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/table-d.png" alt="table-d" /></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">表格：</span><br><span class="line"></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">center</span>&gt;</span></span><span class="xml"><span class="tag">&lt;<span class="name">strong</span>&gt;</span></span>表 2  全球/中国桌面操作系统市场份额占比（%）<span class="xml"><span class="tag">&lt;/<span class="name">strong</span>&gt;</span></span><span class="xml"><span class="tag">&lt;/<span class="name">center</span>&gt;</span></span></span><br><span class="line"></span><br><span class="line">| OS   | Windows | macOS | Unknown | Linux | Chrome OS | 其他 |</span><br><span class="line">| ---- | ------- | ----- | ------- | ----- | --------- | ---- |</span><br><span class="line">| 全球 | 76.56   | 17.1  | 2.68    | 1.93  | 1.72      | 0.01 |</span><br><span class="line">| 中国 | 87.55   | 5.44  | 6.24    | 0.75  | 0.01      | 0.01 |</span><br></pre></td></tr></table></figure>
-<h4 id="项目列表">项目列表</h4>
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/item-l.png" alt="item-l" /></th>
-<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/item-d.png" alt="item-d" /></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">项目列表：</span><br><span class="line"></span><br><span class="line"><span class="bullet">1.</span>  有序列表项</span><br><span class="line"><span class="bullet">2.</span>   有序列表项2</span><br><span class="line"><span class="bullet">    +</span>   无序列表项1</span><br><span class="line"><span class="bullet">    +</span>   无序列表项2. </span><br><span class="line"><span class="bullet">        *</span>   [x] 表示已完成。 <span class="strong">**<span class="emphasis">*==(请尽量不要使用此功能，因为它的对齐效果不佳)==<span class="strong">**<span class="emphasis">*</span></span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">        *</span>   [ ] 表示未完成。</span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong"></span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">*   项目1 </span></span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">    *</span>   项目2 </span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong">        <span class="emphasis">*   项目3 </span></span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis"></span></span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">1. 项目1 </span></span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">2. 项目2 </span></span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">    1. 项目2.1 </span></span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">    2. 项目2.2 </span></span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">        1. 项目2.2.1 </span></span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">        2. 项目2.2.2</span></span></span></span></span><br></pre></td></tr></table></figure>
-<h4 id="代码块">代码块</h4>
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/code-l.png" alt="code-l" /></th>
-<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/code-d.png" alt="code-d" /></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">代码块</span><br><span class="line"></span><br><span class="line">​<span class="code">```html</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">&lt;!DOCTYPE html&gt;</span></span><br><span class="line"><span class="code">&lt;html&gt;</span></span><br><span class="line"><span class="code">&lt;body&gt;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">&lt;h1&gt;The *= Operator&lt;/h1&gt;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">&lt;p id=&quot;demo&quot;&gt;&lt;/p&gt;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">&lt;script&gt;</span></span><br><span class="line"><span class="code">var x = 10;</span></span><br><span class="line"><span class="code">x *= 5;</span></span><br><span class="line"><span class="code">document.getElementById(&quot;demo&quot;).innerHTML = x;</span></span><br><span class="line"><span class="code">&lt;/script&gt;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">&lt;/body&gt;</span></span><br><span class="line"><span class="code">&lt;/html&gt;</span></span><br><span class="line"><span class="code">​```</span></span><br></pre></td></tr></table></figure>
-<h4 id="mermaid">Mermaid</h4>
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/mermaid-l.png" alt="mermaid-l" /></th>
-<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/mermaid-d.png" alt="mermaid-d" /></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">mermaid 图形</span><br><span class="line"></span><br><span class="line">​<span class="code">```mermaid</span></span><br><span class="line"><span class="code">graph LR</span></span><br><span class="line"><span class="code">A(开始) --&gt;</span></span><br><span class="line"><span class="code">input[/输入a,b/] --&gt; if&#123;a%b=0 ?&#125;</span></span><br><span class="line"><span class="code">if ---&gt;|yes| f1[GCD = b] --&gt; B(结束)</span></span><br><span class="line"><span class="code">if ---&gt;|no| f2[&quot;a, b = b, a % b &quot;]--&gt;if</span></span><br><span class="line"><span class="code">​```</span></span><br></pre></td></tr></table></figure>
-<h4 id="公式">公式</h4>
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/equation-l.png" alt="equation-l" /></th>
-<th style="text-align: center;"><img src="https://gitee.com/Keldos-Li/picture/raw/master/img/equation-d.png" alt="equation-d" /></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">公式:</span><br><span class="line"></span><br><span class="line">$$</span><br><span class="line">\iint\limits<span class="emphasis">_&#123;x^2 + y^2 \leq R^2&#125; f(x,y)\,\mathrm&#123;d&#125;x\,\mathrm&#123;d&#125;y = \int_</span>&#123;\theta=0&#125;^&#123;2\pi&#125; \mathrm&#123;d&#125;\theta\int<span class="emphasis">_&#123;r=0&#125;^R f(r\cos\theta,r\sin\theta) r\,\mathrm&#123;d&#125;r\, \tag&#123;1&#125;</span></span><br><span class="line"><span class="emphasis">$$</span></span><br></pre></td></tr></table></figure>
-<h4 id="其他">其他</h4>
-<p>还有支持其他语法特性功能，这里不再展示，请参考Typora的语法库。</p>
-<p>前面摘要啊封面啥的代码（封面代码改的是@<a href="https://www.zhihu.com/people/lan-du-94-23">LAN DU</a>的）：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;cover&quot;</span> <span class="attr">style</span>=<span class="string">&quot;page-break-after:always;font-family:方正公文仿宋;width:100%;height:100%;border:none;margin: 0 auto;text-align:center;&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;width:50%;margin: 0 auto;height:0;padding-bottom:10%;&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://gitee.com/Keldos-Li/picture/raw/master/img/%E6%A0%A1%E5%90%8D-%E9%BB%91%E8%89%B2.svg&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;校名&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width:100%;&quot;</span>/&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;width:50%;margin: 0 auto;height:0;padding-bottom:40%;&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://gitee.com/Keldos-Li/picture/raw/master/img/%E6%A0%A1%E5%BE%BD-%E9%BB%91%E8%89%B2.svg&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;校徽&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width:100%;&quot;</span>/&gt;</span></span><br><span class="line">   <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span><span class="tag">&lt;/<span class="name">br</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;font-family:华文黑体Bold;text-align:center;font-size:20pt;margin: 10pt auto;line-height:30pt;&quot;</span>&gt;</span>《论文名称》<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">&quot;text-align:center;font-size:14pt;margin: 0 auto&quot;</span>&gt;</span>论文类型 <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">br</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">br</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">table</span> <span class="attr">style</span>=<span class="string">&quot;border:none;text-align:center;width:72%;font-family:仿宋;font-size:14px; margin: 0 auto;&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">tbody</span> <span class="attr">style</span>=<span class="string">&quot;font-family:方正公文仿宋;font-size:12pt;&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tr</span> <span class="attr">style</span>=<span class="string">&quot;font-weight:normal;&quot;</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:20%;text-align:right;&quot;</span>&gt;</span>题　　目<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:2%&quot;</span>&gt;</span>：<span class="tag">&lt;/<span class="name">td</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:仿宋&quot;</span>&gt;</span> 论文题目<span class="tag">&lt;/<span class="name">td</span>&gt;</span>     <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tr</span> <span class="attr">style</span>=<span class="string">&quot;font-weight:normal;&quot;</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:20%;text-align:right;&quot;</span>&gt;</span>上课时间<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:2%&quot;</span>&gt;</span>：<span class="tag">&lt;/<span class="name">td</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:仿宋&quot;</span>&gt;</span> 上课时间<span class="tag">&lt;/<span class="name">td</span>&gt;</span>     <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tr</span> <span class="attr">style</span>=<span class="string">&quot;font-weight:normal;&quot;</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:20%;text-align:right;&quot;</span>&gt;</span>授课教师<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:2%&quot;</span>&gt;</span>：<span class="tag">&lt;/<span class="name">td</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:仿宋&quot;</span>&gt;</span>教师姓名 <span class="tag">&lt;/<span class="name">td</span>&gt;</span>     <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tr</span> <span class="attr">style</span>=<span class="string">&quot;font-weight:normal;&quot;</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:20%;text-align:right;&quot;</span>&gt;</span>姓　　名<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:2%&quot;</span>&gt;</span>：<span class="tag">&lt;/<span class="name">td</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:仿宋&quot;</span>&gt;</span> 你的名字<span class="tag">&lt;/<span class="name">td</span>&gt;</span>     <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tr</span> <span class="attr">style</span>=<span class="string">&quot;font-weight:normal;&quot;</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:20%;text-align:right;&quot;</span>&gt;</span>学　　号<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:2%&quot;</span>&gt;</span>：<span class="tag">&lt;/<span class="name">td</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:仿宋&quot;</span>&gt;</span>你的学号 <span class="tag">&lt;/<span class="name">td</span>&gt;</span>     <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tr</span> <span class="attr">style</span>=<span class="string">&quot;font-weight:normal;&quot;</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:20%;text-align:right;&quot;</span>&gt;</span>组　　别<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:%&quot;</span>&gt;</span>：<span class="tag">&lt;/<span class="name">td</span>&gt;</span> </span><br><span class="line">         <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:仿宋&quot;</span>&gt;</span> 你的组别<span class="tag">&lt;/<span class="name">td</span>&gt;</span>     <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">tr</span> <span class="attr">style</span>=<span class="string">&quot;font-weight:normal;&quot;</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:20%;text-align:right;&quot;</span>&gt;</span>日　　期<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:2%&quot;</span>&gt;</span>：<span class="tag">&lt;/<span class="name">td</span>&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">td</span> <span class="attr">style</span>=<span class="string">&quot;width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:仿宋&quot;</span>&gt;</span>完成日期<span class="tag">&lt;/<span class="name">td</span>&gt;</span>     <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">tbody</span>&gt;</span>              </span><br><span class="line">    <span class="tag">&lt;/<span class="name">table</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"># 计算机工作枢纽——操作系统</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">center</span>&gt;</span><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&#x27;height:2mm;&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;font-family:华文楷体-Regular-SC;font-size:14pt;&quot;</span>&gt;</span>李京蔚，1234567890<span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="tag">&lt;/<span class="name">center</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">center</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;font-family:华文楷体-Regular-SC;font-size:9pt;line-height:9mm&quot;</span>&gt;</span>浙江大学云峰学园<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">center</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;width:52px;float:left; font-family:方正公文黑体;&quot;</span>&gt;</span>摘　要：<span class="tag">&lt;/<span class="name">div</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;overflow:hidden; font-family:华文楷体-Regular-SC;&quot;</span>&gt;</span>在信息化时代背景下，计算机操作系统在各行业领域中得到广泛应用。本文试图通过对计算机系统概念、功能和分类、历史的介绍，大致地给出对计算机操作系统的认识，并通过对当前主流桌面操作系统Windows和macOS的简要介绍，使读者能够对现代图形界面操作系统有一个较为全面的了解，从而喜欢上某一个操作系统，供读者参考。<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;width:52px;float:left; font-family:方正公文黑体;&quot;</span>&gt;</span>关键词：<span class="tag">&lt;/<span class="name">div</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;overflow:hidden; font-family:华文楷体-Regular-SC;&quot;</span>&gt;</span>计算机；操作系统；功能；发展；Windows；macOS；<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># Computer Work Hub — Operating System</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">center</span>&gt;</span><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&#x27;height:2mm;&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;font-size:14pt;&quot;</span>&gt;</span>Li Jingwei<span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="tag">&lt;/<span class="name">center</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">center</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;font-size:9pt;line-height:9mm&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">i</span>&gt;</span>Zhejiang University<span class="tag">&lt;/<span class="name">i</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">center</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;width:82px;float:left;line-height:16pt&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">b</span>&gt;</span>Abstract: <span class="tag">&lt;/<span class="name">b</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;overflow:hidden;line-height:16pt&quot;</span>&gt;</span>Under the background of the information age, computer operating systems are widely used in various industries. This paper tries to give a general understanding of the computer operating system by introducing the concept, functions and classifications, and history of computer systems. And by briefly introducing the current mainstream desktop operating systems Windows and macOS, readers can have a comprehensive view of modern graphical interface operating systems, and get to know thus begin to like one of them. This article is for readers&#x27; reference.<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;width:82px;float:left;line-height:16pt&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">b</span>&gt;</span>Key Words: <span class="tag">&lt;/<span class="name">b</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;overflow:hidden;line-height:16pt&quot;</span>&gt;</span>Computer; Operating System; Function; Development; Windows; macOS;<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>CSS的话……emm，我看看贴到哪里好。</p>
-<p>本来没打算在github上搞的，还是上去好了，待会把仓库和ssh连一下orz，妈的校网github又上不了了。。。。</p>
-<p>在<a href="https://github.com/Keldos-Li/typora-latex-theme">这里</a>。</p>
-]]></content>
-      <tags>
-        <tag>tech</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一些美术作业</title>
-    <url>/2022/05/meishu/</url>
-    <content><![CDATA[<p>放一点点美术作业吧，部分的拍摄是随便拍的，现在也没法回头去拍，还有些反光褶皱之类的没法解决了……还有很多美术作业忘了拍照留念orz。</p>
-<p><strong><em>点击以查看放大图片。</em></strong></p>
-<a id="more"></a>
-<h3 id="大二">大二</h3>
-<p>要画不完了。。。</p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/assets/painting/水彩多色渲染.jpeg" /></div><div class="group-picture-column"><img src="/assets/painting/水彩单色渲染.jpeg" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/assets/painting/小室内.jpeg" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/assets/painting/大室内.jpeg" /></div><div class="group-picture-column"><img src="/assets/painting/临摹.jpeg" /></div></div></div>
-<p>大二下学期……：</p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/assets/painting/城市建筑渲染.jpeg" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/assets/painting/中室内.jpeg" /></div><div class="group-picture-column"><img src="/assets/painting/城市大室内.jpeg" /></div><div class="group-picture-column"><img src="/assets/painting/城市夜景.jpeg" /></div></div></div>
-<p>大三开学前还有个美术实习，画得水彩惨不忍睹，但是可以放两张我喜欢的铅笔速写：</p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/assets/painting/纪念碑1.jpeg" /></div><div class="group-picture-column"><img src="/assets/painting/纪念碑2.jpeg" /></div></div></div>
-<h3 id="大一">大一</h3>
-<p>丢了很多作业忘了拍。开始用炭笔和炭条。小河直街的写生的几张真的社死，素描大店面和通高空间都是紫金港南门出去的那个天街里写生的（不过是拍照回来画），两张2开的素描真的累。</p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/assets/painting/大店面.jpeg" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/assets/painting/小河直街写生.jpeg" /></div><div class="group-picture-column"><img src="/assets/painting/室内大场景.jpeg" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/assets/painting/桥.jpeg" /></div></div></div>
-<h3 id="初中作品">初中作品</h3>
-<p>初二那会儿考西画A级时的习作，石膏头像应该都是3小时写生。水粉现在看其实画的很不好啦……色彩感觉完全没有，也可能是这张的水平不是我最好的（？）</p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/assets/painting/小卫.jpeg" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/assets/painting/伏尔泰.jpeg" /></div><div class="group-picture-column"><img src="/assets/painting/阿格里巴.jpeg" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/assets/painting/色彩.jpeg" /></div></div></div>
-]]></content>
-      <tags>
-        <tag>笔记</tag>
-        <tag>作业</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>今译王世贞《蔺相如完璧归赵论》</title>
-    <url>/2017/05/translate-wanbiguizhao/</url>
-    <content><![CDATA[<p>翻《古文观止》的时候，看到王世贞此文，惊叹不已，便想到试着译成现代汉语。译稿如下： <a id="more"></a></p>
-<hr />
-<p>　　蔺相如完璧归赵，人人称道，我却不敢认同。</p>
-<p>　　秦拿十五座的假名头来敲诈赵国的和氏璧，只是想要拿到玉而已，并不是觊觎赵国的土地。赵国要是知道秦国的打算就该给它，要是不知道就不给，或是知道但害怕不给不行就给它；知道又不害怕就不给。这只要两句话就能解决了，可赵国怎么又害怕还要挑斗秦发怒呢？</p>
-<p>　　再说，要是秦想要玉，赵国不给，那么两方都无过错。送给了玉璧秦却不交城，是秦理亏；秦国给了城池而赵国却又把玉璧拿回去，是赵理亏。要想让秦理屈，不如放弃玉璧；又不想放弃玉璧，就不如干脆不给。话说当时秦王在国纸上标出了城池，又大宴宾客，斋戒五日，那样的势头是不得不交城的。如果送出玉璧而不给城，蔺相如就可以说：“我本来就想到大王不会把城池交给我国的。和氏璧不就是赵国的一块玉璧吗？而那十五座城池却是秦国的宝贝。如今大王要是因为一块玉璧的缘故就送掉了十五座城池，里面的百姓都会哀怨大王说‘怎么就如草戒一样把我们抛弃呢？’（那么大王是没法拿城池换壁的。）大王不给许诺的城池而抢走了赵国的玉璧，因为一块玉而失信于天下，我现在就请求立即在贵国就死（自杀,如撞阶/柱），好让天下明白大王之失信！（大王又不能拿玉璧换信义。）”这样，秦王未必不归还玉璧。（如此玉璧可归赵国，秦却不会有理。）现在又何苦让仆人把玉璧藏在怀里逃走，反而叫秦国有理了？那时秦国还是不想于赵国绝交的。要是秦王发怒，一下子杀了蔺相如，让大将武安君（白起）率领十万精兵压境赵国国都邯郸，一齐声讨玉璧和信义，首先相如被弄死不说，一旦胜利，玉璧还是要落到秦国手中。</p>
-<p>　　所以我说，蔺相如能够完璧归赵，全是上天保佑的。倒是他斗劲渑池，柔化廉颇，比这事处理得妙了不知多少。最终完璧归赵的成功，还是上天本来想保全他啊！</p>
-<p><small> 二零一七年三月初稿<br /> 五月校稿 </small></p>
-<hr />
-<p><strong>附一、原文：</strong></p>
-<p>　　藺相如之完璧，人皆稱之，予未敢以為信也。</p>
-<p>　　夫秦以十五城之空名，詐趙而脅其璧，是時言取璧者，情也，非欲以窺趙也。趙得其情則弗予，不得其情則予；得其情而畏之則予，得其情而弗畏之則弗予：此兩言決耳，奈之何既畏而復挑其怒也？且夫秦欲璧，趙弗予璧，兩無所曲直也。入璧而秦弗予城，曲在秦；秦出城而璧歸，曲在趙。欲使曲在秦，則莫如棄璧；畏棄璧，則莫如弗予。夫秦王既按圖以予城，又設九賓，齋而受璧，其勢不得不予城。璧入而城弗予，相如則前請曰：「臣固知大王之弗予城也。夫璧，非趙寶也；而十五城，秦寶也。今使大王以璧故而亡其十五城；十五城之子弟，皆厚怨大王以棄我如草芥也。大王弗予城而紿趙璧；以一璧故而失信於天下，臣請就死於國，以明大王之失信。」秦王未必不返璧也。今奈何使舍人懷而逃之，而歸直於秦？是時秦意未欲與趙絕耳；令秦王怒而僇相如於巿，武安君十萬眾壓邯鄲，而責璧與信；一勝而相如族，再勝而璧終入秦矣！</p>
-<p>　　吾故曰：「藺相如之獲全於璧也，天也。」若而勁澠池，柔廉頗，則愈出而愈妙於用。所以能完趙者，天固曲全之哉！</p>
-<hr />
-<p><strong>附二、[清]吴楚材、吴调侯评文：</strong></p>
-<p>　　相如完璧归赵一节，至今凛凛有生气，故无待后人之訾议也。然怀璧归赵之后，相如得以无恙，赵国得以免祸者，直一时之侥幸耳。故中间特设出一段中正之论，以为千古人臣保国保身万全之策，勿得视为迂谈，而忽之也。</p>
-]]></content>
-      <tags>
-        <tag>随笔</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>莊子淺摘（內篇）</title>
-    <url>/2017/01/zhuangzi-1/</url>
-    <content><![CDATA[<p><small> <em>这篇是在原博客上的老文章了，如今不再读庄子,但文章还是搬运回来。</em> </small></p>
-<p>我的莊子心得⋯⋯多數資料來自陳鼓應《莊子今注今譯》(北京商務印書館2016年版)與《老莊新論》(北京商務印書館2014年版),并參考了《南华真经评注.十卷.郭象辑注.归有光批阅.文震孟订正.明天启四年刊本（影印本）》。</p>
-<p>大坑，以後慢慢填。先列出我已寫好的。</p>
-<p>说明：正文中括号内为注释，写“不摘”的，是太长懒得摘或是没有意思。正文以摘为主。 部分文段與通行本不符的，照陳鼓應《莊子今注今譯》(北京商務印書館2016年版)訂正。用繁体，则是由于古典文学就应用正体书写的。 <a id="more"></a></p>
-<h2 id="内篇">内篇</h2>
-<h3 id="逍遙遊">逍遙遊</h3>
-<p><em>一個人當透破功名利祿、權勢尊位的束縛，而使精神活動臻於优遊自在、無掛無碍的境地。</em></p>
-<blockquote>
-<p>北冥有魚，其名為鯤。鯤之大，不知其幾千里也。化而為鳥，其名為鵬。鵬之背，不知其幾千里也；怒［努］而飛，其翼若垂天之雲。是鳥也，海運［海風動］則將徙於南冥。 《齊諧》者，志怪者也。《諧》之言曰：「鵬之徙於南冥也，水擊三千里，搏(通行抟)扶搖而上者九萬里，去以六月息者也。」野馬也，塵埃也，生物之以息相吹也。天之蒼蒼，其正色邪？其遠而無所至極邪？其視下也，亦若是則已矣。</p>
-</blockquote>
-<blockquote>
-<p>夫若乘天地之正，而御六氣之辯［變］，以游無窮者，彼且惡乎待哉！ 故曰，至人無己，神人無功，聖人無名。</p>
-</blockquote>
-<p>又寫去名去功，至人無己之境界，後說到用大與「無用之用」的意義。（不摘）</p>
-<hr />
-<h3 id="齊物論">齊物論</h3>
-<p><em>肯定一切人與物的獨特意義內容及其價值。</em></p>
-<blockquote>
-<p>「何居乎？形固可使如槁木，而心固可使如死灰乎？⋯⋯」</p>
-<p>「夫天簌者，吹萬不同，而使其自己也，咸其自取，怒者其誰邪！」</p>
-<p>大知閑閑，小知閒閒；大言炎炎，小言詹詹。 寫百家爭鳴（「爭論不休」） 非彼無我，非我無所取。是亦近矣，而不知其所為使。若有眞宰，而特不得其眹［朕］；可行已信；而不見其行。有情而無形。</p>
-<p>⋯⋯欲是其所非而非其所是，則<strong>莫若以明</strong>。</p>
-<p>是亦彼也，彼亦是也。彼亦一是非，此亦一是非。果且有彼是乎哉？彼是莫得某偶，謂之道樞。樞始得其環中，以應無窮。是亦一無窮，非亦一無窮也。故曰莫若以明。</p>
-<p>夫大道不稱，大辯不言，大仁不仁，大廉不嗛，大勇不忮。 ⋯⋯</p>
-</blockquote>
-<p>例舉三个寓言故事引申前義［陳鼓應語］：</p>
-<ol type="1">
-<li>「堯問舜」，寫自我中心排他性與開放心靈的不同。</li>
-<li>「嚙缺問乎王倪」，提出「萬物沒有共同的標準」（價值標準不定於一處），指出人群習於「人類自我中心」之非。</li>
-<li>「瞿鵲子問乎長梧」，描述體道之士的死生一如覌及其精神境界。</li>
-</ol>
-<p>又二寓言：</p>
-<ol type="1">
-<li>「罔兩問景」</li>
-<li>「莊周夢蝶」 ：</li>
-</ol>
-<blockquote>
-<p>不知周之夢為胡蝶與，胡蝶之夢為周與？周與胡蝶，則必有分矣。此之謂「<strong>物化</strong>」。</p>
-</blockquote>
-<hr />
-<h3 id="養生主">養生主</h3>
-<p><em>护養生之主——精神，養神的方法莫過於順任自然。</em></p>
-<p>「庖丁解牛」 寓言，處理世事當「因其固然」、「依乎天理」，並懷着「怵然為戒」的審慎、關注的態度，且以藏斂為處世之道。 寓言略⋯⋯</p>
-<blockquote>
-<p>指［脂］窮於為薪，火傳也，不知其盡也。</p>
-</blockquote>
-<hr />
-<h3 id="人間世">人間世</h3>
-<p><em>揭露人間世的險惡面，提供處世自處之道。</em></p>
-<blockquote>
-<p>（仲尼）曰：「若一志，無聽之以耳而聽之以心，無聽之以心而聽之以氣！耳止於聽，心止於符。氣也者，虛而待物者也。<strong>唯道集虛</strong>。虛者，心齋也。」</p>
-</blockquote>
-<blockquote>
-<p>⋯⋯「且夫乘物以䢟心，託不得已以養中，至矣。⋯⋯莫若為致命，此其難者。」 ⋯⋯ ⋯⋯（子綦）曰：「此果<strong>不材</strong>之木也，以至於此其大也。嗟乎神人，以此不材！⋯⋯」 （亂世景象，免於刑罰便是福。） 山木自寇也，膏火自煎也。桂可食，故伐之；漆可用，故割之。<strong>人皆知有用之用，而莫知無用之用也。</strong></p>
-</blockquote>
-<hr />
-<h3 id="德充符">德充符</h3>
-<p><em>破除外形殘全的觀念，重視人的內在性。（能體現宇宙人生的根源性與整體性的謂之「德」。有「德」之人，生命自然流露出一種精神力量吸引着人。）</em></p>
-<blockquote>
-<p>（仲尼）曰：「⋯⋯夫若然者，且不知耳目之所宜而遊心乎德之和；物視其所一而不見其所喪，視喪其足猶遺土也［指王駘］。」</p>
-</blockquote>
-<p><strong>把握事物的本質，把萬物看成一個不可分割的整體——具有統一的世界觀。</strong></p>
-<p>兀［介，斷足］者申徒嘉與子產合堂同師的寓言，表現⋯⋯（不可「遊於形骸之內」）⋯⋯不摘。 又兀者叔山無趾見孔子的故事，與上似，不摘。</p>
-<p>哀駘它的寓言：</p>
-<blockquote>
-<p>使之［心靈］和豫通而不失於兌［悅］，使日亱無郤［隙］而與物為春，是接而生時於心者。是之謂才全。</p>
-<p>平者，水停之盛也。其可以為法也，內保之而外不蕩也。德者，成和之修也。<strong>德不形</strong>者，物不能離也。</p>
-</blockquote>
-<p>闉跂支離無脤與瓮㼜大癭的寓言：</p>
-<blockquote>
-<p>故<strong>德有所長，而形有所忘</strong>。 故聖人有所遊，而知為孽，約為膠，德為接，工為商。⋯⋯旣受食於天，又惡用人！有人之形，無人之情。有人之形，故群於人，無人之情，故是非不得於身。眇乎小哉，所以屬於人也！謷乎大哉，獨成其天！</p>
-</blockquote>
-<p>惠子與莊子的對話，談論人情：</p>
-<blockquote>
-<p>（莊子）曰：「⋯⋯吾所謂無情者，言人之不以好惡內傷其身，常因自然而不益生也。」</p>
-</blockquote>
-<hr />
-<h3 id="大宗師">大宗師</h3>
-<p><em>眞人悟道的境界。</em></p>
-<blockquote>
-<p>故其［眞人］好之也一，其弗好之也一。其一也一，其不一也一。其一與天為徒，其不一與人為徒。天與人不相勝也，是之謂眞人。</p>
-<p>［寫<strong>人與宇宙（天）的一體感</strong>，描繪眞人的精神面貌。］</p>
-<p>死生，命也，其有亱旦之常，天也。⋯⋯</p>
-<p>⋯⋯若夫藏天下於天下而不得所遯，是恆物之大情也。故聖人將遊於物之所不得遯而皆存。善夭［少］善老，善始善終，人猶效之，又況萬物之所系，而一化之所待乎！</p>
-</blockquote>
-<p>又簡略描述道體的無形、永存及無限性。 述學道過程⋯⋯</p>
-<blockquote>
-<p>攖寧也者，攖而後成者也。</p>
-</blockquote>
-<p>寫xxxx⋯⋯四人為友，「死生存亡之一體」。 xxx⋯⋯三人為友，「相忘以生，無所終窮」，不為死生之情所東傳。</p>
-<p>寫孟孫才善處喪：</p>
-<blockquote>
-<p>彼有駭形而無損心，有旦宅而無耗精。⋯⋯造適不及笑，獻笑不及排，安排而去化，乃人於寥天一。</p>
-</blockquote>
-<p>批判儒家道德規範與理論價值。不摘。</p>
-<blockquote>
-<p>（顏回）曰：「墮肢體，黜聰明，離形去知，同於大通，此謂坐忘。」</p>
-</blockquote>
-<p>又寫安命的思想——安於自然的變化流行。</p>
-<hr />
-<h3 id="應帝王">應帝王</h3>
-<p><em>為政當無治</em></p>
-<p><del>涉及政治，敏感。不摘。</del></p>
-<hr />
-]]></content>
-      <tags>
-        <tag>哲学</tag>
-        <tag>庄子</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>莊子淺摘（後記）</title>
-    <url>/2017/05/zhuangzi-houji/</url>
-    <content><![CDATA[<p>这也是老文章啊，在我以前还有一个“学霸”的信心的时候……算了算了吧。</p>
-<p>以下是原文: <a id="more"></a></p>
-<hr />
-<p>　　我知道当我安利同学们参观这个网站的时候，映入眼帘的竟是一堆“看不懂”的繁体字时的感受（也不得不说有些同学的国文素养差），也知道大家完全没兴趣看我所作的摘注（大多只是看了每篇粗体的吧？）。写这一篇，完全是兴趣。</p>
-<p>　　一次，我问父亲对庄子有多了解，他倒问我庄子是不是早于老子……看来我有必要对庄子做一个介绍：</p>
-<blockquote>
-<p>庄子，宋国蒙城人，名同。曾著书十万余言，《汉书·艺文志》道家类有《庄子》52篇。今存33篇，分内外杂3类，为晋郭象所定，其中内七篇一般断为庄子自作，而外、杂篇则多为庄子后学之作。</p>
-</blockquote>
-<p>　　庄子是一位有趣的伟大的哲学家。如果你喜欢，可以仅仅去看他写的寓言故事（据庄子自己记录，“重言十九，寓言十七”，寓言至少占了十分之七——尽管我没摘）。其中关于“儒家”的故事占了很大篇幅，不少是孔子（颜回）的故事。不过庄子当然不会宣扬儒家思想，他不过是借孔子之口宣传“道”，顺便批判一下孔子（儒家）的不明大道以及其言行相悖etc.，指责他们要求“仁”，违背人性自然的性情而使得天下大乱。这样，看道儒两家互相攻击会变得极其有意思（如<田子方>篇鲁哀公与庄子的故事）。</p>
-<p>　　不过，作为哲学家，不少寓言故事的终极寓意于我们现今的大多浅显理解是不尽相同的。如庖丁解牛，我们理解为要掌握方法才能得心应手，而庄子可能意在指出社会肌理复杂，我们要顺着“道”（自然），小心地游刃于其肌理间（喻为牛的筋骨），才能安然处世，保持完好（刀都不用磨）；又如混沌开窍，我们可能单纯当睡前故事读了，或理解为不要好心帮倒忙之类，而庄子之意却是统治者今日立一政（开一窍），明日颁一法（开一窍），人民就生活在水深火热之中了（混沌死）——尽管君王的出发点可能是好的。诸如此类的还有螳螂捕蝉，黄雀在后、佝偻承蜩、呆若木鸡、邯郸学步等等，不加赘述（具体见《浅摘》文）。总之，国人之前受的教育实在太浅显了，没有领会出哲学的深意。</p>
-<p>　　《庄子》中议论也占了较大的篇幅。庄子的思想内涵是极深刻而深远的，其自由安逸的生活态度给我以很大的启迪。他是老子之后先秦道家学派的集大成者，从内七篇看来，他的哲学是继承老子而来，但庄子更加突出了“道”之为“整体性”的特点，还建立了一个独特而完整的认识论系统，这是老子所不及的。庄子对老子思想的最大发展，是他把在老子那里主要是宇宙论及本体论的“道”转化而为心灵的境界。在自然说方面，庄子更为深广地发挥了人的自由性与自在性。尤其著名的<逍遥游>一文，描绘了一种透脱的心灵，为人所称道。在治身的另一些方面，可以说庄子和老子是有相近的地方的。比方说，他劝人们忌太张扬，忌追名逐利……然而，后世一般以为庄子消极，出世，大概是很表面的。庄子置身于战祸连绵，危机四伏的环境中，对不幸的现实有深切的体验，因而思想表现追求“逍遥游”，但他的“逍遥”不是出世的，而是<strong>寄沉痛于悠闲之中</strong>。可以说他是“出世”的精神入世。庄子主张扬弃的是现实世界中的世俗价值网，从中解脱出来。由于庄子并不舍弃这个世界本身，这种出世与宗教的离弃此世截然不同。[陈《庄子的悲剧意识和自由精神》]</p>
-<p>　　想要弄懂《庄子》不是懂文言就可以了。单把文章拿来也可能让人不得要旨。因此我参考了陈鼓应的《庄子今注今译》，陈先生是一位著作颇丰的哲学教授，要真让某些读者对庄子产生兴趣 <del>（不会）</del> ，不妨找他的原书一阅。（若是入门书，不妨选择林语堂的《老子的智慧》，是用庄子文章解释老子的，但尽是翻译，有些也不得要旨，加之是文言译英，再译回现代汉语，原意尽失，大概翻翻就可以扔了。）</p>
-<p>　　我本没有对哲学有过多的思考，但却惊奇地发现自己竟有那么浓厚的兴趣，相信自己今后也会对庄子老子有更深的理解。在网站上放这个，一是充实兴趣，二是练练手，治治学，但苦于没有时间——以及自己无奈的打字技巧。《浅摘》中写不“不摘”的，可能是虽然理解深刻但是太长，也可能是通篇寓言，均懒得输入。我尽量选择精辟而深刻的摘录（参考归有光批阅·郭象辑注《南华真经评注》明·天启四年刊本影印本），但学识有限，必然有略过精华而拾了糟粕的，也希望不过苛求。 　　这是一项长时间的工程，记得从一七年的一月十八日开写，到大年三十才赶完了<内篇>（然而白天都在上辅导班，都是晚上写的），之后迫于学业就几乎再没动。这篇后记也是百忙之中拼凑得的。嗐！我实在算不上一个学者啊！</p>
-<p><small> 丁酉二月初八于冻风中<br /> 2017年3月4日初稿</p>
-<p>2017年5月7日改过<br /> 5月29日录毕 </small></p>
-]]></content>
-      <tags>
-        <tag>随笔</tag>
-        <tag>庄子</tag>
       </tags>
   </entry>
   <entry>
@@ -1205,6 +1181,142 @@ section Go home
       </tags>
   </entry>
   <entry>
+    <title>今译王世贞《蔺相如完璧归赵论》</title>
+    <url>/2017/05/translate-wanbiguizhao/</url>
+    <content><![CDATA[<p>翻《古文观止》的时候，看到王世贞此文，惊叹不已，便想到试着译成现代汉语。译稿如下： <a id="more"></a></p>
+<hr />
+<p>　　蔺相如完璧归赵，人人称道，我却不敢认同。</p>
+<p>　　秦拿十五座的假名头来敲诈赵国的和氏璧，只是想要拿到玉而已，并不是觊觎赵国的土地。赵国要是知道秦国的打算就该给它，要是不知道就不给，或是知道但害怕不给不行就给它；知道又不害怕就不给。这只要两句话就能解决了，可赵国怎么又害怕还要挑斗秦发怒呢？</p>
+<p>　　再说，要是秦想要玉，赵国不给，那么两方都无过错。送给了玉璧秦却不交城，是秦理亏；秦国给了城池而赵国却又把玉璧拿回去，是赵理亏。要想让秦理屈，不如放弃玉璧；又不想放弃玉璧，就不如干脆不给。话说当时秦王在国纸上标出了城池，又大宴宾客，斋戒五日，那样的势头是不得不交城的。如果送出玉璧而不给城，蔺相如就可以说：“我本来就想到大王不会把城池交给我国的。和氏璧不就是赵国的一块玉璧吗？而那十五座城池却是秦国的宝贝。如今大王要是因为一块玉璧的缘故就送掉了十五座城池，里面的百姓都会哀怨大王说‘怎么就如草戒一样把我们抛弃呢？’（那么大王是没法拿城池换壁的。）大王不给许诺的城池而抢走了赵国的玉璧，因为一块玉而失信于天下，我现在就请求立即在贵国就死（自杀,如撞阶/柱），好让天下明白大王之失信！（大王又不能拿玉璧换信义。）”这样，秦王未必不归还玉璧。（如此玉璧可归赵国，秦却不会有理。）现在又何苦让仆人把玉璧藏在怀里逃走，反而叫秦国有理了？那时秦国还是不想于赵国绝交的。要是秦王发怒，一下子杀了蔺相如，让大将武安君（白起）率领十万精兵压境赵国国都邯郸，一齐声讨玉璧和信义，首先相如被弄死不说，一旦胜利，玉璧还是要落到秦国手中。</p>
+<p>　　所以我说，蔺相如能够完璧归赵，全是上天保佑的。倒是他斗劲渑池，柔化廉颇，比这事处理得妙了不知多少。最终完璧归赵的成功，还是上天本来想保全他啊！</p>
+<p><small> 二零一七年三月初稿<br /> 五月校稿 </small></p>
+<hr />
+<p><strong>附一、原文：</strong></p>
+<p>　　藺相如之完璧，人皆稱之，予未敢以為信也。</p>
+<p>　　夫秦以十五城之空名，詐趙而脅其璧，是時言取璧者，情也，非欲以窺趙也。趙得其情則弗予，不得其情則予；得其情而畏之則予，得其情而弗畏之則弗予：此兩言決耳，奈之何既畏而復挑其怒也？且夫秦欲璧，趙弗予璧，兩無所曲直也。入璧而秦弗予城，曲在秦；秦出城而璧歸，曲在趙。欲使曲在秦，則莫如棄璧；畏棄璧，則莫如弗予。夫秦王既按圖以予城，又設九賓，齋而受璧，其勢不得不予城。璧入而城弗予，相如則前請曰：「臣固知大王之弗予城也。夫璧，非趙寶也；而十五城，秦寶也。今使大王以璧故而亡其十五城；十五城之子弟，皆厚怨大王以棄我如草芥也。大王弗予城而紿趙璧；以一璧故而失信於天下，臣請就死於國，以明大王之失信。」秦王未必不返璧也。今奈何使舍人懷而逃之，而歸直於秦？是時秦意未欲與趙絕耳；令秦王怒而僇相如於巿，武安君十萬眾壓邯鄲，而責璧與信；一勝而相如族，再勝而璧終入秦矣！</p>
+<p>　　吾故曰：「藺相如之獲全於璧也，天也。」若而勁澠池，柔廉頗，則愈出而愈妙於用。所以能完趙者，天固曲全之哉！</p>
+<hr />
+<p><strong>附二、[清]吴楚材、吴调侯评文：</strong></p>
+<p>　　相如完璧归赵一节，至今凛凛有生气，故无待后人之訾议也。然怀璧归赵之后，相如得以无恙，赵国得以免祸者，直一时之侥幸耳。故中间特设出一段中正之论，以为千古人臣保国保身万全之策，勿得视为迂谈，而忽之也。</p>
+]]></content>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>莊子淺摘（內篇）</title>
+    <url>/2017/01/zhuangzi-1/</url>
+    <content><![CDATA[<p><small> <em>这篇是在原博客上的老文章了，如今不再读庄子,但文章还是搬运回来。</em> </small></p>
+<p>我的莊子心得⋯⋯多數資料來自陳鼓應《莊子今注今譯》(北京商務印書館2016年版)與《老莊新論》(北京商務印書館2014年版),并參考了《南华真经评注.十卷.郭象辑注.归有光批阅.文震孟订正.明天启四年刊本（影印本）》。</p>
+<p>大坑，以後慢慢填。先列出我已寫好的。</p>
+<p>说明：正文中括号内为注释，写“不摘”的，是太长懒得摘或是没有意思。正文以摘为主。 部分文段與通行本不符的，照陳鼓應《莊子今注今譯》(北京商務印書館2016年版)訂正。用繁体，则是由于古典文学就应用正体书写的。 <a id="more"></a></p>
+<h2 id="内篇">内篇</h2>
+<h3 id="逍遙遊">逍遙遊</h3>
+<p><em>一個人當透破功名利祿、權勢尊位的束縛，而使精神活動臻於优遊自在、無掛無碍的境地。</em></p>
+<blockquote>
+<p>北冥有魚，其名為鯤。鯤之大，不知其幾千里也。化而為鳥，其名為鵬。鵬之背，不知其幾千里也；怒［努］而飛，其翼若垂天之雲。是鳥也，海運［海風動］則將徙於南冥。 《齊諧》者，志怪者也。《諧》之言曰：「鵬之徙於南冥也，水擊三千里，搏(通行抟)扶搖而上者九萬里，去以六月息者也。」野馬也，塵埃也，生物之以息相吹也。天之蒼蒼，其正色邪？其遠而無所至極邪？其視下也，亦若是則已矣。</p>
+</blockquote>
+<blockquote>
+<p>夫若乘天地之正，而御六氣之辯［變］，以游無窮者，彼且惡乎待哉！ 故曰，至人無己，神人無功，聖人無名。</p>
+</blockquote>
+<p>又寫去名去功，至人無己之境界，後說到用大與「無用之用」的意義。（不摘）</p>
+<hr />
+<h3 id="齊物論">齊物論</h3>
+<p><em>肯定一切人與物的獨特意義內容及其價值。</em></p>
+<blockquote>
+<p>「何居乎？形固可使如槁木，而心固可使如死灰乎？⋯⋯」</p>
+<p>「夫天簌者，吹萬不同，而使其自己也，咸其自取，怒者其誰邪！」</p>
+<p>大知閑閑，小知閒閒；大言炎炎，小言詹詹。 寫百家爭鳴（「爭論不休」） 非彼無我，非我無所取。是亦近矣，而不知其所為使。若有眞宰，而特不得其眹［朕］；可行已信；而不見其行。有情而無形。</p>
+<p>⋯⋯欲是其所非而非其所是，則<strong>莫若以明</strong>。</p>
+<p>是亦彼也，彼亦是也。彼亦一是非，此亦一是非。果且有彼是乎哉？彼是莫得某偶，謂之道樞。樞始得其環中，以應無窮。是亦一無窮，非亦一無窮也。故曰莫若以明。</p>
+<p>夫大道不稱，大辯不言，大仁不仁，大廉不嗛，大勇不忮。 ⋯⋯</p>
+</blockquote>
+<p>例舉三个寓言故事引申前義［陳鼓應語］：</p>
+<ol type="1">
+<li>「堯問舜」，寫自我中心排他性與開放心靈的不同。</li>
+<li>「嚙缺問乎王倪」，提出「萬物沒有共同的標準」（價值標準不定於一處），指出人群習於「人類自我中心」之非。</li>
+<li>「瞿鵲子問乎長梧」，描述體道之士的死生一如覌及其精神境界。</li>
+</ol>
+<p>又二寓言：</p>
+<ol type="1">
+<li>「罔兩問景」</li>
+<li>「莊周夢蝶」 ：</li>
+</ol>
+<blockquote>
+<p>不知周之夢為胡蝶與，胡蝶之夢為周與？周與胡蝶，則必有分矣。此之謂「<strong>物化</strong>」。</p>
+</blockquote>
+<hr />
+<h3 id="養生主">養生主</h3>
+<p><em>护養生之主——精神，養神的方法莫過於順任自然。</em></p>
+<p>「庖丁解牛」 寓言，處理世事當「因其固然」、「依乎天理」，並懷着「怵然為戒」的審慎、關注的態度，且以藏斂為處世之道。 寓言略⋯⋯</p>
+<blockquote>
+<p>指［脂］窮於為薪，火傳也，不知其盡也。</p>
+</blockquote>
+<hr />
+<h3 id="人間世">人間世</h3>
+<p><em>揭露人間世的險惡面，提供處世自處之道。</em></p>
+<blockquote>
+<p>（仲尼）曰：「若一志，無聽之以耳而聽之以心，無聽之以心而聽之以氣！耳止於聽，心止於符。氣也者，虛而待物者也。<strong>唯道集虛</strong>。虛者，心齋也。」</p>
+</blockquote>
+<blockquote>
+<p>⋯⋯「且夫乘物以䢟心，託不得已以養中，至矣。⋯⋯莫若為致命，此其難者。」 ⋯⋯ ⋯⋯（子綦）曰：「此果<strong>不材</strong>之木也，以至於此其大也。嗟乎神人，以此不材！⋯⋯」 （亂世景象，免於刑罰便是福。） 山木自寇也，膏火自煎也。桂可食，故伐之；漆可用，故割之。<strong>人皆知有用之用，而莫知無用之用也。</strong></p>
+</blockquote>
+<hr />
+<h3 id="德充符">德充符</h3>
+<p><em>破除外形殘全的觀念，重視人的內在性。（能體現宇宙人生的根源性與整體性的謂之「德」。有「德」之人，生命自然流露出一種精神力量吸引着人。）</em></p>
+<blockquote>
+<p>（仲尼）曰：「⋯⋯夫若然者，且不知耳目之所宜而遊心乎德之和；物視其所一而不見其所喪，視喪其足猶遺土也［指王駘］。」</p>
+</blockquote>
+<p><strong>把握事物的本質，把萬物看成一個不可分割的整體——具有統一的世界觀。</strong></p>
+<p>兀［介，斷足］者申徒嘉與子產合堂同師的寓言，表現⋯⋯（不可「遊於形骸之內」）⋯⋯不摘。 又兀者叔山無趾見孔子的故事，與上似，不摘。</p>
+<p>哀駘它的寓言：</p>
+<blockquote>
+<p>使之［心靈］和豫通而不失於兌［悅］，使日亱無郤［隙］而與物為春，是接而生時於心者。是之謂才全。</p>
+<p>平者，水停之盛也。其可以為法也，內保之而外不蕩也。德者，成和之修也。<strong>德不形</strong>者，物不能離也。</p>
+</blockquote>
+<p>闉跂支離無脤與瓮㼜大癭的寓言：</p>
+<blockquote>
+<p>故<strong>德有所長，而形有所忘</strong>。 故聖人有所遊，而知為孽，約為膠，德為接，工為商。⋯⋯旣受食於天，又惡用人！有人之形，無人之情。有人之形，故群於人，無人之情，故是非不得於身。眇乎小哉，所以屬於人也！謷乎大哉，獨成其天！</p>
+</blockquote>
+<p>惠子與莊子的對話，談論人情：</p>
+<blockquote>
+<p>（莊子）曰：「⋯⋯吾所謂無情者，言人之不以好惡內傷其身，常因自然而不益生也。」</p>
+</blockquote>
+<hr />
+<h3 id="大宗師">大宗師</h3>
+<p><em>眞人悟道的境界。</em></p>
+<blockquote>
+<p>故其［眞人］好之也一，其弗好之也一。其一也一，其不一也一。其一與天為徒，其不一與人為徒。天與人不相勝也，是之謂眞人。</p>
+<p>［寫<strong>人與宇宙（天）的一體感</strong>，描繪眞人的精神面貌。］</p>
+<p>死生，命也，其有亱旦之常，天也。⋯⋯</p>
+<p>⋯⋯若夫藏天下於天下而不得所遯，是恆物之大情也。故聖人將遊於物之所不得遯而皆存。善夭［少］善老，善始善終，人猶效之，又況萬物之所系，而一化之所待乎！</p>
+</blockquote>
+<p>又簡略描述道體的無形、永存及無限性。 述學道過程⋯⋯</p>
+<blockquote>
+<p>攖寧也者，攖而後成者也。</p>
+</blockquote>
+<p>寫xxxx⋯⋯四人為友，「死生存亡之一體」。 xxx⋯⋯三人為友，「相忘以生，無所終窮」，不為死生之情所東傳。</p>
+<p>寫孟孫才善處喪：</p>
+<blockquote>
+<p>彼有駭形而無損心，有旦宅而無耗精。⋯⋯造適不及笑，獻笑不及排，安排而去化，乃人於寥天一。</p>
+</blockquote>
+<p>批判儒家道德規範與理論價值。不摘。</p>
+<blockquote>
+<p>（顏回）曰：「墮肢體，黜聰明，離形去知，同於大通，此謂坐忘。」</p>
+</blockquote>
+<p>又寫安命的思想——安於自然的變化流行。</p>
+<hr />
+<h3 id="應帝王">應帝王</h3>
+<p><em>為政當無治</em></p>
+<p><del>涉及政治，敏感。不摘。</del></p>
+<hr />
+]]></content>
+      <tags>
+        <tag>哲学</tag>
+        <tag>庄子</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>温岭博物馆：市民能否感知建筑的“言”与“意”？</title>
     <url>/2023/09/wenling-museum/</url>
     <content><![CDATA[<blockquote>
@@ -1365,234 +1477,6 @@ section Go home
       </tags>
   </entry>
   <entry>
-    <title>函数与极限</title>
-    <url>/2020/10/%E5%BE%AE%E7%A7%AF%E5%88%86/</url>
-    <content><![CDATA[<p>我看下是不是可以把我的笔记完美复现……可以的话持续更新。</p>
-<p>...似乎不行... 我自己编辑器用的KaTeX, 然而网页渲染用的mathjax诶...为什么我更改不了js...以后再试试.</p>
-<p>Work with markdown &amp; <span class="math inline">\(\LaTeX\)</span>. Noted by <em>Keldos</em>.</p>
-<p>[toc]</p>
-<h1 id="函数">函数</h1>
-<h2 id="有界集确界原理">有界集、确界原理</h2>
-<h3 id="有界集">有界集</h3>
-<p><strong>定义</strong></p>
-<blockquote>
-<ol type="1">
-<li><span class="math inline">\(\forall x\in A\)</span> , 都有<span class="math inline">\(x \leqslant \alpha\)</span> ;</li>
-<li><span class="math inline">\(\forall \epsilon&gt;0\)</span> , <span class="math inline">\(\exists x_0\in A\)</span> , 使得<span class="math inline">\(x_0&gt;\alpha-\epsilon\)</span>. 则<span class="math inline">\(\alpha\)</span> 是<span class="math inline">\(A\)</span>的上确界， 记作<span class="math inline">\(\alpha=\sup A\)</span> 或<span class="math inline">\(\alpha=\displaystyle\sup_{x\in A} \{x\}\)</span>.</li>
-</ol>
-</blockquote>
-<blockquote>
-<ol type="1">
-<li><span class="math inline">\(\forall x\in A\)</span> , 都有 <span class="math inline">\(x \geqslant \beta\)</span> ;</li>
-<li><span class="math inline">\(\forall \epsilon&gt;0\)</span>, <span class="math inline">\(\exists x_0\in A\)</span> , 使得 <span class="math inline">\(x_0&lt;\beta+\epsilon\)</span> . 则 <span class="math inline">\(\beta\)</span> 是<span class="math inline">\(A\)</span>的下确界，记作<span class="math inline">\(\beta=\inf A\)</span> 或<span class="math inline">\(\beta=\displaystyle\inf_{x\in A} \{x\}\)</span>.</li>
-</ol>
-</blockquote>
-<h3 id="有界函数">有界函数</h3>
-<p><strong>定义</strong></p>
-<blockquote>
-<p>若 <span class="math inline">\(\exists\)</span> 常数<span class="math inline">\(N\)</span>, <span class="math inline">\(\forall x \in D\)</span> , 都有<span class="math inline">\(N \leqslant f(x)\)</span> （<span class="math inline">\(N \geqslant f(x)\)</span>）, 称<span class="math inline">\(f(x)\)</span>是<span class="math inline">\(D\)</span>上的有上界（下界）函数。</p>
-</blockquote>
-<p>有界函数既要有上界也要有下界。</p>
-<blockquote>
-<p>设<span class="math inline">\(y=f(x)\)</span>，<span class="math inline">\(x \in {D}\)</span>，<span class="math inline">\(\exists\)</span> 常数 <span class="math inline">\(N \leqslant M\)</span>，<span class="math inline">\(\forall x \in D\)</span>， 都有 <span class="math inline">\(N \leqslant f(x) \leqslant M\)</span>，称<span class="math inline">\(y=f(x)\)</span>是<span class="math inline">\(D\)</span>上的<span class="math inline">\(\bf{有界函数}\)</span>.</p>
-</blockquote>
-<p>有界函数也常用下面的定义：</p>
-<blockquote>
-<p><span class="math inline">\(\exists\)</span>常数<span class="math inline">\(M&gt;0\)</span>，对<span class="math inline">\(\forall x \in D\)</span>,  <span class="math inline">\(|f(x)| \leqslant M.\)</span> $(N=-M f(x) M.) $</p>
-</blockquote>
-<h3 id="无界函数">无界函数</h3>
-<p><strong>定义</strong></p>
-<blockquote>
-<p><span class="math inline">\(\forall\)</span> 常数 <span class="math inline">\(M&gt;0\)</span>, <span class="math inline">\(\exists x_0 \in D\)</span>, 使得 <span class="math inline">\(|f(x_0)|&gt;M\)</span>.</p>
-</blockquote>
-<h2 id="复合函数">复合函数</h2>
-<p><strong>定义</strong></p>
-<blockquote>
-<p>设<span class="math inline">\(y=f(u),\  u\in D(f),\  u=\phi (x),\ x\in R(\phi)\)</span>. 若 <span class="math inline">\(D(f) \cap R(\phi) \not= \varnothing\)</span> , 则称<span class="math inline">\(y=f(\phi(x))\)</span>是<span class="math inline">\(x\)</span>的<span class="math inline">\(\bf{复合函数}\)</span>. <span class="math inline">\(y=f(u)\)</span> 被称为外（层）函数，$ u=(x)$被称为内（层）函数.</p>
-</blockquote>
-<ul>
-<li>只要看<span class="math inline">\(y=f(\phi(x))\)</span>定义域是否为空集<span class="math inline">\(\varnothing\)</span>.</li>
-</ul>
-<h2 id="反函数">反函数</h2>
-<blockquote>
-<p>设<span class="math inline">\(y=f(x),\ x\in D\)</span>. 若<span class="math inline">\(\forall x_1,\ x_2\in D,\  x_1\not= x_2,\)</span> 有<span class="math inline">\(f(x_1)\not=f(x_2)\)</span>, 反之, <span class="math inline">\(\forall y\in R(f)\)</span>, 都有唯一 <span class="math inline">\(x\in D\)</span> 使得 <span class="math inline">\(y=f(x)\)</span>与之对应, 则按此法则得到一个定义在<span class="math inline">\(R(f)\)</span>上的函数，称该函数为<span class="math inline">\(f\)</span>的反函数，记作 <span class="math inline">\(x=f^{-1}(y),\  y\in R(f) \quad\)</span> 或<span class="math inline">\(\quad f^{-1}:R(f)\to D\)</span>.</p>
-</blockquote>
-<ul>
-<li><mark><span class="math inline">\(y=f(x)\)</span>与<span class="math inline">\(x=f^{-1}(y)\)</span>的图像相同；<mark></li>
-<li><mark><span class="math inline">\(y=f(x)\)</span>与<span class="math inline">\(y=f^{-1}(x)\)</span>的图像关于<span class="math inline">\(y=x\)</span>对称.</mark></li>
-</ul>
-<h2 id="单调函数">单调函数</h2>
-<p>递增，递减函数统称<span class="math inline">\(\bf{单调函数}\)</span>，严格递增，严格递减函数统称<span class="math inline">\(\bf{严格单调函数}\)</span>.</p>
-<p><strong>反函数存在性定理</strong></p>
-<blockquote>
-<p>若<span class="math inline">\(y=f(x)\)</span>在<span class="math inline">\(D\)</span>上严格增（减），则<span class="math inline">\(y=f(x)\)</span>有反函数且也严格单调增（减）.</p>
-</blockquote>
-<ul>
-<li>但反之有反函数，原函数不一定是严格单调.</li>
-</ul>
-<h2 id="初等函数">初等函数</h2>
-<h3 id="基本初等函数">基本初等函数</h3>
-<p><span class="math display">\[
-\boxed{
-\begin{array}{l|lll}
-常值函数 &amp; y=C \ (C是常数),\ &amp; x\in \R;\\
-幂函数 &amp; y=x^\alpha &amp; (\alpha 是幂常数);\\
-指数函数 &amp; y=a^x \ (a&gt;0,\ a\not=1),\ &amp; x\in\R;\\
-对数函数 &amp; y=\log_a x\ (a&gt;0,\ a\not=1),\ &amp; x\in(0,\ +\infty);\\ \hline
-三角函数 &amp; 余切 \ \cot x=\frac{1}{\tan x}\\
- &amp; 正割 \ \sec x=\frac{1}{\cos x}\\
- &amp; 余割 \ \csc x =\frac{1}{\sin x} \\
- &amp;\it{\quad注意这里有：} \newline&amp;\quad1+\tan^2 x=\sec^2 x;\\
-&amp;\quad 1+\cot^2 x=\csc^2 x \\ \hline
-反三角函数 &amp; y=\arcsin x,\ &amp; x\in[-1,\ 1],\ &amp; y\in [-\frac{\pi}{2},\ \frac{\pi}{2}]\\
-&amp; y=\arccos x,\ &amp; x\in[-1,\ 1],\ &amp; y\in [0,\ \pi] \\
-&amp; y=\arctan x,\ &amp; x\in\R,\ &amp; y\in (-\frac{\pi}{2},\ \frac{\pi}{2}) \\
-\end{array}}
-\]</span></p>
-<p>由基本初等函数经过有限次四则运算与复合运算得到的函数叫<strong>初等函数</strong>, 经过有限四则运算称为简单函数.</p>
-<ul>
-<li>一般分段函数是非初等函数（但有些分段函数可能是初等函数）;</li>
-<li>一般一个解析式就是初等函数.</li>
-</ul>
-<h2 id="重要的函数">重要的函数</h2>
-<h3 id="符号函数">符号函数</h3>
-<p><span class="math display">\[
-\mathrm{sgn}\,\ x=\left\{
-\begin{array}{rl}
--1,\  &amp; x&lt;0 \\
-0,\  &amp; x=0 \\
-1,\  &amp; x&gt;0
-\end{array}
-\right.
-\]</span></p>
-<h3 id="取整函数">取整函数</h3>
-<p><strong>性质</strong> <span class="math display">\[
-[x]\leqslant x \leqslant [x]+1 \\
-\Rightarrow \boxed{x-1&lt;[x]\leqslant x}\tag*{⋆ 常用不等式}
-\]</span></p>
-<h3 id="狄利克雷dirichlet函数">狄利克雷（Dirichlet）函数</h3>
-<p><span class="math display">\[
-D(x)=\left\{
-\begin{array}{rl}
-1,\  &amp; x为有理数 \\
-0,\  &amp; x为无理数
-\end{array}
-\right.
-\]</span></p>
-<p><strong>性质</strong></p>
-<ul>
-<li><mark><span class="math inline">\(\forall x\not= 0\)</span>的有理数都是其周期.</mark></li>
-</ul>
-<h3 id="幂指函数">幂指函数</h3>
-<p><span class="math display">\[\begin{array}{ll} y &amp;= x^x\\ &amp;= e^{\ln x^x}\\ &amp;= e^{x\ln x} \end{array}\]</span></p>
-<ul>
-<li>它也是初等函数。</li>
-</ul>
-<h1 id="数列极限">数列极限</h1>
-<h2 id="数列极限的概念">数列极限的概念</h2>
-<p>给一个数列<span class="math inline">\(\{a_n\}\)</span>，随着<span class="math inline">\(n\)</span>的无限增大，<span class="math inline">\(a_n\)</span>存在一个变化的趋势.</p>
-<p><strong>定义</strong></p>
-<blockquote>
-<p>设<span class="math inline">\(\{a_n\}\)</span>是一个给定的数列, $ a<span class="math inline">\(是一个确定的常数, 若\)</span>&gt;0$ , <span class="math inline">\(\exists N\)</span> , 当<span class="math inline">\(n&gt;N\)</span>时, 都有 <span class="math inline">\(|a_n-a|&lt;\epsilon\)</span> , 则<span class="math inline">\(\lim\limits_{n\to\infty} a_n = a \quad\)</span> 或<span class="math inline">\(\quad a_n \to a(n\to \infty)\)</span>.</p>
-</blockquote>
-<p><strong>注意:</strong></p>
-<ol type="1">
-<li><strong><span class="math inline">\(\epsilon\)</span>的任意性</strong>
-<ul>
-<li>实际可以限制<span class="math inline">\(\epsilon\)</span>小于某个正数.</li>
-</ul></li>
-<li><strong><span class="math inline">\(N\)</span>的相应性</strong>
-<ul>
-<li><span class="math inline">\(N\)</span>随着<span class="math inline">\(\epsilon\)</span>的变化而变化, <span class="math inline">\(\epsilon\)</span>越小, <span class="math inline">\(N\)</span>越大.</li>
-<li>另外, 这里<span class="math inline">\(N\)</span>是下标的界限, 不要求一定是自然数. (但苏老师决定把这条删掉. )</li>
-</ul></li>
-<li><strong>几何意义</strong> $&gt;0, N, 当n&gt;N时 , 都有 |a_n-a| &lt; \ - &lt; a_n - a &lt; \ a-&lt; a_n &lt; a + \ a_n (a-,a+) U(a,)   (a的). $
-<ul>
-<li>也就是说, 对于<span class="math inline">\(\forall U(a,\epsilon)\)</span>, <span class="math inline">\(\{a_n\}\)</span>在其之外仅有有限项.</li>
-</ul></li>
-</ol>
-<h3 id="用epsilon---n定义验证极限存在">用<span class="math inline">\(\epsilon - N\)</span>定义验证极限存在</h3>
-<h4 id="直接法">直接法</h4>
-<p><strong>例</strong> <span class="math inline">\(\quad\)</span>证明 <span class="math inline">\(\lim\limits_{n\to\infty} \dfrac{1}{n^k}=0\)</span> (<span class="math inline">\(k&gt;0\)</span> 为常数).</p>
-<p><span class="math inline">\(\bf{证}\)</span> $ $ , 要<span class="math inline">\(\left|\dfrac{1}{n^k}-0 \right|&lt;\epsilon,\  \Leftrightarrow \dfrac{1}{n^k} &lt; \epsilon \Leftrightarrow n^k&gt;\dfrac {1}{\epsilon} \Leftrightarrow n &gt; (\dfrac{1}{\epsilon})^\frac{1}{k}.\)</span> <span class="math inline">\(\underline{取N=(\dfrac{1}{\epsilon})^\frac{1}{k}} \,\)</span>( 或 <span class="math inline">\(\left[ (\dfrac{1}{\epsilon})^\frac{1}{k}\right]+1\)</span> 以此保证 <span class="math inline">\(n \geqslant 1\)</span> ), $ $ 所以 <span class="math inline">\(\lim\limits_{n\to\infty}\dfrac{1}{n^k}=0\)</span>.</p>
-<h4 id="适当放大法">适当放大法</h4>
-<p>当不容易从<span class="math inline">\(|a_n - a|\)</span>中等价解出<span class="math inline">\(n&gt;N(\epsilon)\)</span>, 或虽能解出但很复杂时, 采用适当放大法. 即: 让<span class="math inline">\(|a_n -a|\leqslant g(n) \  (n&gt;N_1\)</span>时成立), 要让<span class="math inline">\(g(n)&lt;\epsilon\)</span>成立, 只要<span class="math inline">\(n&gt;N_2\)</span> (等价解出). 取<span class="math inline">\(N=\max\left\{N_1,N_2\right\}\)</span>, 当<span class="math inline">\(n&gt;N\)</span>时, 有<span class="math inline">\(|a_n -a|\leqslant g(n)&lt;\epsilon\)</span>, 即<span class="math inline">\(|a_n -a|&lt;\epsilon\)</span>.</p>
-<p>当采用适当放大法时, 要求:</p>
-<ol type="1">
-<li><span class="math inline">\(g(n)\)</span>尽可能简单, 容易从<span class="math inline">\(g(n)&lt;\epsilon\)</span>中解出<span class="math inline">\(n&gt;N_2\)</span>;</li>
-<li><span class="math inline">\(\lim\limits_{n\to \infty} g(n)=0\)</span>.</li>
-</ol>
-<p><strong>例</strong> <span class="math inline">\(\quad\)</span>证明 <span class="math inline">\(\lim\limits_{n\to\infty} (\sqrt{n+1}-\sqrt{n})=0\)</span> (<span class="math inline">\(k&gt;0\)</span> 为常数).</p>
-<p>$_{n} (-)=0.$</p>
-<h3 id="常用的数列极限">常用的数列极限</h3>
-<ul>
-<li><span class="math inline">\(\lim\limits_{n\to \infty} C = C \quad (C为常数)\)</span></li>
-<li><span class="math inline">\(\lim\limits_{n\to \infty} q^n = 0 \quad (|q|&lt;1为常数)\)</span></li>
-<li><span class="math inline">\(\lim\limits_{n\to \infty} \dfrac{1}{n^k} = 0 \quad (k&gt;0为常数)\)</span></li>
-<li><span class="math inline">\(\lim\limits_{n\to \infty} \dfrac{a^n}{n!} = 0 \quad (a为常数)\)</span></li>
-<li><span class="math inline">\(\lim\limits_{n\to \infty} \sqrt[n]{a} = 1 \quad (a&gt;1为常数)\)</span></li>
-<li><span class="math inline">\(\lim\limits_{n\to \infty} \sqrt[n]{n} = 1\)</span></li>
-</ul>
-<h2 id="收敛数列的性质">收敛数列的性质</h2>
-<p>如果<span class="math inline">\(\{a_n\}\)</span>有极限, 称<span class="math inline">\(\{a_n\}\)</span><strong>收敛</strong>; 否则称<span class="math inline">\(\{a_n\}\)</span><strong>发散</strong>. <strong>定理</strong></p>
-<blockquote>
-<p>改变(或去掉或增加)数列的有限项, 不改变数列的收敛性与极限.</p>
-</blockquote>
-<p><strong>性质</strong></p>
-<h4 id="唯一性">1. 唯一性</h4>
-<p><mark>若<span class="math inline">\(\{a_n\}\)</span>有极限, 则极限必唯一.</mark></p>
-<h4 id="有界性">2. 有界性</h4>
-<p>若<span class="math inline">\(\{a_n\}\)</span>收敛, 则<span class="math inline">\(\{a_n\}\)</span>有界. 即<span class="math inline">\(\exists M&gt;0\)</span>, 使得<span class="math inline">\(\forall n\in \N_+\)</span>, 都有<span class="math inline">\(|a_n|\leqslant M\)</span>. <strong>推论</strong> (上面命题的逆否) 若<span class="math inline">\(\{a_n\}\)</span>无界, 则<span class="math inline">\(\{a_n\}\)</span>发散.</p>
-<ul>
-<li><mark>收敛 <span class="math inline">\(\Rightarrow\)</span> 有界;</mark></li>
-<li><mark>无界 <span class="math inline">\(\Rightarrow\)</span> 发散.</mark></li>
-</ul>
-<h4 id="不等式性质1">3. 不等式性质1</h4>
-<p><mark>若<span class="math inline">\(\lim\limits_{n\to \infty} a_n = a\)</span>, <span class="math inline">\(\lim\limits_{n\to \infty} b_n = b\)</span>且<span class="math inline">\(a &lt; b\)</span>, 则<span class="math inline">\(\exists N\)</span>, 当<span class="math inline">\(n&gt;N\)</span>, 都有<span class="math inline">\(a_n &lt; b_n\)</span>.</mark></p>
-<p><strong>推论</strong></p>
-<p>若已经找到上面的<span class="math inline">\(N\)</span>, 当<span class="math inline">\(n&gt;N\)</span>, <span class="math inline">\(m&gt;N\)</span>时, 有<span class="math inline">\(a_n &lt; b_m\)</span>.</p>
-<p><strong>推论</strong> (<strong>保号性</strong>)</p>
-<p><mark>若 <span class="math inline">\(\lim\limits_{n \to \infty} a_{n}=a &gt;0 \ (a&lt;0),\)</span> 则对于满足 <span class="math inline">\(0&lt;\eta&lt;a\ (a&lt;\eta&lt;0)\)</span>的任何常数 <span class="math inline">\(\eta,\)</span> 存在 <span class="math inline">\(N_{0},\)</span> 当 <span class="math inline">\(n&gt;N_{0}\)</span> 时，都有<span class="math inline">\(a_{n}&gt;\eta&gt;0 \quad \left(a_{n}&lt;\eta&lt;0\right)\)</span>.</mark></p>
-<p><span class="math inline">\(\bf{证}\qquad\)</span> 对 <span class="math inline">\(0&lt;\eta&lt;a,\)</span> 设 <span class="math inline">\(b_{n}=\eta\ (n=1,2, \cdots),\)</span> 则 <span class="math inline">\(\lim\limits_{n \to \infty} b_{n}=\eta .\)</span> 由 <span class="math inline">\(\lim\limits_{n \to \infty} a_{n}=a\ (0&lt;\eta&lt;a\)</span> )及性质 3 知，存在 <span class="math inline">\(N_{0},\)</span> 当 <span class="math inline">\(n&gt;N_{0}\)</span> 时, 都有 <span class="math inline">\(a_{n}&gt;b_{n}=\eta&gt;0\)</span>. 对 <span class="math inline">\(a&lt;0\)</span> 的情况, 同理可证.</p>
-<h4 id="不等式性质2">4. 不等式性质2</h4>
-<p><mark>若 <span class="math inline">\(\lim\limits_{n \to \infty} a_{n}=a, \lim\limits_{n \to \infty} b_{n}=b,\)</span> 且 <span class="math inline">\(\exists N_{0},\)</span> 当 <span class="math inline">\(n&gt;N_{0}\)</span> 时，都有<span class="math inline">\(a_{n} \geqslant b_{n}\)</span>, 则 <span class="math inline">\(a \geqslant b.\)</span></mark></p>
-<p><span class="math inline">\(\bf{证}\)</span> <span class="math inline">\(\qquad\)</span> 用反证法.<span class="math inline">\(\quad\)</span>假设 <span class="math inline">\(a&lt;b,\)</span> 由性质 3 知，存在 <span class="math inline">\(N_{1},\)</span> 当 <span class="math inline">\(n&gt;N_{1}\)</span> 时，都有 <span class="math inline">\(a_{n} &lt; b_{n} .\)</span> 取 <span class="math inline">\(N=\max \left\{N_{0}, N_{1}\right\},\)</span> 当 <span class="math inline">\(n&gt;N\)</span> 时 <span class="math inline">\(,\)</span> 有 <span class="math inline">\(a_{n}&lt;b_{n}\)</span> 与 <span class="math inline">\(n&gt;N\)</span> 时 <span class="math inline">\(a_{n} \geqslant b_{n}\)</span> 相矛盾, 所以假设不成立. 因此 <span class="math inline">\(a \geqslant b.\)</span></p>
-<ul>
-<li>在性质 4 中，即使存在 <span class="math inline">\(N_{0},\)</span> 当 <span class="math inline">\(n&gt;N_{0}\)</span> 时, 都有 <span class="math inline">\(a_{n}&gt;b_{n}\)</span>, 也不能保证 <span class="math inline">\(a&gt;b.\quad\)</span> 例如, <span class="math inline">\(a_{n}=\dfrac{1}{n}, b_{n}=-\dfrac{1}{n},\ a_{n}&gt;b_{n}\ (n=1,2,3, \cdots),\)</span> 但 <span class="math inline">\(\lim\limits_{n \to \infty} a_{n}=0, \lim\limits_{n \to \infty} b_{n}=0,\)</span> 两极限相等.</li>
-</ul>
-<h4 id="数列极限的四则运算">5. 数列极限的四则运算</h4>
-<p>若 <span class="math inline">\(\lim\limits_{n \to \infty} a_{n}=a, \lim\limits_{n \to \infty} b_{n}=b,\)</span> 则数列 <span class="math inline">\(\{a_{n} \pm b_{n}\},\left\{a_{n} b_{n}\right\},\left\{\dfrac{a_{n}}{b_{n}}\right\}(b \neq 0)\)</span> 的极限都存在, 且</p>
-<ol type="1">
-<li><p><span class="math inline">\(\lim\limits_{n \to \infty}\left(a_{n} \pm b_{n}\right)=\lim\limits_{n \to \infty} a_{n} \pm \lim\limits_{n \to \infty} b_{n}=a \pm b\)</span></p></li>
-<li><p><span class="math inline">\(\lim\limits_{n \to \infty}\left(a_{n} \cdot b_{n}\right)=\lim\limits_{n \to \infty} a_{n} \cdot \lim\limits_{n \to \infty} b_{n}=a \cdot b\)</span></p>
-<p>特别地，当 <span class="math inline">\(k\)</span> 为常数时，有<span class="math inline">\(\lim\limits_{n \to \infty} k a_{n}=k \lim\limits_{n \to \infty} a_{n}=k a\)</span></p></li>
-<li><p><span class="math inline">\(\lim\limits_{n \to \infty} \dfrac{a_{n}}{b_{n}}=\dfrac{\lim\limits_{n \to \infty} a_{n}}{\lim\limits_{n \to \infty} b_{n}}=\dfrac{a}{b}(b \neq 0)\)</span></p></li>
-</ol>
-<p><strong>注意:</strong></p>
-<ul>
-<li><mark>运用四则运算时, 极限必须存在,且不能推广到无限项.</mark></li>
-</ul>
-<h2 id="数列极限存在的准则">数列极限存在的准则</h2>
-<h1 id="函数极限">函数极限</h1>
-<h1 id="函数的连续性">函数的连续性</h1>
-]]></content>
-      <tags>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>名片设计作业说明文档</title>
-    <url>/2021/04/%E5%90%8D%E7%89%87%E8%AE%BE%E8%AE%A1%E4%BD%9C%E4%B8%9A/</url>
-    <content><![CDATA[<p>　　把我上课作业拿过来看看效果。导出时用的 300 ppi，说不定会加载很慢？ <a id="more"></a><!-- 这里看不到图片，但是网站可以看到 --></p>
-<hr />
-<p><img src="/assets/mingpiansheji/名片_说明文档.png" /> <img src="/assets/mingpiansheji/名片_说明文档2.png" /> <img src="/assets/mingpiansheji/名片_说明文档3.png" /> <img src="/assets/mingpiansheji/名片_说明文档4.png" /> <img src="/assets/mingpiansheji/名片_说明文档5.png" /> <img src="/assets/mingpiansheji/名片_说明文档6.png" /> <img src="/assets/mingpiansheji/名片_说明文档7.png" /> <img src="/assets/mingpiansheji/名片_说明文档8.png" /> <img src="/assets/mingpiansheji/名片_说明文档9.png" /> <img src="/assets/mingpiansheji/名片_说明文档10.png" /></p>
-]]></content>
-      <tags>
-        <tag>笔记</tag>
-        <tag>作业</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>励志联</title>
     <url>/2017/06/%E5%8A%B1%E5%BF%97%E8%81%94/</url>
     <content><![CDATA[<p>也是老文章了啊……在hexo的nexT主题更新之后，删除了汉字标准格式的支持，原来的竖排文本现在要实现也太麻烦了……唉</p>
@@ -1642,81 +1526,39 @@ D(x)=\left\{
       </tags>
   </entry>
   <entry>
-    <title>中国现代城市起步的见证——评《重建中国》</title>
-    <url>/2022/04/%E9%87%8D%E5%BB%BA%E4%B8%AD%E5%9B%BD/</url>
-    <content><![CDATA[<p>本人在《中外城市发展与规划史》课程中为《重建中国：城市规划三十年 (1949-1979) 》撰写的书评，供参考。</p>
+    <title>莊子淺摘（後記）</title>
+    <url>/2017/05/zhuangzi-houji/</url>
+    <content><![CDATA[<p>这也是老文章啊，在我以前还有一个“学霸”的信心的时候……算了算了吧。</p>
+<p>以下是原文: <a id="more"></a></p>
 <hr />
-<p>　　“现代意义的城市规划学，是工业革命后城市高速发展，带来许多矛盾和问题后产生的。”（<em>董鉴泓《中国城市建设史》，251页</em>）在辛亥革命之前，除了历朝历代的都城、交通枢纽城市和鸦片战争以来被强迫开放的城市外，中国广阔的大地上似乎布满着只能被称为“农村”的聚居点，象征着发展与进步的大城市屈指可数。而在南京国民政府时期，主要的规划与建筑又集中在上海南京等南方沿海城市，“多是个别地、分散地进行的”（<em>《中国城市建设史》，381页</em>)，且“对旧城的改造规划未进行实际的工作。”（<em>《中国城市建设史》，382页</em>）然而，比新中国迟出生50多年的我，一睁眼就可以见到一个新兴而生气勃勃城市——温岭；不算因战争纷飞建设停滞的三四十年代，新中国成立短短的50年来，中国的城市面貌真是发生了翻天覆地的变化：遍地的中层小区、各种宏伟的大厦、沿街熙熙攘攘的商铺……而这一切都是怎么发生的呢？</p>
-<p>　　因为没有亲身的经历，我一直很好奇一个城市从无到有的产生过程，尤其是中国沿海城市三四十年间如雨后春笋般产生的过程。这段历史很有特色而值得研究，而在各种书上我却都只能读到一段满是百分比的概括，诸如“快速起步阶段”“波动阶段”之类，不仅枯燥也没法走进我的记忆。华揽洪先生的《重建中国》却重新唤醒了我对历史的无限遐想，作为一位亲身参与了1949年到1979年的规划工作的建筑师对自己工作的描述与总结，这本书娓娓道来从1949年到1979年的中国城市发展规划史，还贴以时代背景，简述了新中国历次运动在这些领域造成的影响。“重建”一词正体现出这段时期的重要意义。</p>
-<p>　　华揽洪先生一生对建筑、对城市建设艺术都充满献身精神。在巴黎获得建筑师文凭后，1945年，他在马赛创办了自己的建筑师事务所，并主持了一系列建筑项目和规划项目。1951年，他回到中国，被聘为都市计划委员会第二总建筑师，任北京市建筑设计研究院总建筑师。在中国工作的26年间，他亲身参与了中国的城市规划和建设，做出了北京儿童医院、幸福村、华氏立交桥、北京市总体规划甲方案等等重要的设计，还为新中国设计出一系列预置构建的和标准户型，这也为本书提供了浩博的素材依据。退休回法后他还被法国政府文化部授予了艺术和文学骑士勋章。令人遗憾的是，华揽洪先生已于2012年在法国逝世。《重建中国》最初于1981 年用法文写成，在法国出版，2006年翻译后由三联书店出版，但已然成为了中国现代建筑规划的历史必读书之一。 <a id="more"></a></p>
-<h2 id="撰写结构">撰写结构</h2>
-<p>　　城市规划是一项和政策性很强的工作，既是城市各种建设的战略部署，又是组织治理生产、生活环境的手段，涉及国家的经济、社会、环境、文化等众多部门。（<em>吴志强，李德华《城市规划原理》，168页</em>）可以说，中国那三十多年的规划与建设的脚步是紧紧踏在当时的历史背景上的，城市规划与建设不过是整个社会经济发展的一个小小的因子。《重建中国》也完全遵循了时代的脉络，在叙述各种规划对象的同时紧扣背景环境与条件，铺以大量的笔墨展现了当年中国兴兴衰衰的社会变革史。本书大体可以分为三个部分：第一至六章以时间进程为主线，回顾了三十年城市规划与建设工作的历程，“摆出中国社会主义建设的六个主要阶段里城市建设所遇到的诸多问题”；七至十一章则以各种规划主体为对象归纳了各个规划系统的演变，“讲了一些特殊问题”，并分别总结了作者的规划方法与思考；第十一章“专门写城市建设政策上的重大选择”。前两个部分，作者分别抓取时间和规划主体两个线索，一隐一显，各有侧重，大概是为了方便陈述变革进程，如工业用地主要在大跃进时期迅速扩张，则将其纳入大跃进时期与其他城市面貌一同叙述；住宅设计始终在不断优化发展，则将其置于单独一章便于细致分析。这样尽管内容有所交错，但读者仍能抓住要点。</p>
-<h2 id="主要内容">主要内容</h2>
-<p>　　由于当时三十年的规划制度和作者实际参与情况，本书对中国规划史的回顾与笔法以微观切入为主，以大量的具体建筑与规划作品折射出三十年的总体建筑与规划风格。</p>
-<h3 id="中国城市起步与波折">中国城市：起步与波折</h3>
+<p>　　我知道当我安利同学们参观这个网站的时候，映入眼帘的竟是一堆“看不懂”的繁体字时的感受（也不得不说有些同学的国文素养差），也知道大家完全没兴趣看我所作的摘注（大多只是看了每篇粗体的吧？）。写这一篇，完全是兴趣。</p>
+<p>　　一次，我问父亲对庄子有多了解，他倒问我庄子是不是早于老子……看来我有必要对庄子做一个介绍：</p>
 <blockquote>
-<p>　　 1949年，中国十分贫困，所以我们着手进行基础设施建设和工业化的同时，必须初步解决人民的吃、穿、教育和卫生等方面的问题。我亲身参与了城市规划的这30年应当看成我们的初学阶段，其中还得减去“文革”的10年动乱。但这个时期的经验基本可以勾勒出这10亿人后来的生活框架。（<em>前言，第3页</em>）</p>
+<p>庄子，宋国蒙城人，名同。曾著书十万余言，《汉书·艺文志》道家类有《庄子》52篇。今存33篇，分内外杂3类，为晋郭象所定，其中内七篇一般断为庄子自作，而外、杂篇则多为庄子后学之作。</p>
 </blockquote>
-<h4 id="起步阶段">起步阶段</h4>
-<p>　　为了让法国读者能够进一步理解中国的现实情况，作者从中国三千多年宏大而雅致的历史文明讲起，到半个多世纪前绵延了百年的战火结束，为读者呈现出一个百废待兴，亟需建设的大国形象。中国1949年面临着沉痛的历史：耕地稀少，人民穷困，工业贫瘠，文化发展极不平衡，知识分子凤毛麟角，其中工程师与技术人员（更不提建筑与规划领域）更是少得可怜，人口分布不均又增长迅速；中国土地的使用情况也不容乐观，农村只有破旧的房子，新时代的建筑只能在殖民者的府邸与略地才能找到，传统的内陆城市没有工业的痕迹，全然保留着“皇权、封建礼教的色彩”（<em>13页</em>)。</p>
-<p>　　 作者写道，历史上中国内陆的城市有个非常突出的个性：交通干线走向都是按东西南北规定，聚居区并不像西方那样私人建筑和公共建筑沿街（广场）并列，而是由一个挨一个的私人庭园组成，商业街只是居住区的外延，典型的城市组织是东西走向的胡同。</p>
-<p>　　建国后中国最急迫的任务是修建基础设施和紧急治理一些杂乱落后的“贫民窟”，这些在总体规划方案制定之前就得以完成。勉强建立一系列规划管理机构后，人们开始测绘绿化、老城区、历史古迹等，从逐渐研究城市的自然条件，开始为工业区选址。此时政府认为城市应该发展现代工业来改变阶级构成，“所有的城市都应有自己的工业”，使每个地区能够自给自足，且要增强内地的工业比例。在城镇的规模上，政府提出限制大城市、扩展和创立小城市的方针以帮助乡村的发展与现代化。在规划的起步阶段，为了尽快开始建设，人们创造性地提出了“城市规划草图”方法，依假定草图适当办法建筑许可证，并逐步开展起详细的城市规划方案。作为当时的新兴社会主义国家，社会上也出现了不少关乎社会主义特色的建筑规划体现方法、历史古城保护的的学术性讨论等。</p>
-<p>　　随着中国进行社会主义改造，逐渐向社会主义社会过渡，中国的规划与建设部门也在发展壮大。但是，由于国家需要多年统计收集地质、气候学、土地资源等等资料，在城市能够做出长远的经济计划前，地方规划师只能拿“一五计划”中的短期计划做长期规划。城市规划师普遍在现代城市治理上缺乏经验，因此此时中国大量向前苏联的规划体系学习，一方面，这种规划方法重视古迹、绿化，但同时它凸显出死板的“形式主义”，不能够适应城市不同阶段的治理，而且因为苏联顾问不能因地制宜地认识到中国并非地广人稀，导致用地严重奢侈浪费；住房上，苏联人追求对称、节奏、重复，一系列面向东西的沿街住宅与中国传统住宅的日照与卫生需求产生了严重矛盾。</p>
-<p>　　几乎所以提到中国建筑风格历史的书都会探讨那段历史对“大屋顶”的讨论，尤其是梁思成成为国家大举宣传的杰出建筑师代表的时候，但那些书往往只见到梁的图纸与见解。《重建中国》专门以一节回顾了这些讨论。为了实现前苏联口号“社会主义内容加民族形式”的要求，中国建筑师即如法炮制将假斗拱假屋檐安到现代主义的建筑上。华先生批评这种“过时的形式取代了舒适和经济，这其中毫无进步可言。”（<em>65页</em>）“单纯堆积建筑符号，而完全忽略与这个国家日常建筑的联系，既不能代表民族遗产，也不能代表新建筑。”（<em>66页</em>）然而有趣的是，止住大屋顶之风的并非大屋顶格格不入的形式，而是在大屋顶建设上浪费的惊人财力。</p>
-<p>　　尽管这个时期在规划与建设上有大量欠缺，但这个时期做出的规划还是能够比较合理地指导上百个城市发展的。逐渐掌握现代城市规划这个在中国尚属全新学科的人越来越多。</p>
-<h4 id="波动阶段">波动阶段</h4>
-<p>　　1958年之后，发展的口号变成了“两条腿走路”“自力更生”。城市规划的原则并没有改变，但在对一五计划的总结基础上做出了各方面的修改。工业用地被强制“节约”以减少对农田的侵占，之前忽略地形与功能强行横平竖直的路网得到了整治，主观规划的平滑的城市边缘被曲折的更实际的城市轮廓取代，新的绿地概念也使得绿地既能提供休憩也能成为建设备用土地。</p>
-<p>　　中国进入大跃进时期后，在“多、快、好、省”的口号引导下，各地实际进行了超常工业化。许多宏大气派的建筑落成，居民区也被大量增建。这个时期人民公社成立了，在作者看来，这是中国小区规划研究的前身。各种公共服务设施的兴办让规划师进一步研究文教建筑的布局、小工厂的激增则迫使规划师解决居住区与工业区土地的使用方式的协调。</p>
-<p>　　大跃进结束后，三年灾害的遗患、苏联专家的撤走、大跃进中农业的荒废等错误的扩大化综合导致了接下来几年中国城市化的倒退。突然间“农业为纲”成为第一纲领，劳动力回流农村，尽管城市的建设速度放慢了，但农村的建筑却得到了重视。经历调研和测绘，空间布局合理的中国传统建筑为建筑师和规划师留下了宝贵经验。在紧缩政策的影响下，各类建筑以各种手段提高场所利用率，以限制城市的规模。</p>
-<p>　　作者以大寨和大庆两个合作社（人民公社/国营单位）的例子，为我们展现了六十年代末期农村步入城市规划的雏形，展现了当年体力劳动者的勇气和创造精神。大寨这种“就地取材”，使用改进的传统技术最终建成了一个密集的村庄的壮举，总让我想到今年的普利兹克奖得主凯雷（Diébédo Francis Kéré）带领他的村民建成甘多小学的故事，谁能想象，或许非洲的农村在五十六十年后也将成为那时最为繁华发达的城市呢？大庆则被作者当做因工业忽视文教建设、只依赖人的主观能动性而忽视科学意见的反面典型。</p>
-<p>　　文革对于建筑与规划的影响体现在建筑的“超经济”倾向和“超快设计”“就地设计”方法，对城市规划的全盘否定等等。同时高等教育对规划学科的撤除、行政管理的混乱、设计院的遣散等等也进一步加剧了这场灾难对中国建筑规划领域的摧残。</p>
-<h3 id="规划编制居住区交通绿地与乡村">规划编制：居住区、交通、绿地与乡村</h3>
-<blockquote>
-<p>　　 和苏联一样，中国的社会主义革命和工业革命也是同时进行的，但却比苏联当年的条件更差。这两个革命带来的巨大转变不可能不反映到住宅和人民生活的方方面面。（<em>129页</em>）</p>
-</blockquote>
-<h4 id="住宅">住宅</h4>
-<p>　　在建国初期，中国的农村住宅往往简陋而没有现代化设施，需要经常性的简单翻盖；若要实现乡村城市化需要统一的规划和重建。新兴工人住宅小区多是长廊式的集体宿舍楼，卫浴也极其简陋。城市住宅从由各单位建设到交由房管局建设，最终形成了一套统一的城市肌理。然而在城市化的过程中，中国的许多传统庭院消失了。住房的标准化设计也在不断演替修改，从学习苏联时期的大进深到坚持朝南，到各种套间形式的公寓，住宅的空间布局越来越符合老百姓的需求，逐渐标准化的各种构件和模度也加速了城市住房的建设。不过住宅仍然大量匮乏，人均居住面积甚至不足4平米。</p>
-<p>　　作者写作时没能预见到改革开放的浪潮，但一系列政府举措和现象让他充满性心地写道“不过当中国的工业化和现代化达到一定的水平时，可以预料建筑业一定会蓬勃发展了。”（<em>152页</em>）而我坐在专教的电脑前，想到如今房地产在几年前就已走下神坛步入低潮，不禁感到恍如隔世。</p>
-<h4 id="小区与配套设施">小区与配套设施</h4>
-<p>　　 尽管新建的住宅小区已经得到了科学的规划，但是仍有大量由单位建设的小区与分散的住宅区没能享有相应的公共服务设施。在学校的选址上，为了避免小学生的活动对夜晚上班的居民产生影响，小学被安置在住宅小区的边缘地带，幼儿园则被尽量安置在商业区或小区入口处方便父母接送与购物。一般单位拥有自己的托儿所和诊所、饭馆（食堂），这类配套设施有大有小，分布也各有千秋。不同于东欧国家死气沉沉的零售店铺，中国的商业店面更具有吸引力。其他如修理铺废品回收站等带有“节约”色彩的服务性场馆受到重视，而如电影院俱乐部等文化娱乐设施则较少，且使用上也尽量节约。</p>
-<p>　　住宅区是城市的基本组成部分，作者详细推演了那个年代按照预测应该的小区规模和密度，讨论了通过集中商业服务业、使用地下室等省出空间的做法。因为中国耕地的珍贵，原本一两层的平房应当被重建为新的大楼，同时应该通过建高层住宅、缩小楼房间距来保持社区配套设施服务的人口规模并进一步缓解用地的压力。作者担心城市的进一步扩张会严重占用城市周围的农田，提出应该大力在未开垦的土地兴建工业中心（卫星城）。</p>
-<p>　　中国的传统建筑具有特殊的庭院空间，而70年代学习前苏联的排房丢弃了传统的中国建筑特色，布局也千篇一律。这固然与中国需要日照等因素相关，我们也可以通过一定程度上改变朝向、错开排列、调整服务型建筑、改变大楼长度和式样等方式避免单调，并尽力达到城市空间的美观。</p>
-<h4 id="交通">交通</h4>
-<p>　　70年代后，大城市人口的增加远远超过预期，而自行车、汽车等交通工具的增加深刻加重了未能谨慎设计的马路的压力。夜间货运、错峰上班等方式部分减轻了高峰车流的压力，但对城市交通最重要的因素确是总体规划：一方面要拉近住宅区与工作区的距离，另一方面要大力发展公共交通。</p>
-<p>　　虽然在现在看来，作者当时很有远见地提出要吸取发达国家的教训“优先发展公共交通”，这样“很多私家车主在城里还是继续乘公共汽车或无轨电车，小汽车只留待出远门时才用。”（<em>185页</em>），但是中国飞速的发展还是超过了所有规划师的想象，人口的规模使得地铁也变得过于拥挤，堵塞的马路仍然是现今家庭出行的首选方式。或许这个遗留了五十年的问题仍需要后人创造性的智慧才能解决。</p>
-<p>　　大跃进之后，城市规划对于工厂的布置灵活起来：污染性工厂被放置在远离城市的地方，特殊工厂被放置在界限明确的工业区，小工厂则被分散在住宅区中。交通网以划定的网格确立干道等，便于通勤与配套建筑的布局。作者以三个住宅、办公楼（工厂）等的社区例子评述了他对工作与家的思考。</p>
-<h4 id="绿地水系与环保">绿地、水系与环保</h4>
-<p>　　引水需要考虑灌溉，保水需要植被固土；造林不但能保土、防沙，还能改善小气候，因此土地治理也是城市规划中的重要工程。黄河的治理以及一系列水坝、京杭运河、各大水库的兴建等使得水利工程能够协调为农村和城市服务，拉近城乡间的关系。城市的街道绿化、房屋的立面绿化清朗了城市的风气面貌，各地的植树造林运动也将改善全国的生态环境。环保也提上了日常，除了六十年代的“变废为宝”口号，废弃废水等工业废弃物业亦得到了一定治理。新能源也开始逐步替代燃煤的使用。</p>
-<h3 id="城市与乡村政策的选择">城市与乡村：政策的选择</h3>
-<p>　　城市与乡村相互依存，作为社会主义国家，中国在进行工业化的同时从来没有停止过对农业的重视，而对农业的重视也引导了人们更关注农村、乡镇的规划。“乡村的工业化、小村庄的合并、小城市的作用、对特大城市的限制、城市居民和农村居民的关系，所有这些问題都是与中国特殊的发展道路密切相关的问题。这条道路从土地和城市规划的创新观念出发，目的是在长期过程中逐步消除城乡差别。”（<em>222页</em>）</p>
-<p>　　消除城乡差别这个乌托邦式的目标在当时有着特别的达成手段。季节性的农业活动使得空闲的农业劳动力可以投入新中国建设的各种土方工程中来，这些建设活动造就了简单的工厂与乡镇企业。在全国耕地面积几乎不变的情况下，许多村庄通过合并优化了布局以更好地享用公共设施与工厂来达到发展。小城市在发展的同时极力限制自己的人口规模，将自己的工厂转让给农村以带动农村的工业化。大城市为了限制人口规模也进一步将工业分散化，努力减少对人口的吸引力。</p>
-<p>　　面对城市侵占农田的问题，作者提出可以在西部与高原不适宜耕作的土地上建房，认为这场中国的“西征”可以解决中国的土地利用问题，并在大城市的疏散中达成城乡差别的消除。</p>
-<h2 id="评述">评述</h2>
-<p>　　不知道是否因为特殊的时代原因，讲解1949-1979年中国城市规划建设相关的书很少，甚至讲评《重建中国》的内容资料也很少。在没有相关文字做对比，且我作为一个普通的规划学生的身份的情况下，我只能站在2022年中国“伟大复兴”的今天，浅薄地评述这本历史的遗著。</p>
-<h3 id="对农业与耕地的重视">对农业与耕地的重视</h3>
-<p>　　与一般的城市规划师或建筑师不同，作者对农业用地的重视可谓到了极致。几乎每一节中作者都会提到开发对耕地的占用的影响，并焦急地想要让城市的扩张避免侵占耕地。这在粮食安全还没有作为国家战略的年代是难能可贵的，或许也正是因为有这样一批心系国家发展大局的规划师的存在，我们才能在今天进一步划定三区三线，保证第一产业用地的面积。</p>
-<p>　　不同于文革时期粗暴的“城市向乡村看齐”以磨平城乡差异的做法，他从不是简单地呼吁禁止城市的扩张，而提出了各种解决问题的可能，例如兴建卫星城（<em>168页</em>），甚至让东部沿海人民“西征”以开发西部地区（<em>241页</em>）。当然在现在看来，一些做法显得不那么合理，但终究是富有远见的。</p>
-<p>　　我虽然在城市出生，但老家是在温岭市新河镇的临江村，一个到处是水稻田、橘树林的小村。大概是自己多在城市生活且老家的地也不再由自家打理，我对农田没有任何特殊好感，耕地给我的直观感受只是又大又毒的蚊子包。不画总规时的城乡规划大概只是更关注建设用地的，直到我选了《土地资源学》，课本、老师和文献处处不离耕地的时候，我才意识到农业用地的保护也是国土规划中的重要一环，中国的优质耕地资源真的太少了，而浙江许多的优质耕地却在工业化的进程中被重金属污染而无法继续耕作。</p>
-<p>　　目前中国在耕地和建设用地的占用关系上应该主要采取的是“占补平衡”，建设中不得已占用的耕地要一寸不少地迁移到另一处适合耕作的地方（如果我没理解错的话，是把土壤运到另一处）。也就是说，现在的耕地分布重心正在迁移，大概是从东北向西北移动。我们这些享乐的居民就不需要像华揽洪先生的设想那样再来一次“开发北大荒”了。</p>
-<h3 id="局限的横向视野">局限的横向视野</h3>
-<p>　　可能囿于北京市建筑设计研究院总建筑师的身份，本书大部分采用的资料都是北京与北方地区的图纸，对南方与内陆地区的图纸相对较少或简略。这是本书最为明显的缺陷，不过也如作者所说，在动乱中许多珍贵的资料丢失了，这种局限也情有可原。</p>
-<p>　　除了如杭州市规划、新会水电站这种大型的区域规划与建筑设施，尤其对于小区与普通住宅楼的图纸，以及交通规划方面的资料，作者仅能以北京的例子出发，以自己的亲身经历来谈论居民对城市空间的感受，这在全国视角下是有失偏颇的。倘若只看作者的书，甚至会有一种中国各地都有一种完整前瞻的规划，一片欣欣向荣的感觉——但实际是那个时期是许多中小城镇，包括东南沿海的小城市，仍处在一种无序的，摸不着头脑的规划草图方案下建设。（<em>《中国城市建设史》，395~399页</em>）</p>
-<p>　　但是不得不说，作者的竖向视野是伟大而富有远见的，面对未来的许多设想至今仍不过时。他在最后一章写道：“如果大部分小城市都能将人口控制在15万以内，而实行归并后的农村所形成的农工城镇的人口达到两万到3万人，那么我们就有了很多相似的小城镇群，它们的教育、文化、体育和商业设施也彼此相差不大。另外如果交通快捷的话，它们距离那些设施更加完善的小型繁华都市之间的路程不超过一小时，那么人们离消除城乡差别就不太远了。……在1958年时看起来像是乌托邦的东西，一百年后可能成为现实。不过不能背离城市扩散和加紧在农村实行现代化的政策，而且必须走出一条有中国特色的城市化道路。”（<em>237页</em>）而直到今天，“控制大城市规模、合理发展中等城市、积极发展小城市”的城市建设方针，也基本没有发生太大的改变。</p>
-<h3 id="详实的分析案例">详实的分析案例</h3>
-<p>　　或许历史的乐趣正在于一个个活生生的人，城市的历史也需要一个个清晰的案例来展现。作者能够拿出那个年代种种宝贵的资料来印证自己的想法，如同史实一般，一段波澜壮阔的城市建设史由此展开。从建国之初的中国工业城市布局图到北京西安大连的城市平面，从北京纺织厂小区到黄岩的大屋，亦或是和平宾馆的底层设计与平房的平面布局，图纸清晰地告诉我各种规划思想是如何落实的，引导我细细思考每种住宅布局是否真的合理，让我反思自己老家的小屋是否也和书中的描述有些许类似。从北京宏伟的广场与优雅的四合院到福建的客家土楼和包头钢厂，各种历史照片也带我走进那一段段曾经发生过的故事。</p>
-<p>　　读了此书后，《明日之城：1880年以来城市规划与设计的思想史》中短短两页的“中国开展上山下乡”（<em>284页</em>）变成了大寨等一众小乡村变成城镇的真实纪事；《中国城市及其文明的演变》中的“非城市化”战略变成了新会市等新城镇将工厂转移给人民公社来控制人口的趣闻；《中国城市建设史》中的“两个马鞍形”（<em>386页</em>）也变成了北京市规划师们反反复复争吵建设方案的轶事……我想我对中国所谓“坎坷曲折”的城市建设历程有了更直观而深入的了解。</p>
-<h3 id="亲切的阅读体验">亲切的阅读体验</h3>
-<p>　　这种充满案例，以微观视角切入的特点也造就了本书不同于其他历史书的易读性。与《城市地理学》等等教科书枯燥地讲述一个城市如何从聚居点或集市漫长地演变为中心地不同，本书以极为亲切的口吻娓娓道来从三十年来的中国城市发展规划史，各种设问与第一人称的句子让人感到这就是一位长者在讲述自己熟知的故事。这也需要感谢作者体贴地“为了让文章易懂，避免堆砌术语，而更多地使用较为通俗的语言”。（<em>第3页</em>）</p>
-<p>　　另外从书籍设计的角度来说，这本书是大概是经过字体排印的推敲的。最近翻阅《平面设计中的网格系统》和《排版造型 白井敬尚——从国际风格到古典样式再到 idea》，再看到三联书店的《重建中国》，发现其双栏的选择、版心的位置、图文混排的方式甚至页码与注释的位置，都有着网格系统的影子，这也使本书读来没有那么吃力。说实话，版面是否舒适也很能影响一个人是否愿意读下去。</p>
-<h2 id="小结">小结</h2>
-<p>　　在我没有读大学的时候，无论是中学老师还是自己的亲戚总会不时批评自己城市（或语文阅读题里的城市）的种种缺陷，此时的论调往往是“一届市长一届风格”“摊大饼无限制的开发”之类，痛斥各种建设的不合理之处。到大学我选修《自然资源科学导论》，仍有同学试图通过简单地谴责政府的喜大好功解释一些问题。高中的我很乐于接受这种理论，然而一读城乡规划，这些说法却显得不攻自破：按照早在80年代就制定的《城乡规划法》，这种混乱的建设显然是不应该发生的。那这种乱象是怎么出现的呢？直到后来强迫自己翻一翻《中国城市建设史》，我才得到合理的解释——并不完全同老师和同学所想的那样，原因其实应该是所谓90年代违法违章性质加剧、规划可操作性不强而无力控制、各部门各自为政、规划跟不上建设、规划师不坚持原则等等。所以说，还是得读读历史才不会主观臆断地随意归因，才不会和各种管理学专业一样想当然地提出虚伪空洞的方案。</p>
-<p>　　 一位读者在豆瓣读书里写道：“那重建中国的30年，是奠基的30年。那30年，不能仅仅是简单的否定和忽略，它依旧以某种形式深刻影响着我们的生活，遗留的空间叠加在我们的城市中；遗留的意识叠加在我们的头脑中；遗留的体制延续在我们的制度中。 这是值得研究的30年，不仅仅是为了‘经验’和‘教训’，还要理清那30年与我们这30年的联系，这是我们的现实。”（<em>袁委. 那重建中国的30年——读华揽洪先生的《重建中国》[J]. 重庆建筑,2013(9):58-58.</em>）华揽洪先生将30年的制度变化、社会经济发展在城市规划之间建立起一种逻辑关系，“将城市规划看成是这些内容的空间投射和解决方案”，以一种独出机杼的方式再现了中国城市乃至社会或产生或壮大，或停滞或倒退的往事。这是我们不能因历史的沉痛而遗忘的。</p>
-<p>　　诚然，如作者在自序中所写，“近三十年来中国发生了翻天覆地的变化，有些内容和观点显然已经过时”，但“有些内容还是有保留价值和借鉴作用的”。此书不仅能让我这种未曾真正经历过城市产生的年轻人了解当时的情况，还“从本质上道出了面对中国许多失忆的城市建筑，文化记忆该追求永恒”（<em>金磊. 为中国城市规划立言的专著:读华揽洪《重建中国:城市规划三十年(1949-1979)》有感[J]. 建筑创作,2006,88(10):156-157. DOI:10.3969/j.issn.1004-8537.2006.10.032.</em>）。我想，这也正是一个个伟大建筑师或规划师能够追求“为天地立心，为生民立命”的意义所在。</p>
+<p>　　庄子是一位有趣的伟大的哲学家。如果你喜欢，可以仅仅去看他写的寓言故事（据庄子自己记录，“重言十九，寓言十七”，寓言至少占了十分之七——尽管我没摘）。其中关于“儒家”的故事占了很大篇幅，不少是孔子（颜回）的故事。不过庄子当然不会宣扬儒家思想，他不过是借孔子之口宣传“道”，顺便批判一下孔子（儒家）的不明大道以及其言行相悖etc.，指责他们要求“仁”，违背人性自然的性情而使得天下大乱。这样，看道儒两家互相攻击会变得极其有意思（如<田子方>篇鲁哀公与庄子的故事）。</p>
+<p>　　不过，作为哲学家，不少寓言故事的终极寓意于我们现今的大多浅显理解是不尽相同的。如庖丁解牛，我们理解为要掌握方法才能得心应手，而庄子可能意在指出社会肌理复杂，我们要顺着“道”（自然），小心地游刃于其肌理间（喻为牛的筋骨），才能安然处世，保持完好（刀都不用磨）；又如混沌开窍，我们可能单纯当睡前故事读了，或理解为不要好心帮倒忙之类，而庄子之意却是统治者今日立一政（开一窍），明日颁一法（开一窍），人民就生活在水深火热之中了（混沌死）——尽管君王的出发点可能是好的。诸如此类的还有螳螂捕蝉，黄雀在后、佝偻承蜩、呆若木鸡、邯郸学步等等，不加赘述（具体见《浅摘》文）。总之，国人之前受的教育实在太浅显了，没有领会出哲学的深意。</p>
+<p>　　《庄子》中议论也占了较大的篇幅。庄子的思想内涵是极深刻而深远的，其自由安逸的生活态度给我以很大的启迪。他是老子之后先秦道家学派的集大成者，从内七篇看来，他的哲学是继承老子而来，但庄子更加突出了“道”之为“整体性”的特点，还建立了一个独特而完整的认识论系统，这是老子所不及的。庄子对老子思想的最大发展，是他把在老子那里主要是宇宙论及本体论的“道”转化而为心灵的境界。在自然说方面，庄子更为深广地发挥了人的自由性与自在性。尤其著名的<逍遥游>一文，描绘了一种透脱的心灵，为人所称道。在治身的另一些方面，可以说庄子和老子是有相近的地方的。比方说，他劝人们忌太张扬，忌追名逐利……然而，后世一般以为庄子消极，出世，大概是很表面的。庄子置身于战祸连绵，危机四伏的环境中，对不幸的现实有深切的体验，因而思想表现追求“逍遥游”，但他的“逍遥”不是出世的，而是<strong>寄沉痛于悠闲之中</strong>。可以说他是“出世”的精神入世。庄子主张扬弃的是现实世界中的世俗价值网，从中解脱出来。由于庄子并不舍弃这个世界本身，这种出世与宗教的离弃此世截然不同。[陈《庄子的悲剧意识和自由精神》]</p>
+<p>　　想要弄懂《庄子》不是懂文言就可以了。单把文章拿来也可能让人不得要旨。因此我参考了陈鼓应的《庄子今注今译》，陈先生是一位著作颇丰的哲学教授，要真让某些读者对庄子产生兴趣 <del>（不会）</del> ，不妨找他的原书一阅。（若是入门书，不妨选择林语堂的《老子的智慧》，是用庄子文章解释老子的，但尽是翻译，有些也不得要旨，加之是文言译英，再译回现代汉语，原意尽失，大概翻翻就可以扔了。）</p>
+<p>　　我本没有对哲学有过多的思考，但却惊奇地发现自己竟有那么浓厚的兴趣，相信自己今后也会对庄子老子有更深的理解。在网站上放这个，一是充实兴趣，二是练练手，治治学，但苦于没有时间——以及自己无奈的打字技巧。《浅摘》中写不“不摘”的，可能是虽然理解深刻但是太长，也可能是通篇寓言，均懒得输入。我尽量选择精辟而深刻的摘录（参考归有光批阅·郭象辑注《南华真经评注》明·天启四年刊本影印本），但学识有限，必然有略过精华而拾了糟粕的，也希望不过苛求。 　　这是一项长时间的工程，记得从一七年的一月十八日开写，到大年三十才赶完了<内篇>（然而白天都在上辅导班，都是晚上写的），之后迫于学业就几乎再没动。这篇后记也是百忙之中拼凑得的。嗐！我实在算不上一个学者啊！</p>
+<p><small> 丁酉二月初八于冻风中<br /> 2017年3月4日初稿</p>
+<p>2017年5月7日改过<br /> 5月29日录毕 </small></p>
 ]]></content>
       <tags>
         <tag>随笔</tag>
+        <tag>庄子</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>名片设计作业说明文档</title>
+    <url>/2021/04/%E5%90%8D%E7%89%87%E8%AE%BE%E8%AE%A1%E4%BD%9C%E4%B8%9A/</url>
+    <content><![CDATA[<p>　　把我上课作业拿过来看看效果。导出时用的 300 ppi，说不定会加载很慢？ <a id="more"></a><!-- 这里看不到图片，但是网站可以看到 --></p>
+<hr />
+<p><img src="/assets/mingpiansheji/名片_说明文档.png" /> <img src="/assets/mingpiansheji/名片_说明文档2.png" /> <img src="/assets/mingpiansheji/名片_说明文档3.png" /> <img src="/assets/mingpiansheji/名片_说明文档4.png" /> <img src="/assets/mingpiansheji/名片_说明文档5.png" /> <img src="/assets/mingpiansheji/名片_说明文档6.png" /> <img src="/assets/mingpiansheji/名片_说明文档7.png" /> <img src="/assets/mingpiansheji/名片_说明文档8.png" /> <img src="/assets/mingpiansheji/名片_说明文档9.png" /> <img src="/assets/mingpiansheji/名片_说明文档10.png" /></p>
+]]></content>
+      <tags>
+        <tag>笔记</tag>
         <tag>作业</tag>
-        <tag>城市规划</tag>
       </tags>
   </entry>
   <entry>
@@ -1950,139 +1792,297 @@ D(x)=\left\{
       </tags>
   </entry>
   <entry>
-    <title>，逗号还在行首？【图纸中的文字排印之标点悬挂】</title>
-    <url>/2024/07/douhaozaihangshou/</url>
-    <content><![CDATA[<p>由于建筑学和规划的教学共性呢，（几乎）所有同学的图纸排版和设计都是自学的。这带来了一个很大的问题，那就是大家对<strong>平面设计</strong>的基础知识了解太少，做出来的图纸要么很丑陋，要么尽力做好看和花哨了，但许多细节有大问题。怎么说平面设计也是设计，虽然优秀与否见仁见智，但有没有<strong>错误</strong>是客观的，就好比控规图居住用地不能用红色填充一样，一个基础错误往往会导致整张图纸惨不忍睹。</p>
-<p>至少是我自己看不下去。我每次找图纸看，看到排版问题，我内心对这张图的评价就会直接拉低（「这图凭什么拿一等奖！垃圾🤮」），所以，为了避免我吐tong槽ma你的图纸，请学一些基础的排版知识吧！</p>
-<p>我不敢说自己图纸排版做的多好看，但<strong>文字排印</strong>（typography）应该是没有硬伤的。这个专栏里，Keldos 打算针对建筑学和城乡规划（风景园林呢？景观的同学早点转行吧谢谢）的图纸科普一些文字排印的细节。让我们慢慢来。这是该系列的第一篇，让我来讲讲「<strong>标点悬挂</strong>」。<a id="more"></a></p>
-<h2 id="在行首的标点">在行首的标点</h2>
-<p>这个学期在做 WUPENICITY 的城市设计竞赛，一直在翻前两年的获奖图纸。说实话，如果认真看，（无论是好看的提名作品还是难看的一等奖作品）几乎没有一张图能做到没有问题。真烂啊，要我肯定不给一等奖。我随手就截了几张图，大家能发现这几张优秀图纸里的文字有什么问题没有？</p>
-<p><img src="https://r2.keldos.me/d1bfdf36e1e2587f032d3d7afd6684fd.png" alt="错图1" /> <img src="https://r2.keldos.me/2180ddf9b62fa17dd6e4765d8e782f9d_720.png" alt="错图2" /> <img src="https://r2.keldos.me/speedxsick.png" alt="错图3" /></p>
-<p>上完小学二年级的你已经发现了——</p>
-<p>第一张图的顿号「、」和分号「；」，第二张图的后引号「”」和第三张图的顿号「、」出现在了行首！</p>
-<p>「小学老师就告诉我，这些标点不能放在一行的开头。」你委屈地说，「要是我在稿纸上写我肯定不会犯这些错误。」</p>
-<p>是啊，都2024年了，计算机为什么还不帮我把这些标点挪到行尾呢？明明 Word 这种垃圾软件都不会出这些问题呀！</p>
-<figure>
-<img src="https://r2.keldos.me/Pasted%20image%2020240706162412.png" alt="气疯设计师" /><figcaption aria-hidden="true">气疯设计师</figcaption>
-</figure>
-<p>你是不是在用 Adobe Photoshop 或者 Adobe Illustrator 画图？？</p>
-<p>——！！！你怎么知道的！！垃圾 Adobe！我已经一个一个词删过去调整了额，这里剩下几个忘记了。</p>
-<p>😐</p>
-<p>好吧，下面让我们重新从中文标点讲起……</p>
-<h2 id="标点避头尾">标点避头尾</h2>
-<p>小学二年级老师就教过我们，有一些标点符号不能出现在行头（而另外一些不能出现在行尾），因此在排版时要分别让它们避开行头、行尾的位置，简称「避头尾」。</p>
-<p>实际上，针对各种标点，各种编辑风格其实不尽统一——但如果你高考前语文成绩不错，你可能知道要来找国标的推荐性规范，避免高考前几个病句选择题选不出来，因此你找到了<a href="http://c.gb688.cn/bzgk/gb/showGb?type=online&amp;hcno=22EA6D162E4110E752259661E1A0D0A8">国标 GB/T 15834-2011《标点符号用法》</a>，这正是我国教育部接受的指定用法，里面「<strong>5. 标点符号的位置和书写形式</strong>」中，正写明了：</p>
-<ul>
-<li>着重号、专名号不在「行内」而在「行间」，不属于避头尾处理范围。</li>
-<li>点号，包括句号、问号、叹号、逗号、顿号、分号、冒号，都要避头。</li>
-<li>标号中的引号、括号、书名号：前一半避尾，后一半避头。</li>
-<li>标号中的连接号（–）、间隔号（·）都不能出现在行头。</li>
-<li>标号中的分隔号（/）不能出现在行头也不出现在行尾。</li>
-</ul>
-<figure>
-<img src="https://r2.keldos.me/国标对标点位置要求.png" alt="国标对标点位置要求" /><figcaption aria-hidden="true">国标对标点位置要求</figcaption>
-</figure>
-<p>这里还是得提一句，这份国标只是一份推荐性标准，其他排版或出版的行业性规范中，对分隔号与连接号、间隔号的避头尾规则可能有其他的要求……尤其是省略号与破折号的避头尾规则，有不同的<strong>风格</strong>选择。这又涉及到了<em>间距调整</em>的知识……让我们下一篇再讲吧。</p>
-<p>聪明的你可能还会提醒我，除了标点，还有各种符号，尤其是与数字相关的符号在文章中也需要避头尾，比如百分号 ％、千分号 ‰ 需要避头，前置货币符号如￥＄需要避尾。这会是一个<em>如何断行</em>的问题……嗯，又是另一篇文章了。</p>
-<p>好了，现在你已经复习了标点的避头尾要求，你开始疑惑了：「我知道，你给我400字的稿纸我绝对不会搞错的，我还知道要把冒号和前引号放在同一个格子里（<em>标点挤压</em>，之后再讲吧），可是为什么我画图的时候就不对了呢？」</p>
-<p>下面，让我们进入计算机中的文字排印的原理吧！（bushi）</p>
-<h2 id="避头尾是怎么实现的">避头尾是怎么实现的？</h2>
-<p>在纸质书写的时候，我们可以手动控制标点的位置。在铅字排版的时候，我们可以手动调整标点铅块的位置。显然那，电脑排版的时候，我们也可以手动换行，避免标点出现在第一个字（bushi）。</p>
-<p>开个玩笑，我们并不想手动换行或者删字（虽然确实很多人会这么做）。我们希望计算机能够智能地预判标点是否可能会出现在行首（或者行尾），并以此智能地动态调整。</p>
-<p>不同的软件实现避头尾有不同的内部算法和不同的风格选择，尤其是涉及到标点挤压或标点悬挂之后。让我借用 Eric 文章中的图来解释决策算法：</p>
-<p>如下图，最后一个字是「客」，然后是句号。如果不做任何处理，句号将会出现在下一行的开头。</p>
-<figure>
-<img src="https://www.thetype.com/wp-content/uploads/2018/03/bitouwei-duanhang.png" alt="例句" /><figcaption aria-hidden="true">例句</figcaption>
-</figure>
-<p>如果你对排版规则了解更多，你可能会知道这行字在各排版软件中更容易执行标点挤压，也就是把最后一个字挤进这一行，如 InDesign：</p>
-<figure>
-<img src="https://r2.keldos.me/20240706210722.png" alt="InDesign中的默认处理" /><figcaption aria-hidden="true">InDesign中的默认处理</figcaption>
-</figure>
-<p>标点挤压也有很多策略，比如你会发现 InDesign 挤压了几个点号的宽度而没动文字。这里先不展开。</p>
-<p>但如果是网页排版等策略，或无法挤进，或风格选择，决定把「客。」字段整段推出到下一行，而上一行空出了一个字宽的空间。根据不同方针，在撑开调整时，也会有不同的策略选择：</p>
-<figure>
-<img src="https://www.thetype.com/wp-content/uploads/2018/04/bitouwei-tuichu1.png" alt="不同的推出效果" /><figcaption aria-hidden="true">不同的推出效果</figcaption>
-</figure>
+    <title>函数与极限</title>
+    <url>/2020/10/%E5%BE%AE%E7%A7%AF%E5%88%86/</url>
+    <content><![CDATA[<p>我看下是不是可以把我的笔记完美复现……可以的话持续更新。</p>
+<p>...似乎不行... 我自己编辑器用的KaTeX, 然而网页渲染用的mathjax诶...为什么我更改不了js...以后再试试.</p>
+<p>Work with markdown &amp; <span class="math inline">\(\LaTeX\)</span>. Noted by <em>Keldos</em>.</p>
+<p>[toc]</p>
+<h1 id="函数">函数</h1>
+<h2 id="有界集确界原理">有界集、确界原理</h2>
+<h3 id="有界集">有界集</h3>
+<p><strong>定义</strong></p>
 <blockquote>
-<p>「甲」的效果，是包括国产字处理软件 WPS 以及很多网页排版唯一能实现的效果，即推出字段之后，上一行所有字符根据「两端对齐」算法指令强行拉开，把一个字宽均摊到二十处字间距里。这个方法虽然把每处的调整空隙降到最低（1/20 字宽），但其打破了字距的密排原则，实际的字距会与其他行不同。 ……</p>
+<ol type="1">
+<li><span class="math inline">\(\forall x\in A\)</span> , 都有<span class="math inline">\(x \leqslant \alpha\)</span> ;</li>
+<li><span class="math inline">\(\forall \epsilon&gt;0\)</span> , <span class="math inline">\(\exists x_0\in A\)</span> , 使得<span class="math inline">\(x_0&gt;\alpha-\epsilon\)</span>. 则<span class="math inline">\(\alpha\)</span> 是<span class="math inline">\(A\)</span>的上确界， 记作<span class="math inline">\(\alpha=\sup A\)</span> 或<span class="math inline">\(\alpha=\displaystyle\sup_{x\in A} \{x\}\)</span>.</li>
+</ol>
 </blockquote>
-<p>（其他效果是不同的风格选择或策略造成的，这里不展开了。）</p>
-<p>大家不用知道更细的算法原理了，下面让我来看怎么画图吧！</p>
-<h2 id="画图时的设置">画图时的设置</h2>
-<p>先等等，我们从文本和汇报开始！<del>什么你是建筑学的不用做文本？😢</del></p>
-<h3 id="microsoft-word">Microsoft Word</h3>
-<p>Word 默认是开启避头尾的，所以你可能很满意自己的排版。如果你想要进行更具体的调整，可以在「段落→中文版式→选项」里的「首尾字符」选项中进行设置。</p>
-<figure>
-<img src="https://r2.keldos.me/20240706212424.png" alt="Word设置避头尾" /><figcaption aria-hidden="true">Word设置避头尾</figcaption>
-</figure>
-<p>另外，Word 在默认情况下开启了「压缩标点符号」，因此从实际效果来说，Word 在避头尾时是执行「先挤进」原则：当行尾不足以放一个标点或者遇到避头点时，Word 会先尝试对行内标点宽度进行挤压，腾出空间把标点放到行尾上。</p>
-<h3 id="microsoft-powerpoint">Microsoft PowerPoint</h3>
-<p>我知道，现在你全在用 PPT 做汇报文本，根本不用 Word。放心，学会了这个技能，设计院也<strong>不会</strong>给你我多发工资的！</p>
-<p>PowerPoint 的避头尾设置则在「段落→换行符和对齐方式」中换行符的选项菜单中。（聪明的你甚至发现了PPT是没有标点挤压的，真难过呀。）</p>
-<figure>
-<img src="https://r2.keldos.me/20240706213748.png" alt="PowerPoint 设置避头尾" /><figcaption aria-hidden="true">PowerPoint 设置避头尾</figcaption>
-</figure>
-<h3 id="adobe-photoshop-和-adobe-illustrator">Adobe Photoshop 和 Adobe Illustrator</h3>
-<p>为什么我一眼就可以瞄出你的图纸是用 PS 或者 Ai 做的呢？诶，因为它们默认都没有帮你启用避头尾规则！显然，用 PS 的都是专业的平面设计师，做规划的小萌新画图为什么不直接用 PPT 画呢？</p>
-<figure>
-<img src="https://r2.keldos.me/20240706221523.png" alt="左侧是默认的效果，右侧是调整后的效果" /><figcaption aria-hidden="true">左侧是默认的效果，右侧是调整后的效果</figcaption>
-</figure>
-<p>其实很简单，在 PS 中，你只需要在「段落」面板中将避头尾设置为 「JIS 宽松」，将「标点挤压」设置为「间距组合1」；</p>
-<p>在 Ai 中，则是「段落」面板中将「避头尾集」设置为「宽松」，「标点挤压集」设置为「行尾挤压全角」。</p>
-<figure>
-<img src="https://r2.keldos.me/20240706225247.png" alt="PS与Ai中 设置避头尾" /><figcaption aria-hidden="true">PS与Ai中 设置避头尾</figcaption>
-</figure>
-<p>你可能发现了，为啥好像不管是 Word 还是这里避头尾都有个「宽松」还是「严格」的预设集合可以选择。这又是什么意思？这两个设置有什么区别？</p>
-<p>答案是，如果你是中文用户，也不用它们写日文，那么就是……没有什么太大区别。目前各家软件「严格」「宽松」的设置基本都是针对日文排版需求的设置，二者最大的区别是针对日文「拗促音」的小写假名以及片假名长音等符号的不同处理方式，与中文排版无关。所以我推荐大家选择「宽松」就好。</p>
-<p>至于下面的标点挤压集应该选什么，倒开始偏向风格选择了。我个人会习惯按照「行尾挤压全角」类似的设置来，这样标点会宽一些，两端对齐需要添加的多余空白不会太影响到文字间距。</p>
-<figure>
-<img src="https://r2.keldos.me/20240706225956.png" alt="标点挤压风格对比" /><figcaption aria-hidden="true">标点挤压风格对比</figcaption>
-</figure>
-<p>当然了，这是风格选择喜好。只要不出现逗号出现在行首这种错误，我一般是不会骂别人开启两端对齐之后字间距太大这种问题的。</p>
-<h3 id="adobe-indesign">Adobe InDesign</h3>
-<p>InDesign 作为专业的排版软件，对避头尾也有非常强大和全面的调整和算法。一般来说，如果你下载使用<strong>中文版</strong>的 InDesign，保持默认的效果即可。如果想要有更好的效果，也可以在「段落」面板中将「避头尾间断类型」选择「确定调整量优先级」。</p>
-<figure>
-<img src="https://r2.keldos.me/20240706215516.png" alt="InDesign设置避头尾" /><figcaption aria-hidden="true">InDesign设置避头尾</figcaption>
-</figure>
-<p>所以，如果我没有指责你的图纸错误百出，你应该感谢你使用的是 InDesign。</p>
-<h3 id="用网页排版">用网页排版……</h3>
-<p>我知道有人在用 Figma 之类的基于网页技术的软件做排版，或者就是在排一个网页。网页的标点避头尾和挤压规则可以参考 W3C 《中文排版需求》的<a href="https://www.w3.org/TR/clreq/#prohibition_rules_for_line_start_end">「3.1.4 行首行尾禁则」</a>等节和 <a href="http://unicode.org/reports/tr14/">Unicode 标准附件第十四号《Unicode 断行算法》（UAX14）</a> 以及 《CSS 文本模块》第五章<a href="https://drafts.csswg.org/css-text-3/#line-breaking">「断行与词界」</a>。值得注意的是，由于现代中文蝌蚪引号与西文共享一个码位，也会产生不少问题。但这里也不展开了哦。</p>
-<p>恭喜！现在，你已经学会做出一个基本正确的文本框了，下面，试一试排一本30万字的书吧！（bushi）</p>
-<p><strong>参考资料</strong></p>
-<ul>
-<li>刘庆. <a href="https://www.thetype.com/2018/05/14501/">挤进推出避头尾</a>.</li>
-<li><a href="http://c.gb688.cn/bzgk/gb/showGb?type=online&amp;hcno=22EA6D162E4110E752259661E1A0D0A8">GB/T 15834-2011 标点符号用法</a>.</li>
-</ul>
-<hr />
-<h2 id="附1-我对标点的看法">附1　我对标点的看法</h2>
-<p>我其实是个不太纠结别人用不用标点或者有没有滥用标点的人，你要是用句号代替省略号。。。或者用，，，来体现你的纠结语气，甚至一整段话完全不打标点 只用空格 来代替一句话的停顿甚至完全不打标点或空格就像古文一样我都非常可以接受。</p>
-<p>川虎之前给我看<a href="https://www.gzblog.tech/2024/03/blog-post.html">他对现代网民乱用标点的看法</a>，觉得用标点体现对对方尊重，我是不太认同的。</p>
-<p>毕竟，标点本身就是一个新东西，你感兴趣甚至可以看 <a href="https://zh.wikisource.org/zh/請頒行新式標點符號議案（修正案）">《请颁行新式标点符号议案（修正案）》</a>，这是马裕藻、周作人、朱希祖、刘复、钱玄同、胡适于 1919 年编撰的，可是中文标点的雏形啊。虽然我们现在基本约定俗成了各种标点的规范用法，但它们仍然只是刚形成100年左右的新东西。某种程度上讲，标点符号使用还在不断演变和优化过程中。</p>
-<p>所以你要是发明什么，。？。的用法，然后通篇这么用，我可不介意。只要你这个使用方式是表达了你的什么混沌的意识或者阴暗爬行的精神状态之类，就没关系。</p>
-<p>但是，如果你正在试着在<strong>以某种正确的方式使用标点</strong>，比如，你正在写你的设计说明，你一句话停顿用逗号，一句话结束用句号，这些都很符合一般的规则。这时候你突然说我要用「。。。」来代替省略号啦，我要把逗号放在一行开头啦，我则会觉得莫名其妙。</p>
-<p>反正就是，你要是好好用了，你就通篇好好用，不要混一两个错误进来觉得无所谓。</p>
-<p>说是网络时代大家都乱用标点也好，或者是现代网页排版技术不支持太多标点规则也好，你可能对这些不太感冒，「我就这么用了，没关系吧」「只是推荐性标准罢了，又不是强制性，凭什么说我错？」</p>
-<p>Eric 写得很好：</p>
 <blockquote>
-<p>在中华人民共和国新闻出版总署发布的《图书质量管理规定》里所附「图书编校质量差错率计算方法」明确指出「标点符号误在行首、行末的，每处计 0.1 个差错。」不避头尾，在正规出版社的出版物里是应该杜绝的纠错现象，为什么到了现代的软件里却可以熟视无睹？</p>
+<ol type="1">
+<li><span class="math inline">\(\forall x\in A\)</span> , 都有 <span class="math inline">\(x \geqslant \beta\)</span> ;</li>
+<li><span class="math inline">\(\forall \epsilon&gt;0\)</span>, <span class="math inline">\(\exists x_0\in A\)</span> , 使得 <span class="math inline">\(x_0&lt;\beta+\epsilon\)</span> . 则 <span class="math inline">\(\beta\)</span> 是<span class="math inline">\(A\)</span>的下确界，记作<span class="math inline">\(\beta=\inf A\)</span> 或<span class="math inline">\(\beta=\displaystyle\inf_{x\in A} \{x\}\)</span>.</li>
+</ol>
 </blockquote>
-<p>总之，要乱用就乱用，要好好用就好好用，不要一边好好用一边乱用。</p>
-<h2 id="附2-标点和字体的关系">附2　标点和字体的关系</h2>
-<p>看一个例子。</p>
-<p>2017 年 8 月，微软公司在「Window 10 秋季创意者」版本里对「微软雅黑」进行了更新，第一点就提到了「标点符号位置改进」。</p>
-<figure>
-<img src="https://www.thetype.com/wp-content/uploads/2018/03/MS-Yahei-Update.png" alt="微软更新微软雅黑" /><figcaption aria-hidden="true">微软更新微软雅黑</figcaption>
-</figure>
-<p>正如版本更新的说明所述，微软雅黑这次修改的原因是要「严格遵照标准」。反过来也就是说，自 2007 年诞生直到 2017 年新版发布，十年以来这款字体的标点位置一直都不符合国家标准……</p>
-<p>也就是说，标点用的对不对，和字体可能也是有关系的。除了这些基础的标点，还容易体现在字体上的是破折号「——」，破折号的中间能不能连上？嗯，这又涉及到了 OpenType 字体的 <code>ccmp</code> 特性，下次再讲吧。</p>
-<p>补充一句，微软雅黑真的是一款很差劲的字体。我不知道为什么大家这么喜欢在 PPT 和汇报文本里面用它，它现在甚至不是默认的中文字体了。是因为眼瞎觉得微软雅黑很好看吗？</p>
-<p>说到字体，我这几天试着制作了一款像素风格的西文可变字体（暂时只支持英文使用的部分拉丁化字母），如果有人有兴趣可以看看：<a href="https://github.com/Keldos-Li/slantel-dos-pixel">Slantel Dos Pixel</a>。</p>
-<p><img src="https://r2.keldos.me/A4_0@12x.png" alt="样张1" /> <img src="https://r2.keldos.me/A4_1@12x.png" alt="样张2" /> <img src="https://r2.keldos.me/A4_2@12x.png" alt="样张3" /> <img src="https://r2.keldos.me/A4_3@12x.png" alt="样张4" /></p>
+<h3 id="有界函数">有界函数</h3>
+<p><strong>定义</strong></p>
+<blockquote>
+<p>若 <span class="math inline">\(\exists\)</span> 常数<span class="math inline">\(N\)</span>, <span class="math inline">\(\forall x \in D\)</span> , 都有<span class="math inline">\(N \leqslant f(x)\)</span> （<span class="math inline">\(N \geqslant f(x)\)</span>）, 称<span class="math inline">\(f(x)\)</span>是<span class="math inline">\(D\)</span>上的有上界（下界）函数。</p>
+</blockquote>
+<p>有界函数既要有上界也要有下界。</p>
+<blockquote>
+<p>设<span class="math inline">\(y=f(x)\)</span>，<span class="math inline">\(x \in {D}\)</span>，<span class="math inline">\(\exists\)</span> 常数 <span class="math inline">\(N \leqslant M\)</span>，<span class="math inline">\(\forall x \in D\)</span>， 都有 <span class="math inline">\(N \leqslant f(x) \leqslant M\)</span>，称<span class="math inline">\(y=f(x)\)</span>是<span class="math inline">\(D\)</span>上的<span class="math inline">\(\bf{有界函数}\)</span>.</p>
+</blockquote>
+<p>有界函数也常用下面的定义：</p>
+<blockquote>
+<p><span class="math inline">\(\exists\)</span>常数<span class="math inline">\(M&gt;0\)</span>，对<span class="math inline">\(\forall x \in D\)</span>,  <span class="math inline">\(|f(x)| \leqslant M.\)</span> $(N=-M f(x) M.) $</p>
+</blockquote>
+<h3 id="无界函数">无界函数</h3>
+<p><strong>定义</strong></p>
+<blockquote>
+<p><span class="math inline">\(\forall\)</span> 常数 <span class="math inline">\(M&gt;0\)</span>, <span class="math inline">\(\exists x_0 \in D\)</span>, 使得 <span class="math inline">\(|f(x_0)|&gt;M\)</span>.</p>
+</blockquote>
+<h2 id="复合函数">复合函数</h2>
+<p><strong>定义</strong></p>
+<blockquote>
+<p>设<span class="math inline">\(y=f(u),\  u\in D(f),\  u=\phi (x),\ x\in R(\phi)\)</span>. 若 <span class="math inline">\(D(f) \cap R(\phi) \not= \varnothing\)</span> , 则称<span class="math inline">\(y=f(\phi(x))\)</span>是<span class="math inline">\(x\)</span>的<span class="math inline">\(\bf{复合函数}\)</span>. <span class="math inline">\(y=f(u)\)</span> 被称为外（层）函数，$ u=(x)$被称为内（层）函数.</p>
+</blockquote>
+<ul>
+<li>只要看<span class="math inline">\(y=f(\phi(x))\)</span>定义域是否为空集<span class="math inline">\(\varnothing\)</span>.</li>
+</ul>
+<h2 id="反函数">反函数</h2>
+<blockquote>
+<p>设<span class="math inline">\(y=f(x),\ x\in D\)</span>. 若<span class="math inline">\(\forall x_1,\ x_2\in D,\  x_1\not= x_2,\)</span> 有<span class="math inline">\(f(x_1)\not=f(x_2)\)</span>, 反之, <span class="math inline">\(\forall y\in R(f)\)</span>, 都有唯一 <span class="math inline">\(x\in D\)</span> 使得 <span class="math inline">\(y=f(x)\)</span>与之对应, 则按此法则得到一个定义在<span class="math inline">\(R(f)\)</span>上的函数，称该函数为<span class="math inline">\(f\)</span>的反函数，记作 <span class="math inline">\(x=f^{-1}(y),\  y\in R(f) \quad\)</span> 或<span class="math inline">\(\quad f^{-1}:R(f)\to D\)</span>.</p>
+</blockquote>
+<ul>
+<li><mark><span class="math inline">\(y=f(x)\)</span>与<span class="math inline">\(x=f^{-1}(y)\)</span>的图像相同；<mark></li>
+<li><mark><span class="math inline">\(y=f(x)\)</span>与<span class="math inline">\(y=f^{-1}(x)\)</span>的图像关于<span class="math inline">\(y=x\)</span>对称.</mark></li>
+</ul>
+<h2 id="单调函数">单调函数</h2>
+<p>递增，递减函数统称<span class="math inline">\(\bf{单调函数}\)</span>，严格递增，严格递减函数统称<span class="math inline">\(\bf{严格单调函数}\)</span>.</p>
+<p><strong>反函数存在性定理</strong></p>
+<blockquote>
+<p>若<span class="math inline">\(y=f(x)\)</span>在<span class="math inline">\(D\)</span>上严格增（减），则<span class="math inline">\(y=f(x)\)</span>有反函数且也严格单调增（减）.</p>
+</blockquote>
+<ul>
+<li>但反之有反函数，原函数不一定是严格单调.</li>
+</ul>
+<h2 id="初等函数">初等函数</h2>
+<h3 id="基本初等函数">基本初等函数</h3>
+<p><span class="math display">\[
+\boxed{
+\begin{array}{l|lll}
+常值函数 &amp; y=C \ (C是常数),\ &amp; x\in \R;\\
+幂函数 &amp; y=x^\alpha &amp; (\alpha 是幂常数);\\
+指数函数 &amp; y=a^x \ (a&gt;0,\ a\not=1),\ &amp; x\in\R;\\
+对数函数 &amp; y=\log_a x\ (a&gt;0,\ a\not=1),\ &amp; x\in(0,\ +\infty);\\ \hline
+三角函数 &amp; 余切 \ \cot x=\frac{1}{\tan x}\\
+ &amp; 正割 \ \sec x=\frac{1}{\cos x}\\
+ &amp; 余割 \ \csc x =\frac{1}{\sin x} \\
+ &amp;\it{\quad注意这里有：} \newline&amp;\quad1+\tan^2 x=\sec^2 x;\\
+&amp;\quad 1+\cot^2 x=\csc^2 x \\ \hline
+反三角函数 &amp; y=\arcsin x,\ &amp; x\in[-1,\ 1],\ &amp; y\in [-\frac{\pi}{2},\ \frac{\pi}{2}]\\
+&amp; y=\arccos x,\ &amp; x\in[-1,\ 1],\ &amp; y\in [0,\ \pi] \\
+&amp; y=\arctan x,\ &amp; x\in\R,\ &amp; y\in (-\frac{\pi}{2},\ \frac{\pi}{2}) \\
+\end{array}}
+\]</span></p>
+<p>由基本初等函数经过有限次四则运算与复合运算得到的函数叫<strong>初等函数</strong>, 经过有限四则运算称为简单函数.</p>
+<ul>
+<li>一般分段函数是非初等函数（但有些分段函数可能是初等函数）;</li>
+<li>一般一个解析式就是初等函数.</li>
+</ul>
+<h2 id="重要的函数">重要的函数</h2>
+<h3 id="符号函数">符号函数</h3>
+<p><span class="math display">\[
+\mathrm{sgn}\,\ x=\left\{
+\begin{array}{rl}
+-1,\  &amp; x&lt;0 \\
+0,\  &amp; x=0 \\
+1,\  &amp; x&gt;0
+\end{array}
+\right.
+\]</span></p>
+<h3 id="取整函数">取整函数</h3>
+<p><strong>性质</strong> <span class="math display">\[
+[x]\leqslant x \leqslant [x]+1 \\
+\Rightarrow \boxed{x-1&lt;[x]\leqslant x}\tag*{⋆ 常用不等式}
+\]</span></p>
+<h3 id="狄利克雷dirichlet函数">狄利克雷（Dirichlet）函数</h3>
+<p><span class="math display">\[
+D(x)=\left\{
+\begin{array}{rl}
+1,\  &amp; x为有理数 \\
+0,\  &amp; x为无理数
+\end{array}
+\right.
+\]</span></p>
+<p><strong>性质</strong></p>
+<ul>
+<li><mark><span class="math inline">\(\forall x\not= 0\)</span>的有理数都是其周期.</mark></li>
+</ul>
+<h3 id="幂指函数">幂指函数</h3>
+<p><span class="math display">\[\begin{array}{ll} y &amp;= x^x\\ &amp;= e^{\ln x^x}\\ &amp;= e^{x\ln x} \end{array}\]</span></p>
+<ul>
+<li>它也是初等函数。</li>
+</ul>
+<h1 id="数列极限">数列极限</h1>
+<h2 id="数列极限的概念">数列极限的概念</h2>
+<p>给一个数列<span class="math inline">\(\{a_n\}\)</span>，随着<span class="math inline">\(n\)</span>的无限增大，<span class="math inline">\(a_n\)</span>存在一个变化的趋势.</p>
+<p><strong>定义</strong></p>
+<blockquote>
+<p>设<span class="math inline">\(\{a_n\}\)</span>是一个给定的数列, $ a<span class="math inline">\(是一个确定的常数, 若\)</span>&gt;0$ , <span class="math inline">\(\exists N\)</span> , 当<span class="math inline">\(n&gt;N\)</span>时, 都有 <span class="math inline">\(|a_n-a|&lt;\epsilon\)</span> , 则<span class="math inline">\(\lim\limits_{n\to\infty} a_n = a \quad\)</span> 或<span class="math inline">\(\quad a_n \to a(n\to \infty)\)</span>.</p>
+</blockquote>
+<p><strong>注意:</strong></p>
+<ol type="1">
+<li><strong><span class="math inline">\(\epsilon\)</span>的任意性</strong>
+<ul>
+<li>实际可以限制<span class="math inline">\(\epsilon\)</span>小于某个正数.</li>
+</ul></li>
+<li><strong><span class="math inline">\(N\)</span>的相应性</strong>
+<ul>
+<li><span class="math inline">\(N\)</span>随着<span class="math inline">\(\epsilon\)</span>的变化而变化, <span class="math inline">\(\epsilon\)</span>越小, <span class="math inline">\(N\)</span>越大.</li>
+<li>另外, 这里<span class="math inline">\(N\)</span>是下标的界限, 不要求一定是自然数. (但苏老师决定把这条删掉. )</li>
+</ul></li>
+<li><strong>几何意义</strong> $&gt;0, N, 当n&gt;N时 , 都有 |a_n-a| &lt; \ - &lt; a_n - a &lt; \ a-&lt; a_n &lt; a + \ a_n (a-,a+) U(a,)   (a的). $
+<ul>
+<li>也就是说, 对于<span class="math inline">\(\forall U(a,\epsilon)\)</span>, <span class="math inline">\(\{a_n\}\)</span>在其之外仅有有限项.</li>
+</ul></li>
+</ol>
+<h3 id="用epsilon---n定义验证极限存在">用<span class="math inline">\(\epsilon - N\)</span>定义验证极限存在</h3>
+<h4 id="直接法">直接法</h4>
+<p><strong>例</strong> <span class="math inline">\(\quad\)</span>证明 <span class="math inline">\(\lim\limits_{n\to\infty} \dfrac{1}{n^k}=0\)</span> (<span class="math inline">\(k&gt;0\)</span> 为常数).</p>
+<p><span class="math inline">\(\bf{证}\)</span> $ $ , 要<span class="math inline">\(\left|\dfrac{1}{n^k}-0 \right|&lt;\epsilon,\  \Leftrightarrow \dfrac{1}{n^k} &lt; \epsilon \Leftrightarrow n^k&gt;\dfrac {1}{\epsilon} \Leftrightarrow n &gt; (\dfrac{1}{\epsilon})^\frac{1}{k}.\)</span> <span class="math inline">\(\underline{取N=(\dfrac{1}{\epsilon})^\frac{1}{k}} \,\)</span>( 或 <span class="math inline">\(\left[ (\dfrac{1}{\epsilon})^\frac{1}{k}\right]+1\)</span> 以此保证 <span class="math inline">\(n \geqslant 1\)</span> ), $ $ 所以 <span class="math inline">\(\lim\limits_{n\to\infty}\dfrac{1}{n^k}=0\)</span>.</p>
+<h4 id="适当放大法">适当放大法</h4>
+<p>当不容易从<span class="math inline">\(|a_n - a|\)</span>中等价解出<span class="math inline">\(n&gt;N(\epsilon)\)</span>, 或虽能解出但很复杂时, 采用适当放大法. 即: 让<span class="math inline">\(|a_n -a|\leqslant g(n) \  (n&gt;N_1\)</span>时成立), 要让<span class="math inline">\(g(n)&lt;\epsilon\)</span>成立, 只要<span class="math inline">\(n&gt;N_2\)</span> (等价解出). 取<span class="math inline">\(N=\max\left\{N_1,N_2\right\}\)</span>, 当<span class="math inline">\(n&gt;N\)</span>时, 有<span class="math inline">\(|a_n -a|\leqslant g(n)&lt;\epsilon\)</span>, 即<span class="math inline">\(|a_n -a|&lt;\epsilon\)</span>.</p>
+<p>当采用适当放大法时, 要求:</p>
+<ol type="1">
+<li><span class="math inline">\(g(n)\)</span>尽可能简单, 容易从<span class="math inline">\(g(n)&lt;\epsilon\)</span>中解出<span class="math inline">\(n&gt;N_2\)</span>;</li>
+<li><span class="math inline">\(\lim\limits_{n\to \infty} g(n)=0\)</span>.</li>
+</ol>
+<p><strong>例</strong> <span class="math inline">\(\quad\)</span>证明 <span class="math inline">\(\lim\limits_{n\to\infty} (\sqrt{n+1}-\sqrt{n})=0\)</span> (<span class="math inline">\(k&gt;0\)</span> 为常数).</p>
+<p>$_{n} (-)=0.$</p>
+<h3 id="常用的数列极限">常用的数列极限</h3>
+<ul>
+<li><span class="math inline">\(\lim\limits_{n\to \infty} C = C \quad (C为常数)\)</span></li>
+<li><span class="math inline">\(\lim\limits_{n\to \infty} q^n = 0 \quad (|q|&lt;1为常数)\)</span></li>
+<li><span class="math inline">\(\lim\limits_{n\to \infty} \dfrac{1}{n^k} = 0 \quad (k&gt;0为常数)\)</span></li>
+<li><span class="math inline">\(\lim\limits_{n\to \infty} \dfrac{a^n}{n!} = 0 \quad (a为常数)\)</span></li>
+<li><span class="math inline">\(\lim\limits_{n\to \infty} \sqrt[n]{a} = 1 \quad (a&gt;1为常数)\)</span></li>
+<li><span class="math inline">\(\lim\limits_{n\to \infty} \sqrt[n]{n} = 1\)</span></li>
+</ul>
+<h2 id="收敛数列的性质">收敛数列的性质</h2>
+<p>如果<span class="math inline">\(\{a_n\}\)</span>有极限, 称<span class="math inline">\(\{a_n\}\)</span><strong>收敛</strong>; 否则称<span class="math inline">\(\{a_n\}\)</span><strong>发散</strong>. <strong>定理</strong></p>
+<blockquote>
+<p>改变(或去掉或增加)数列的有限项, 不改变数列的收敛性与极限.</p>
+</blockquote>
+<p><strong>性质</strong></p>
+<h4 id="唯一性">1. 唯一性</h4>
+<p><mark>若<span class="math inline">\(\{a_n\}\)</span>有极限, 则极限必唯一.</mark></p>
+<h4 id="有界性">2. 有界性</h4>
+<p>若<span class="math inline">\(\{a_n\}\)</span>收敛, 则<span class="math inline">\(\{a_n\}\)</span>有界. 即<span class="math inline">\(\exists M&gt;0\)</span>, 使得<span class="math inline">\(\forall n\in \N_+\)</span>, 都有<span class="math inline">\(|a_n|\leqslant M\)</span>. <strong>推论</strong> (上面命题的逆否) 若<span class="math inline">\(\{a_n\}\)</span>无界, 则<span class="math inline">\(\{a_n\}\)</span>发散.</p>
+<ul>
+<li><mark>收敛 <span class="math inline">\(\Rightarrow\)</span> 有界;</mark></li>
+<li><mark>无界 <span class="math inline">\(\Rightarrow\)</span> 发散.</mark></li>
+</ul>
+<h4 id="不等式性质1">3. 不等式性质1</h4>
+<p><mark>若<span class="math inline">\(\lim\limits_{n\to \infty} a_n = a\)</span>, <span class="math inline">\(\lim\limits_{n\to \infty} b_n = b\)</span>且<span class="math inline">\(a &lt; b\)</span>, 则<span class="math inline">\(\exists N\)</span>, 当<span class="math inline">\(n&gt;N\)</span>, 都有<span class="math inline">\(a_n &lt; b_n\)</span>.</mark></p>
+<p><strong>推论</strong></p>
+<p>若已经找到上面的<span class="math inline">\(N\)</span>, 当<span class="math inline">\(n&gt;N\)</span>, <span class="math inline">\(m&gt;N\)</span>时, 有<span class="math inline">\(a_n &lt; b_m\)</span>.</p>
+<p><strong>推论</strong> (<strong>保号性</strong>)</p>
+<p><mark>若 <span class="math inline">\(\lim\limits_{n \to \infty} a_{n}=a &gt;0 \ (a&lt;0),\)</span> 则对于满足 <span class="math inline">\(0&lt;\eta&lt;a\ (a&lt;\eta&lt;0)\)</span>的任何常数 <span class="math inline">\(\eta,\)</span> 存在 <span class="math inline">\(N_{0},\)</span> 当 <span class="math inline">\(n&gt;N_{0}\)</span> 时，都有<span class="math inline">\(a_{n}&gt;\eta&gt;0 \quad \left(a_{n}&lt;\eta&lt;0\right)\)</span>.</mark></p>
+<p><span class="math inline">\(\bf{证}\qquad\)</span> 对 <span class="math inline">\(0&lt;\eta&lt;a,\)</span> 设 <span class="math inline">\(b_{n}=\eta\ (n=1,2, \cdots),\)</span> 则 <span class="math inline">\(\lim\limits_{n \to \infty} b_{n}=\eta .\)</span> 由 <span class="math inline">\(\lim\limits_{n \to \infty} a_{n}=a\ (0&lt;\eta&lt;a\)</span> )及性质 3 知，存在 <span class="math inline">\(N_{0},\)</span> 当 <span class="math inline">\(n&gt;N_{0}\)</span> 时, 都有 <span class="math inline">\(a_{n}&gt;b_{n}=\eta&gt;0\)</span>. 对 <span class="math inline">\(a&lt;0\)</span> 的情况, 同理可证.</p>
+<h4 id="不等式性质2">4. 不等式性质2</h4>
+<p><mark>若 <span class="math inline">\(\lim\limits_{n \to \infty} a_{n}=a, \lim\limits_{n \to \infty} b_{n}=b,\)</span> 且 <span class="math inline">\(\exists N_{0},\)</span> 当 <span class="math inline">\(n&gt;N_{0}\)</span> 时，都有<span class="math inline">\(a_{n} \geqslant b_{n}\)</span>, 则 <span class="math inline">\(a \geqslant b.\)</span></mark></p>
+<p><span class="math inline">\(\bf{证}\)</span> <span class="math inline">\(\qquad\)</span> 用反证法.<span class="math inline">\(\quad\)</span>假设 <span class="math inline">\(a&lt;b,\)</span> 由性质 3 知，存在 <span class="math inline">\(N_{1},\)</span> 当 <span class="math inline">\(n&gt;N_{1}\)</span> 时，都有 <span class="math inline">\(a_{n} &lt; b_{n} .\)</span> 取 <span class="math inline">\(N=\max \left\{N_{0}, N_{1}\right\},\)</span> 当 <span class="math inline">\(n&gt;N\)</span> 时 <span class="math inline">\(,\)</span> 有 <span class="math inline">\(a_{n}&lt;b_{n}\)</span> 与 <span class="math inline">\(n&gt;N\)</span> 时 <span class="math inline">\(a_{n} \geqslant b_{n}\)</span> 相矛盾, 所以假设不成立. 因此 <span class="math inline">\(a \geqslant b.\)</span></p>
+<ul>
+<li>在性质 4 中，即使存在 <span class="math inline">\(N_{0},\)</span> 当 <span class="math inline">\(n&gt;N_{0}\)</span> 时, 都有 <span class="math inline">\(a_{n}&gt;b_{n}\)</span>, 也不能保证 <span class="math inline">\(a&gt;b.\quad\)</span> 例如, <span class="math inline">\(a_{n}=\dfrac{1}{n}, b_{n}=-\dfrac{1}{n},\ a_{n}&gt;b_{n}\ (n=1,2,3, \cdots),\)</span> 但 <span class="math inline">\(\lim\limits_{n \to \infty} a_{n}=0, \lim\limits_{n \to \infty} b_{n}=0,\)</span> 两极限相等.</li>
+</ul>
+<h4 id="数列极限的四则运算">5. 数列极限的四则运算</h4>
+<p>若 <span class="math inline">\(\lim\limits_{n \to \infty} a_{n}=a, \lim\limits_{n \to \infty} b_{n}=b,\)</span> 则数列 <span class="math inline">\(\{a_{n} \pm b_{n}\},\left\{a_{n} b_{n}\right\},\left\{\dfrac{a_{n}}{b_{n}}\right\}(b \neq 0)\)</span> 的极限都存在, 且</p>
+<ol type="1">
+<li><p><span class="math inline">\(\lim\limits_{n \to \infty}\left(a_{n} \pm b_{n}\right)=\lim\limits_{n \to \infty} a_{n} \pm \lim\limits_{n \to \infty} b_{n}=a \pm b\)</span></p></li>
+<li><p><span class="math inline">\(\lim\limits_{n \to \infty}\left(a_{n} \cdot b_{n}\right)=\lim\limits_{n \to \infty} a_{n} \cdot \lim\limits_{n \to \infty} b_{n}=a \cdot b\)</span></p>
+<p>特别地，当 <span class="math inline">\(k\)</span> 为常数时，有<span class="math inline">\(\lim\limits_{n \to \infty} k a_{n}=k \lim\limits_{n \to \infty} a_{n}=k a\)</span></p></li>
+<li><p><span class="math inline">\(\lim\limits_{n \to \infty} \dfrac{a_{n}}{b_{n}}=\dfrac{\lim\limits_{n \to \infty} a_{n}}{\lim\limits_{n \to \infty} b_{n}}=\dfrac{a}{b}(b \neq 0)\)</span></p></li>
+</ol>
+<p><strong>注意:</strong></p>
+<ul>
+<li><mark>运用四则运算时, 极限必须存在,且不能推广到无限项.</mark></li>
+</ul>
+<h2 id="数列极限存在的准则">数列极限存在的准则</h2>
+<h1 id="函数极限">函数极限</h1>
+<h1 id="函数的连续性">函数的连续性</h1>
 ]]></content>
       <tags>
-        <tag>排版</tag>
-        <tag>文字排印</tag>
-        <tag>教学</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>中国现代城市起步的见证——评《重建中国》</title>
+    <url>/2022/04/%E9%87%8D%E5%BB%BA%E4%B8%AD%E5%9B%BD/</url>
+    <content><![CDATA[<p>本人在《中外城市发展与规划史》课程中为《重建中国：城市规划三十年 (1949-1979) 》撰写的书评，供参考。</p>
+<hr />
+<p>　　“现代意义的城市规划学，是工业革命后城市高速发展，带来许多矛盾和问题后产生的。”（<em>董鉴泓《中国城市建设史》，251页</em>）在辛亥革命之前，除了历朝历代的都城、交通枢纽城市和鸦片战争以来被强迫开放的城市外，中国广阔的大地上似乎布满着只能被称为“农村”的聚居点，象征着发展与进步的大城市屈指可数。而在南京国民政府时期，主要的规划与建筑又集中在上海南京等南方沿海城市，“多是个别地、分散地进行的”（<em>《中国城市建设史》，381页</em>)，且“对旧城的改造规划未进行实际的工作。”（<em>《中国城市建设史》，382页</em>）然而，比新中国迟出生50多年的我，一睁眼就可以见到一个新兴而生气勃勃城市——温岭；不算因战争纷飞建设停滞的三四十年代，新中国成立短短的50年来，中国的城市面貌真是发生了翻天覆地的变化：遍地的中层小区、各种宏伟的大厦、沿街熙熙攘攘的商铺……而这一切都是怎么发生的呢？</p>
+<p>　　因为没有亲身的经历，我一直很好奇一个城市从无到有的产生过程，尤其是中国沿海城市三四十年间如雨后春笋般产生的过程。这段历史很有特色而值得研究，而在各种书上我却都只能读到一段满是百分比的概括，诸如“快速起步阶段”“波动阶段”之类，不仅枯燥也没法走进我的记忆。华揽洪先生的《重建中国》却重新唤醒了我对历史的无限遐想，作为一位亲身参与了1949年到1979年的规划工作的建筑师对自己工作的描述与总结，这本书娓娓道来从1949年到1979年的中国城市发展规划史，还贴以时代背景，简述了新中国历次运动在这些领域造成的影响。“重建”一词正体现出这段时期的重要意义。</p>
+<p>　　华揽洪先生一生对建筑、对城市建设艺术都充满献身精神。在巴黎获得建筑师文凭后，1945年，他在马赛创办了自己的建筑师事务所，并主持了一系列建筑项目和规划项目。1951年，他回到中国，被聘为都市计划委员会第二总建筑师，任北京市建筑设计研究院总建筑师。在中国工作的26年间，他亲身参与了中国的城市规划和建设，做出了北京儿童医院、幸福村、华氏立交桥、北京市总体规划甲方案等等重要的设计，还为新中国设计出一系列预置构建的和标准户型，这也为本书提供了浩博的素材依据。退休回法后他还被法国政府文化部授予了艺术和文学骑士勋章。令人遗憾的是，华揽洪先生已于2012年在法国逝世。《重建中国》最初于1981 年用法文写成，在法国出版，2006年翻译后由三联书店出版，但已然成为了中国现代建筑规划的历史必读书之一。 <a id="more"></a></p>
+<h2 id="撰写结构">撰写结构</h2>
+<p>　　城市规划是一项和政策性很强的工作，既是城市各种建设的战略部署，又是组织治理生产、生活环境的手段，涉及国家的经济、社会、环境、文化等众多部门。（<em>吴志强，李德华《城市规划原理》，168页</em>）可以说，中国那三十多年的规划与建设的脚步是紧紧踏在当时的历史背景上的，城市规划与建设不过是整个社会经济发展的一个小小的因子。《重建中国》也完全遵循了时代的脉络，在叙述各种规划对象的同时紧扣背景环境与条件，铺以大量的笔墨展现了当年中国兴兴衰衰的社会变革史。本书大体可以分为三个部分：第一至六章以时间进程为主线，回顾了三十年城市规划与建设工作的历程，“摆出中国社会主义建设的六个主要阶段里城市建设所遇到的诸多问题”；七至十一章则以各种规划主体为对象归纳了各个规划系统的演变，“讲了一些特殊问题”，并分别总结了作者的规划方法与思考；第十一章“专门写城市建设政策上的重大选择”。前两个部分，作者分别抓取时间和规划主体两个线索，一隐一显，各有侧重，大概是为了方便陈述变革进程，如工业用地主要在大跃进时期迅速扩张，则将其纳入大跃进时期与其他城市面貌一同叙述；住宅设计始终在不断优化发展，则将其置于单独一章便于细致分析。这样尽管内容有所交错，但读者仍能抓住要点。</p>
+<h2 id="主要内容">主要内容</h2>
+<p>　　由于当时三十年的规划制度和作者实际参与情况，本书对中国规划史的回顾与笔法以微观切入为主，以大量的具体建筑与规划作品折射出三十年的总体建筑与规划风格。</p>
+<h3 id="中国城市起步与波折">中国城市：起步与波折</h3>
+<blockquote>
+<p>　　 1949年，中国十分贫困，所以我们着手进行基础设施建设和工业化的同时，必须初步解决人民的吃、穿、教育和卫生等方面的问题。我亲身参与了城市规划的这30年应当看成我们的初学阶段，其中还得减去“文革”的10年动乱。但这个时期的经验基本可以勾勒出这10亿人后来的生活框架。（<em>前言，第3页</em>）</p>
+</blockquote>
+<h4 id="起步阶段">起步阶段</h4>
+<p>　　为了让法国读者能够进一步理解中国的现实情况，作者从中国三千多年宏大而雅致的历史文明讲起，到半个多世纪前绵延了百年的战火结束，为读者呈现出一个百废待兴，亟需建设的大国形象。中国1949年面临着沉痛的历史：耕地稀少，人民穷困，工业贫瘠，文化发展极不平衡，知识分子凤毛麟角，其中工程师与技术人员（更不提建筑与规划领域）更是少得可怜，人口分布不均又增长迅速；中国土地的使用情况也不容乐观，农村只有破旧的房子，新时代的建筑只能在殖民者的府邸与略地才能找到，传统的内陆城市没有工业的痕迹，全然保留着“皇权、封建礼教的色彩”（<em>13页</em>)。</p>
+<p>　　 作者写道，历史上中国内陆的城市有个非常突出的个性：交通干线走向都是按东西南北规定，聚居区并不像西方那样私人建筑和公共建筑沿街（广场）并列，而是由一个挨一个的私人庭园组成，商业街只是居住区的外延，典型的城市组织是东西走向的胡同。</p>
+<p>　　建国后中国最急迫的任务是修建基础设施和紧急治理一些杂乱落后的“贫民窟”，这些在总体规划方案制定之前就得以完成。勉强建立一系列规划管理机构后，人们开始测绘绿化、老城区、历史古迹等，从逐渐研究城市的自然条件，开始为工业区选址。此时政府认为城市应该发展现代工业来改变阶级构成，“所有的城市都应有自己的工业”，使每个地区能够自给自足，且要增强内地的工业比例。在城镇的规模上，政府提出限制大城市、扩展和创立小城市的方针以帮助乡村的发展与现代化。在规划的起步阶段，为了尽快开始建设，人们创造性地提出了“城市规划草图”方法，依假定草图适当办法建筑许可证，并逐步开展起详细的城市规划方案。作为当时的新兴社会主义国家，社会上也出现了不少关乎社会主义特色的建筑规划体现方法、历史古城保护的的学术性讨论等。</p>
+<p>　　随着中国进行社会主义改造，逐渐向社会主义社会过渡，中国的规划与建设部门也在发展壮大。但是，由于国家需要多年统计收集地质、气候学、土地资源等等资料，在城市能够做出长远的经济计划前，地方规划师只能拿“一五计划”中的短期计划做长期规划。城市规划师普遍在现代城市治理上缺乏经验，因此此时中国大量向前苏联的规划体系学习，一方面，这种规划方法重视古迹、绿化，但同时它凸显出死板的“形式主义”，不能够适应城市不同阶段的治理，而且因为苏联顾问不能因地制宜地认识到中国并非地广人稀，导致用地严重奢侈浪费；住房上，苏联人追求对称、节奏、重复，一系列面向东西的沿街住宅与中国传统住宅的日照与卫生需求产生了严重矛盾。</p>
+<p>　　几乎所以提到中国建筑风格历史的书都会探讨那段历史对“大屋顶”的讨论，尤其是梁思成成为国家大举宣传的杰出建筑师代表的时候，但那些书往往只见到梁的图纸与见解。《重建中国》专门以一节回顾了这些讨论。为了实现前苏联口号“社会主义内容加民族形式”的要求，中国建筑师即如法炮制将假斗拱假屋檐安到现代主义的建筑上。华先生批评这种“过时的形式取代了舒适和经济，这其中毫无进步可言。”（<em>65页</em>）“单纯堆积建筑符号，而完全忽略与这个国家日常建筑的联系，既不能代表民族遗产，也不能代表新建筑。”（<em>66页</em>）然而有趣的是，止住大屋顶之风的并非大屋顶格格不入的形式，而是在大屋顶建设上浪费的惊人财力。</p>
+<p>　　尽管这个时期在规划与建设上有大量欠缺，但这个时期做出的规划还是能够比较合理地指导上百个城市发展的。逐渐掌握现代城市规划这个在中国尚属全新学科的人越来越多。</p>
+<h4 id="波动阶段">波动阶段</h4>
+<p>　　1958年之后，发展的口号变成了“两条腿走路”“自力更生”。城市规划的原则并没有改变，但在对一五计划的总结基础上做出了各方面的修改。工业用地被强制“节约”以减少对农田的侵占，之前忽略地形与功能强行横平竖直的路网得到了整治，主观规划的平滑的城市边缘被曲折的更实际的城市轮廓取代，新的绿地概念也使得绿地既能提供休憩也能成为建设备用土地。</p>
+<p>　　中国进入大跃进时期后，在“多、快、好、省”的口号引导下，各地实际进行了超常工业化。许多宏大气派的建筑落成，居民区也被大量增建。这个时期人民公社成立了，在作者看来，这是中国小区规划研究的前身。各种公共服务设施的兴办让规划师进一步研究文教建筑的布局、小工厂的激增则迫使规划师解决居住区与工业区土地的使用方式的协调。</p>
+<p>　　大跃进结束后，三年灾害的遗患、苏联专家的撤走、大跃进中农业的荒废等错误的扩大化综合导致了接下来几年中国城市化的倒退。突然间“农业为纲”成为第一纲领，劳动力回流农村，尽管城市的建设速度放慢了，但农村的建筑却得到了重视。经历调研和测绘，空间布局合理的中国传统建筑为建筑师和规划师留下了宝贵经验。在紧缩政策的影响下，各类建筑以各种手段提高场所利用率，以限制城市的规模。</p>
+<p>　　作者以大寨和大庆两个合作社（人民公社/国营单位）的例子，为我们展现了六十年代末期农村步入城市规划的雏形，展现了当年体力劳动者的勇气和创造精神。大寨这种“就地取材”，使用改进的传统技术最终建成了一个密集的村庄的壮举，总让我想到今年的普利兹克奖得主凯雷（Diébédo Francis Kéré）带领他的村民建成甘多小学的故事，谁能想象，或许非洲的农村在五十六十年后也将成为那时最为繁华发达的城市呢？大庆则被作者当做因工业忽视文教建设、只依赖人的主观能动性而忽视科学意见的反面典型。</p>
+<p>　　文革对于建筑与规划的影响体现在建筑的“超经济”倾向和“超快设计”“就地设计”方法，对城市规划的全盘否定等等。同时高等教育对规划学科的撤除、行政管理的混乱、设计院的遣散等等也进一步加剧了这场灾难对中国建筑规划领域的摧残。</p>
+<h3 id="规划编制居住区交通绿地与乡村">规划编制：居住区、交通、绿地与乡村</h3>
+<blockquote>
+<p>　　 和苏联一样，中国的社会主义革命和工业革命也是同时进行的，但却比苏联当年的条件更差。这两个革命带来的巨大转变不可能不反映到住宅和人民生活的方方面面。（<em>129页</em>）</p>
+</blockquote>
+<h4 id="住宅">住宅</h4>
+<p>　　在建国初期，中国的农村住宅往往简陋而没有现代化设施，需要经常性的简单翻盖；若要实现乡村城市化需要统一的规划和重建。新兴工人住宅小区多是长廊式的集体宿舍楼，卫浴也极其简陋。城市住宅从由各单位建设到交由房管局建设，最终形成了一套统一的城市肌理。然而在城市化的过程中，中国的许多传统庭院消失了。住房的标准化设计也在不断演替修改，从学习苏联时期的大进深到坚持朝南，到各种套间形式的公寓，住宅的空间布局越来越符合老百姓的需求，逐渐标准化的各种构件和模度也加速了城市住房的建设。不过住宅仍然大量匮乏，人均居住面积甚至不足4平米。</p>
+<p>　　作者写作时没能预见到改革开放的浪潮，但一系列政府举措和现象让他充满性心地写道“不过当中国的工业化和现代化达到一定的水平时，可以预料建筑业一定会蓬勃发展了。”（<em>152页</em>）而我坐在专教的电脑前，想到如今房地产在几年前就已走下神坛步入低潮，不禁感到恍如隔世。</p>
+<h4 id="小区与配套设施">小区与配套设施</h4>
+<p>　　 尽管新建的住宅小区已经得到了科学的规划，但是仍有大量由单位建设的小区与分散的住宅区没能享有相应的公共服务设施。在学校的选址上，为了避免小学生的活动对夜晚上班的居民产生影响，小学被安置在住宅小区的边缘地带，幼儿园则被尽量安置在商业区或小区入口处方便父母接送与购物。一般单位拥有自己的托儿所和诊所、饭馆（食堂），这类配套设施有大有小，分布也各有千秋。不同于东欧国家死气沉沉的零售店铺，中国的商业店面更具有吸引力。其他如修理铺废品回收站等带有“节约”色彩的服务性场馆受到重视，而如电影院俱乐部等文化娱乐设施则较少，且使用上也尽量节约。</p>
+<p>　　住宅区是城市的基本组成部分，作者详细推演了那个年代按照预测应该的小区规模和密度，讨论了通过集中商业服务业、使用地下室等省出空间的做法。因为中国耕地的珍贵，原本一两层的平房应当被重建为新的大楼，同时应该通过建高层住宅、缩小楼房间距来保持社区配套设施服务的人口规模并进一步缓解用地的压力。作者担心城市的进一步扩张会严重占用城市周围的农田，提出应该大力在未开垦的土地兴建工业中心（卫星城）。</p>
+<p>　　中国的传统建筑具有特殊的庭院空间，而70年代学习前苏联的排房丢弃了传统的中国建筑特色，布局也千篇一律。这固然与中国需要日照等因素相关，我们也可以通过一定程度上改变朝向、错开排列、调整服务型建筑、改变大楼长度和式样等方式避免单调，并尽力达到城市空间的美观。</p>
+<h4 id="交通">交通</h4>
+<p>　　70年代后，大城市人口的增加远远超过预期，而自行车、汽车等交通工具的增加深刻加重了未能谨慎设计的马路的压力。夜间货运、错峰上班等方式部分减轻了高峰车流的压力，但对城市交通最重要的因素确是总体规划：一方面要拉近住宅区与工作区的距离，另一方面要大力发展公共交通。</p>
+<p>　　虽然在现在看来，作者当时很有远见地提出要吸取发达国家的教训“优先发展公共交通”，这样“很多私家车主在城里还是继续乘公共汽车或无轨电车，小汽车只留待出远门时才用。”（<em>185页</em>），但是中国飞速的发展还是超过了所有规划师的想象，人口的规模使得地铁也变得过于拥挤，堵塞的马路仍然是现今家庭出行的首选方式。或许这个遗留了五十年的问题仍需要后人创造性的智慧才能解决。</p>
+<p>　　大跃进之后，城市规划对于工厂的布置灵活起来：污染性工厂被放置在远离城市的地方，特殊工厂被放置在界限明确的工业区，小工厂则被分散在住宅区中。交通网以划定的网格确立干道等，便于通勤与配套建筑的布局。作者以三个住宅、办公楼（工厂）等的社区例子评述了他对工作与家的思考。</p>
+<h4 id="绿地水系与环保">绿地、水系与环保</h4>
+<p>　　引水需要考虑灌溉，保水需要植被固土；造林不但能保土、防沙，还能改善小气候，因此土地治理也是城市规划中的重要工程。黄河的治理以及一系列水坝、京杭运河、各大水库的兴建等使得水利工程能够协调为农村和城市服务，拉近城乡间的关系。城市的街道绿化、房屋的立面绿化清朗了城市的风气面貌，各地的植树造林运动也将改善全国的生态环境。环保也提上了日常，除了六十年代的“变废为宝”口号，废弃废水等工业废弃物业亦得到了一定治理。新能源也开始逐步替代燃煤的使用。</p>
+<h3 id="城市与乡村政策的选择">城市与乡村：政策的选择</h3>
+<p>　　城市与乡村相互依存，作为社会主义国家，中国在进行工业化的同时从来没有停止过对农业的重视，而对农业的重视也引导了人们更关注农村、乡镇的规划。“乡村的工业化、小村庄的合并、小城市的作用、对特大城市的限制、城市居民和农村居民的关系，所有这些问題都是与中国特殊的发展道路密切相关的问题。这条道路从土地和城市规划的创新观念出发，目的是在长期过程中逐步消除城乡差别。”（<em>222页</em>）</p>
+<p>　　消除城乡差别这个乌托邦式的目标在当时有着特别的达成手段。季节性的农业活动使得空闲的农业劳动力可以投入新中国建设的各种土方工程中来，这些建设活动造就了简单的工厂与乡镇企业。在全国耕地面积几乎不变的情况下，许多村庄通过合并优化了布局以更好地享用公共设施与工厂来达到发展。小城市在发展的同时极力限制自己的人口规模，将自己的工厂转让给农村以带动农村的工业化。大城市为了限制人口规模也进一步将工业分散化，努力减少对人口的吸引力。</p>
+<p>　　面对城市侵占农田的问题，作者提出可以在西部与高原不适宜耕作的土地上建房，认为这场中国的“西征”可以解决中国的土地利用问题，并在大城市的疏散中达成城乡差别的消除。</p>
+<h2 id="评述">评述</h2>
+<p>　　不知道是否因为特殊的时代原因，讲解1949-1979年中国城市规划建设相关的书很少，甚至讲评《重建中国》的内容资料也很少。在没有相关文字做对比，且我作为一个普通的规划学生的身份的情况下，我只能站在2022年中国“伟大复兴”的今天，浅薄地评述这本历史的遗著。</p>
+<h3 id="对农业与耕地的重视">对农业与耕地的重视</h3>
+<p>　　与一般的城市规划师或建筑师不同，作者对农业用地的重视可谓到了极致。几乎每一节中作者都会提到开发对耕地的占用的影响，并焦急地想要让城市的扩张避免侵占耕地。这在粮食安全还没有作为国家战略的年代是难能可贵的，或许也正是因为有这样一批心系国家发展大局的规划师的存在，我们才能在今天进一步划定三区三线，保证第一产业用地的面积。</p>
+<p>　　不同于文革时期粗暴的“城市向乡村看齐”以磨平城乡差异的做法，他从不是简单地呼吁禁止城市的扩张，而提出了各种解决问题的可能，例如兴建卫星城（<em>168页</em>），甚至让东部沿海人民“西征”以开发西部地区（<em>241页</em>）。当然在现在看来，一些做法显得不那么合理，但终究是富有远见的。</p>
+<p>　　我虽然在城市出生，但老家是在温岭市新河镇的临江村，一个到处是水稻田、橘树林的小村。大概是自己多在城市生活且老家的地也不再由自家打理，我对农田没有任何特殊好感，耕地给我的直观感受只是又大又毒的蚊子包。不画总规时的城乡规划大概只是更关注建设用地的，直到我选了《土地资源学》，课本、老师和文献处处不离耕地的时候，我才意识到农业用地的保护也是国土规划中的重要一环，中国的优质耕地资源真的太少了，而浙江许多的优质耕地却在工业化的进程中被重金属污染而无法继续耕作。</p>
+<p>　　目前中国在耕地和建设用地的占用关系上应该主要采取的是“占补平衡”，建设中不得已占用的耕地要一寸不少地迁移到另一处适合耕作的地方（如果我没理解错的话，是把土壤运到另一处）。也就是说，现在的耕地分布重心正在迁移，大概是从东北向西北移动。我们这些享乐的居民就不需要像华揽洪先生的设想那样再来一次“开发北大荒”了。</p>
+<h3 id="局限的横向视野">局限的横向视野</h3>
+<p>　　可能囿于北京市建筑设计研究院总建筑师的身份，本书大部分采用的资料都是北京与北方地区的图纸，对南方与内陆地区的图纸相对较少或简略。这是本书最为明显的缺陷，不过也如作者所说，在动乱中许多珍贵的资料丢失了，这种局限也情有可原。</p>
+<p>　　除了如杭州市规划、新会水电站这种大型的区域规划与建筑设施，尤其对于小区与普通住宅楼的图纸，以及交通规划方面的资料，作者仅能以北京的例子出发，以自己的亲身经历来谈论居民对城市空间的感受，这在全国视角下是有失偏颇的。倘若只看作者的书，甚至会有一种中国各地都有一种完整前瞻的规划，一片欣欣向荣的感觉——但实际是那个时期是许多中小城镇，包括东南沿海的小城市，仍处在一种无序的，摸不着头脑的规划草图方案下建设。（<em>《中国城市建设史》，395~399页</em>）</p>
+<p>　　但是不得不说，作者的竖向视野是伟大而富有远见的，面对未来的许多设想至今仍不过时。他在最后一章写道：“如果大部分小城市都能将人口控制在15万以内，而实行归并后的农村所形成的农工城镇的人口达到两万到3万人，那么我们就有了很多相似的小城镇群，它们的教育、文化、体育和商业设施也彼此相差不大。另外如果交通快捷的话，它们距离那些设施更加完善的小型繁华都市之间的路程不超过一小时，那么人们离消除城乡差别就不太远了。……在1958年时看起来像是乌托邦的东西，一百年后可能成为现实。不过不能背离城市扩散和加紧在农村实行现代化的政策，而且必须走出一条有中国特色的城市化道路。”（<em>237页</em>）而直到今天，“控制大城市规模、合理发展中等城市、积极发展小城市”的城市建设方针，也基本没有发生太大的改变。</p>
+<h3 id="详实的分析案例">详实的分析案例</h3>
+<p>　　或许历史的乐趣正在于一个个活生生的人，城市的历史也需要一个个清晰的案例来展现。作者能够拿出那个年代种种宝贵的资料来印证自己的想法，如同史实一般，一段波澜壮阔的城市建设史由此展开。从建国之初的中国工业城市布局图到北京西安大连的城市平面，从北京纺织厂小区到黄岩的大屋，亦或是和平宾馆的底层设计与平房的平面布局，图纸清晰地告诉我各种规划思想是如何落实的，引导我细细思考每种住宅布局是否真的合理，让我反思自己老家的小屋是否也和书中的描述有些许类似。从北京宏伟的广场与优雅的四合院到福建的客家土楼和包头钢厂，各种历史照片也带我走进那一段段曾经发生过的故事。</p>
+<p>　　读了此书后，《明日之城：1880年以来城市规划与设计的思想史》中短短两页的“中国开展上山下乡”（<em>284页</em>）变成了大寨等一众小乡村变成城镇的真实纪事；《中国城市及其文明的演变》中的“非城市化”战略变成了新会市等新城镇将工厂转移给人民公社来控制人口的趣闻；《中国城市建设史》中的“两个马鞍形”（<em>386页</em>）也变成了北京市规划师们反反复复争吵建设方案的轶事……我想我对中国所谓“坎坷曲折”的城市建设历程有了更直观而深入的了解。</p>
+<h3 id="亲切的阅读体验">亲切的阅读体验</h3>
+<p>　　这种充满案例，以微观视角切入的特点也造就了本书不同于其他历史书的易读性。与《城市地理学》等等教科书枯燥地讲述一个城市如何从聚居点或集市漫长地演变为中心地不同，本书以极为亲切的口吻娓娓道来从三十年来的中国城市发展规划史，各种设问与第一人称的句子让人感到这就是一位长者在讲述自己熟知的故事。这也需要感谢作者体贴地“为了让文章易懂，避免堆砌术语，而更多地使用较为通俗的语言”。（<em>第3页</em>）</p>
+<p>　　另外从书籍设计的角度来说，这本书是大概是经过字体排印的推敲的。最近翻阅《平面设计中的网格系统》和《排版造型 白井敬尚——从国际风格到古典样式再到 idea》，再看到三联书店的《重建中国》，发现其双栏的选择、版心的位置、图文混排的方式甚至页码与注释的位置，都有着网格系统的影子，这也使本书读来没有那么吃力。说实话，版面是否舒适也很能影响一个人是否愿意读下去。</p>
+<h2 id="小结">小结</h2>
+<p>　　在我没有读大学的时候，无论是中学老师还是自己的亲戚总会不时批评自己城市（或语文阅读题里的城市）的种种缺陷，此时的论调往往是“一届市长一届风格”“摊大饼无限制的开发”之类，痛斥各种建设的不合理之处。到大学我选修《自然资源科学导论》，仍有同学试图通过简单地谴责政府的喜大好功解释一些问题。高中的我很乐于接受这种理论，然而一读城乡规划，这些说法却显得不攻自破：按照早在80年代就制定的《城乡规划法》，这种混乱的建设显然是不应该发生的。那这种乱象是怎么出现的呢？直到后来强迫自己翻一翻《中国城市建设史》，我才得到合理的解释——并不完全同老师和同学所想的那样，原因其实应该是所谓90年代违法违章性质加剧、规划可操作性不强而无力控制、各部门各自为政、规划跟不上建设、规划师不坚持原则等等。所以说，还是得读读历史才不会主观臆断地随意归因，才不会和各种管理学专业一样想当然地提出虚伪空洞的方案。</p>
+<p>　　 一位读者在豆瓣读书里写道：“那重建中国的30年，是奠基的30年。那30年，不能仅仅是简单的否定和忽略，它依旧以某种形式深刻影响着我们的生活，遗留的空间叠加在我们的城市中；遗留的意识叠加在我们的头脑中；遗留的体制延续在我们的制度中。 这是值得研究的30年，不仅仅是为了‘经验’和‘教训’，还要理清那30年与我们这30年的联系，这是我们的现实。”（<em>袁委. 那重建中国的30年——读华揽洪先生的《重建中国》[J]. 重庆建筑,2013(9):58-58.</em>）华揽洪先生将30年的制度变化、社会经济发展在城市规划之间建立起一种逻辑关系，“将城市规划看成是这些内容的空间投射和解决方案”，以一种独出机杼的方式再现了中国城市乃至社会或产生或壮大，或停滞或倒退的往事。这是我们不能因历史的沉痛而遗忘的。</p>
+<p>　　诚然，如作者在自序中所写，“近三十年来中国发生了翻天覆地的变化，有些内容和观点显然已经过时”，但“有些内容还是有保留价值和借鉴作用的”。此书不仅能让我这种未曾真正经历过城市产生的年轻人了解当时的情况，还“从本质上道出了面对中国许多失忆的城市建筑，文化记忆该追求永恒”（<em>金磊. 为中国城市规划立言的专著:读华揽洪《重建中国:城市规划三十年(1949-1979)》有感[J]. 建筑创作,2006,88(10):156-157. DOI:10.3969/j.issn.1004-8537.2006.10.032.</em>）。我想，这也正是一个个伟大建筑师或规划师能够追求“为天地立心，为生民立命”的意义所在。</p>
+]]></content>
+      <tags>
+        <tag>随笔</tag>
+        <tag>作业</tag>
+        <tag>城市规划</tag>
       </tags>
   </entry>
 </search>
