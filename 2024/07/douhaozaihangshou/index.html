@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.0.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="mask-icon" href="/images/logo.png" color="#222">
+  <link rel="manifest" href="/images/manifest.json">
+  <meta name="google-site-verification" content="xZpP_ThhmwUDO5xwUSkBpRyBKpBGbfi8WSSTdubYcqk">
+  <meta name="msvalidate.01" content="4B605A19AAFA58DABDA408918660A869">
+  <meta name="baidu-site-verification" content="fbxuSwJZWA">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.font.im/css?family=Monda:300,300italic,400,400italic,700,700italic|Lato:300,300italic,400,400italic,700,700italic|Permanent+Marker:300,300italic,400,400italic,700,700italic|Rubik:300,300italic,400,400italic,700,700italic|Cairo:300,300italic,400,400italic,700,700italic|SF+Mono:300,300italic,400,400italic,700,700italic|Courier+Prime:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/themes/blue/pace-theme-minimal.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js"></script>
+
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"blog.keldos.me","root":"/","scheme":"Pisces","version":"8.0.0-rc.5","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"bounceInDown","post_body":"fadeInLeft","coll_header":"bounceInDown","sidebar":null}},"prism":false,"path":"search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
+  </script>
+
+  <meta name="description" content="由于建筑学和规划的教学共性呢，（几乎）所有同学的图纸排版和设计都是自学的。这带来了一个很大的问题，那就是大家对平面设计的基础知识了解太少，做出来的图纸要么很丑陋，要么尽力做好看和花哨了，但许多细节有大问题。怎么说平面设计也是设计，虽然优秀与否见仁见智，但有没有错误是客观的，就好比控规图居住用地不能用红色填充一样，一个基础错误往往会导致整张图纸不忍卒读。 至少是我自己看不下去。我每次找图纸看，看到排">
+<meta property="og:type" content="article">
+<meta property="og:title" content="，逗号还在行首？【为什么你的图纸排版错误百出？（一）】">
+<meta property="og:url" content="https://blog.keldos.me/2024/07/douhaozaihangshou/">
+<meta property="og:site_name" content="Keldos !">
+<meta property="og:description" content="由于建筑学和规划的教学共性呢，（几乎）所有同学的图纸排版和设计都是自学的。这带来了一个很大的问题，那就是大家对平面设计的基础知识了解太少，做出来的图纸要么很丑陋，要么尽力做好看和花哨了，但许多细节有大问题。怎么说平面设计也是设计，虽然优秀与否见仁见智，但有没有错误是客观的，就好比控规图居住用地不能用红色填充一样，一个基础错误往往会导致整张图纸不忍卒读。 至少是我自己看不下去。我每次找图纸看，看到排">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://r2.keldos.me/d1bfdf36e1e2587f032d3d7afd6684fd.png">
+<meta property="og:image" content="https://r2.keldos.me/2180ddf9b62fa17dd6e4765d8e782f9d_720.png">
+<meta property="og:image" content="https://r2.keldos.me/speedxsick.png">
+<meta property="og:image" content="https://r2.keldos.me/Pasted%20image%2020240706162412.png">
+<meta property="og:image" content="https://www.thetype.com/wp-content/uploads/2018/03/bitouwei-duanhang.png">
+<meta property="og:image" content="https://r2.keldos.me/20240706210722.png">
+<meta property="og:image" content="https://www.thetype.com/wp-content/uploads/2018/04/bitouwei-tuichu1.png">
+<meta property="og:image" content="https://r2.keldos.me/20240706212424.png">
+<meta property="og:image" content="https://r2.keldos.me/20240706213748.png">
+<meta property="og:image" content="https://r2.keldos.me/20240706221523.png">
+<meta property="og:image" content="https://r2.keldos.me/20240706225247.png">
+<meta property="og:image" content="https://r2.keldos.me/20240706225956.png">
+<meta property="og:image" content="https://r2.keldos.me/20240706215516.png">
+<meta property="og:image" content="https://www.thetype.com/wp-content/uploads/2018/03/MS-Yahei-Update.png">
+<meta property="og:image" content="https://r2.keldos.me/A4_0@12x.png">
+<meta property="og:image" content="https://r2.keldos.me/A4_1@12x.png">
+<meta property="og:image" content="https://r2.keldos.me/A4_2@12x.png">
+<meta property="og:image" content="https://r2.keldos.me/A4_3@12x.png">
+<meta property="article:published_time" content="2024-07-06T16:19:15.000Z">
+<meta property="article:modified_time" content="2024-07-06T16:33:01.906Z">
+<meta property="article:author" content="Keldos">
+<meta property="article:tag" content="排版">
+<meta property="article:tag" content="文字排印">
+<meta property="article:tag" content="教学">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://r2.keldos.me/d1bfdf36e1e2587f032d3d7afd6684fd.png">
+
+<link rel="canonical" href="https://blog.keldos.me/2024/07/douhaozaihangshou/">
+
+
+<script class="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+<script>
+  (function(){
+      if(''){
+          if (prompt('请输入文章密码') !== ''){
+              alert('密码错误!');
+              history.back();
+          }
+      }
+  })();
+</script>
+
+<script async="" referrerpolicy="no-referrer" src="/assets/av-min.js"></script>
+
+  <title>，逗号还在行首？【为什么你的图纸排版错误百出？（一）】 | Keldos !</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/keldosrss.xml" title="Keldos !" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <main class="main">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+        <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">Keldos !</h1>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">Keldos の 博客</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-map-marker-alt fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-info fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-folder-open fa-fw"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-notes">
+
+    <a href="/notes/" rel="section"><i class="fa fa-sticky-note fa-fw"></i>便笺</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <section class="post-toc-wrap sidebar-panel">
+          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9C%A8%E8%A1%8C%E9%A6%96%E7%9A%84%E6%A0%87%E7%82%B9"><span class="nav-number">1.</span> <span class="nav-text"> 在行首的标点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A0%87%E7%82%B9%E9%81%BF%E5%A4%B4%E5%B0%BE"><span class="nav-number">2.</span> <span class="nav-text"> 标点避头尾</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%81%BF%E5%A4%B4%E5%B0%BE%E6%98%AF%E6%80%8E%E4%B9%88%E5%AE%9E%E7%8E%B0%E7%9A%84"><span class="nav-number">3.</span> <span class="nav-text"> 避头尾是怎么实现的？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%94%BB%E5%9B%BE%E6%97%B6%E7%9A%84%E8%AE%BE%E7%BD%AE"><span class="nav-number">4.</span> <span class="nav-text"> 画图时的设置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#microsoft-word"><span class="nav-number">4.1.</span> <span class="nav-text"> Microsoft Word</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#microsoft-powerpoint"><span class="nav-number">4.2.</span> <span class="nav-text"> Microsoft PowerPoint</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#adobe-photoshop-%E5%92%8C-adobe-illustrator"><span class="nav-number">4.3.</span> <span class="nav-text"> Adobe Photoshop 和 Adobe Illustrator</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#adobe-indesign"><span class="nav-number">4.4.</span> <span class="nav-text"> Adobe InDesign</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%94%A8%E7%BD%91%E9%A1%B5%E6%8E%92%E7%89%88"><span class="nav-number">4.5.</span> <span class="nav-text"> 用网页排版……</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%99%841-%E6%88%91%E5%AF%B9%E6%A0%87%E7%82%B9%E7%9A%84%E7%9C%8B%E6%B3%95"><span class="nav-number">5.</span> <span class="nav-text"> 附1　我对标点的看法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%99%842-%E6%A0%87%E7%82%B9%E5%92%8C%E5%AD%97%E4%BD%93%E7%9A%84%E5%85%B3%E7%B3%BB"><span class="nav-number">6.</span> <span class="nav-text"> 附2　标点和字体的关系</span></a></li></ol></div>
+      </section>
+      <!--/noindex-->
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Keldos"
+      src="/images/avatar.jpeg">
+  <p class="site-author-name" itemprop="name">Keldos</p>
+  <div class="site-description" itemprop="description">竟然是规划狗</div>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Keldos-Li" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Keldos-Li" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkyMzM4NDA5NA==&scene=124#wechat_redirect" title="公众号 → https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;mp&#x2F;profile_ext?action&#x3D;home&amp;__biz&#x3D;MzkyMzM4NDA5NA&#x3D;&#x3D;&amp;scene&#x3D;124#wechat_redirect" rel="noopener" target="_blank"><i class="fab fa-weixin fa-fw"></i>公众号</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:hi@keldos.me" title="E-Mail → mailto:hi@keldos.me" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/keldosrss.xml" title="RSS订阅 → &#x2F;keldosrss.xml"><i class="fa fa-rss fa-fw"></i>RSS订阅</a>
+      </span>
+  </div>
+  <div class="cc-license animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/zh-CN" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+  <div class="links-of-blogroll animated">
+    <div class="links-of-blogroll-title"><i class="fa fa-street-view fa-fw"></i>
+      再逛逛……
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://keldos.me/" title="https:&#x2F;&#x2F;Keldos.me" rel="noopener" target="_blank">Keldos 主页</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://新民学会.keldos.me/" title="https:&#x2F;&#x2F;新民学会.keldos.me" rel="noopener" target="_blank">新民学会</a>
+        </li>
+    </ul>
+  </div>
+
+      </section>
+        <div class="back-to-top animated">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </header>
+
+      
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div id="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+      <div class="main-inner">
+        
+
+        <div class="content post posts-expand">
+          
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://blog.keldos.me/2024/07/douhaozaihangshou/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpeg">
+      <meta itemprop="name" content="Keldos">
+      <meta itemprop="description" content="竟然是规划狗">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Keldos !">
+    </span>
+
+    
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          ，逗号还在行首？【为什么你的图纸排版错误百出？（一）】
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2024-07-07 00:19:15 / 修改时间：00:33:01" itemprop="dateCreated datePublished" datetime="2024-07-07T00:19:15+08:00">2024-07-07</time>
+            </span>
+
+          
+            <span id="/2024/07/douhaozaihangshou/" class="post-meta-item leancloud_visitors" data-flag-title="，逗号还在行首？【为什么你的图纸排版错误百出？（一）】" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2024/07/douhaozaihangshou/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2024/07/douhaozaihangshou/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>由于建筑学和规划的教学共性呢，（几乎）所有同学的图纸排版和设计都是自学的。这带来了一个很大的问题，那就是大家对<strong>平面设计</strong>的基础知识了解太少，做出来的图纸要么很丑陋，要么尽力做好看和花哨了，但许多细节有大问题。怎么说平面设计也是设计，虽然优秀与否见仁见智，但有没有<strong>错误</strong>是客观的，就好比控规图居住用地不能用红色填充一样，一个基础错误往往会导致整张图纸不忍卒读。</p>
+<p>至少是我自己看不下去。我每次找图纸看，看到排版问题，我内心对这张图的评价就会直接拉低（「这图凭什么拿一等奖！垃圾🤮」），所以，为了避免我吐tong槽ma你的图纸，请学一些基础的排版知识吧！</p>
+<p>我不敢说自己图纸排版做的多好看，但<strong>文字排印</strong>（typography）应该是没有硬伤的。这个专栏里，Keldos 打算针对建筑学和城乡规划（风景园林呢？景观的同学早点转行吧谢谢）的图纸科普一些文字排印的细节。让我们慢慢来。这是该系列的第一篇，让我来讲讲「<strong>标点悬挂</strong>」。<a id="more"></a></p>
+<h2 id="在行首的标点"><a class="markdownIt-Anchor" href="#在行首的标点"></a> 在行首的标点</h2>
+<p>这个学期在做 WUPENICITY 的城市设计竞赛，一直在翻前两年的获奖图纸。说实话，如果认真看，（无论是好看的提名作品还是难看的一等奖作品）几乎没有一张图是没有问题的。真烂啊，要我肯定不给一等奖。我随手就截了几张图，大家发现这几张优秀图纸里的文字有什么问题吗？</p>
+<p><img src="https://r2.keldos.me/d1bfdf36e1e2587f032d3d7afd6684fd.png" alt="错图1" /><br />
+<img src="https://r2.keldos.me/2180ddf9b62fa17dd6e4765d8e782f9d_720.png" alt="错图2" /><br />
+<img src="https://r2.keldos.me/speedxsick.png" alt="错图3" /></p>
+<p>上完小学二年级的你已经发现了——</p>
+<p>第一张图的顿号「、」和分号「；」，第二张图的后引号「”」和第三张图的顿号「、」出现在了行首！</p>
+<p>「小学老师就告诉我，这些标点不能放在一行的开头。」你委屈地说，「要是我在稿纸上写我肯定不会犯这些错误。」</p>
+<p>是啊，都2024年了，计算机为什么还不帮我把这些标点挪到行尾呢？明明Word这种垃圾软件都不会出这些问题！</p>
+<p><img src="https://r2.keldos.me/Pasted%20image%2020240706162412.png" alt="气疯设计师" /></p>
+<p>你是不是在用 Adobe Photoshop 或者 Adobe Illustrator 画图的？？</p>
+<p>——！！！你怎么知道的！！垃圾 Adobe！我已经一个一个词删过去调整了额，这里剩下几个忘记了。</p>
+<p>😐</p>
+<p>好吧，下面让我们重新从中文标点讲起……</p>
+<h2 id="标点避头尾"><a class="markdownIt-Anchor" href="#标点避头尾"></a> 标点避头尾</h2>
+<p>小学二年级老师就教过我们，有一些标点符号不能出现在行头（而另外一些不能出现在行尾），因此在排版时要分别让它们避开行头、行尾的位置，简称「避头尾」。</p>
+<p>实际上，针对各种标点，各种编辑风格其实不尽统一——但如果你高考前语文成绩不错，你可能知道要看国标来找推荐性规范来杜绝前几个病句选择题选不出来，因此你找到了<a target="_blank" rel="noopener" href="http://c.gb688.cn/bzgk/gb/showGb?type=online&amp;hcno=22EA6D162E4110E752259661E1A0D0A8">国标 GB/T 15834-2011《标点符号用法》</a>，这正是我国教育部接受的指定用法，里面「<strong>5. 标点符号的位置和书写形式</strong>」中，正写明了：</p>
+<ul>
+<li>着重号、专名号不在「行内」而在「行间」，不属于避头尾处理范围。</li>
+<li>点号，包括句号、问号、叹号、逗号、顿号、分号、冒号，都要避头。</li>
+<li>标号中的引号、括号、书名号：前一半避尾，后一半避头。</li>
+<li>标号中的连接号（–）、间隔号（·）都不能出现在行头。</li>
+<li>标号中的分隔号（/）不能出现在行头也不出现在行尾。</li>
+</ul>
+<p>这里还是得提一句，这份国标只是一份推荐性标准，其他排版或出版的行业性规范中，对分隔号与连接号、间隔号的避头尾规则可能有其他的要求……尤其是省略号与破折号的避头尾规则，有不同的<strong>风格</strong>选择。这又涉及到了<em>间距调整</em>的知识……让我们下一篇再讲吧。</p>
+<p>聪明的你可能还会提醒我，除了标点，还有各种符号，尤其是与数字相关的符号在文章中也需要避头尾，比如百分号 ％、千分号 ‰ 需要避头，前置货币符号如￥＄需要避尾。这会是一个<em>如何断行</em>的问题……嗯，又是另一篇文章了。</p>
+<p>好了，现在你已经复习了标点的避头尾要求，你开始疑惑了：「我知道，你给我400字的稿纸我绝对不会搞错的，我还知道要把冒号和前引号放在同一个格子里（<em>标点挤压</em>，之后再讲吧），可是为什么我画图的时候就不对了呢？」</p>
+<p>下面，让我们进入计算机中的文字排印的原理吧！（bushi）</p>
+<h2 id="避头尾是怎么实现的"><a class="markdownIt-Anchor" href="#避头尾是怎么实现的"></a> 避头尾是怎么实现的？</h2>
+<p>在纸质书写的时候，我们可以手动控制标点的位置。在铅字排版的时候，我们可以手动调整标点铅块的位置。显然那，电脑排版的时候，我们也可以手动换行，避免标点出现在第一个字（bushi）。</p>
+<p>开个玩笑，我们并不想手动换行或者删字（虽然确实很多人会这么做）。我们希望计算机能够智能地预判标点是否可能会出现在行首（或者行尾），并以此智能地动态调整。</p>
+<p>不同的软件实现避头尾有不同的内部算法和不同的风格选择，尤其是涉及到标点挤压或标点悬挂之后。让我借用 Eric 文章中的图来解释决策算法：</p>
+<p>如下图，最后一个字是「客」，然后是句号。如果不做任何处理，句号将会出现在下一行的开头。</p>
+<p><img src="https://www.thetype.com/wp-content/uploads/2018/03/bitouwei-duanhang.png" alt="例句" /></p>
+<p>如果你对排版规则了解更多，你可能会知道这行字在各排版软件中更容易执行标点挤压，也就是把最后一个字挤进这一行，如 InDesign（还是借 Eric 老师的例句，但我截了图qwq）：</p>
+<p><img src="https://r2.keldos.me/20240706210722.png" alt="InDesign中的默认处理" /></p>
+<p>标点挤压也有很多策略，比如你会发现 InDesign 挤压了几个点号的宽度而没动文字。这里先不展开。</p>
+<p>但如果是网页排版等策略，或无法挤进，或风格选择，决定把「客。」字段整段推出到下一行，而上一行空出了一个字宽的空间。根据不同方针，在撑开调整时，也会有不同的策略选择：</p>
+<p><img src="https://www.thetype.com/wp-content/uploads/2018/04/bitouwei-tuichu1.png" alt="不同的推出效果" /></p>
+<blockquote>
+<p>「甲」的效果，是包括国产字处理软件 WPS 以及很多网页排版唯一能实现的效果，即推出字段之后，上一行所有字符根据「两端对齐」算法指令强行拉开，把一个字宽均摊到二十处字间距里。这个方法虽然把每处的调整空隙降到最低（1/20 字宽），但其打破了字距的密排原则，实际的字距会与其他行不同。<br />
+……</p>
+</blockquote>
+<p>（其他效果是不同的风格选择或策略造成的，这里不展开了。）</p>
+<p>大家不用知道更细的算法原理了，下面让我来看怎么画图吧！</p>
+<h2 id="画图时的设置"><a class="markdownIt-Anchor" href="#画图时的设置"></a> 画图时的设置</h2>
+<p>先等等，我们从文本和汇报开始！<s>什么你是建筑学的不用做文本？😢</s></p>
+<h3 id="microsoft-word"><a class="markdownIt-Anchor" href="#microsoft-word"></a> Microsoft Word</h3>
+<p>Word 默认是开启避头尾的，所以你可能一直对自己的排版感到满意。如果你想要进行更具体的调整，可以在「段落→中文版式→选项」里的「首尾字符」选项中进行设置。</p>
+<p><img src="https://r2.keldos.me/20240706212424.png" alt="Word设置避头尾" /></p>
+<p>另外，Word 在默认情况下开启了「压缩标点符号」，因此从实际效果来说，Word 在避头尾时是执行「先挤进」原则：当行尾不足以放一个标点或者遇到避头点时，Word 会先尝试对行内标点宽度进行挤压，腾出空间把标点放到行尾上。</p>
+<h3 id="microsoft-powerpoint"><a class="markdownIt-Anchor" href="#microsoft-powerpoint"></a> Microsoft PowerPoint</h3>
+<p>我知道，现在你全在用 PPT 做汇报文本，根本不用 Word。放心，学会了这个技能，设计院也不会给你我多发工资的！</p>
+<p>PowerPoint 的避头尾设置则在「段落→换行符和对齐方式」中换行符的选项菜单中。（聪明的你甚至发现了PPT是没有标点挤压的，真难过呀。）</p>
+<p><img src="https://r2.keldos.me/20240706213748.png" alt="PowerPoint 设置避头尾" /></p>
+<h3 id="adobe-photoshop-和-adobe-illustrator"><a class="markdownIt-Anchor" href="#adobe-photoshop-和-adobe-illustrator"></a> Adobe Photoshop 和 Adobe Illustrator</h3>
+<p>为什么我一眼就可以瞄出你的图纸是用 PS 或者 Ai 做的呢？诶，因为它们默认都没有帮你启用避头尾规则！显然，用 PS 的都是专业的平面设计师，做规划的小萌新画图为什么不直接用 PPT 画呢？</p>
+<p><img src="https://r2.keldos.me/20240706221523.png" alt="左侧是默认的效果，右侧是调整后的效果" /></p>
+<p>其实很简单，在 PS 中，你只需要在「段落」面板中将避头尾设置为 「JIS 宽松」，将「标点挤压」设置为「间距组合1」；</p>
+<p>在 Ai 中，则是「段落」面板中将「避头尾集」设置为「宽松」，「标点挤压集」设置为「行尾挤压全角』。</p>
+<p><img src="https://r2.keldos.me/20240706225247.png" alt="PS与Ai中 设置避头尾" /></p>
+<p>你可能发现了，为啥好像不管是 Word 还是这里避头尾都有个宽松还是严格的预设集合可以选择。这又是什么意思？这两个设置有什么区别？</p>
+<p>答案是，如果你是中文用户，也不用它们写日文，那么就是……没有什么太大区别。目前各家软件「严格」「宽松」的设置基本都是针对日文排版需求的设置，二者最大的区别是针对日文「拗促音」的小写假名以及片假名长音等符号的不同处理方式，与中文排版无关。所以我推荐大家选择「宽松」就好。</p>
+<p>至于下面的标点挤压集应该选什么，倒开始偏向风格选择了。我个人会习惯按照「行尾挤压全角」类似的设置来，这样标点会宽一些，两端对齐需要添加的多余空白不会太影响到文字间距。</p>
+<p><img src="https://r2.keldos.me/20240706225956.png" alt="标点挤压风格对比" /></p>
+<p>当然了，这是风格选择喜好。只要不出现逗号出现在行首这种错误，我一般是不会骂别人开启两端对齐之后字间距太大这种问题的。</p>
+<h3 id="adobe-indesign"><a class="markdownIt-Anchor" href="#adobe-indesign"></a> Adobe InDesign</h3>
+<p>InDesign 作为专业的排版软件，对避头尾也有非常强大和全面的调整和算法。一般来说，如果你下载使用<strong>中文版</strong>的 InDesign，保持默认的效果即可。如果想要有更好的效果，也可以在「段落」面板中将「避头尾间断类型」选择「确定调整量优先级」。</p>
+<p><img src="https://r2.keldos.me/20240706215516.png" alt="InDesign设置避头尾" /></p>
+<p>所以，如果我没有指责你的图纸错误百出，你应该感谢 InDesign。</p>
+<h3 id="用网页排版"><a class="markdownIt-Anchor" href="#用网页排版"></a> 用网页排版……</h3>
+<p>我知道有人在用 Figma 之类的基于网页技术的软件做排版，或者就是在排一个网页。网页的标点避头尾和挤压规则可以参考 w3c 《中文排版需求》的<a target="_blank" rel="noopener" href="https://www.w3.org/TR/clreq/#prohibition_rules_for_line_start_end">「3.1.4 行首行尾禁则」</a>等节和 <a target="_blank" rel="noopener" href="http://unicode.org/reports/tr14/">Unicode 标准附件第十四号《Unicode 断行算法》（UAX14）</a> 以及 《CSS 文本模块》第五章<a target="_blank" rel="noopener" href="https://drafts.csswg.org/css-text-3/#line-breaking">「断行与词界」</a>。值得注意的是，由于现代中文蝌蚪引号与西文共享一个码位，也会产生不少问题。但这里也不展开了哦。</p>
+<p>恭喜！现在，你已经学会做出一个基本正确的文本框了，下面，试一试排一本30万字的书吧！（bushi）</p>
+<p><strong>参考资料</strong></p>
+<ul>
+<li>刘庆. <a target="_blank" rel="noopener" href="https://www.thetype.com/2018/05/14501/">挤进推出避头尾</a>.</li>
+<li><a target="_blank" rel="noopener" href="http://c.gb688.cn/bzgk/gb/showGb?type=online&amp;hcno=22EA6D162E4110E752259661E1A0D0A8">GB/T 15834-2011 标点符号用法</a>.</li>
+</ul>
+<h2 id="附1-我对标点的看法"><a class="markdownIt-Anchor" href="#附1-我对标点的看法"></a> 附1　我对标点的看法</h2>
+<p>我其实是个不太纠结别人用不用标点或者有没有滥用标点的人，你要是用句号代替省略号。。。或者用，，，来体现你的纠结语气，甚至一整段话完全不打标点 只用空格 来代替一句话的停顿甚至完全不打标点或空格就像古文一样我都非常可以接受。</p>
+<p>川虎之前给我看<a target="_blank" rel="noopener" href="https://www.gzblog.tech/2024/03/blog-post.html">他对现代网民乱用标点的看法</a>，觉得用标点体现对对方尊重，我是不太认同的。</p>
+<p>毕竟，标点本身就是一个新东西，你感兴趣甚至可以看 <a target="_blank" rel="noopener" href="https://zh.wikisource.org/zh/%E8%AB%8B%E9%A0%92%E8%A1%8C%E6%96%B0%E5%BC%8F%E6%A8%99%E9%BB%9E%E7%AC%A6%E8%99%9F%E8%AD%B0%E6%A1%88%EF%BC%88%E4%BF%AE%E6%AD%A3%E6%A1%88%EF%BC%89">《请颁行新式标点符号议案（修正案）》</a>，这是马裕藻、周作人、朱希祖、刘复、钱玄同、胡适于 1919 年编撰的，可是中文标点的雏形啊。虽然我们现在基本约定俗成了各种标点的规范用法，但它们仍然只是刚形成100年左右的新东西。某种程度上讲，标点符号使用还在不断演变和优化过程中。</p>
+<p>所以你要是发明什么，。？。的用法，然后通篇这么用，我可不介意。只要你这个使用方式是表达了你的什么混沌的意识或者阴暗爬行的精神状态之类，就没关系。</p>
+<p>但是，如果你正在试着在<strong>以某种正确的方式使用标点</strong>，比如，你正在写你的设计说明，你一句话停顿用逗号，一句话结束用冒号，这些都很符合一般的规则。这时候你突然说我要用「。。。」来代替省略号啦，我要把逗号放在一行开头啦，我则会觉得莫名其妙。</p>
+<p>反正就是，你要是好好用了，你就通篇好好用，不要混一两个错误进来觉得无所谓。</p>
+<p>说是网络时代大家都乱用标点也好，或者是现代网页排版技术不支持太多标点规则也好，你可能对这些不太感冒，「我就这么用了，没关系吧」「只是推荐性标准罢了，又不是强制性，凭什么说我错？」</p>
+<p>Eric 写得很好：</p>
+<blockquote>
+<p>在中华人民共和国新闻出版总署发布的《图书质量管理规定》里所附「图书编校质量差错率计算方法」明确指出「标点符号误在行首、行末的，每处计 0.1 个差错。」不避头尾，在正规出版社的出版物里是应该杜绝的纠错现象，为什么到了现代的软件里却可以熟视无睹？</p>
+</blockquote>
+<p>总之，要乱用就乱用，要好好用就好好用，不要一边好好用一边乱用。</p>
+<h2 id="附2-标点和字体的关系"><a class="markdownIt-Anchor" href="#附2-标点和字体的关系"></a> 附2　标点和字体的关系</h2>
+<p>看一个例子。</p>
+<p>2017 年 8 月，微软公司在「Window 10 秋季创意者」版本里对「微软雅黑」进行了更新，第一点就提到了「标点符号位置改进」。</p>
+<p><img src="https://www.thetype.com/wp-content/uploads/2018/03/MS-Yahei-Update.png" alt="微软更新微软雅黑" /></p>
+<p>正如版本更新的说明所述，微软雅黑这次修改的原因是要「严格遵照标准」。反过来也就是说，自 2007 年诞生直到 2017 年新版发布，十年以来这款字体的标点位置一直都不符合国家标准……</p>
+<p>也就是说，标点用的对不对，和字体可能也是有关系的。除了这些基础的标点，还容易体现在字体上的是破折号「——」，破折号的中间能不能连上？嗯，这又涉及到了 OpenType 字体的 <code>ccmp</code> 特性，下次再讲吧。</p>
+<p>补充一句，微软雅黑真的是一款很差劲的字体。我不知道为什么大家这么喜欢在 PPT 和汇报文本里面用它，它现在甚至不是默认的中文字体了。是因为眼瞎觉得微软雅黑很好看吗？</p>
+<p>说到字体，我这几天试着制作了一款像素风格的西文可变字体（暂时只支持英文使用的部分拉丁化字母），如果有人有兴趣可以看看：<a target="_blank" rel="noopener" href="https://github.com/Keldos-Li/slantel-dos-pixel">Slantel Dos Pixel</a>。</p>
+<p><img src="https://r2.keldos.me/A4_0@12x.png" alt="样张1" /><br />
+<img src="https://r2.keldos.me/A4_1@12x.png" alt="样张2" /><br />
+<img src="https://r2.keldos.me/A4_2@12x.png" alt="样张3" /><br />
+<img src="https://r2.keldos.me/A4_3@12x.png" alt="样张4" /></p>
+
+    </div>
+
+    
+    
+    
+        <div class="reward-container">
+  <div>求鼓励求支持QAQ</div>
+  <button onclick="document.getElementById('post-reward').classList.toggle('active');">
+    赞赏
+  </button>
+  <div id="post-reward">
+      
+      <div>
+        <img src="/images/Alipay.png" alt="Keldos 支付宝">
+        <p>支付宝</p>
+      </div>
+
+  </div>
+</div>
+
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>Keldos
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://blog.keldos.me/2024/07/douhaozaihangshou/" title="，逗号还在行首？【为什么你的图纸排版错误百出？（一）】">https://blog.keldos.me/2024/07/douhaozaihangshou/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/zh-CN" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%8E%92%E7%89%88/" rel="tag"># 排版</a>
+              <a href="/tags/%E6%96%87%E5%AD%97%E6%8E%92%E5%8D%B0/" rel="tag"># 文字排印</a>
+              <a href="/tags/%E6%95%99%E5%AD%A6/" rel="tag"># 教学</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2024/03/2023Review/" rel="prev" title="结束了…2023…">
+      <i class="fa fa-chevron-left"></i> 结束了…2023…
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+        </div>
+        
+    <div class="comments" id="valine-comments"></div>
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+  <div class="beian"><a href="http://www.beian.miit.gov.cn/" rel="noopener" target="_blank">ICP占位（.me域名备不了案……呜呜） </a>
+  </div>
+
+<div class="copyright">
+  
+  &copy; 2017 – 
+  <span itemprop="copyrightYear">2024</span>
+  <span class="with-love">
+    <i class="fa fa-pen"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Keldos</span>
+</div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+  
+  <script>
+    (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      bp.src = (curProtocol === 'https') ? 'https://zz.bdstatic.com/linksubmit/push.js' : 'http://push.zhanzhang.baidu.com/push.js';
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
+  </script>
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+<script>
+document.querySelectorAll('.pdfobject-container').forEach(element => {
+  let url = element.dataset.target;
+  let pdfOpenParams = {
+    navpanes : 0,
+    toolbar  : 0,
+    statusbar: 0,
+    pagemode : 'thumbs',
+    view     : 'FitH'
+  };
+  let pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
+  let fullURL = `/lib/pdf/web/viewer?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
+
+  if (NexT.utils.supportsPDFs()) {
+    element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;
+  } else {
+    element.innerHTML = `<iframe src="${fullURL}" style="height: ${element.dataset.height};" frameborder="0"></iframe>`;
+  }
+});
+</script>
+
+
+<script>
+if (document.querySelectorAll('pre.mermaid').length) {
+  NexT.utils.getScript('//cdnjs.cloudflare.com/ajax/libs/mermaid/8.6.4/mermaid.min.js', () => {
+    mermaid.init({
+      theme    : 'forest',
+      logLevel : 3,
+      flowchart: { curve     : 'linear' },
+      gantt    : { axisFormat: '%m/%d/%Y' },
+      sequence : { actorMargin: 50 }
+    }, '.mermaid');
+  }, window.mermaid);
+}
+</script>
+
+
+  
+
+  
+      <script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      const script = document.createElement('script');
+      script.src = '//cdnjs.cloudflare.com/ajax/libs/mathjax/3.0.5/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+    
+
+  
+<script>
+NexT.utils.loadComments('#valine-comments', () => {
+  NexT.utils.getScript('//cdnjs.cloudflare.com/ajax/libs/valine/1.4.14/Valine.min.js', () => {
+    new Valine(Object.assign({
+      el  : '#valine-comments',
+      path: location.pathname,
+    }, {"enable":true,"appId":"vI22dhb3chuQi7swGpcod9VR-gzGzoHsz","appKey":"cKvYX5ualg1YLB13AfCB1pDj","placeholder":"该说什么好🤔","avatar":"mm","meta":["nick","mail"],"pageSize":8,"language":"zh-cn","visitor":true,"comment_count":false,"recordIP":true,"serverURLs":null,"enableQQ":false,"requiredFields":["nick"]}
+    ));
+  }, window.Valine);
+});
+</script>
+</body>
+</html>
