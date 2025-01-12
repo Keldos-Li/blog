@@ -119,17 +119,17 @@
       </tags>
   </entry>
   <entry>
+    <title>班徽评选</title>
+    <url>/2020/11/banhui/</url>
+    <content><![CDATA[<p>原班徽设计已留档删除，不再放在我的网站。需要查看请联系我。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>QQ变更声明</title>
     <url>/2021/06/QQ%E5%8F%98%E6%9B%B4%E5%A3%B0%E6%98%8E/</url>
     <content><![CDATA[<p>因本人操作不慎，腾讯将我原来的QQ账号（2570358726）永久冻结。经过几次申诉均无效。封号原因不便多说。个人坚持认为是腾讯僭越管理职能封号，本人所作所为合理合法。</p>
 <p>如需要QQ联系请加新账号（不放了，盲猜我会来加你），或请添加我微信账号。</p>
 <p>如需验证本人身份，可拨打电话等。若您没有本人电话，询问问题也是合理的。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>班徽评选</title>
-    <url>/2020/11/banhui/</url>
-    <content><![CDATA[<p>原班徽设计已留档删除，不再放在我的网站。需要查看请联系我。</p>
 ]]></content>
   </entry>
   <entry>
@@ -822,377 +822,6 @@ section Go home
       </tags>
   </entry>
   <entry>
-    <title>Typora伪装LaTeX中文样式主题简介</title>
-    <url>/2021/05/typora-latex-css/</url>
-    <content><![CDATA[<blockquote class="blockquote-center">
-<p>哇，我大一在干什么。转眼两年过去，这个项目获得了4.1k star，至少19k次下载，这篇文章阅读量都有近5000了，我却在大四生活中累死累活，哈哈。<br />
-过了这么久，我觉得这篇文章是需要一些更新了，所以……我更新了一下。</p>
-
-</blockquote>
-<p style="text-align:right;padding-right:2em"><small>Keldos<br>2023.11.19</small></p>
-<hr />
-<p>这篇文章是对我开发和维护的 <a href="https://github.com/Keldos-Li/typora-latex-theme">typora-latex-theme</a> 项目的介绍和说明。如果能帮助到你，欢迎前往<a href="https://github.com/Keldos-Li/typora-latex-theme">GitHub地址</a>给我一个 Star⭐️~</p>
-<hr />
-<p>本项目的初衷是为了简化中国大陆本科生<strong>小型通识课论文</strong>（或<strong>实验报告</strong>）撰写的负担。这里基本采用了浙江大学要求的格式（字体较小，页边距较小），但大部分同学都可以自行在css中修改适合自己学校的格式。</p>
-<p>markdown 的轻量化特性，使您可以专注于论文内容而不用担心格式。书写时仅通过简单的标记，并通过替换样例模板中的个人信息，您就可以输出媲美卷王由 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>LaTeX</mtext></mrow><annotation encoding="application/x-tex">\LaTeX</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.89883em;vertical-align:-0.2155em;"></span><span class="mord text"><span class="mord textrm">L</span><span class="mspace" style="margin-right:-0.36em;"></span><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.68333em;"><span style="top:-2.904999em;"><span class="pstrut" style="height:2.7em;"></span><span class="mord text"><span class="mord textrm sizing reset-size6 size3">A</span></span></span></span></span></span><span class="mspace" style="margin-right:-0.15em;"></span><span class="mord text"><span class="mord textrm">T</span><span class="mspace" style="margin-right:-0.1667em;"></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span class="pstrut" style="height:3em;"></span><span class="mord text"><span class="mord textrm">E</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2155em;"><span></span></span></span></span><span class="mspace" style="margin-right:-0.125em;"></span><span class="mord textrm">X</span></span></span></span></span></span> 排版的精美论文与报告。</p>
-<p>总之，这是一个 Typora 的 markdown 主题样式，支持 Windows, macOS 和 Linux 三大平台的 Typora。CSS也适用于部分其他编辑器。macOS 和 Windows 中的个别特性可能不同。</p>
-<h2 id="预览"><a class="markdownIt-Anchor" href="#预览"></a> 预览</h2>
-<ul>
-<li>
-<p>您可以通过<a href="https://blog.keldos.me/2021/05/md-latex-template/">在线 PDF 预览器</a>预览完整的导出结果（不过注意，该项目更新之后，部分效果可能与当初不同）。</p>
-</li>
-<li>
-<p>up主 @<a href="https://space.bilibili.com/239828907">大啊好我r中之</a> 为这个项目制作了一个<a href="https://www.bilibili.com/video/BV1634y1h7pE">介绍视频</a>，其中简洁清晰地介绍了主题外观和安装方法~</p>
-</li>
-<li>
-<p>或者，您也可以看下方的表格：</p>
-</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th></th>
-<th style="text-align:center">code</th>
-<th style="text-align:center">light mode</th>
-<th style="text-align:center">dark mode</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>封面，摘要和关键词</td>
-<td style="text-align:center">–</td>
-<td style="text-align:center"><img src="/assets/preview/sample-essay_1.png" alt="" /></td>
-<td style="text-align:center"><img src="/assets/preview/sample-essay_2.png" alt="" /></td>
-</tr>
-<tr>
-<td>预览模式</td>
-<td style="text-align:center">–</td>
-<td style="text-align:center"><img src="/assets/preview/preview-l.png" alt="" /></td>
-<td style="text-align:center"><img src="/assets/preview/preview-d.png" alt="" /></td>
-</tr>
-<tr>
-<td>编辑模式</td>
-<td style="text-align:center">–</td>
-<td style="text-align:center"><img src="/assets/preview/edit-l.png" alt="" /></td>
-<td style="text-align:center"><img src="/assets/preview/edit-d.png" alt="" /></td>
-</tr>
-<tr>
-<td>层级标题</td>
-<td style="text-align:center"><img src="/assets/preview/heading-c.png" alt="" /></td>
-<td style="text-align:center"><img src="/assets/preview/heading-l.png" alt="" /></td>
-<td style="text-align:center"><img src="/assets/preview/heading-d.png" alt="" /></td>
-</tr>
-<tr>
-<td>表格</td>
-<td style="text-align:center"><img src="/assets/preview/table-c.png" alt="" /></td>
-<td style="text-align:center"><img src="/assets/preview/table-l.png" alt="" /></td>
-<td style="text-align:center"><img src="/assets/preview/table-d.png" alt="" /></td>
-</tr>
-<tr>
-<td>项目列表</td>
-<td style="text-align:center"><img src="/assets/preview/item-c.png" alt="" /></td>
-<td style="text-align:center"><img src="/assets/preview/item-l.png" alt="" /></td>
-<td style="text-align:center"><img src="/assets/preview/item-d.png" alt="" /></td>
-</tr>
-<tr>
-<td>代码块</td>
-<td style="text-align:center"><img src="/assets/preview/code-c.png" alt="" /></td>
-<td style="text-align:center"><img src="/assets/preview/code-l.png" alt="" /></td>
-<td style="text-align:center"><img src="/assets/preview/code-d.png" alt="" /></td>
-</tr>
-<tr>
-<td>Mermaid</td>
-<td style="text-align:center"><img src="/assets/preview/mermaid-c.png" alt="" /></td>
-<td style="text-align:center"><img src="/assets/preview/mermaid-l.png" alt="" /></td>
-<td style="text-align:center"><img src="/assets/preview/mermaid-d.png" alt="" /></td>
-</tr>
-<tr>
-<td>公式</td>
-<td style="text-align:center"><img src="/assets/preview/equation-c.png" alt="" /></td>
-<td style="text-align:center"><img src="/assets/preview/equation-l.png" alt="" /></td>
-<td style="text-align:center"><img src="/assets/preview/equation-d.png" alt="" /></td>
-</tr>
-</tbody>
-</table>
-<a id="more"></a>
-<details class="note primary"><summary><p>本文如果使用该主题导出，效果是这样的：</p>
-</summary>
-<div class="pdfobject-container" data-target="/assets/typora-latex-css.pdf" data-height="1200px"></div>
-</details>
-<h2 id="安装"><a class="markdownIt-Anchor" href="#安装"></a> 安装</h2>
-<ol>
-<li>
-<p>安装前，请确保您已经安装 Typora（也可以用某些IDLE），并拥有基本的markdown语法知识；</p>
-<ul>
-<li>什么是<strong>Typora</strong>？<br />
-<a href="https://typora.io/">Typora</a>是一个超级好用的实时预览markdown编辑器；</li>
-<li>什么是<strong>markdown</strong>？<br />
-<a href="https://daringfireball.net/projects/markdown/">markdown</a> 是一种轻量级标记语言，用于使用纯文本创建格式化文本。<br />
-约翰·格鲁伯和亚伦·斯沃茨于2004年创建了Markdown，作为一种以源代码形式吸引人类读者的标记语言。<br />
-Markdown排版语法简洁，让人们更多地关注内容本身而非排版。它可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式等文件。<br />
-Markdown广泛用于博客、即时消息、在线论坛、协作软件、文档页面和阅读文件。<br />
-参考：
-<ul>
-<li><a href="https://markdown.com.cn/">Markdown中文语法简介</a></li>
-<li><a href="https://support.typora.io/Markdown-Reference/">Typora使用的markdown语法参考</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>前往本项目的 <a href="https://github.com/Keldos-Li/typora-latex-theme/releases">release</a> 页面，下载适合您操作系统的最新版本压缩包。比如，如果您在使用 Windows 操作系统，您就应该下载 <code>latex-theme-windows.zip</code>。</p>
-<ul>
-<li>当然你也可以使用命令行下载最新版（<s>虽然没用，只是可能酷一点？</s>）：</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> &lt;你常用的下载文件夹&gt;</span><br><span class="line">$ git <span class="built_in">clone</span> https://github.com/Keldos-Li/typora-latex-theme.git</span><br></pre></td></tr></table></figure>
-</li>
-<li>
-<p>解压这个文件，然后您将可以选择手动安装还是自动安装（cool~）！</p>
-<div class="tabs" id="安装方式"><ul class="nav-tabs"><li class="tab"><a href="#安装方式-1">手动安装</a></li><li class="tab active"><a href="#安装方式-2">自动安装</a></li></ul><div class="tab-content"><div class="tab-pane" id="安装方式-1"><p>请您打开安装包的 <code>target</code> 文件夹，按照<a href="https://theme.typora.io/doc/Install-Theme/">官方教程（英文）</a>，将这个文件夹里的所有 CSS 文件复制到指定的 <a href="%E6%8A%80%E6%9C%AF%E7%BB%86%E8%8A%82#%E4%B8%BB%E9%A2%98%E6%96%87%E4%BB%B6%E5%A4%B9">Typora 主题文件夹</a>中。</p></div><div class="tab-pane active" id="安装方式-2"><ul>
-<li>
-<p>如果您在使用 Windows ，请运行 <code>install.ps1</code> 文件。具体的运行方式是：右键点击 <code>install.ps1</code> 文件，然后点击“使用 PowerShell 运行”。<br />
-若您看到了以下提示，请输入<code>Y</code>，然后按下回车<code>enter</code>：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;</span><span class="bash"> 执行策略更改  </span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash"> 执行策略可帮助你防止执行不信任的脚本。更改执行策略可能会产生安全风险，如 https:/go.microsoft.com/fwlink/?LinkID=135170 中的 about_Execution_Policies 帮助主题所述。是否要更改执行策略?  </span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash"> [Y] 是(Y)  [A] 全是(A)  [N] 否(N)  [L] 全否(L)  [S] 暂停(S)  [?] 帮助 (默认值为“N”):  </span></span><br></pre></td></tr></table></figure>
-</li>
-<li>
-<p>如果您在使用 macOS 或 Linux ，只需在终端执行 <code>sh ./install.sh</code> 即可完成安装。</p>
-<blockquote>
-<p>什么？你是 mac 用户却不知道怎么用<em>终端</em>？好吧。打开<em>终端</em>，将 <code>install.sh</code> 文件拖入终端窗口中也是可以执行的。什么？你不知道怎么打开<em>终端</em>？请参考以下步骤：打开<a href="https://support.apple.com/zh-cn/HT202635">启动台</a>；在启动台顶部的搜索栏里，搜索“终端”，然后点击搜索结果中的终端图标。</p>
-</blockquote>
-</li>
-</ul></div></div></div>
-</li>
-<li>
-<p>安装字体。<strong>以上步骤执行完毕后， Typora 显示的结果可能并不符合您的预期。比如，中文字体缺少衬线，或中文字体是点阵字体等。这时，您需要安装本主题依赖的所有字体。</strong> 对于 macOS 和 Windows 用户，您可以在  <a href="https://github.com/Keldos-Li/typora-latex-theme-fonts">Keldos-Li/typora-latex-theme-fonts</a> 仓库下载并安装您需要的字体； Linux 用户应确保相关字体在您的发行版上被正确安装。具体而言：</p>
-<ul>
-<li>macOS 用户可以前往 <a href="https://github.com/Keldos-Li/typora-latex-theme-fonts/tree/main/macOS"><code>/macOS</code></a> 和 <a href="https://github.com/Keldos-Li/typora-latex-theme-fonts/tree/main/General%20platform"><code>/General platform</code></a> 获取适用于 macOS 的额外字体。</li>
-<li>Windows 用户可以前往 <a href="https://github.com/Keldos-Li/typora-latex-theme-fonts/tree/main/Windows"><code>/Windows</code></a> 和 <a href="https://github.com/Keldos-Li/typora-latex-theme-fonts/tree/main/General%20platform"><code>/General platform</code></a> 获取适用于 Windows 的额外字体。</li>
-<li>Linux 用户请去查看github项目地址中的wiki，我懒得写了。<s>这年头还有人用Linux写文档？</s></li>
-</ul>
-<p>对字体再做一点补充吧。 <code>Latin Modern</code> 家族是常规 LaTeX 发行版文档使用的英文字体，请所有用户安装。（大家都会喜欢这个字体的，所以安装吧，就不把它们放在主题文件夹下再 import 了。<s>绝不是因为我懒</s>）；</p>
-<p>其他文件夹存放了一些中文字体和代码字体，可以选择性安装。其中 <code>家族宋</code>通过将楷体重新映射为宋体的斜体，拥有了完整的常规体（宋体）、<em>斜体</em>（楷体）、<strong>黑体</strong>（粗宋体）、<em><strong>黑斜体</strong></em>（粗楷体），并且可以在 Typora 中直接通过 <code>*</code> 的输入，以媲美西文的方式调整字体风格。<strong>本字体文件仅供个人本地试用，不得将其用于商业出版领域，请勿传播</strong>。</p>
-<p>请注意，如果您不拥有这些字体也不希望安装的话，请到CSS文件中自行更改选用的字体：</p>
-<ul>
-<li>如果您选用自己的其他字体，请尽量使用有完整字体系列的字体集作为正文字体。对于中文字体，一个完整的字体系列应该包括：常规体（regular）、<strong>粗体（bold）</strong>，如果您希望粗体风格更强，它应当还包含<strong>黑体（Heavy）</strong>。</li>
-<li>本项目还包含了一些方正公文系列字体，选用它们是因为它们已经存在粗体效果，可以直接应用为标题字体而跳过Typora的伪粗体机制。</li>
-<li><strong>所有的字体文件请自行获取授权</strong>，本人不对您使用字体造成的法律纠纷负责。（当然，本项目包含的部分字体是免费可商用的和非商业使用免费的。）</li>
-</ul>
-</li>
-<li>
-<p>重新启动 Typora，然后在菜单栏的<strong>主题</strong>下拉菜单中选择 <code>Latex</code> 或 <code>Latex Dark</code> 选项。如果您在手动安装字体后，依然出现与字体相关的问题，请尝试重启您的计算机。</p>
-</li>
-</ol>
-<h2 id="使用"><a class="markdownIt-Anchor" href="#使用"></a> 使用</h2>
-<p>在完成安装后，您可以选择<a href="https://github.com/Keldos-Li/typora-latex-theme/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%B8%AA%E6%80%A7%E5%8C%96%E8%AE%BE%E7%BD%AE">按照学校的要求进行个性化设置</a>。在 CSS 文件中，您可以根据代码中的注释提示修改变量取值，轻松地更换正文、标题等不同元素的字体、字号、行距、页边距等：</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* 代码字体（代码中的中文会调用ui-font） */</span></span><br><span class="line"><span class="selector-tag">--code-font</span>: &quot;<span class="selector-tag">Latin</span> <span class="selector-tag">Modern</span> <span class="selector-tag">Mono</span>&quot;, &quot;<span class="selector-tag">Latin</span> <span class="selector-tag">Modern</span> <span class="selector-tag">Mono</span> 10&quot;;  <span class="comment">/* 您可以修改这里的值 */</span></span><br><span class="line"><span class="comment">/* 侧边栏字体 */</span></span><br><span class="line"><span class="selector-tag">--ui-font</span>: &quot;阿里巴巴普惠体 2<span class="selector-class">.0</span>&quot;;  <span class="comment">/* 您可以修改这里的值 */</span></span><br><span class="line"><span class="comment">/* source mode 字体 */</span></span><br><span class="line"><span class="selector-tag">--sourceMode-font</span>: &quot;<span class="selector-tag">SF</span> <span class="selector-tag">Mono</span>&quot;, &quot;阿里巴巴普惠体 2<span class="selector-class">.0</span>&quot;;  <span class="comment">/* 您可以修改这里的值 */</span></span><br></pre></td></tr></table></figure>
-<p>进行个性化设置有两种方案：</p>
-<ol>
-<li>您可以直接在您下载的安装包中进行修改。<strong>在完成修改后，请重新执行与您操作系统相匹配的脚本（<code>install.ps1</code> 或 <code>install.sh</code>），并重新启动 Typora，以应用您的更改</strong>。</li>
-<li>您也可以直接更改 <a href="%E6%8A%80%E6%9C%AF%E7%BB%86%E8%8A%82/#%E4%B8%BB%E9%A2%98%E6%96%87%E4%BB%B6%E5%A4%B9">Typora 主题文件夹</a>的文件。进入这个文件夹后，与本主题相关的两个文件分别是 <code>latex.css</code> 和 <code>latex-dark.css</code>，请您按需修改。<strong>在完成修改后，请重新启动 Typora，以应用您的更改</strong>。</li>
-</ol>
-<p>蛤？你不知道咋打开 CSS 文件？请考虑使用 <em>记事本</em>（Windows）或<em>文本编辑</em>（macOS）打开它。</p>
-<p>您可能已经注意到，我们已经将主要的个性化设置变量放置在主题文件的最前面（<code>:root &#123;&#125;</code>）。对大部分普通用户来说，您只需要关注最前面（约前70行）的代码即可：</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="keyword">@charset</span> <span class="string">&quot;UTF-8&quot;</span>;</span><br><span class="line"><span class="selector-pseudo">:root</span> &#123;</span><br><span class="line">  <span class="comment">/* == 字体设置 == */</span></span><br><span class="line">  ……（其他设置）</span><br><span class="line">  ……（其他设置）</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>当然，如果你是个 Pro User，有更多的修改需求，请直接在 <code>latex.css</code> 和 <code>latex-dark.css</code> 中编辑（或者，你也可以编辑我们的 <code>.scss</code> 源文件然后编译为 CSS）。但请记得在未来更新本主题时重新编写您做过的修改。</p>
-<p>如果您看不懂注释，或不知道修改代码会造成什么效果，请首先尝试百度/谷歌/必应，然后尝试联系开发者。</p>
-<h3 id="调整字号"><a class="markdownIt-Anchor" href="#调整字号"></a> 调整字号</h3>
-<p>从 v0.3.0 开始，本主题支持根据 <code>--base-font-size</code>（正文字号）全局调整各元素（如小标题、脚注、代码，甚至行距）大小。</p>
-<p>一般而言，如果需要调整正文字号大小，您只需要更改 CSS 文件中这一行（可能是第8行）中“9.5pt”这一数值：</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">--base-font-size</span>: 9<span class="selector-class">.5pt</span>;</span><br></pre></td></tr></table></figure>
-<p>您只需要调整这一项数值，其他元素的大小会自动根据该基准字号进行合适倍率的缩放，以达成美观的效果。例如，在 v0.3.0 的主题文件中，默认的引文的字号设置为：</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">--quote-font-size</span>: 1<span class="selector-class">.05em</span>;</span><br></pre></td></tr></table></figure>
-<p>在这里，em单位为一个正文字符（<code>--base-font-size</code>）大小，此时 1.05em = 1.05x9.5pt ≈ 10pt。其他元素也遵循相应的规则。</p>
-<blockquote>
-<p>当然，如果学校或您有明确的要求，您也可以直接设置以 pt 或 px 为单位的数值，将元素的大小固定下来，如 <code>--quote-font-size: 10pt</code>;</p>
-</blockquote>
-<details class="note primary"><summary><p>参阅：字号对照表</p>
-</summary>
-<table>
-<thead>
-<tr>
-<th>中文字号</th>
-<th>英文字号（磅）/pt</th>
-<th>毫米/mm</th>
-<th>像素/px</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>初号</td>
-<td>42</td>
-<td>14.82</td>
-<td>56</td>
-</tr>
-<tr>
-<td>小初</td>
-<td>36</td>
-<td>12.7</td>
-<td>48</td>
-</tr>
-<tr>
-<td>一号</td>
-<td>26</td>
-<td>9.17</td>
-<td>34.7</td>
-</tr>
-<tr>
-<td>小一</td>
-<td>24</td>
-<td>8.47</td>
-<td>32</td>
-</tr>
-<tr>
-<td>二号</td>
-<td>22</td>
-<td>7.76</td>
-<td>29.3</td>
-</tr>
-<tr>
-<td>小二</td>
-<td>18</td>
-<td>6.35</td>
-<td>24</td>
-</tr>
-<tr>
-<td>三号</td>
-<td>16</td>
-<td>5.64</td>
-<td>21.3</td>
-</tr>
-<tr>
-<td>小三</td>
-<td>15</td>
-<td>5.29</td>
-<td>20</td>
-</tr>
-<tr>
-<td>四号</td>
-<td>14</td>
-<td>4.94</td>
-<td>18.7</td>
-</tr>
-<tr>
-<td>小四</td>
-<td>12</td>
-<td>4.23</td>
-<td>16</td>
-</tr>
-<tr>
-<td>五号</td>
-<td>10.5</td>
-<td>3.7</td>
-<td>14</td>
-</tr>
-<tr>
-<td>小五</td>
-<td>9</td>
-<td>3.18</td>
-<td>12</td>
-</tr>
-<tr>
-<td>六号</td>
-<td>7.5</td>
-<td>2.56</td>
-<td>10</td>
-</tr>
-<tr>
-<td>小六</td>
-<td>6.5</td>
-<td>2.29</td>
-<td>8.7</td>
-</tr>
-<tr>
-<td>七号</td>
-<td>5.5</td>
-<td>1.94</td>
-<td>7.3</td>
-</tr>
-<tr>
-<td>八号</td>
-<td>5</td>
-<td>1.76</td>
-<td>6.7</td>
-</tr>
-</tbody>
-</table>
-
-</details>
-<h3 id="更改编辑模式中的页面大小"><a class="markdownIt-Anchor" href="#更改编辑模式中的页面大小"></a> 更改编辑模式中的页面大小</h3>
-<p>在 Typora 中，您可以使用以下两个快捷键将页面进行放大或缩小：</p>
-<ul>
-<li><code>ctrl</code> <code>shift</code> <code>=</code> 放大</li>
-<li><code>ctrl</code> <code>shift</code> <code>-</code> 缩小</li>
-</ul>
-<p>对于 macOS 用户，请将上面快捷键中的 <code>ctrl</code> 替换为 <code>command</code>。如果您的 Typora 有菜单栏，您也可以选择 <code>视图</code> 中的 <code>放大</code> 或 <code>缩小</code> 功能。</p>
-<h3 id="使用封面"><a class="markdownIt-Anchor" href="#使用封面"></a> 使用封面</h3>
-<p><code>resources</code> 文件夹中的 <code>essay-template.md</code> 和 <code>essay-template.pdf</code> 展示了一篇小论文在该主题下的效果（其中文字来源于我本人的课程作业以及一些拼凑，请不要在意过多细节），其中论文封面（也单独放置在 <code>cover-template.md</code> 文件中）、摘要、关键词和其他一些特别的元素使用 HTML 代码来编写。您可以自行取用修改它们的文字内容部分和代码部分来完成您的课程论文。</p>
-<ul>
-<li>如果您还是看不懂HTML代码，请先自行百度/谷歌/必应，然后尝试联系您在计算机系的同学；</li>
-<li><s>或者您还是用Word来写文档吧。</s></li>
-</ul>
-<p>我后面自己用的时候，把浙江大学的图标又缩小了一些hhh：</p>
-<img src="/assets/preview/new-cover.png" alt="改后自用的封面" style="width: 50%;">
-<h3 id="取消额外行距"><a class="markdownIt-Anchor" href="#取消额外行距"></a> 取消额外行距</h3>
-<p>如果您不希望论文有段后的额外行距，可以在 Typora 的<code>偏好设置</code> – <code>Markdown</code> 中选取<code>保留连续的空格与单个换行</code>。</p>
-<h3 id="页边距"><a class="markdownIt-Anchor" href="#页边距"></a> 页边距</h3>
-<p>若要修改页边距，您首先需要打开您想要修改的 CSS 文件。您需要在这个 CSS 文件中，分别找到两段类似这样的代码：</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* == 页面设置 == */</span></span><br><span class="line"><span class="comment">/* 打印页边距 */</span></span><br><span class="line"><span class="selector-tag">--set-margin</span>: 1<span class="selector-class">.8cm</span> 2<span class="selector-tag">cm</span> 1<span class="selector-class">.2cm</span> 2<span class="selector-tag">cm</span> !<span class="selector-tag">important</span>;</span><br></pre></td></tr></table></figure>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="keyword">@media</span> print &#123;</span><br><span class="line">    <span class="keyword">@page</span> &#123;</span><br><span class="line">        <span class="comment">/* size: A4;  强制A4大小 */</span></span><br><span class="line">         <span class="attribute">margin</span>: <span class="number">1.8cm</span> <span class="number">2cm</span> <span class="number">1.2cm</span> <span class="number">2cm</span> <span class="meta">!important</span>;</span><br><span class="line">         <span class="comment">/* 按次序为 上 右 下 左 的页边距 */</span></span><br></pre></td></tr></table></figure>
-<p>真实的代码内容可能与以上描述不完全相同，但是嵌套关系一定是相同的。推荐您搜索<code>页边距</code>这个关键词，从而快速找到这两段代码。<br />
-以上的第一处的设置调整了 Typora 预览界面包括导出 HTML 时的页面边距，第二处调整了 Typora 导出 PDF 时的页边距。</p>
-<p>在 Windows 中，您在两个 CSS 文件中同时修改页边距后即可导出正确的页面。</p>
-<p><strong>但对于 macOS 用户，因为 <a href="https://github.com/typora/typora-issues/issues/998">Typora 本身的问题</a> ，第二处设置无效</strong>。也就是说，第一处设置能够保证编辑预览时的页面边距正确，但直接导出时的页面边距无法精确修改。只能通过以下的办法：</p>
-<ul>
-<li>在 Typora 的导出设置里自定义页边距。</li>
-<li>先导出为 HTML ，然后在 Chrome 中打开打印。请注意，<strong>不能用 Safari</strong>！Safari 会自行设置它认为的最小边距，这会导致您无法精确控制页边距；另一方面，在某次更新后 Safari 取消了对 CSS 本地字体读取的支持（理由是隐私问题），会导致您无法显示很多字体！</li>
-<li>直接用 pandoc 的命令行导出。</li>
-</ul>
-<h3 id="导出时超链接样式"><a class="markdownIt-Anchor" href="#导出时超链接样式"></a> 导出时超链接样式</h3>
-<p>对于文章中的超链接，本主题在导出PDF时默认保留超链接颜色和下划线。如果您需要导出为打印版本（超链接为黑色且无下划线），请在您想要修改的 CSS 文件中找到下面的代码段：</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* ========== VERY IMPORTANT 请注意看下面的几行: ================</span></span><br><span class="line"><span class="comment">   如果您需要在输出PDF时隐藏超链接的颜色和下划线，请取消注释下面的代码块，即删去下面的 Ln.1 和 Ln.2</span></span><br><span class="line"><span class="comment">   如果您需要在输出PDF时保持超链接的显示效果，则不用更改 ============= */</span></span><br><span class="line"><span class="comment">/* 如要取消注释代码，请把本行删去 Ln.1</span></span><br><span class="line"><span class="comment">@media print &#123;</span></span><br><span class="line"><span class="comment">  #write a &#123;</span></span><br><span class="line"><span class="comment">    color: inherit !important;</span></span><br><span class="line"><span class="comment">    text-decoration: none;</span></span><br><span class="line"><span class="comment">  &#125; </span></span><br><span class="line"><span class="comment">&#125;</span></span><br><span class="line"><span class="comment">如要取消注释代码，请把本行删去 Ln.2 */</span></span><br></pre></td></tr></table></figure>
-<p>您只需要删去 <code>/* 如要取消注释代码，请把本行删去 Ln.1</code> 和 <code>/* 如要取消注释代码，请把本行删去 Ln.1</code> 这两整行即可。</p>
-<p>如果您之后重新需要导出时保留超链接颜色和下划线，您可以将您删去的两行之间的代码块重新注释掉。</p>
-<h3 id="多级列表"><a class="markdownIt-Anchor" href="#多级列表"></a> 多级列表</h3>
-<p>预设的多级列表样式参考了 CTeX 的风格。如果需要，您可以在代码中自行更改多级列表（无论是有序还是无序）的样式。</p>
-<p>另外，在 v0.3.0 及之前的版本中，在<strong>二级有序列表</strong>之后<strong>混用</strong> <em>有序列表</em> 和 <em>无序列表</em> 以及<em>核对清单</em>，仍有概率出现一些 bug。（虽然感觉会这么干的人应该不多。）我应该已经修复了这个bug，马上发新版本！但如果还有问题，请及时提 issue。</p>
-<h3 id="页眉和页脚"><a class="markdownIt-Anchor" href="#页眉和页脚"></a> 页眉和页脚</h3>
-<p>由于 Typora 的限制，目前似乎不能直接定义，请在 Typora 的导出设置里设置好您需要的页眉和页脚文字，导出后在 PDF 编辑器中调整您喜欢的样式风格。</p>
-<h3 id="引用参考文献"><a class="markdownIt-Anchor" href="#引用参考文献"></a> 引用参考文献</h3>
-<p>目前没有更好的方式，请您主动编号（或许小型课程论文不需要大量参考文献……？maybe我之后想想要不要重新定义一个新的列表样式）。</p>
-<h3 id="专注模式和打字机模式"><a class="markdownIt-Anchor" href="#专注模式和打字机模式"></a> 专注模式和打字机模式</h3>
-<p>还没写这部分的代码。本主题样式初衷不在于此，如果您有需求，可以提交 issue 或进入讨论区讨论。<s>我可能也懒得写</s></p>
-<h3 id="其他有的没的"><a class="markdownIt-Anchor" href="#其他有的没的"></a> 其他有的没的</h3>
-<ul>
-<li>如果可以的话（大概不可以），或许您可以在论文致谢中提到这个项目（bushi。(/ω＼)</li>
-<li>这本质是一个适用于所有markdown编辑器的CSS样式（但对Typora编辑器做了额外的优化），您也可以将其用于其他您喜欢的markdown编辑器的自定义样式（尚未经过完整测试）。</li>
-</ul>
-<h2 id="反馈与贡献"><a class="markdownIt-Anchor" href="#反馈与贡献"></a> 反馈与贡献</h2>
-<p>wiki里写了<a href="https://github.com/Keldos-Li/typora-latex-theme/wiki/%E8%B4%A1%E7%8C%AE%E6%8C%87%E5%8D%97">贡献指南</a>。</p>
-<p>如果您在使用过程中遇到任何问题，或想为本项目做出任何贡献，请优先考虑：</p>
-<ul>
-<li>前往 GitHub Discussions <a href="https://github.com/Keldos-Li/typora-latex-theme/discussions/new">发起讨论</a></li>
-<li>前往 GitHub Issues <a href="https://github.com/Keldos-Li/typora-latex-theme/issues/new?labels=bug">报告故障</a></li>
-<li>前往 GitHub Issues <a href="https://github.com/Keldos-Li/typora-latex-theme/issues/new?labels=Feature+Request">请求新功能</a></li>
-<li>如果您希望在本地修改这个项目的代码，推荐您在 fork 后使用 <code>git clone $&#123;target&#125; --depth 1</code> 进行克隆。这是因为，本仓库的历史中有大量二进制文件，而这些二进制文件对当前开发并无作用，可以舍弃。设置较浅的克隆深度可帮助您更快地获取到此项目的最新代码。在完成您的修改后，<strong>请向我们的 <code>develop</code> 分支提出拉取请求</strong>。</li>
-</ul>
-<p>如果还是不行…</p>
-<ul>
-<li>联系 <a href="mailto:hi@keldos.me">我</a> 或 <a href="mailto:RalXYZ@pm.me">RalXYZ</a>.</li>
-<li>或者 <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=8Vy0m_9-phExgORJKwVTZ2Hix19yScCn&jump_from=webapi" style="border: none;"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="加入交流反馈QQ群" title="Typora伪LaTeX交流反馈" style="display: inline; margin: 0;"></a>之后和大家一起讨论</li>
-</ul>
-<h2 id="鸣谢"><a class="markdownIt-Anchor" href="#鸣谢"></a> 鸣谢</h2>
-<p>本项目是在下面两个开源项目的基础上完成的：</p>
-<ul>
-<li><a href="https://github.com/yfzhao20/Typora-markdown">yfzhao20/Typora-markdown</a>  <br>（@让幻想飞 的<strong>知乎文章地址</strong>：<a href="https://zhuanlan.zhihu.com/p/357096043%EF%BC%89">https://zhuanlan.zhihu.com/p/357096043）</a></li>
-<li><a href="https://github.com/du33169/typora-theme-essay_cn">du33169/typora-theme-essay_cn</a></li>
-</ul>
-<p>感谢 <a href="https://space.bilibili.com/239828907">大啊好我r中之</a> 制作介绍视频。</p>
-]]></content>
-      <tags>
-        <tag>tech</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>今译王世贞《蔺相如完璧归赵论》</title>
     <url>/2017/05/translate-wanbiguizhao/</url>
     <content><![CDATA[<p>翻《古文观止》的时候，看到王世贞此文，惊叹不已，便想到试着译成现代汉语。译稿如下： <a id="more"></a></p>
@@ -1213,6 +842,361 @@ Markdown广泛用于博客、即时消息、在线论坛、协作软件、文档
 ]]></content>
       <tags>
         <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Typora伪装LaTeX中文样式主题简介</title>
+    <url>/2021/05/typora-latex-css/</url>
+    <content><![CDATA[<blockquote class="blockquote-center">
+<p>哇，我大一在干什么。转眼两年过去，这个项目获得了4.1k star，至少19k次下载，这篇文章阅读量都有近5000了，我却在大四生活中累死累活，哈哈。 过了这么久，我觉得这篇文章是需要一些更新了，所以……我更新了一下。</p>
+
+</blockquote>
+<p style="text-align:right;padding-right:2em">
+<small>Keldos<br>2023.11.19</small>
+</p>
+<hr />
+<p>这篇文章是对我开发和维护的 <a href="https://github.com/Keldos-Li/typora-latex-theme">typora-latex-theme</a> 项目的介绍和说明。如果能帮助到你，欢迎前往<a href="https://github.com/Keldos-Li/typora-latex-theme">GitHub地址</a>给我一个 Star⭐️~</p>
+<hr />
+<p>本项目的初衷是为了简化中国大陆本科生<strong>小型通识课论文</strong>（或<strong>实验报告</strong>）撰写的负担。这里基本采用了浙江大学要求的格式（字体较小，页边距较小），但大部分同学都可以自行在css中修改适合自己学校的格式。</p>
+<p>markdown 的轻量化特性，使您可以专注于论文内容而不用担心格式。书写时仅通过简单的标记，并通过替换样例模板中的个人信息，您就可以输出媲美卷王由 <span class="math inline">\(\LaTeX\)</span> 排版的精美论文与报告。</p>
+<p>总之，这是一个 Typora 的 markdown 主题样式，支持 Windows, macOS 和 Linux 三大平台的 Typora。CSS也适用于部分其他编辑器。macOS 和 Windows 中的个别特性可能不同。</p>
+<h2 id="预览">预览</h2>
+<ul>
+<li><p>您可以通过<a href="https://blog.keldos.me/2021/05/md-latex-template/">在线 PDF 预览器</a>预览完整的导出结果（不过注意，该项目更新之后，部分效果可能与当初不同）。</p></li>
+<li><p>up主 @<a href="https://space.bilibili.com/239828907">大啊好我r中之</a> 为这个项目制作了一个<a href="https://www.bilibili.com/video/BV1634y1h7pE">介绍视频</a>，其中简洁清晰地介绍了主题外观和安装方法~</p></li>
+<li><p>或者，您也可以看下方的表格：</p></li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">code</th>
+<th style="text-align: center;">light mode</th>
+<th style="text-align: center;">dark mode</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>封面，摘要和关键词</td>
+<td style="text-align: center;">–</td>
+<td style="text-align: center;"><img src="/assets/preview/sample-essay_1.png" /></td>
+<td style="text-align: center;"><img src="/assets/preview/sample-essay_2.png" /></td>
+</tr>
+<tr class="even">
+<td>预览模式</td>
+<td style="text-align: center;">–</td>
+<td style="text-align: center;"><img src="/assets/preview/preview-l.png" /></td>
+<td style="text-align: center;"><img src="/assets/preview/preview-d.png" /></td>
+</tr>
+<tr class="odd">
+<td>编辑模式</td>
+<td style="text-align: center;">–</td>
+<td style="text-align: center;"><img src="/assets/preview/edit-l.png" /></td>
+<td style="text-align: center;"><img src="/assets/preview/edit-d.png" /></td>
+</tr>
+<tr class="even">
+<td>层级标题</td>
+<td style="text-align: center;"><img src="/assets/preview/heading-c.png" /></td>
+<td style="text-align: center;"><img src="/assets/preview/heading-l.png" /></td>
+<td style="text-align: center;"><img src="/assets/preview/heading-d.png" /></td>
+</tr>
+<tr class="odd">
+<td>表格</td>
+<td style="text-align: center;"><img src="/assets/preview/table-c.png" /></td>
+<td style="text-align: center;"><img src="/assets/preview/table-l.png" /></td>
+<td style="text-align: center;"><img src="/assets/preview/table-d.png" /></td>
+</tr>
+<tr class="even">
+<td>项目列表</td>
+<td style="text-align: center;"><img src="/assets/preview/item-c.png" /></td>
+<td style="text-align: center;"><img src="/assets/preview/item-l.png" /></td>
+<td style="text-align: center;"><img src="/assets/preview/item-d.png" /></td>
+</tr>
+<tr class="odd">
+<td>代码块</td>
+<td style="text-align: center;"><img src="/assets/preview/code-c.png" /></td>
+<td style="text-align: center;"><img src="/assets/preview/code-l.png" /></td>
+<td style="text-align: center;"><img src="/assets/preview/code-d.png" /></td>
+</tr>
+<tr class="even">
+<td>Mermaid</td>
+<td style="text-align: center;"><img src="/assets/preview/mermaid-c.png" /></td>
+<td style="text-align: center;"><img src="/assets/preview/mermaid-l.png" /></td>
+<td style="text-align: center;"><img src="/assets/preview/mermaid-d.png" /></td>
+</tr>
+<tr class="odd">
+<td>公式</td>
+<td style="text-align: center;"><img src="/assets/preview/equation-c.png" /></td>
+<td style="text-align: center;"><img src="/assets/preview/equation-l.png" /></td>
+<td style="text-align: center;"><img src="/assets/preview/equation-d.png" /></td>
+</tr>
+</tbody>
+</table>
+<a id="more"></a>
+<details class="note primary"><summary><p>本文如果使用该主题导出，效果是这样的：</p>
+</summary>
+<div class="pdfobject-container" data-target="/assets/typora-latex-css.pdf" data-height="1200px">
+
+</div>
+
+</details>
+<h2 id="安装">安装</h2>
+<ol type="1">
+<li><p>安装前，请确保您已经安装 Typora（也可以用某些IDLE），并拥有基本的markdown语法知识；</p>
+<ul>
+<li>什么是<strong>Typora</strong>？ <a href="https://typora.io/">Typora</a>是一个超级好用的实时预览markdown编辑器；</li>
+<li>什么是<strong>markdown</strong>？ <a href="https://daringfireball.net/projects/markdown/">markdown</a> 是一种轻量级标记语言，用于使用纯文本创建格式化文本。 约翰·格鲁伯和亚伦·斯沃茨于2004年创建了Markdown，作为一种以源代码形式吸引人类读者的标记语言。 Markdown排版语法简洁，让人们更多地关注内容本身而非排版。它可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式等文件。 Markdown广泛用于博客、即时消息、在线论坛、协作软件、文档页面和阅读文件。 参考：
+<ul>
+<li><a href="https://markdown.com.cn/">Markdown中文语法简介</a></li>
+<li><a href="https://support.typora.io/Markdown-Reference/">Typora使用的markdown语法参考</a></li>
+</ul></li>
+</ul></li>
+<li><p>前往本项目的 <a href="https://github.com/Keldos-Li/typora-latex-theme/releases">release</a> 页面，下载适合您操作系统的最新版本压缩包。比如，如果您在使用 Windows 操作系统，您就应该下载 <code>latex-theme-windows.zip</code>。</p>
+<ul>
+<li>当然你也可以使用命令行下载最新版（<del>虽然没用，只是可能酷一点？</del>）： <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> &lt;你常用的下载文件夹&gt;</span><br><span class="line">$ git <span class="built_in">clone</span> https://github.com/Keldos-Li/typora-latex-theme.git</span><br></pre></td></tr></table></figure></li>
+</ul></li>
+<li><p>解压这个文件，然后您将可以选择手动安装还是自动安装（cool~）！ <div class="tabs" id="安装方式"><ul class="nav-tabs"><li class="tab"><a href="#安装方式-1">手动安装</a></li><li class="tab active"><a href="#安装方式-2">自动安装</a></li></ul><div class="tab-content"><div class="tab-pane" id="安装方式-1"><p>请您打开安装包的 <code>target</code> 文件夹，按照<a href="https://theme.typora.io/doc/Install-Theme/">官方教程（英文）</a>，将这个文件夹里的所有 CSS 文件复制到指定的 <a href="技术细节#主题文件夹">Typora 主题文件夹</a>中。</p></div><div class="tab-pane active" id="安装方式-2"><ul>
+<li><p>如果您在使用 Windows ，请运行 <code>install.ps1</code> 文件。具体的运行方式是：右键点击 <code>install.ps1</code> 文件，然后点击“使用 PowerShell 运行”。<br />
+若您看到了以下提示，请输入<code>Y</code>，然后按下回车<code>enter</code>：</p>
+<figure class="highlight shell">
+<table>
+<tr>
+<td class="gutter">
+<pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre>
+</td>
+<td class="code">
+<pre><span class="line"><span class="meta">&gt;</span><span class="bash"> 执行策略更改  </span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash"> 执行策略可帮助你防止执行不信任的脚本。更改执行策略可能会产生安全风险，如 https:/go.microsoft.com/fwlink/?LinkID=135170 中的 about_Execution_Policies 帮助主题所述。是否要更改执行策略?  </span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash"> [Y] 是(Y)  [A] 全是(A)  [N] 否(N)  [L] 全否(L)  [S] 暂停(S)  [?] 帮助 (默认值为“N”):  </span></span><br></pre>
+</td>
+</tr>
+</table>
+</figure></li>
+<li><p>如果您在使用 macOS 或 Linux ，只需在终端执行 <code>sh ./install.sh</code> 即可完成安装。</p>
+<blockquote>
+<p>什么？你是 mac 用户却不知道怎么用<em>终端</em>？好吧。打开<em>终端</em>，将 <code>install.sh</code> 文件拖入终端窗口中也是可以执行的。什么？你不知道怎么打开<em>终端</em>？请参考以下步骤：打开<a href="https://support.apple.com/zh-cn/HT202635">启动台</a>；在启动台顶部的搜索栏里，搜索“终端”，然后点击搜索结果中的终端图标。</p>
+</blockquote></li>
+</ul></div></div></div></p></li>
+<li><p>安装字体。<strong>以上步骤执行完毕后， Typora 显示的结果可能并不符合您的预期。比如，中文字体缺少衬线，或中文字体是点阵字体等。这时，您需要安装本主题依赖的所有字体。</strong> 对于 macOS 和 Windows 用户，您可以在 <a href="https://github.com/Keldos-Li/typora-latex-theme-fonts">Keldos-Li/typora-latex-theme-fonts</a> 仓库下载并安装您需要的字体； Linux 用户应确保相关字体在您的发行版上被正确安装。具体而言：</p>
+<ul>
+<li>macOS 用户可以前往 <a href="https://github.com/Keldos-Li/typora-latex-theme-fonts/tree/main/macOS"><code>/macOS</code></a> 和 <a href="https://github.com/Keldos-Li/typora-latex-theme-fonts/tree/main/General%20platform"><code>/General platform</code></a> 获取适用于 macOS 的额外字体。<br />
+</li>
+<li>Windows 用户可以前往 <a href="https://github.com/Keldos-Li/typora-latex-theme-fonts/tree/main/Windows"><code>/Windows</code></a> 和 <a href="https://github.com/Keldos-Li/typora-latex-theme-fonts/tree/main/General%20platform"><code>/General platform</code></a> 获取适用于 Windows 的额外字体。<br />
+</li>
+<li>Linux 用户请去查看github项目地址中的wiki，我懒得写了。<del>这年头还有人用Linux写文档？</del></li>
+</ul>
+<p>对字体再做一点补充吧。 <code>Latin Modern</code> 家族是常规 LaTeX 发行版文档使用的英文字体，请所有用户安装。（大家都会喜欢这个字体的，所以安装吧，就不把它们放在主题文件夹下再 import 了。<del>绝不是因为我懒</del>）；</p>
+<p>其他文件夹存放了一些中文字体和代码字体，可以选择性安装。其中 <code>家族宋</code>通过将楷体重新映射为宋体的斜体，拥有了完整的常规体（宋体）、<em>斜体</em>（楷体）、<strong>黑体</strong>（粗宋体）、<strong><em>黑斜体</em></strong>（粗楷体），并且可以在 Typora 中直接通过 <code>*</code> 的输入，以媲美西文的方式调整字体风格。<strong>本字体文件仅供个人本地试用，不得将其用于商业出版领域，请勿传播</strong>。</p>
+<p>请注意，如果您不拥有这些字体也不希望安装的话，请到CSS文件中自行更改选用的字体：</p>
+<ul>
+<li>如果您选用自己的其他字体，请尽量使用有完整字体系列的字体集作为正文字体。对于中文字体，一个完整的字体系列应该包括：常规体（regular）、<strong>粗体（bold）</strong>，如果您希望粗体风格更强，它应当还包含<strong>黑体（Heavy）</strong>。</li>
+<li>本项目还包含了一些方正公文系列字体，选用它们是因为它们已经存在粗体效果，可以直接应用为标题字体而跳过Typora的伪粗体机制。</li>
+<li><strong>所有的字体文件请自行获取授权</strong>，本人不对您使用字体造成的法律纠纷负责。（当然，本项目包含的部分字体是免费可商用的和非商业使用免费的。）</li>
+</ul></li>
+<li><p>重新启动 Typora，然后在菜单栏的<strong>主题</strong>下拉菜单中选择 <code>Latex</code> 或 <code>Latex Dark</code> 选项。如果您在手动安装字体后，依然出现与字体相关的问题，请尝试重启您的计算机。</p></li>
+</ol>
+<h2 id="使用">使用</h2>
+<p>在完成安装后，您可以选择<a href="https://github.com/Keldos-Li/typora-latex-theme/wiki/常见问题#为什么要个性化设置">按照学校的要求进行个性化设置</a>。在 CSS 文件中，您可以根据代码中的注释提示修改变量取值，轻松地更换正文、标题等不同元素的字体、字号、行距、页边距等：</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* 代码字体（代码中的中文会调用ui-font） */</span></span><br><span class="line"><span class="selector-tag">--code-font</span>: &quot;<span class="selector-tag">Latin</span> <span class="selector-tag">Modern</span> <span class="selector-tag">Mono</span>&quot;, &quot;<span class="selector-tag">Latin</span> <span class="selector-tag">Modern</span> <span class="selector-tag">Mono</span> 10&quot;;  <span class="comment">/* 您可以修改这里的值 */</span></span><br><span class="line"><span class="comment">/* 侧边栏字体 */</span></span><br><span class="line"><span class="selector-tag">--ui-font</span>: &quot;阿里巴巴普惠体 2<span class="selector-class">.0</span>&quot;;  <span class="comment">/* 您可以修改这里的值 */</span></span><br><span class="line"><span class="comment">/* source mode 字体 */</span></span><br><span class="line"><span class="selector-tag">--sourceMode-font</span>: &quot;<span class="selector-tag">SF</span> <span class="selector-tag">Mono</span>&quot;, &quot;阿里巴巴普惠体 2<span class="selector-class">.0</span>&quot;;  <span class="comment">/* 您可以修改这里的值 */</span></span><br></pre></td></tr></table></figure>
+<p>进行个性化设置有两种方案：</p>
+<ol type="1">
+<li>您可以直接在您下载的安装包中进行修改。<strong>在完成修改后，请重新执行与您操作系统相匹配的脚本（<code>install.ps1</code> 或 <code>install.sh</code>），并重新启动 Typora，以应用您的更改</strong>。<br />
+</li>
+<li>您也可以直接更改 <a href="技术细节/#主题文件夹">Typora 主题文件夹</a>的文件。进入这个文件夹后，与本主题相关的两个文件分别是 <code>latex.css</code> 和 <code>latex-dark.css</code>，请您按需修改。<strong>在完成修改后，请重新启动 Typora，以应用您的更改</strong>。</li>
+</ol>
+<p>蛤？你不知道咋打开 CSS 文件？请考虑使用 <em>记事本</em>（Windows）或<em>文本编辑</em>（macOS）打开它。</p>
+<p>您可能已经注意到，我们已经将主要的个性化设置变量放置在主题文件的最前面（<code>:root &#123;&#125;</code>）。对大部分普通用户来说，您只需要关注最前面（约前70行）的代码即可： <figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="keyword">@charset</span> <span class="string">&quot;UTF-8&quot;</span>;</span><br><span class="line"><span class="selector-pseudo">:root</span> &#123;</span><br><span class="line">  <span class="comment">/* == 字体设置 == */</span></span><br><span class="line">  ……（其他设置）</span><br><span class="line">  ……（其他设置）</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure> 当然，如果你是个 Pro User，有更多的修改需求，请直接在 <code>latex.css</code> 和 <code>latex-dark.css</code> 中编辑（或者，你也可以编辑我们的 <code>.scss</code> 源文件然后编译为 CSS）。但请记得在未来更新本主题时重新编写您做过的修改。</p>
+<p>如果您看不懂注释，或不知道修改代码会造成什么效果，请首先尝试百度/谷歌/必应，然后尝试联系开发者。</p>
+<h3 id="调整字号">调整字号</h3>
+<p>从 v0.3.0 开始，本主题支持根据 <code>--base-font-size</code>（正文字号）全局调整各元素（如小标题、脚注、代码，甚至行距）大小。</p>
+<p>一般而言，如果需要调整正文字号大小，您只需要更改 CSS 文件中这一行（可能是第8行）中“9.5pt”这一数值： <figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">--base-font-size</span>: 9<span class="selector-class">.5pt</span>;</span><br></pre></td></tr></table></figure> 您只需要调整这一项数值，其他元素的大小会自动根据该基准字号进行合适倍率的缩放，以达成美观的效果。例如，在 v0.3.0 的主题文件中，默认的引文的字号设置为： <figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">--quote-font-size</span>: 1<span class="selector-class">.05em</span>;</span><br></pre></td></tr></table></figure> 在这里，em单位为一个正文字符（<code>--base-font-size</code>）大小，此时 1.05em = 1.05x9.5pt ≈ 10pt。其他元素也遵循相应的规则。</p>
+<blockquote>
+<p>当然，如果学校或您有明确的要求，您也可以直接设置以 pt 或 px 为单位的数值，将元素的大小固定下来，如 <code>--quote-font-size: 10pt</code>;</p>
+</blockquote>
+<details class="note primary"><summary><p>参阅：字号对照表</p>
+</summary>
+<table>
+<thead>
+<tr class="header">
+<th>中文字号</th>
+<th>英文字号（磅）/pt</th>
+<th>毫米/mm</th>
+<th>像素/px</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>初号</td>
+<td>42</td>
+<td>14.82</td>
+<td>56</td>
+</tr>
+<tr class="even">
+<td>小初</td>
+<td>36</td>
+<td>12.7</td>
+<td>48</td>
+</tr>
+<tr class="odd">
+<td>一号</td>
+<td>26</td>
+<td>9.17</td>
+<td>34.7</td>
+</tr>
+<tr class="even">
+<td>小一</td>
+<td>24</td>
+<td>8.47</td>
+<td>32</td>
+</tr>
+<tr class="odd">
+<td>二号</td>
+<td>22</td>
+<td>7.76</td>
+<td>29.3</td>
+</tr>
+<tr class="even">
+<td>小二</td>
+<td>18</td>
+<td>6.35</td>
+<td>24</td>
+</tr>
+<tr class="odd">
+<td>三号</td>
+<td>16</td>
+<td>5.64</td>
+<td>21.3</td>
+</tr>
+<tr class="even">
+<td>小三</td>
+<td>15</td>
+<td>5.29</td>
+<td>20</td>
+</tr>
+<tr class="odd">
+<td>四号</td>
+<td>14</td>
+<td>4.94</td>
+<td>18.7</td>
+</tr>
+<tr class="even">
+<td>小四</td>
+<td>12</td>
+<td>4.23</td>
+<td>16</td>
+</tr>
+<tr class="odd">
+<td>五号</td>
+<td>10.5</td>
+<td>3.7</td>
+<td>14</td>
+</tr>
+<tr class="even">
+<td>小五</td>
+<td>9</td>
+<td>3.18</td>
+<td>12</td>
+</tr>
+<tr class="odd">
+<td>六号</td>
+<td>7.5</td>
+<td>2.56</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td>小六</td>
+<td>6.5</td>
+<td>2.29</td>
+<td>8.7</td>
+</tr>
+<tr class="odd">
+<td>七号</td>
+<td>5.5</td>
+<td>1.94</td>
+<td>7.3</td>
+</tr>
+<tr class="even">
+<td>八号</td>
+<td>5</td>
+<td>1.76</td>
+<td>6.7</td>
+</tr>
+</tbody>
+</table>
+
+</details>
+<h3 id="更改编辑模式中的页面大小">更改编辑模式中的页面大小</h3>
+<p>在 Typora 中，您可以使用以下两个快捷键将页面进行放大或缩小：</p>
+<ul>
+<li><code>ctrl</code> <code>shift</code> <code>=</code> 放大<br />
+</li>
+<li><code>ctrl</code> <code>shift</code> <code>-</code> 缩小</li>
+</ul>
+<p>对于 macOS 用户，请将上面快捷键中的 <code>ctrl</code> 替换为 <code>command</code>。如果您的 Typora 有菜单栏，您也可以选择 <code>视图</code> 中的 <code>放大</code> 或 <code>缩小</code> 功能。</p>
+<h3 id="使用封面">使用封面</h3>
+<p><code>resources</code> 文件夹中的 <code>essay-template.md</code> 和 <code>essay-template.pdf</code> 展示了一篇小论文在该主题下的效果（其中文字来源于我本人的课程作业以及一些拼凑，请不要在意过多细节），其中论文封面（也单独放置在 <code>cover-template.md</code> 文件中）、摘要、关键词和其他一些特别的元素使用 HTML 代码来编写。您可以自行取用修改它们的文字内容部分和代码部分来完成您的课程论文。</p>
+<ul>
+<li>如果您还是看不懂HTML代码，请先自行百度/谷歌/必应，然后尝试联系您在计算机系的同学；</li>
+<li><del>或者您还是用Word来写文档吧。</del></li>
+</ul>
+<p>我后面自己用的时候，把浙江大学的图标又缩小了一些hhh：</p>
+<p><img src="/assets/preview/new-cover.png" alt="改后自用的封面" style="width: 50%;"></p>
+<h3 id="取消额外行距">取消额外行距</h3>
+<p>如果您不希望论文有段后的额外行距，可以在 Typora 的<code>偏好设置</code> – <code>Markdown</code> 中选取<code>保留连续的空格与单个换行</code>。</p>
+<h3 id="页边距">页边距</h3>
+<p>若要修改页边距，您首先需要打开您想要修改的 CSS 文件。您需要在这个 CSS 文件中，分别找到两段类似这样的代码：</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* == 页面设置 == */</span></span><br><span class="line"><span class="comment">/* 打印页边距 */</span></span><br><span class="line"><span class="selector-tag">--set-margin</span>: 1<span class="selector-class">.8cm</span> 2<span class="selector-tag">cm</span> 1<span class="selector-class">.2cm</span> 2<span class="selector-tag">cm</span> !<span class="selector-tag">important</span>;</span><br></pre></td></tr></table></figure>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="keyword">@media</span> print &#123;</span><br><span class="line">    <span class="keyword">@page</span> &#123;</span><br><span class="line">        <span class="comment">/* size: A4;  强制A4大小 */</span></span><br><span class="line">         <span class="attribute">margin</span>: <span class="number">1.8cm</span> <span class="number">2cm</span> <span class="number">1.2cm</span> <span class="number">2cm</span> <span class="meta">!important</span>;</span><br><span class="line">         <span class="comment">/* 按次序为 上 右 下 左 的页边距 */</span></span><br></pre></td></tr></table></figure>
+<p>真实的代码内容可能与以上描述不完全相同，但是嵌套关系一定是相同的。推荐您搜索<code>页边距</code>这个关键词，从而快速找到这两段代码。<br />
+以上的第一处的设置调整了 Typora 预览界面包括导出 HTML 时的页面边距，第二处调整了 Typora 导出 PDF 时的页边距。</p>
+<p>在 Windows 中，您在两个 CSS 文件中同时修改页边距后即可导出正确的页面。</p>
+<p><strong>但对于 macOS 用户，因为 <a href="https://github.com/typora/typora-issues/issues/998">Typora 本身的问题</a> ，第二处设置无效</strong>。也就是说，第一处设置能够保证编辑预览时的页面边距正确，但直接导出时的页面边距无法精确修改。只能通过以下的办法：</p>
+<ul>
+<li>在 Typora 的导出设置里自定义页边距。</li>
+<li>先导出为 HTML ，然后在 Chrome 中打开打印。请注意，<strong>不能用 Safari</strong>！Safari 会自行设置它认为的最小边距，这会导致您无法精确控制页边距；另一方面，在某次更新后 Safari 取消了对 CSS 本地字体读取的支持（理由是隐私问题），会导致您无法显示很多字体！</li>
+<li>直接用 pandoc 的命令行导出。</li>
+</ul>
+<h3 id="导出时超链接样式">导出时超链接样式</h3>
+<p>对于文章中的超链接，本主题在导出PDF时默认保留超链接颜色和下划线。如果您需要导出为打印版本（超链接为黑色且无下划线），请在您想要修改的 CSS 文件中找到下面的代码段：</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* ========== VERY IMPORTANT 请注意看下面的几行: ================</span></span><br><span class="line"><span class="comment">   如果您需要在输出PDF时隐藏超链接的颜色和下划线，请取消注释下面的代码块，即删去下面的 Ln.1 和 Ln.2</span></span><br><span class="line"><span class="comment">   如果您需要在输出PDF时保持超链接的显示效果，则不用更改 ============= */</span></span><br><span class="line"><span class="comment">/* 如要取消注释代码，请把本行删去 Ln.1</span></span><br><span class="line"><span class="comment">@media print &#123;</span></span><br><span class="line"><span class="comment">  #write a &#123;</span></span><br><span class="line"><span class="comment">    color: inherit !important;</span></span><br><span class="line"><span class="comment">    text-decoration: none;</span></span><br><span class="line"><span class="comment">  &#125; </span></span><br><span class="line"><span class="comment">&#125;</span></span><br><span class="line"><span class="comment">如要取消注释代码，请把本行删去 Ln.2 */</span></span><br></pre></td></tr></table></figure>
+<p>您只需要删去 <code>/* 如要取消注释代码，请把本行删去 Ln.1</code> 和 <code>/* 如要取消注释代码，请把本行删去 Ln.1</code> 这两整行即可。</p>
+<p>如果您之后重新需要导出时保留超链接颜色和下划线，您可以将您删去的两行之间的代码块重新注释掉。</p>
+<h3 id="多级列表">多级列表</h3>
+<p>预设的多级列表样式参考了 CTeX 的风格。如果需要，您可以在代码中自行更改多级列表（无论是有序还是无序）的样式。</p>
+<p>另外，在 v0.3.0 及之前的版本中，在<strong>二级有序列表</strong>之后<strong>混用</strong> <em>有序列表</em> 和 <em>无序列表</em> 以及<em>核对清单</em>，仍有概率出现一些 bug。（虽然感觉会这么干的人应该不多。）我应该已经修复了这个bug，马上发新版本！但如果还有问题，请及时提 issue。</p>
+<h3 id="页眉和页脚">页眉和页脚</h3>
+<p>由于 Typora 的限制，目前似乎不能直接定义，请在 Typora 的导出设置里设置好您需要的页眉和页脚文字，导出后在 PDF 编辑器中调整您喜欢的样式风格。</p>
+<h3 id="引用参考文献">引用参考文献</h3>
+<p>目前没有更好的方式，请您主动编号（或许小型课程论文不需要大量参考文献……？maybe我之后想想要不要重新定义一个新的列表样式）。</p>
+<h3 id="专注模式和打字机模式">专注模式和打字机模式</h3>
+<p>还没写这部分的代码。本主题样式初衷不在于此，如果您有需求，可以提交 issue 或进入讨论区讨论。<del>我可能也懒得写</del></p>
+<h3 id="其他有的没的">其他有的没的</h3>
+<ul>
+<li>如果可以的话（大概不可以），或许您可以在论文致谢中提到这个项目（bushi。(/ω＼)</li>
+<li>这本质是一个适用于所有markdown编辑器的CSS样式（但对Typora编辑器做了额外的优化），您也可以将其用于其他您喜欢的markdown编辑器的自定义样式（尚未经过完整测试）。</li>
+</ul>
+<h2 id="反馈与贡献">反馈与贡献</h2>
+<p>wiki里写了<a href="https://github.com/Keldos-Li/typora-latex-theme/wiki/贡献指南">贡献指南</a>。</p>
+<p>如果您在使用过程中遇到任何问题，或想为本项目做出任何贡献，请优先考虑：</p>
+<ul>
+<li>前往 GitHub Discussions <a href="https://github.com/Keldos-Li/typora-latex-theme/discussions/new">发起讨论</a></li>
+<li>前往 GitHub Issues <a href="https://github.com/Keldos-Li/typora-latex-theme/issues/new?labels=bug">报告故障</a></li>
+<li>前往 GitHub Issues <a href="https://github.com/Keldos-Li/typora-latex-theme/issues/new?labels=Feature+Request">请求新功能</a></li>
+<li>如果您希望在本地修改这个项目的代码，推荐您在 fork 后使用 <code>git clone $&#123;target&#125; --depth 1</code> 进行克隆。这是因为，本仓库的历史中有大量二进制文件，而这些二进制文件对当前开发并无作用，可以舍弃。设置较浅的克隆深度可帮助您更快地获取到此项目的最新代码。在完成您的修改后，<strong>请向我们的 <code>develop</code> 分支提出拉取请求</strong>。</li>
+</ul>
+<p>如果还是不行…</p>
+<ul>
+<li>联系 <a href="mailto:hi@keldos.me">我</a> 或 <a href="mailto:RalXYZ@pm.me">RalXYZ</a>.</li>
+<li>或者 <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=8Vy0m_9-phExgORJKwVTZ2Hix19yScCn&jump_from=webapi" style="border: none;"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="加入交流反馈QQ群" title="Typora伪LaTeX交流反馈" style="display: inline; margin: 0;"></a>之后和大家一起讨论</li>
+</ul>
+<h2 id="鸣谢">鸣谢</h2>
+<p>本项目是在下面两个开源项目的基础上完成的：</p>
+<ul>
+<li><a href="https://github.com/yfzhao20/Typora-markdown">yfzhao20/Typora-markdown</a> <br>（<span class="citation" data-cites="让幻想飞">@让幻想飞</span> 的<strong>知乎文章地址</strong>：https://zhuanlan.zhihu.com/p/357096043）</li>
+<li><a href="https://github.com/du33169/typora-theme-essay_cn">du33169/typora-theme-essay_cn</a></li>
+</ul>
+<p>感谢 <a href="https://space.bilibili.com/239828907">大啊好我r中之</a> 制作介绍视频。</p>
+]]></content>
+      <tags>
+        <tag>tech</tag>
       </tags>
   </entry>
   <entry>
@@ -1326,6 +1310,91 @@ Markdown广泛用于博客、即时消息、在线论坛、协作软件、文档
       <tags>
         <tag>哲学</tag>
         <tag>庄子</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>励志联</title>
+    <url>/2017/06/%E5%8A%B1%E5%BF%97%E8%81%94/</url>
+    <content><![CDATA[<p>也是老文章了啊……在hexo的nexT主题更新之后，删除了汉字标准格式的支持，原来的竖排文本现在要实现也太麻烦了……唉</p>
+<hr />
+<p>要中考了，学校里挂出两副对联，很有意思。如下（从右向左读，希望没侵犯著作权）：</p>
+<h4 id="一">一</h4>
+<center>
+<span style="display: inline-block; vertical-align: text-top; writing-mode: vertical-rl; -webkit-writing-mode:vertical-rl; writing-mode: tb-rl;-ms-writing-mode: tb-rl; layout-flow:vertical-ideographic;font-family:kaiti">曲 院 桥 前 三 中 学 子 鱼 跃 龙 门 海 天 阔<br><br><br>北 山 脚 下 四 方 少 年 翅 展 凌 云 气 宇 昂</span>
+</center>
+<h5 id="点评">点评</h5>
+<p>“三中”对“四方”真是好对！ <a id="more"></a></p>
+<hr />
+<h4 id="二">二</h4>
+<center>
+<span style="display: inline-block; vertical-align: text-top; writing-mode: vertical-rl; -webkit-writing-mode:vertical-rl; writing-mode: tb-rl;-ms-writing-mode: tb-rl; layout-flow:vertical-ideographic;font-family:STKaiti
+">九 载 积 淀<span style="color:#FFF">，</span> 看 我 追 梦 赤 子 六 角 室 中 六 月 抒 壮 志<br><br><br>一 朝 拼 搏<span style="color:#FFF">，</span> 等 你 有 为 少 年 三 中 校 内 三 天 写 前 程</span>
+</center>
+<h5 id="点评-1">点评</h5>
+<p>“三中”对“六角”真是好对！</p>
+<hr />
+<h4 id="三">三</h4>
+<center>
+<span style="display: inline-block; vertical-align: text-top; writing-mode: vertical-rl; -webkit-writing-mode:vertical-rl; writing-mode: tb-rl;-ms-writing-mode: tb-rl; layout-flow:vertical-ideographic;font-family:kaiti">扬 起 喜 悦 脸 <span style="color:#FFF">，</span>轻 松 迎 中 考<br><br><br>保 持 平 常 心 <span style="color:#FFF">，</span>营 造 好 心 情</span>
+</center>
+<h5 id="点评-2">点评</h5>
+<p>除了音韵和谐外一无是处。</p>
+<hr />
+<h4 id="四">四</h4>
+<center>
+<span style="display: inline-block; vertical-align: text-top; writing-mode: vertical-rl; -webkit-writing-mode:vertical-rl; writing-mode: tb-rl;-ms-writing-mode: tb-rl; layout-flow:vertical-ideographic;font-family:kaiti">三 年 磨 剑 哪 怕 它 题 深 似 海<br><br><br>临 卷 凝 神 且 看 你 笔 下 生 花</span>
+</center>
+<h5 id="点评-3">点评</h5>
+<p>这真的是对联？？？</p>
+<hr />
+<p>原文有注释，这里删掉了。</p>
+<p>
+<small>
+<div style="float:right;font-family:Fangsong">
+六月二日摘得<br>距中考一个星期<br><br>六月十六日更新<br>中考结束一天
+</div>
+</small>
+</p>
+<p><br /><br /><br /><br /></p>
+]]></content>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>莊子淺摘（後記）</title>
+    <url>/2017/05/zhuangzi-houji/</url>
+    <content><![CDATA[<p>这也是老文章啊，在我以前还有一个“学霸”的信心的时候……算了算了吧。</p>
+<p>以下是原文: <a id="more"></a></p>
+<hr />
+<p>　　我知道当我安利同学们参观这个网站的时候，映入眼帘的竟是一堆“看不懂”的繁体字时的感受（也不得不说有些同学的国文素养差），也知道大家完全没兴趣看我所作的摘注（大多只是看了每篇粗体的吧？）。写这一篇，完全是兴趣。</p>
+<p>　　一次，我问父亲对庄子有多了解，他倒问我庄子是不是早于老子……看来我有必要对庄子做一个介绍：</p>
+<blockquote>
+<p>庄子，宋国蒙城人，名同。曾著书十万余言，《汉书·艺文志》道家类有《庄子》52篇。今存33篇，分内外杂3类，为晋郭象所定，其中内七篇一般断为庄子自作，而外、杂篇则多为庄子后学之作。</p>
+</blockquote>
+<p>　　庄子是一位有趣的伟大的哲学家。如果你喜欢，可以仅仅去看他写的寓言故事（据庄子自己记录，“重言十九，寓言十七”，寓言至少占了十分之七——尽管我没摘）。其中关于“儒家”的故事占了很大篇幅，不少是孔子（颜回）的故事。不过庄子当然不会宣扬儒家思想，他不过是借孔子之口宣传“道”，顺便批判一下孔子（儒家）的不明大道以及其言行相悖etc.，指责他们要求“仁”，违背人性自然的性情而使得天下大乱。这样，看道儒两家互相攻击会变得极其有意思（如<田子方>篇鲁哀公与庄子的故事）。</p>
+<p>　　不过，作为哲学家，不少寓言故事的终极寓意于我们现今的大多浅显理解是不尽相同的。如庖丁解牛，我们理解为要掌握方法才能得心应手，而庄子可能意在指出社会肌理复杂，我们要顺着“道”（自然），小心地游刃于其肌理间（喻为牛的筋骨），才能安然处世，保持完好（刀都不用磨）；又如混沌开窍，我们可能单纯当睡前故事读了，或理解为不要好心帮倒忙之类，而庄子之意却是统治者今日立一政（开一窍），明日颁一法（开一窍），人民就生活在水深火热之中了（混沌死）——尽管君王的出发点可能是好的。诸如此类的还有螳螂捕蝉，黄雀在后、佝偻承蜩、呆若木鸡、邯郸学步等等，不加赘述（具体见《浅摘》文）。总之，国人之前受的教育实在太浅显了，没有领会出哲学的深意。</p>
+<p>　　《庄子》中议论也占了较大的篇幅。庄子的思想内涵是极深刻而深远的，其自由安逸的生活态度给我以很大的启迪。他是老子之后先秦道家学派的集大成者，从内七篇看来，他的哲学是继承老子而来，但庄子更加突出了“道”之为“整体性”的特点，还建立了一个独特而完整的认识论系统，这是老子所不及的。庄子对老子思想的最大发展，是他把在老子那里主要是宇宙论及本体论的“道”转化而为心灵的境界。在自然说方面，庄子更为深广地发挥了人的自由性与自在性。尤其著名的<逍遥游>一文，描绘了一种透脱的心灵，为人所称道。在治身的另一些方面，可以说庄子和老子是有相近的地方的。比方说，他劝人们忌太张扬，忌追名逐利……然而，后世一般以为庄子消极，出世，大概是很表面的。庄子置身于战祸连绵，危机四伏的环境中，对不幸的现实有深切的体验，因而思想表现追求“逍遥游”，但他的“逍遥”不是出世的，而是<strong>寄沉痛于悠闲之中</strong>。可以说他是“出世”的精神入世。庄子主张扬弃的是现实世界中的世俗价值网，从中解脱出来。由于庄子并不舍弃这个世界本身，这种出世与宗教的离弃此世截然不同。[陈《庄子的悲剧意识和自由精神》]</p>
+<p>　　想要弄懂《庄子》不是懂文言就可以了。单把文章拿来也可能让人不得要旨。因此我参考了陈鼓应的《庄子今注今译》，陈先生是一位著作颇丰的哲学教授，要真让某些读者对庄子产生兴趣 <del>（不会）</del> ，不妨找他的原书一阅。（若是入门书，不妨选择林语堂的《老子的智慧》，是用庄子文章解释老子的，但尽是翻译，有些也不得要旨，加之是文言译英，再译回现代汉语，原意尽失，大概翻翻就可以扔了。）</p>
+<p>　　我本没有对哲学有过多的思考，但却惊奇地发现自己竟有那么浓厚的兴趣，相信自己今后也会对庄子老子有更深的理解。在网站上放这个，一是充实兴趣，二是练练手，治治学，但苦于没有时间——以及自己无奈的打字技巧。《浅摘》中写不“不摘”的，可能是虽然理解深刻但是太长，也可能是通篇寓言，均懒得输入。我尽量选择精辟而深刻的摘录（参考归有光批阅·郭象辑注《南华真经评注》明·天启四年刊本影印本），但学识有限，必然有略过精华而拾了糟粕的，也希望不过苛求。 　　这是一项长时间的工程，记得从一七年的一月十八日开写，到大年三十才赶完了<内篇>（然而白天都在上辅导班，都是晚上写的），之后迫于学业就几乎再没动。这篇后记也是百忙之中拼凑得的。嗐！我实在算不上一个学者啊！</p>
+<p><small> 丁酉二月初八于冻风中<br /> 2017年3月4日初稿</p>
+<p>2017年5月7日改过<br /> 5月29日录毕 </small></p>
+]]></content>
+      <tags>
+        <tag>随笔</tag>
+        <tag>庄子</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>名片设计作业说明文档</title>
+    <url>/2021/04/%E5%90%8D%E7%89%87%E8%AE%BE%E8%AE%A1%E4%BD%9C%E4%B8%9A/</url>
+    <content><![CDATA[<p>　　把我上课作业拿过来看看效果。导出时用的 300 ppi，说不定会加载很慢？ <a id="more"></a><!-- 这里看不到图片，但是网站可以看到 --></p>
+<hr />
+<p><img src="/assets/mingpiansheji/名片_说明文档.png" /> <img src="/assets/mingpiansheji/名片_说明文档2.png" /> <img src="/assets/mingpiansheji/名片_说明文档3.png" /> <img src="/assets/mingpiansheji/名片_说明文档4.png" /> <img src="/assets/mingpiansheji/名片_说明文档5.png" /> <img src="/assets/mingpiansheji/名片_说明文档6.png" /> <img src="/assets/mingpiansheji/名片_说明文档7.png" /> <img src="/assets/mingpiansheji/名片_说明文档8.png" /> <img src="/assets/mingpiansheji/名片_说明文档9.png" /> <img src="/assets/mingpiansheji/名片_说明文档10.png" /></p>
+]]></content>
+      <tags>
+        <tag>笔记</tag>
+        <tag>作业</tag>
       </tags>
   </entry>
   <entry>
@@ -1484,321 +1553,6 @@ Markdown广泛用于博客、即时消息、在线论坛、协作软件、文档
 ]]></content>
       <tags>
         <tag>随笔</tag>
-        <tag>作业</tag>
-        <tag>城市规划</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>励志联</title>
-    <url>/2017/06/%E5%8A%B1%E5%BF%97%E8%81%94/</url>
-    <content><![CDATA[<p>也是老文章了啊……在hexo的nexT主题更新之后，删除了汉字标准格式的支持，原来的竖排文本现在要实现也太麻烦了……唉</p>
-<hr />
-<p>要中考了，学校里挂出两副对联，很有意思。如下（从右向左读，希望没侵犯著作权）：</p>
-<h4 id="一">一</h4>
-<center>
-<span style="display: inline-block; vertical-align: text-top; writing-mode: vertical-rl; -webkit-writing-mode:vertical-rl; writing-mode: tb-rl;-ms-writing-mode: tb-rl; layout-flow:vertical-ideographic;font-family:kaiti">曲 院 桥 前 三 中 学 子 鱼 跃 龙 门 海 天 阔<br><br><br>北 山 脚 下 四 方 少 年 翅 展 凌 云 气 宇 昂</span>
-</center>
-<h5 id="点评">点评</h5>
-<p>“三中”对“四方”真是好对！ <a id="more"></a></p>
-<hr />
-<h4 id="二">二</h4>
-<center>
-<span style="display: inline-block; vertical-align: text-top; writing-mode: vertical-rl; -webkit-writing-mode:vertical-rl; writing-mode: tb-rl;-ms-writing-mode: tb-rl; layout-flow:vertical-ideographic;font-family:STKaiti
-">九 载 积 淀<span style="color:#FFF">，</span> 看 我 追 梦 赤 子 六 角 室 中 六 月 抒 壮 志<br><br><br>一 朝 拼 搏<span style="color:#FFF">，</span> 等 你 有 为 少 年 三 中 校 内 三 天 写 前 程</span>
-</center>
-<h5 id="点评-1">点评</h5>
-<p>“三中”对“六角”真是好对！</p>
-<hr />
-<h4 id="三">三</h4>
-<center>
-<span style="display: inline-block; vertical-align: text-top; writing-mode: vertical-rl; -webkit-writing-mode:vertical-rl; writing-mode: tb-rl;-ms-writing-mode: tb-rl; layout-flow:vertical-ideographic;font-family:kaiti">扬 起 喜 悦 脸 <span style="color:#FFF">，</span>轻 松 迎 中 考<br><br><br>保 持 平 常 心 <span style="color:#FFF">，</span>营 造 好 心 情</span>
-</center>
-<h5 id="点评-2">点评</h5>
-<p>除了音韵和谐外一无是处。</p>
-<hr />
-<h4 id="四">四</h4>
-<center>
-<span style="display: inline-block; vertical-align: text-top; writing-mode: vertical-rl; -webkit-writing-mode:vertical-rl; writing-mode: tb-rl;-ms-writing-mode: tb-rl; layout-flow:vertical-ideographic;font-family:kaiti">三 年 磨 剑 哪 怕 它 题 深 似 海<br><br><br>临 卷 凝 神 且 看 你 笔 下 生 花</span>
-</center>
-<h5 id="点评-3">点评</h5>
-<p>这真的是对联？？？</p>
-<hr />
-<p>原文有注释，这里删掉了。</p>
-<p>
-<small>
-<div style="float:right;font-family:Fangsong">
-六月二日摘得<br>距中考一个星期<br><br>六月十六日更新<br>中考结束一天
-</div>
-</small>
-</p>
-<p><br /><br /><br /><br /></p>
-]]></content>
-      <tags>
-        <tag>随笔</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>莊子淺摘（後記）</title>
-    <url>/2017/05/zhuangzi-houji/</url>
-    <content><![CDATA[<p>这也是老文章啊，在我以前还有一个“学霸”的信心的时候……算了算了吧。</p>
-<p>以下是原文: <a id="more"></a></p>
-<hr />
-<p>　　我知道当我安利同学们参观这个网站的时候，映入眼帘的竟是一堆“看不懂”的繁体字时的感受（也不得不说有些同学的国文素养差），也知道大家完全没兴趣看我所作的摘注（大多只是看了每篇粗体的吧？）。写这一篇，完全是兴趣。</p>
-<p>　　一次，我问父亲对庄子有多了解，他倒问我庄子是不是早于老子……看来我有必要对庄子做一个介绍：</p>
-<blockquote>
-<p>庄子，宋国蒙城人，名同。曾著书十万余言，《汉书·艺文志》道家类有《庄子》52篇。今存33篇，分内外杂3类，为晋郭象所定，其中内七篇一般断为庄子自作，而外、杂篇则多为庄子后学之作。</p>
-</blockquote>
-<p>　　庄子是一位有趣的伟大的哲学家。如果你喜欢，可以仅仅去看他写的寓言故事（据庄子自己记录，“重言十九，寓言十七”，寓言至少占了十分之七——尽管我没摘）。其中关于“儒家”的故事占了很大篇幅，不少是孔子（颜回）的故事。不过庄子当然不会宣扬儒家思想，他不过是借孔子之口宣传“道”，顺便批判一下孔子（儒家）的不明大道以及其言行相悖etc.，指责他们要求“仁”，违背人性自然的性情而使得天下大乱。这样，看道儒两家互相攻击会变得极其有意思（如<田子方>篇鲁哀公与庄子的故事）。</p>
-<p>　　不过，作为哲学家，不少寓言故事的终极寓意于我们现今的大多浅显理解是不尽相同的。如庖丁解牛，我们理解为要掌握方法才能得心应手，而庄子可能意在指出社会肌理复杂，我们要顺着“道”（自然），小心地游刃于其肌理间（喻为牛的筋骨），才能安然处世，保持完好（刀都不用磨）；又如混沌开窍，我们可能单纯当睡前故事读了，或理解为不要好心帮倒忙之类，而庄子之意却是统治者今日立一政（开一窍），明日颁一法（开一窍），人民就生活在水深火热之中了（混沌死）——尽管君王的出发点可能是好的。诸如此类的还有螳螂捕蝉，黄雀在后、佝偻承蜩、呆若木鸡、邯郸学步等等，不加赘述（具体见《浅摘》文）。总之，国人之前受的教育实在太浅显了，没有领会出哲学的深意。</p>
-<p>　　《庄子》中议论也占了较大的篇幅。庄子的思想内涵是极深刻而深远的，其自由安逸的生活态度给我以很大的启迪。他是老子之后先秦道家学派的集大成者，从内七篇看来，他的哲学是继承老子而来，但庄子更加突出了“道”之为“整体性”的特点，还建立了一个独特而完整的认识论系统，这是老子所不及的。庄子对老子思想的最大发展，是他把在老子那里主要是宇宙论及本体论的“道”转化而为心灵的境界。在自然说方面，庄子更为深广地发挥了人的自由性与自在性。尤其著名的<逍遥游>一文，描绘了一种透脱的心灵，为人所称道。在治身的另一些方面，可以说庄子和老子是有相近的地方的。比方说，他劝人们忌太张扬，忌追名逐利……然而，后世一般以为庄子消极，出世，大概是很表面的。庄子置身于战祸连绵，危机四伏的环境中，对不幸的现实有深切的体验，因而思想表现追求“逍遥游”，但他的“逍遥”不是出世的，而是<strong>寄沉痛于悠闲之中</strong>。可以说他是“出世”的精神入世。庄子主张扬弃的是现实世界中的世俗价值网，从中解脱出来。由于庄子并不舍弃这个世界本身，这种出世与宗教的离弃此世截然不同。[陈《庄子的悲剧意识和自由精神》]</p>
-<p>　　想要弄懂《庄子》不是懂文言就可以了。单把文章拿来也可能让人不得要旨。因此我参考了陈鼓应的《庄子今注今译》，陈先生是一位著作颇丰的哲学教授，要真让某些读者对庄子产生兴趣 <del>（不会）</del> ，不妨找他的原书一阅。（若是入门书，不妨选择林语堂的《老子的智慧》，是用庄子文章解释老子的，但尽是翻译，有些也不得要旨，加之是文言译英，再译回现代汉语，原意尽失，大概翻翻就可以扔了。）</p>
-<p>　　我本没有对哲学有过多的思考，但却惊奇地发现自己竟有那么浓厚的兴趣，相信自己今后也会对庄子老子有更深的理解。在网站上放这个，一是充实兴趣，二是练练手，治治学，但苦于没有时间——以及自己无奈的打字技巧。《浅摘》中写不“不摘”的，可能是虽然理解深刻但是太长，也可能是通篇寓言，均懒得输入。我尽量选择精辟而深刻的摘录（参考归有光批阅·郭象辑注《南华真经评注》明·天启四年刊本影印本），但学识有限，必然有略过精华而拾了糟粕的，也希望不过苛求。 　　这是一项长时间的工程，记得从一七年的一月十八日开写，到大年三十才赶完了<内篇>（然而白天都在上辅导班，都是晚上写的），之后迫于学业就几乎再没动。这篇后记也是百忙之中拼凑得的。嗐！我实在算不上一个学者啊！</p>
-<p><small> 丁酉二月初八于冻风中<br /> 2017年3月4日初稿</p>
-<p>2017年5月7日改过<br /> 5月29日录毕 </small></p>
-]]></content>
-      <tags>
-        <tag>随笔</tag>
-        <tag>庄子</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>名片设计作业说明文档</title>
-    <url>/2021/04/%E5%90%8D%E7%89%87%E8%AE%BE%E8%AE%A1%E4%BD%9C%E4%B8%9A/</url>
-    <content><![CDATA[<p>　　把我上课作业拿过来看看效果。导出时用的 300 ppi，说不定会加载很慢？ <a id="more"></a><!-- 这里看不到图片，但是网站可以看到 --></p>
-<hr />
-<p><img src="/assets/mingpiansheji/名片_说明文档.png" /> <img src="/assets/mingpiansheji/名片_说明文档2.png" /> <img src="/assets/mingpiansheji/名片_说明文档3.png" /> <img src="/assets/mingpiansheji/名片_说明文档4.png" /> <img src="/assets/mingpiansheji/名片_说明文档5.png" /> <img src="/assets/mingpiansheji/名片_说明文档6.png" /> <img src="/assets/mingpiansheji/名片_说明文档7.png" /> <img src="/assets/mingpiansheji/名片_说明文档8.png" /> <img src="/assets/mingpiansheji/名片_说明文档9.png" /> <img src="/assets/mingpiansheji/名片_说明文档10.png" /></p>
-]]></content>
-      <tags>
-        <tag>笔记</tag>
-        <tag>作业</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>20世纪中后期北京与平壤的城市简单比较研究</title>
-    <url>/2022/06/%E5%8C%97%E4%BA%AC%E5%B9%B3%E5%A3%A4/</url>
-    <content><![CDATA[<p><strong>摘　要:</strong> 北京与平壤作为社会主义国家的首都城市，在城市的各方面都有值得对比研究之处。本文由北京和平壤的历史形成开始，从规划思想、城市体系、城市交通、内部地域结构、城市与自然地理、城市的典型建筑和典型景观等方面比较研究了20世纪中后期两座城市在规划和发展上的共同点和区别，并简单探讨了这段时期的城市发展对现今这两座城市的影响。</p>
-<p><strong>关键词:</strong> 北京；平壤；城市规划；社会主义；城市布局；空间结构；花园城市；</p>
-<a id="more"></a>
-<p>中国与朝鲜作为现今仅存的几个社会主义阵营国家中的重要之二，在各方面都有一定的相似之处，同时它们的经济社会也因为发展方向选择的不同走向逐渐迥异的道路。两个国家的首都，北京与平壤，经度相近，都有着都城的历史，都在各自国家的成立之初也都经历了社会主义的规划，并接受了苏联专家的援助，可以想象，这两座城市之间也会有着千丝万缕的联系。20世纪中后期是两座城市历史生涯的转折点，从此开始，北京开始进入现代化建设时期，平壤开始进行战后的重建。</p>
-<p>北京位于华北平原的西北边缘，背靠燕山，毗邻天津市、河北省，为京津冀城市群的重要组成部分。北京有三千余年建城历史、八百六十余年建都史，荟萃了自元明清以来的近世中华文化，拥有众多历史名胜古迹和人文景观，拥有7项世界遗产，多个文化遗产项目、众多古迹。胡同和四合院作为北京老城的典型民居形式，已经是北京历史重要的文化符号。改革开放后，北京在全球政治、经济等社会活动中越来越处于重要地位并逐渐取得了主导辐射带动能力。</p>
-<p>平壤则是朝鲜的首都和最大城市，被称为“革命之都” [1]。平壤位于大东河上，是朝鲜最古老的城市之一，它是两个古代朝鲜王国고조선和고구려的首都，也是高丽的次要首都[2]。平壤的大部分地区在甲午中日战争期间被摧毁，但在日本统治下恢复了活力，甚至成为一个工业中心。1948年朝鲜成立后，平壤成为其事实上的首都。这座城市在朝鲜战争期间再次遭到破坏，但战后在苏联、东德和中国的协助下迅速重建。目前，平壤是朝鲜的政治、工业和交通中心，它是朝鲜主要政府机构以及执政的朝鲜劳动党的所在地。</p>
-<p>事实上，虽然都是社会主义国家首都，北京与平壤进入社会主义后的建设却有着挺大的不同。从城市空间结构到建筑景观，北京与朝鲜都有着各自鲜明的特征。这或许可以说是两座城市因地制宜发展城市化的表现，但从中也能窥探到两个国家在城市规划上选择的差异。</p>
-<h2 id="两座城市的历史沿革">两座城市的历史沿革</h2>
-<h3 id="声名在外的北京城">声名在外的北京城</h3>
-<p>北京历史悠久，作为城市的历史可以追溯到3000年前。秦汉以来，北京地区一直是中国北方的边防重镇，春秋时期，燕灭蓟，将都城迁至蓟，很可能蓟城就是北京城的起源。</p>
-<figure>
-<img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/北京历史地图.tif" alt="1914年普鲁士皇家军火协会绘制的北京城池地图[4]" /><figcaption aria-hidden="true">1914年普鲁士皇家军火协会绘制的北京城池地图[4]</figcaption>
-</figure>
-<p>现在北京城的格局一般被认为奠基于元世祖营建的元大都城。元朝定鼎中原后，忽必烈决定建设大城作为元都，大都设计时参照《周礼·考工记》中“九经九轨”、“面朝后市”、“左祖右社”的记载建设，规模宏伟，规划严整，设施完善。大都城开城门11座，其中东、南、西三面各三座，北面为两座。东面三门由北向南依次为：光熙门、崇仁门，齐化门；西面三门由北向南依次为：肃清门、和义门、平则门；南面三门中：丽正门居中，顺承门在西，文明门在东；北面两门中：健德门在西，安贞门在东[3]。明清和民国时期除了一些增扩和内外城的分割，北京城没有明显的格局变化。</p>
-<p>作为封建王朝的政治、文化、军事和经济中心，北京在许多方面体现了明清时代中国城市规划和城市建设的最高成就。瑞典艺术史学者喜龙仁曾在《北京的城墙和城门》中这样写道：“如果我们把它（北京城）比作一个巨人的身躯，城门好像巨人的嘴，其呼吸和说话皆经由此道，全城的生活脉搏都集中的城门处。由此出入的，不仅有大批车辆、行人和牲畜，还有人们的思想和愿望，希望和失望，以及象征死亡或崭新生活的丧礼和婚礼行列。在城门处你可以感受到全城的脉搏，以至全城的生命和意志通过这条狭道流动着——这种搏动，赋予北京这一极其复杂的有机体以生命和运动的节奏。”</p>
-<h3 id="历史悠久的平壤市">历史悠久的平壤市</h3>
-<p>平壤同样具有几千年的悠久历史。虽然它可能是朝鲜半岛上最古老的城市聚居地，但平壤市从未获得全国性首都的显赫地位。在其多年的城市历史中，它只有大约三个世纪是政府所在地[5]。平壤位于朝鲜半岛中部的平壤准平原地带，是朝鲜半岛整个北半部最有利的位置，境内丘陵绵延，地势东高西低。海拔平均高度84米。市中心距朝鲜西海约50公里。朝鲜第二大江大同江自东北向西南流经市区，注入朝鲜西海。大同江的支流普通江经市区西北方折向南与大同江汇合。两条江将平壤分割成三部分。大同江以东为东平壤地队，两江之间为本平壤地区，普通江以西为西平壤地区[6]。</p>
-<figure>
-<img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E6%9C%9D%E9%B2%9C%E5%8E%86%E5%8F%B2%E5%9C%B0%E5%9B%BE.jpg" alt="1873日本绘制朝鲜半岛地图[7]" /><figcaption aria-hidden="true">1873日本绘制朝鲜半岛地图[7]</figcaption>
-</figure>
-<p>平壤城建于公元552年~586年。城市三面临水，一面靠山，与四周有方便的水陆交通，易守难攻。全城布局顺应自然地形，呈不规则形态，但又有明确的功能划分。北城为扼守全城的要塞，内城为王宫寺院，中城为地方官府衙门，皇宫侍卫，贵族领地，外城为贫民区。除外城为严格里坊式布局外，其余均为自由式格局，具有朝鲜古代城池依山就势营造的典型特色[6]。</p>
-<p>1894年，甲午中日战争的决定性战役在平壤进行，该市遭受了巨大的破坏，战争伴随的瘟疫和流行病使当地人口从大约88000人下降到只有15000人[8]。1911年，朝鲜沦为日本的殖民地，平壤作为日本鲸吞朝鲜半岛侵略中国的军事基地，遭受了无情的掠夺和蹂躏，城市处于盲目发展状态[6]。金日成后来强烈谴责了该时代遗留下来的空间结构，包括第一时期沿着平壤繁荣的街道上建造的密集建筑，认为这是资本主义的不良遗产之一[9]。</p>
-<p>1945年8月15日，日军战败投降，朝鲜宣告独立。1945年9月5日，平壤定为特别市和首都。1950年6月至1953年7月，历时三年的朝鲜战争中，整个城市荡然无存，化为一片废墟。1953年7月30日，停战协定签字不久，朝鲜最高内阁会议就正式批准了平壤市恢复建设总体规划草案。从此，平壤市开始了新的生命。</p>
-<h2 id="社会主义建设初期平壤与北京的城市比较研究">社会主义建设初期平壤与北京的城市比较研究</h2>
-<p>从两个城市的历史可以发现，北京和平壤在进行社会主义建设初期面临着不同的挑战。北京虽然被日伪政府侵蚀过一段时间，但保留着完整的城市建筑、城市风貌，城市化进程面临着古建筑保护的冲突；而平壤遭受了多次空袭之后几乎被摧毁，它需要被重建为一个全新的城市，尽管能够如大火后的东京那样采用全新的规划，但建设上究竟该如何取舍，如何加快建设成了最大的难题。</p>
-<h3 id="规划思想">规划思想</h3>
-<p>同为社会主义国家，北京和平壤在提出规划目标和方针是相似的，都旨在按照“社会主义城市”目标和原则进行改建或重建，突出“人民”的主体性。</p>
-<p>1953年《改建与扩建北京市规划草案》指出，北京是中国著名的古都，在城市建设和空间艺术方面有明显的优点，同时也反映出封建社会制度的局限性，因而“必须按照社会主义城市建设的原则，迅速制定总的规划，以便有计划地、有步骤地进行改建和扩建工作”。规划明确提出首都建设的总方针是：“为中央服务，为生产服务，为劳动人民服务，从城市建设各方面促进首都劳动人民劳动生产效率和工作效率的提高，根据生产力发展的水平，用最大努力为工厂、机关、学校和居民提供生产、工作、学习、生活、休息的良好条件，以逐步满足首都劳动人民不断增长的物质和文化需要”[10]。</p>
-<p>朝鲜的实际规划资料难以寻找，笔者没能搜寻到当时的规划图纸或草案说明，但可以知道平壤的城市化建设是在“主体思想”“先军政治”和“金日成金正日主义”等朝鲜国家政治理念指导下进行的。贯穿于平壤市规划与建设的指导思想是应当由来于金日成主席的指示，要“建设人民的城市、考虑到人民的需要与方便，从长计议，发挥社会主义制度的优越性，符合国情，爱惜耕地，城市规模不要太大，反映民族特色，重视环境保护和城市绿化美化。”[11]</p>
-<p>根据规划方针细化，北京基于社会主义城市建设的总体目标，在如下方面进行了积极的探索：城市布局必须是紧凑、有机、有中心的整体；工业区、住宅区、休养区、铁路和仓库等必须按照便利、经济和卫生的原则作合理的分布；人口分布和文化福利机构设置要适应社会主义的集体主义的生活方式；主要街道要保证交通不受阻碍及居民有充分阳光和新鲜空气；应有相当数目的公园、绿地及适当的河湖水面。[10] 平壤在突出以人民为中心的规划也得以体现在以下几方面：优先解决市民的住宅问题，先建住房，然后考虑党政机关办公用房；重视科技、教育、文化、体育、医疗等城市公共设施的建设，期望 “实现全社会的知识分子化”；畅通、安全的道路交通，将主要公共设施布置在市中心区，交通流量较大的工业区布置在城市外围；清洁的环境和高水平的绿化[11]。可以看出，这些对两个城市指导性的规划描述具有极高的相似性。</p>
-<p>在应用现代城市规划思想理论上，两个城市似乎产生了一定的分歧。对于北京来说，或许是为了移除日本侵华战争使阶段全面移植欧美的规划思想，成为日本殖民主义的规划试验场的历史[12]，北京城市的规划重点似乎落在了对发展中的实际问题的专项研究上，尤其是古城保护、城市发展方向、城市形态、城市规模等，在具体的实践（城市与区域发展相结合、保护旧城开辟新区、文物古迹保护、用地预留和禁止建设空间等）上的安排都从城市的具体实际出发，其指导理论是本地化改造的外来规划建设思想，如“外部北平化，内部现代化”的提法就是将北京风貌保护与城市基础设施近现代化改造相结合的思想反映[12]。或许因为整个规划是群策群力的结果，北京最后的城市规划没有体现出太鲜明的单一规划理论的影响。</p>
-<figure>
-<img src="https://github.com/Keldos-Li/P-pic/blob/main/img/人民大学习堂.png" alt="绿化丰富的朝鲜人民大学习堂与周边景观，1989年摄[5]" /><figcaption aria-hidden="true">绿化丰富的朝鲜人民大学习堂与周边景观，1989年摄[5]</figcaption>
-</figure>
-<p>不同于北京努力创新外国规划理论的做法，平壤除了消除资本主义和日本人存在的所有残余的努力、为政治和文化活动建造了公共广场外，似乎着重应用了霍华德的“花园城市”理论。平壤周围群山叠翠， 树木葱笼，景色秀丽，市中心区又有三山两水，这些自然绿地为花园城的规划建设提供了施展的舞台。为了充分体现人民乐园的宏伟构想，在建设初期朝鲜劳动党就对规划设计部门提出要把平壤建成“自然中的城市”的要求，规划师也为此采取了卓有成效的对策及措施[6]。同时，正如霍华德“花园城市”的核心思想一样，平壤在市域规划范围以外植树造林，形成了广阔的绿化地带，限制了大城市的无序扩张[13]。</p>
-<h3 id="城市布局">城市布局</h3>
-<p>北京与平壤在城市总体布局的选择上有着鲜明的不同。传统的北京是放射环形网式集约型布局，经过规划和发展，逐渐形成了分散集团式布局体系[14]；平壤则在保留原有城市轴线的基础上采用了卫星城的布局体系[13]。</p>
-<p>20世纪50年代初，北京的城市建设整体格局呈现为在北京城市核心区的基础上有扩张，但仍保持着原本的环形网状格局，城市布局比较紧凑、集约[14]。 而1958年的城市规划几乎完全改变了这一格局。1958年，在大跃进和人民公社化运动高潮时期，北京市委对原北京城市建设总体规划初步方案作了若干重大修改，在城市布局上，提出了分散集团式的布局形式，尤其在工业的布局上提出既要有合理的集中，又要有合理的分散。这样，将市区划分为几十个分散的“集团”，“集团”内既有工业也有农业，“集团”与“集团”之间为成片的菜地、农田、林木等，围绕市区形成大小不等的城镇和居民点[16]。换言之，城市与农村一样作为生产与生活用地结合的策略，即“工农结合，城乡结合”。大量工业进入市区，城市从整体上实现了生产用地与生活用地的整合[14]。</p>
-<p>当今北京城市形态仍然深受1958年那段特殊历史时期的规划思想的影响。至今，北京市中心附近分布着较大的且与国家行政机构为主的大院，城市中散布着大量工业为主的单位大院，城市边缘地带则分布着各种军事为主的大院[14]。</p>
-<p>北京实际在1953年就提出了远郊建设卫星城形成“子母城”的空间格局的设想，但在1992年前，由于轨道交通配套的不足，严重制约了卫星城的发展，市区仍是城市建设的重点。[26]</p>
-<table>
-<thead>
-<tr class="header">
-<th><img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E5%8C%97%E4%BA%AC%E6%80%BB%E8%A7%84.jpg" alt="img" /></th>
-<th><img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E5%8C%97%E4%BA%AC%E5%9F%8E%E5%B8%82%E5%BD%A2%E6%80%81.png" alt="img" /></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>图</strong> <strong>4</strong> 1958年北京总规方案[15]</td>
-<td><strong>图</strong> <strong>5</strong> 1958 年北京城市形态示意图[14]</td>
-</tr>
-</tbody>
-</table>
-<p>平壤则实际规划了两套轴线系统：一为城市经济的主要开发轴线，一为城市空间领域的主要发展方向。基于这两套轴线系统，平壤也规划出了很有方向性的卫星城体系布局。平壤的卫星城镇一般布置在市区边缘10公里以外，平壤市内基本不设工业区，仅在市郊城设置工业[13]。卫星城地带与母城间留有10～20余公里隔离地带，同时在距市中心20余公里半径内设置通勤圈[6]。卫星城按工业性质分类，包含食品、纺织、机械等等。</p>
-<p>卫星城综合形成“卫星城群体”式的综合性工业区，以便能合理、高效地组织工业协作和交通联系，求得较高的经济效益，也利于对工业污染集中采取对策[6]。卫星城或卫星城群体一般都兼备生产、生活双重职能，有较完备的生活福利设施和工人居住区。卫星城的居民一般就地就业学习，生活水准（供应标准）也与市区居民相同，职工就业稳定[6]，人口极少回流母城。</p>
-<table>
-<thead>
-<tr class="header">
-<th><img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E5%B9%B3%E5%A3%A4%E5%8F%91%E5%B1%95%E6%88%98%E7%95%A5.png" alt="img" /></th>
-<th><img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E5%B9%B3%E5%A3%A4%E5%8D%AB%E6%98%9F%E5%9F%8E.jpg" alt="img" /></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>图</strong> <strong>6</strong> 平壤发展战略图[6]</td>
-<td><strong>图</strong> <strong>7</strong> 平壤卫星城体系示意图[13]</td>
-</tr>
-</tbody>
-</table>
-<p>城市布局对城市的影响主要体现在工业区的分布上。总结北京和平壤的城市布局来看，北京过去将农业、工业结合进生活区，而平壤则注重将工业区分离出市区。如果不考虑地理环境对工业区分布的影响，这也体现出过去两国对同一种社会主义和人民关系不同的理解——大跃进时期的北京规划者将城市“引入工人阶级”形成了大院，而重建时期的平壤规划者为“方便人民生活”的城市环境出发做出了花园城市。</p>
-<h3 id="城市空间结构">城市空间结构</h3>
-<p>进一步从城市微观的角度探讨这两座城市的不同，也能看到很多有趣之处。从城市空间上看，北京和平壤有着各种对比关系。北京的城市面积在1.6万平方千米左右[3]，而平壤的城市面积仅仅为0.3万平方千米左右[1]。平壤比北京小得多，能够更轻松地规划各种细节尺度上的城市区域，在居民生活上也会有更丰富的体验；北京则在宏大的尺度上有着更为规整的规划结构。</p>
-<h4 id="城市交通">城市交通</h4>
-<p>现在的北京城市空间结构、道路网骨架基本来源于1953年版的北京总规。1953年版北京城市总体规划结合苏联专家巴拉金的意见，确定了“环形+放射”的路网结构：旧城内的一环即“新街口–菜市口–蒜市口–北新桥”“除内环及沿护城河环路外，再增设若干环路和辅助环路，其宽度一般为四十~九十公尺左右”，仍然保持棋盘式的横平竖直的布局；“从东直门、西直门、菜市口、蒜市口向外开辟四条放射干路，分别直达东北部工业区和民航机场并通往古北口，文教区及休养区，丰台及良乡，东南部工业区并通往天津，其宽度均应不少于七十公尺”，形成环形加放射性的格局。</p>
-<p>之后北京又规划建设了几条城市快速路网，五条环路（二环路、三环路、四环路、五环路和六环路）以及若干城市快速联络线。更为现代的公共交通如地铁等也是按照类似的环线设计的，此处不再赘述。</p>
-<table>
-<thead>
-<tr class="header">
-<th><img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E5%8C%97%E4%BA%AC%E9%81%93%E8%B7%AF%E8%A7%84%E5%88%92.png" alt="img" /></th>
-<th><img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E5%8C%97%E4%BA%AC%E5%B9%B2%E9%81%93.png" alt="img" /></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>图</strong> <strong>8</strong> 北京市道路宽度规划草图 (1953年11月27日)[18]</td>
-<td><strong>图</strong> <strong>9</strong> 北京卫星干道数据（1988年）[19]</td>
-</tr>
-</tbody>
-</table>
-<p>新的平壤几乎是从一片瓦砾中拔地而起的。建筑师华揽洪写道，“据统计，在平壤地区，平均每十平方公尺就投下了一枚炸弹，总共毁坏了六万四千多所住宅，三百多个工厂和企业，一百多个学校，三十多个剧院和电影院。”[20] 但是通过比较20世纪30年代和90年代这两个时期的地图可以发现，尽管几乎被摧毁，但平壤一些街道，特别是从铁路和大东桥延伸的两条轴线（图10）被保留了下来。不过其他的支路则大多被重绘，形成更规整的规划平面效果。</p>
-<table>
-<thead>
-<tr class="header">
-<th><img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E5%B9%B3%E5%A3%A4%E9%81%93%E8%B7%AF%E7%BB%93%E6%9E%84.png" alt="img" /></th>
-<th><img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E5%B9%B3%E5%A3%A4%E5%8D%AB%E6%98%9F%E5%B9%B2%E9%81%93.png" alt="img" /></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>图</strong> <strong>10</strong> 20世纪30年代和70年代的平壤道路结构对比[8]</td>
-<td><strong>图</strong> <strong>11</strong> 平壤卫星干道数据（1990年）[21]</td>
-</tr>
-</tbody>
-</table>
-<p>东西平壤由大同江隔开，两岸人流密集处均架设有桥梁。全平壤共有二十多架桥。街道的组织上：西平壤主要依地势，主干道连接着各个建筑群密集点，将平成划分为连续的片形，道路的走向充分考虑了将建筑物，山、水等景观有序地组织进入视线。随着视线的移动，变化无穷。大同江中分布着几个大小不同的小岛，均有立交桥直达岛上。依岛的形状建有别致的建筑物。[22]</p>
-<p>平壤的道路非常开阔，市区内的干道几乎都是双向四车道的大马路[24]，而汽车却不多（朝鲜的汽车是单位分配的），显得空旷而冷清。</p>
-<figure>
-<img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E5%B9%B3%E5%A3%A4%E5%85%AC%E4%BA%A4.png" alt="平壤的公共交通线路[23]" /><figcaption aria-hidden="true">平壤的公共交通线路[23]</figcaption>
-</figure>
-<p>对于平壤的公共交通来说，从数据看，有轨电车和无轨电车的线路比较简单。而同时，朝鲜的地铁深埋于地下100多米处，且均有着防空级别的安全建设要求，有着高昂的建设成本，因此将遍布住宅区、交通系统发达的西部地铁系统扩展到大同江东部具有挑战性。虽然平壤的地铁只有西部的两路，但对当地市民来说足以够用。现在的平壤还从中国引入了出租车，街道上还有无锁、无押金、可以在街道上自由停放的公共自行车成为了他们的“共享单车” [24]。</p>
-<p>平壤和北京的交通结构各有特色，都结合了各自的历史与未来的发展方向，符合现代规划的科学性要求。当然，对于计划经济的社会主义国家平壤来说，应当可以有更适合自己的道路规划方式。</p>
-<h4 id="城市单元模块">城市单元模块</h4>
-<p>北京与平壤都接受了苏联1935年莫斯科重建计划的影响，形成了现代最常见的居住区模块：“小区”。</p>
-<p>北京城市用地建设部分在分散集团式的基础上被分割成了若干个集团规划区，集团内部实现了以生产单位为核心的、集生产和生活于一体的城市组成单元[15]。这种城市组团单元来源于“人民公社”，逐渐形成了各种“单位大院”，或者即“小区”。它们作为城市模块单元将城市切割。城市中，每个被地块切分后形成的大院，被围墙分隔，被一个个半封闭的小型“社会”组织着[17]，形成了特有的空间形态组织模式。</p>
-<p>平壤则在20世纪60年代末引入小区的概念，以便让工人更有效地前往工作场所，通过缩短通勤距离来减少交通拥堵，并促进住宅区的生产和消费活动[8]。与中国的传统小区相同，这些小区是自给自足的住宅区，由围绕轻工业工厂、公园、商店和其他公共设施的住房单元组成。</p>
-<table>
-<thead>
-<tr class="header">
-<th><img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E6%B0%B4%E7%A2%93%E5%AD%90%E5%B0%8F%E5%8C%BA.jpeg" alt="img" /></th>
-<th><img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E6%96%87%E7%BB%A3%E5%A4%A7%E8%A1%97%E5%B1%85%E4%BD%8F%E5%B0%8F%E5%8C%BA.png" alt="img" /></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>图</strong> <strong>13</strong> 北京水碓子小区总布置图[18]</td>
-<td><strong>图</strong> <strong>14</strong> 平壤文绣大街居住小区规划平面图[6]</td>
-</tr>
-</tbody>
-</table>
-<p>在20世纪的中后期，就地方范围而言，每个小区（社区）都可以被视为一个单独的区域。这种配置被认为是社会主义城市城市政策的结果，该政策采用小区（社区）概念作为在每个地区组织独立自治活动的一种方式，并接受了工作场所和住宅彼此靠近的原则[8]。如今，北京的小区概念一般演替为某个房地产开发商售卖的单个居住区楼盘，一般涵盖多个小区的“社区”与“居委会”承担了原有的居民自治功能；不过平壤的发展现状不得而知。</p>
-<h4 id="城市内部地域结构">城市内部地域结构</h4>
-<p>在内部地域结构上，北京和平壤都有着令游人印象深刻的轴线结构。</p>
-<p>北京的内部地域结构除了空间布局上的分散组团式，中轴线的结构也异常鲜明突出。在元代，元大都城墙即为左右对称，南边正门丽正门即在中轴线上。皇城坐落在中轴线上，也是左右对称的。中国著名建筑大师梁思成先生曾经说：“北京的独有的壮美秩序就由这条中轴线的建立而产生。”</p>
-<p>1954年，北京拆除中华门，使得天安门广场扩大到现在的规模。广场中央建造人民英雄纪念碑，东西两侧则是基本对称的人民大会堂（西侧）、中国国家博物馆（东侧）。1976年毛泽东逝世之后，在原中华门的位置建造毛主席纪念堂。21世纪初北京申奥成功后，中轴线再次向北延长，成为奥林匹克公园的轴线。东边建造国家体育场“鸟巢”，西边则是国家游泳中心“水立方”。 现在，这条中轴线向南一直延伸到正在建设中的北京大兴机场。</p>
-<p>北京中轴线的延伸实际是苏联专家巴拉金的建议。巴拉金在19世纪50年代参观畅观楼规划小组工作时发现，北京原本的规划草图中向北有两撇，“一撇是安定门延伸出去，一撇是德胜门”，因为“中轴线到了钟鼓楼就停止了，历史上没有延伸出去，谁也不敢突破这个”。巴拉金来了后，将规划方案突破了北中轴，继续向北延伸[10]。</p>
-<p>平壤一定程度上学习了北京的中轴线景观设置，同时加入了自己的小巧思。由北向南流经市中心的大同江成为了平壤的城市中心空间构图的自然轴线，由金日成广场西侧的人民大学习堂至东平壤的主体塔的东西轴线成为了其空间构图的人工轴线，因而建立起城市中心人工环境与自然环境既互相对比又互相渗透的有机关系[6]，使市中心的所有人工、自然要素都统一在这两条轴线之下，它既是人的视觉轴线也是人的活动轴线，使平壤呈现出异常强烈而鲜明的首都的纪念性特色，显得格外庄严。大型公共建筑的尺度与形态都满足了城市空间的要求并从城市轴线上延展开来，形成了层次分明、丰富有序的城市空间。</p>
-<p><img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E5%B9%B3%E5%A3%A4%E8%BD%B4%E7%BA%BF.png" alt="15 平壤市中心空间构图轴线体系[6]" />当然，这种空间结构也可能来源于因此其一脉相承的“主体意识形态”，正如朝鲜第一位最高领导人金日成所宣布的那样，这种意识形态是政治、经济发展和外交关系的典范，由朝鲜的独特思想与社会主义相结合。</p>
-<p><img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E5%8A%B3%E5%8A%A8%E5%85%9A%E7%BA%AA%E5%BF%B5%E7%A2%91.jpg" alt="位于轴线上的朝鲜劳动党纪念碑 Emma Graham-Harrison摄[27]" />除了两条庄严的轴线，在城市功能上建立辐射式的均匀分布的多中心体系也是平壤市中心区规划建设的主要特色之一[6]。从五十年代恢复建设起，平壤就特别强调根据城市功能分区及建筑空间艺术布局建立均匀分布的城市各级中心。六十年代后，随着城市建设全面铺开，市中心的功能逐步分散开，初步形成了辐射状的多中心体系。这个多中心体系以金日成广场一带为核心，包括4～5个副中心。即以金日成广场为主。金日成广场一带的功能核心是行政、文化思想教育、服务中心；凯旋门一带的功能为体育、服务、游览、纪念中心；千里马大街一带的功能为文化、体育、服务中心；东平壤文锈大街一带的建筑群则构成教育、医疗卫生、服务中心，等等[6]。在这些中心分散布置了平壤市的大型公共建筑物、公园和高层住宅，基本上都具有综合居住区的功能，大大便利了城市居民的物质文化生活，避免了单一中心功能密集、人口密集、交通密集及由此造成的社会和环境问题。</p>
-<h4 id="城市与自然地理">城市与自然地理</h4>
-<p>一般来说，自然地理尤其是地形对城市的影响很大，对比北京和平壤两个城市，我们也能体会到地理条件对建筑与功能区布局的影响。</p>
-<p>波兰建筑师彼得·萨伦巴就曾在1956年援助朝鲜和中国时指出，“在中国和朝鲜的某些复杂的丘陵地区，从地理或地质的观点来看，缺乏修建大量城市建筑的地点。”[28] 很多时候，或许因为当地不适宜建设而导致需要将整个区块重新选址。</p>
-<p>但事实上，北京处于华北平原，地理地质条件都很好，在建设上没有需要特别考虑之处，因此各种规划可以任意实施，这也形成了现在北京中心放射形的，具备完整几何之美的一种城市形态。</p>
-<p>但平壤没有北京那么幸运。“平壤”两字，在朝鲜语中意即一条大江穿流的平原。但其实，大同江及其支流普通江穿流而过的平壤市区并非绝对低平，在冲积平原上分布有低丘和小山[11]。作为曾经古都的选址地，平壤在农业和地质上有比其他城市更突出的优势，但周边连绵的丘陵阻碍了其摊大饼发展的潜在可能。因此事实上，平壤城市规划和建设按地尽其利之原则，巧妙地利用了两河与波状起伏的地形来形成其独具特色的田园城市风格：平壤西部是顺应普通江和丘陵脉胳而组成的自由式路网结构，大同江以东地形较为平坦，路网结构较为规整[29]。河流两岸建设宽阔的绿化带，低丘、小山保持原有高程并给以绿化美化，有的建成公园，修建适量园林小品；充分考虑地形而设计的环形加放射形式的道路系统；因地制宜布置多层、高层建筑和大型公共设施，疏密相间、错落有致，视野的任何角度都呈现层次丰富、色彩斑斓的城市景观，无论是鸟瞰、平眺，都可见到 “公园里的城市”的整体美[11]。同时，根据意识形态建设的需要，平壤的规划还利用了自然地形的起伏来衬托重要建筑物和纪念物，譬如牡丹峰的脚下的解放塔、面对着大同桥的小山顶端的人民军纪念塔、三岔路广场的火车站……这样，许多重要的建筑物都被放在显著的位置上，不但可以使市民经常见到内容和意义很丰富的东西，同时也联系了城市的各个部分[20]。</p>
-<h3 id="城市景观">城市景观</h3>
-<p>网上往往有这样一种论调：朝鲜看上去就像20世纪七八十年代的中国。不过事实上，平壤这座城市比我们想象中的更加现代化，尽管与北京相比确实不够有生命力。但同时，专家学者们也对平壤田园城市的实践大加赞赏。</p>
-<h4 id="典型建筑">典型建筑</h4>
-<p>除了故宫片区保留的传统建筑外，北京在20世纪中后期新建的建筑大部分并没有广泛地采用传统的大屋顶形式，而是更加简单易建的小平房。</p>
-<p>从图片对比来看，20世纪末期的北京已经开始逐渐摆脱简单的户型和立面样式，各种建筑材料和现代主义的建筑风格都得以在北京应用，传统的平房小楼以及单调平铺的窗格里面逐渐减少。不过北京对景观上的建筑风貌没有做太多的要求，导致新建建筑立面混乱，一些金色玻璃幕墙、绿色琉璃瓦装饰建筑也跻身在银色高楼之中，大面积色彩艳丽、色度饱满的灯箱、横幅或气球广告，无规则地置放到城市建筑的屋顶、立面或街道广场上。甚至一些标志性建筑也披挂上花花绿绿的广告，将整个城市切割地七零八落，给人以喧嚣和紧张的印象[30]。</p>
-<table>
-<thead>
-<tr class="header">
-<th><img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E5%8C%97%E4%BA%AC%E5%BB%BA%E5%9B%BD%E9%97%A8%E5%A4%96%E5%A4%A7%E8%A1%97.jpg" alt="img" /></th>
-<th><img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E6%9C%9D%E9%B2%9C%E9%AB%98%E5%B1%82%E5%85%AC%E5%AF%93.jpg" alt="img" /></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>图</strong> <strong>17</strong> 1976年的北京建国门外大街[31]</td>
-<td><strong>图</strong> <strong>18</strong> 从主体思想塔望向林立的高层公寓 Emma Graham-Harrison摄[27]</td>
-</tr>
-</tbody>
-</table>
-<p>而平壤至今还没有发展到玻璃幕墙大规模应用的阶段。城市的主要住宅建筑建筑仍然是小洞窗平铺的单调平顶联排，立面甚至没有空间体块组合的穿插变化，在形态上单调乏味。平壤的城市道路基本上采用自由式加方格网的道路系统，街道和建筑群都按城市总体规划的要求建造，各个建筑在建筑规模、造型、风格及色彩上特别注意与周围建筑的统一[33]。一方面，这种统一给人一气呵成、自然流畅之感，另一方面，它也使人感到缺少变化的无趣。这种单调正是六七十年代的中国常见的。</p>
-<p>平壤的建筑比较重视色彩的自然。建筑大多选用较柔和而沉实的色调，普通建筑多用水刷石、瓷砖拼贴等，多用纯一色调的建筑外表加以精美的线条、浮雕装饰。局部的点缀也多用比较柔和的调和色，给人以朴素清雅的感觉[33]，但同时也给人时光错乱之感。</p>
-<p>不过，或许因为平壤的公共建筑花费更大的财力物力，这些备受重视的公建在布局上更加注意均匀台理，而且在建筑形式上力求与城市总体建筑艺术风格的统一和谐，又重点突出。如人民大学习堂、人民文化宫、平壤大剧院、玉流馆等“具有强烈地区民族特征”的大型公共建筑往往选用花岗岩、大理石等天然石材的饰面，均衡分布在市中心区的呈正三角形的空间领域内，为市中心的整个建筑艺术风格定了基调[6]。</p>
-<h4 id="典型景观">典型景观</h4>
-<p>改革开放以来，北京作为开放的现代化大都市，愈发没有典型的景观。除了二环内片区外，北京越来越接近发达国家的现代化都市。因此，这里主要比较平壤的花园城市景观。</p>
-<p>平壤市的绿地、公园、花园占全市面积的百分之八十以上，按1983年左右的人口计算，每人拥有绿地面积高达48平方米[32]，基本是北京的二十倍[22]。平壤市区的中心和周围拥有12个大公园和40多个公园、儿童公园。整个城市处在绿色园林包围之中[32]。平壤的规划从一开始就充分考虑了自然生态环境的保持。道路、建筑等更丰富和发展了自然景观、使自然更富有生气，沿江两岸有很长的绿化带与丘陵相连，较平坦的地面都被绿色覆盖。工厂离市区的距离较远，有效防止了大气、水体、植被的污染。90年代有学者夸赞说，只要像平壤这样按生态建筑学原则考虑规划问题，任何城市都会成为理想的人居环境[22]。从人与自然协调共生的角度看，平壤不失为田园城市应用成功的典范。</p>
-<p><img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E6%9C%9D%E9%B2%9C%E7%BB%BF%E5%8C%96%E7%B3%BB%E7%BB%9F.png" alt="平壤市同心圆放射式绿化系统[6]" />与霍华德的原始理论图景类似，首先，依据平壤市的自然优势，确定采取同心圆放射式的城市绿化模式。中心区的大同江、普通江及牡丹峰为第一个绿化圈，城市东北边缘的大成山游园地，中央植物园、动物园、万景台游园地等为第二个绿化圈，与大自然融为一体[6]。城市干道网从中心向四周辐射，把两个绿化圈连接起来，两个绿化圈之间的建成区和中心区内建立居住区级、小区级公园绿化系统及街道绿化系统，居住区和街道的空间布局全部力求开敞，并最大限度地将开放的空间以绿地形式与自然绿地相连。各种山川秀美的景区在规划建设中力求保留自然山林野趣，且部分景区（牡丹峰公园)四周不设围墙，与城市保持自由开放状态，游人可以不受时间、路线限制，无需买门票就可以任意游览[6]。能够漫步自然体会山林野趣在国家首都的中心区绝对是难得的景象。</p>
-<p>同时在园林景观上，规划师也做了不少考虑，在树种、花卉的配置上有着细致的安排。同时，各种喷泉公园和其中的雕塑也成为了平壤独特的城市空间。</p>
-<p>这种景观上的差异，使得平壤在城市规划史上有着独特的优势。这在某种角度来说，或许也是社会主义可以按领导人思想规划的优势所在。</p>
-<h2 id="世纪中后期的城市发展对现今两个城市的影响">20世纪中后期的城市发展对现今两个城市的影响</h2>
-<p>不可否认，这段时期的城市发展对现今北京和平壤的发展都产生了极为深刻的影响。规划在废墟中重建的平壤市就如同在白纸上作画，避免了许多城市在建设中新老建筑间带来的矛盾和难题，城市规划得以完全按统一有序的设想实施，较好地保持了城市空间的完整与连续[33]。而一如北京，50年代北京总规还为首都北京数十年来的城市建设和未来发展提供了一个基本的维形和框架，其所确定的北京城市空间结构、道路网骨架及用地布局模式，对70年来首都城市建设与发展起到了重要的形塑作用[10]。</p>
-<h3 id="首府城市">首府城市</h3>
-<p>作为社会主义国家的首府城市，北京和平壤或许面临着类似的首位城市与首府城市重合的城市困境。在社会主义国家大一统的政治长期支配经济社会文化的运行机制下，产业、军事、科技、教育、文艺等等各种资源，都集聚到首府麾下。人员、财政、建筑物等的过度集聚效应的出现，往往会使首府城市逐渐膨胀、饱和、壅塞，不利于社会的均衡发育和运行[34]。北京已经着手将城市职能分散到雄安新区，平壤的对策则不得而知。</p>
-<h3 id="城市问题">城市问题</h3>
-<p>所有的规划都不可能完全正确、不带来新的问题。北京和平壤一部分的城市问题就来源于当时的城市发展模式。</p>
-<p>对北京来说，今天看来粗犷的城市规划下适应城市发展的大院，在需要紧凑城市发展的今天出现了一系列问题。这些大院一方面占用了大量的土地，同时，大院空间封闭，内部形成“孤岛”，将城市用地割裂。众多单位大院的集体产权以集体名义占据大量公共的优质资源，给后期城市更新带来了一些问题和阻力[14]。</p>
-<p>对平壤而言，也可能有公共建筑的实用与功能注意不够而过分讲究形式的弊病，导致尺度过于庞大。同时，城市的发展也应当配套强大的基础设施，平壤在2010年前的电力供应一直不足，即使是现今往往20层的高楼只在上下班期间才会开启电梯，平时无法保障正常运行[24]，对人民的便捷生活有着巨大的影响。由于资料的匮乏，也未能得知朝鲜居民在平壤生活的实际感受。</p>
-<h2 id="结语">结语</h2>
-<p>北京和平壤同为社会主义现代国家的首都，在城市建设的初期，方方面面有着相似之处也有着巨大的不同。例如，它们都以“人民主体性”作为规划原则，都尝试了卫星城的布局，在空间结构上都采用了轴线体系，大型公建都喜好结合现代建筑和传统风格，都有着苏联式的小区，建设过快速的平房，也都有着首府独特的城市问题……同时，北京在规划理论上更偏向整合创新，城市布局选用分散集团式，城市交通采用环形与放射结构，愈发向欧美的现代化都市靠拢；相比之下，平壤偏爱“花园城市”，对卫星城布局的应用得心应手，在市区避免工业，交通也有着超越人民需求的建设，尤其在城市设计上结合自然地理，布置了大量各有特色的地标和颜色淡雅的建筑，并大量放置公园和喷泉，真正打造了一个花园之城。</p>
-<figure>
-<img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E5%8C%97%E4%BA%AC%E5%B9%B3%E5%A3%A4%E5%9F%8E%E5%B8%82%E5%AF%B9%E6%AF%94%E6%80%BB%E7%BB%93.png" alt="北京平壤城市对比总结" /><figcaption aria-hidden="true">北京平壤城市对比总结</figcaption>
-</figure>
-<p>在目前社会主义国家极少的情况下，如何形成一种适合社会主义的城市规划方法与理论有一定重要意义。我们可以对比借鉴北京和平壤的经验，探索出一条独特而科学的规划道路。</p>
-<p><strong>参考文献:</strong></p>
-<p>［1］ 위키백과 기여자. 평양시 [인터넷]. 위키백과, ; 2022 6 4, 04:01 UTC [2022 6 7에 인용]. 다음에서 찾아볼 수 있음: https://ko.wikipedia.org/w/index.php?title=평양시&amp;oldid=32754497.</p>
-<p>［2］ Wikipedia contributors. "Pyongyang." <em>Wikipedia, The Free Encyclopedia</em>. 6 Jun. 2022. Web. 7 Jun. 2022. https://en.wikipedia.org/w/ index.php?title=Pyongyang&amp;oldid=1091823814</p>
-<p>［3］ 维基百科编者. 北京市[G/OL]. 维基百科, 2022(20220604)[2022-06-04]. https://zh.wikipedia.org/w/index.php?title= %E5%8C%97%E4%BA%AC%E5%B8%82&amp;oldid=71999655.</p>
-<p>［4］ Deutsch Ostasiatisches Expeditions Korps. Feldtopograph &amp; Prussia . Landesaufnahme. Kartogr. Abteilung. (1914) <em>Beijing quan tu = Peking.</em> [Berlin: Kartographischen Abtheilung sic der Königl. Preuss. Landes-Aufnahme] [Map] Retrieved from the Library of Congress, https://www.loc.gov/item/2006458553/.</p>
-<p>［5］ Schinz, A., &amp; Dege, E. (1990). P’yŏngyang — ancient and modern —the capital of North Koreangyang — ancient and modern —the capital of North Korea. <em>GeoJournal</em>, <em>22</em>(1), 21–32. https://doi.org/10.1007/bf02428536</p>
-<p>［6］ 金笠铭.千里马铜像下的花园城——平壤市规划建设经验初探[J].国外城市规划,1988(01):26-35.</p>
-<p>［7］ Ishizuka, N. A. N. &amp; Tamenaga, S. (1873) <em>Detailed Map of the Country of Chōsen.</em> Tokyo: Tokyo Publishing Company. [Map] Retrieved from the Library of Congress, https://www.loc.gov/item/2021668283/.</p>
-<p>［8］ Jeong, S. K., Lee, T. H., &amp; Ban, Y. U. (2015). Characteristics of spatial configurations in Pyongyang, North Korea. <em>Habitat International</em>, <em>47</em>, 148–157. https://doi.org/10.1016/j.habitatint.2015.01.010</p>
-<p>［9］ Lee, H. (1989). Korean Architectural History (2). <em>Science Encyclopedia General Publishers.</em></p>
-<p>［10］李浩. 首都北京第一版城市总体规划的历史考察——1953年《改建与扩建北京市规划草案》评述[J]. 城市规划学刊,2021(4):96-103. DOI:10.16361/j.upf.202104014.</p>
-<p>［11］周复多.朝鲜平壤的城市规划与建设[J].现代城市研究,1996(05):29-31.</p>
-<p>［12］王亚男.城市规划思想在北京的近现代化[J].北京规划建设,2010,(05):119-122.</p>
-<p>［13］沈玉麟.外国城市建设史[M]. 北京：中国建筑工业出版社, 1989: 175.</p>
-<p>［14］王润娴,石纯煜. 北京1958年城市规划决策对城市空间形态的影响[J]. 住宅科技,2021,41(7):7-11,17. DOI:10.3969/j.issn.1002-0454.2021.07.002.</p>
-<p>［15］李浩.北京规划70年的历史回顾——赵知敬先生访谈（上）[J].北京规划建设,2020(03):158-164.</p>
-<p>［16］董鉴泓.中国城市建设史[M]. 3版. 北京: 中国建筑工业出版社, 2004: 410-411.</p>
-<p>［17］李晨.南昌单位大院与城市物质空间形态 的关联性[D].南京:东南大学,2016</p>
-<p>［18］畅观楼规划小组.北京市规划草图——道路宽度[R].北京市城市规划管理局档案, 1953.</p>
-<p>［19］Atlas of Urban Expansion. (n.d.). <em>Beijing Urban Expansion</em>. Retrieved June 8, 2022, from http://atlasofurbanexpansion.org/cities/ view/Beijing_Beijing</p>
-<p>［20］华揽洪.积极重建中的平壤——一个建筑师的笔记[J].世界知识,1957(12):29-30.</p>
-<p>［21］Atlas of Urban Expansion. (n.d.). <em>Pyongyang Urban Expansion</em>. Retrieved June 8, 2022, from http://atlasofurbanexpansion.org/cities/view/Pyongyang</p>
-<p>［22］李云兰.一曲优美的交响诗——谈平壤的城市规划[J].中外建筑,1996(01):15-16.</p>
-<p>［23］Chua, C. (2018). Productive Pyongyang – A Research on its Recent Urban Transformation [E-book]. Choson Exchange. from https://static1.squarespace.com/static/52dd9f05e4b0089d6701446a/t/5c7f4703499b47a5b0ec78bf/1551845248980/Productive+Pyongyang+-+Research+On+Recent+Urban+Transformation.pdf</p>
-<p>［24］壮游者.同志，平壤人的日子怎么样啊-酒吧、菜市场、共享单车和春日樱花[Podcast]. 2021. https://www.xiaoyuzhoufm.com/episode/ 5ffbc241411484ec3e9fff9d?s=eyJ1IjoiNWU4MWM3MTgwYTdiZDgwOWMyZWIxOTUzIiwiZCI6MX0%3D</p>
-<p>［25］华揽洪. 重建中国:城市规划三十年(1949- 1979)[M].上海:三联书店,2006:177.</p>
-<p>［26］孟雷雷.北京与东京城市空间结构演变的交通配套比较研究[J].城市发展研究,2022,29(03):47-52+41.</p>
-<p>［27］陈全. 走进都市平壤：从主体思想塔到高层公寓[DB/OL]. 环球网. [2018-11-28]. https://3w.huanqiu.com/a/c36dc8/ 9CaKrnQhNaM?agt=8&amp;p=4&amp;s=a%2Fc36dc8%2F9CaKrnQhNaM.</p>
-<p>［28］Петр Заремба,程应銓.实际的城市规划问题[J].建筑学报,1957(02):1-16.</p>
-<p>［29］张建华.平壤城市中心区环境景观[J].世界建筑,1995(03):60-61+42-43.DOI:10.16414/j.wa.1995.03.013.</p>
-<p>［30］杨学太. 北京城市色彩规划存在问题及对策研究[J]. 华侨大学学报（哲学社会科学版）,2008(4):125-129. DOI:10.3969/j.issn.1006-1398.2008.04.019.</p>
-<p>［31］国家基本建设委员会建筑科学研究院.新中国建筑[M].北京：中国建筑工业出版社,1976.</p>
-<p>［32］吴观张.平壤印象[J].世界建筑,1983(06):78-82.</p>
-<p>［33］王晓青.平壤城市建设刍议[J].山西建筑,1999(02):43-44.</p>
-<p>［34］宋俊岭. 中美首位城市与首府城市对比与思考[J]. 北京城市学院学报,2011(3):13-15.</p>
-]]></content>
-      <tags>
         <tag>作业</tag>
         <tag>城市规划</tag>
       </tags>
@@ -2093,6 +1847,236 @@ D(x)=\left\{
 ]]></content>
       <tags>
         <tag>随笔</tag>
+        <tag>作业</tag>
+        <tag>城市规划</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>20世纪中后期北京与平壤的城市简单比较研究</title>
+    <url>/2022/06/%E5%8C%97%E4%BA%AC%E5%B9%B3%E5%A3%A4/</url>
+    <content><![CDATA[<p><strong>摘　要:</strong> 北京与平壤作为社会主义国家的首都城市，在城市的各方面都有值得对比研究之处。本文由北京和平壤的历史形成开始，从规划思想、城市体系、城市交通、内部地域结构、城市与自然地理、城市的典型建筑和典型景观等方面比较研究了20世纪中后期两座城市在规划和发展上的共同点和区别，并简单探讨了这段时期的城市发展对现今这两座城市的影响。</p>
+<p><strong>关键词:</strong> 北京；平壤；城市规划；社会主义；城市布局；空间结构；花园城市；</p>
+<a id="more"></a>
+<p>中国与朝鲜作为现今仅存的几个社会主义阵营国家中的重要之二，在各方面都有一定的相似之处，同时它们的经济社会也因为发展方向选择的不同走向逐渐迥异的道路。两个国家的首都，北京与平壤，经度相近，都有着都城的历史，都在各自国家的成立之初也都经历了社会主义的规划，并接受了苏联专家的援助，可以想象，这两座城市之间也会有着千丝万缕的联系。20世纪中后期是两座城市历史生涯的转折点，从此开始，北京开始进入现代化建设时期，平壤开始进行战后的重建。</p>
+<p>北京位于华北平原的西北边缘，背靠燕山，毗邻天津市、河北省，为京津冀城市群的重要组成部分。北京有三千余年建城历史、八百六十余年建都史，荟萃了自元明清以来的近世中华文化，拥有众多历史名胜古迹和人文景观，拥有7项世界遗产，多个文化遗产项目、众多古迹。胡同和四合院作为北京老城的典型民居形式，已经是北京历史重要的文化符号。改革开放后，北京在全球政治、经济等社会活动中越来越处于重要地位并逐渐取得了主导辐射带动能力。</p>
+<p>平壤则是朝鲜的首都和最大城市，被称为“革命之都” [1]。平壤位于大东河上，是朝鲜最古老的城市之一，它是两个古代朝鲜王国고조선和고구려的首都，也是高丽的次要首都[2]。平壤的大部分地区在甲午中日战争期间被摧毁，但在日本统治下恢复了活力，甚至成为一个工业中心。1948年朝鲜成立后，平壤成为其事实上的首都。这座城市在朝鲜战争期间再次遭到破坏，但战后在苏联、东德和中国的协助下迅速重建。目前，平壤是朝鲜的政治、工业和交通中心，它是朝鲜主要政府机构以及执政的朝鲜劳动党的所在地。</p>
+<p>事实上，虽然都是社会主义国家首都，北京与平壤进入社会主义后的建设却有着挺大的不同。从城市空间结构到建筑景观，北京与朝鲜都有着各自鲜明的特征。这或许可以说是两座城市因地制宜发展城市化的表现，但从中也能窥探到两个国家在城市规划上选择的差异。</p>
+<h2 id="两座城市的历史沿革">两座城市的历史沿革</h2>
+<h3 id="声名在外的北京城">声名在外的北京城</h3>
+<p>北京历史悠久，作为城市的历史可以追溯到3000年前。秦汉以来，北京地区一直是中国北方的边防重镇，春秋时期，燕灭蓟，将都城迁至蓟，很可能蓟城就是北京城的起源。</p>
+<figure>
+<img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/北京历史地图.tif" alt="1914年普鲁士皇家军火协会绘制的北京城池地图[4]" /><figcaption aria-hidden="true">1914年普鲁士皇家军火协会绘制的北京城池地图[4]</figcaption>
+</figure>
+<p>现在北京城的格局一般被认为奠基于元世祖营建的元大都城。元朝定鼎中原后，忽必烈决定建设大城作为元都，大都设计时参照《周礼·考工记》中“九经九轨”、“面朝后市”、“左祖右社”的记载建设，规模宏伟，规划严整，设施完善。大都城开城门11座，其中东、南、西三面各三座，北面为两座。东面三门由北向南依次为：光熙门、崇仁门，齐化门；西面三门由北向南依次为：肃清门、和义门、平则门；南面三门中：丽正门居中，顺承门在西，文明门在东；北面两门中：健德门在西，安贞门在东[3]。明清和民国时期除了一些增扩和内外城的分割，北京城没有明显的格局变化。</p>
+<p>作为封建王朝的政治、文化、军事和经济中心，北京在许多方面体现了明清时代中国城市规划和城市建设的最高成就。瑞典艺术史学者喜龙仁曾在《北京的城墙和城门》中这样写道：“如果我们把它（北京城）比作一个巨人的身躯，城门好像巨人的嘴，其呼吸和说话皆经由此道，全城的生活脉搏都集中的城门处。由此出入的，不仅有大批车辆、行人和牲畜，还有人们的思想和愿望，希望和失望，以及象征死亡或崭新生活的丧礼和婚礼行列。在城门处你可以感受到全城的脉搏，以至全城的生命和意志通过这条狭道流动着——这种搏动，赋予北京这一极其复杂的有机体以生命和运动的节奏。”</p>
+<h3 id="历史悠久的平壤市">历史悠久的平壤市</h3>
+<p>平壤同样具有几千年的悠久历史。虽然它可能是朝鲜半岛上最古老的城市聚居地，但平壤市从未获得全国性首都的显赫地位。在其多年的城市历史中，它只有大约三个世纪是政府所在地[5]。平壤位于朝鲜半岛中部的平壤准平原地带，是朝鲜半岛整个北半部最有利的位置，境内丘陵绵延，地势东高西低。海拔平均高度84米。市中心距朝鲜西海约50公里。朝鲜第二大江大同江自东北向西南流经市区，注入朝鲜西海。大同江的支流普通江经市区西北方折向南与大同江汇合。两条江将平壤分割成三部分。大同江以东为东平壤地队，两江之间为本平壤地区，普通江以西为西平壤地区[6]。</p>
+<figure>
+<img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E6%9C%9D%E9%B2%9C%E5%8E%86%E5%8F%B2%E5%9C%B0%E5%9B%BE.jpg" alt="1873日本绘制朝鲜半岛地图[7]" /><figcaption aria-hidden="true">1873日本绘制朝鲜半岛地图[7]</figcaption>
+</figure>
+<p>平壤城建于公元552年~586年。城市三面临水，一面靠山，与四周有方便的水陆交通，易守难攻。全城布局顺应自然地形，呈不规则形态，但又有明确的功能划分。北城为扼守全城的要塞，内城为王宫寺院，中城为地方官府衙门，皇宫侍卫，贵族领地，外城为贫民区。除外城为严格里坊式布局外，其余均为自由式格局，具有朝鲜古代城池依山就势营造的典型特色[6]。</p>
+<p>1894年，甲午中日战争的决定性战役在平壤进行，该市遭受了巨大的破坏，战争伴随的瘟疫和流行病使当地人口从大约88000人下降到只有15000人[8]。1911年，朝鲜沦为日本的殖民地，平壤作为日本鲸吞朝鲜半岛侵略中国的军事基地，遭受了无情的掠夺和蹂躏，城市处于盲目发展状态[6]。金日成后来强烈谴责了该时代遗留下来的空间结构，包括第一时期沿着平壤繁荣的街道上建造的密集建筑，认为这是资本主义的不良遗产之一[9]。</p>
+<p>1945年8月15日，日军战败投降，朝鲜宣告独立。1945年9月5日，平壤定为特别市和首都。1950年6月至1953年7月，历时三年的朝鲜战争中，整个城市荡然无存，化为一片废墟。1953年7月30日，停战协定签字不久，朝鲜最高内阁会议就正式批准了平壤市恢复建设总体规划草案。从此，平壤市开始了新的生命。</p>
+<h2 id="社会主义建设初期平壤与北京的城市比较研究">社会主义建设初期平壤与北京的城市比较研究</h2>
+<p>从两个城市的历史可以发现，北京和平壤在进行社会主义建设初期面临着不同的挑战。北京虽然被日伪政府侵蚀过一段时间，但保留着完整的城市建筑、城市风貌，城市化进程面临着古建筑保护的冲突；而平壤遭受了多次空袭之后几乎被摧毁，它需要被重建为一个全新的城市，尽管能够如大火后的东京那样采用全新的规划，但建设上究竟该如何取舍，如何加快建设成了最大的难题。</p>
+<h3 id="规划思想">规划思想</h3>
+<p>同为社会主义国家，北京和平壤在提出规划目标和方针是相似的，都旨在按照“社会主义城市”目标和原则进行改建或重建，突出“人民”的主体性。</p>
+<p>1953年《改建与扩建北京市规划草案》指出，北京是中国著名的古都，在城市建设和空间艺术方面有明显的优点，同时也反映出封建社会制度的局限性，因而“必须按照社会主义城市建设的原则，迅速制定总的规划，以便有计划地、有步骤地进行改建和扩建工作”。规划明确提出首都建设的总方针是：“为中央服务，为生产服务，为劳动人民服务，从城市建设各方面促进首都劳动人民劳动生产效率和工作效率的提高，根据生产力发展的水平，用最大努力为工厂、机关、学校和居民提供生产、工作、学习、生活、休息的良好条件，以逐步满足首都劳动人民不断增长的物质和文化需要”[10]。</p>
+<p>朝鲜的实际规划资料难以寻找，笔者没能搜寻到当时的规划图纸或草案说明，但可以知道平壤的城市化建设是在“主体思想”“先军政治”和“金日成金正日主义”等朝鲜国家政治理念指导下进行的。贯穿于平壤市规划与建设的指导思想是应当由来于金日成主席的指示，要“建设人民的城市、考虑到人民的需要与方便，从长计议，发挥社会主义制度的优越性，符合国情，爱惜耕地，城市规模不要太大，反映民族特色，重视环境保护和城市绿化美化。”[11]</p>
+<p>根据规划方针细化，北京基于社会主义城市建设的总体目标，在如下方面进行了积极的探索：城市布局必须是紧凑、有机、有中心的整体；工业区、住宅区、休养区、铁路和仓库等必须按照便利、经济和卫生的原则作合理的分布；人口分布和文化福利机构设置要适应社会主义的集体主义的生活方式；主要街道要保证交通不受阻碍及居民有充分阳光和新鲜空气；应有相当数目的公园、绿地及适当的河湖水面。[10] 平壤在突出以人民为中心的规划也得以体现在以下几方面：优先解决市民的住宅问题，先建住房，然后考虑党政机关办公用房；重视科技、教育、文化、体育、医疗等城市公共设施的建设，期望 “实现全社会的知识分子化”；畅通、安全的道路交通，将主要公共设施布置在市中心区，交通流量较大的工业区布置在城市外围；清洁的环境和高水平的绿化[11]。可以看出，这些对两个城市指导性的规划描述具有极高的相似性。</p>
+<p>在应用现代城市规划思想理论上，两个城市似乎产生了一定的分歧。对于北京来说，或许是为了移除日本侵华战争使阶段全面移植欧美的规划思想，成为日本殖民主义的规划试验场的历史[12]，北京城市的规划重点似乎落在了对发展中的实际问题的专项研究上，尤其是古城保护、城市发展方向、城市形态、城市规模等，在具体的实践（城市与区域发展相结合、保护旧城开辟新区、文物古迹保护、用地预留和禁止建设空间等）上的安排都从城市的具体实际出发，其指导理论是本地化改造的外来规划建设思想，如“外部北平化，内部现代化”的提法就是将北京风貌保护与城市基础设施近现代化改造相结合的思想反映[12]。或许因为整个规划是群策群力的结果，北京最后的城市规划没有体现出太鲜明的单一规划理论的影响。</p>
+<figure>
+<img src="https://github.com/Keldos-Li/P-pic/blob/main/img/人民大学习堂.png" alt="绿化丰富的朝鲜人民大学习堂与周边景观，1989年摄[5]" /><figcaption aria-hidden="true">绿化丰富的朝鲜人民大学习堂与周边景观，1989年摄[5]</figcaption>
+</figure>
+<p>不同于北京努力创新外国规划理论的做法，平壤除了消除资本主义和日本人存在的所有残余的努力、为政治和文化活动建造了公共广场外，似乎着重应用了霍华德的“花园城市”理论。平壤周围群山叠翠， 树木葱笼，景色秀丽，市中心区又有三山两水，这些自然绿地为花园城的规划建设提供了施展的舞台。为了充分体现人民乐园的宏伟构想，在建设初期朝鲜劳动党就对规划设计部门提出要把平壤建成“自然中的城市”的要求，规划师也为此采取了卓有成效的对策及措施[6]。同时，正如霍华德“花园城市”的核心思想一样，平壤在市域规划范围以外植树造林，形成了广阔的绿化地带，限制了大城市的无序扩张[13]。</p>
+<h3 id="城市布局">城市布局</h3>
+<p>北京与平壤在城市总体布局的选择上有着鲜明的不同。传统的北京是放射环形网式集约型布局，经过规划和发展，逐渐形成了分散集团式布局体系[14]；平壤则在保留原有城市轴线的基础上采用了卫星城的布局体系[13]。</p>
+<p>20世纪50年代初，北京的城市建设整体格局呈现为在北京城市核心区的基础上有扩张，但仍保持着原本的环形网状格局，城市布局比较紧凑、集约[14]。 而1958年的城市规划几乎完全改变了这一格局。1958年，在大跃进和人民公社化运动高潮时期，北京市委对原北京城市建设总体规划初步方案作了若干重大修改，在城市布局上，提出了分散集团式的布局形式，尤其在工业的布局上提出既要有合理的集中，又要有合理的分散。这样，将市区划分为几十个分散的“集团”，“集团”内既有工业也有农业，“集团”与“集团”之间为成片的菜地、农田、林木等，围绕市区形成大小不等的城镇和居民点[16]。换言之，城市与农村一样作为生产与生活用地结合的策略，即“工农结合，城乡结合”。大量工业进入市区，城市从整体上实现了生产用地与生活用地的整合[14]。</p>
+<p>当今北京城市形态仍然深受1958年那段特殊历史时期的规划思想的影响。至今，北京市中心附近分布着较大的且与国家行政机构为主的大院，城市中散布着大量工业为主的单位大院，城市边缘地带则分布着各种军事为主的大院[14]。</p>
+<p>北京实际在1953年就提出了远郊建设卫星城形成“子母城”的空间格局的设想，但在1992年前，由于轨道交通配套的不足，严重制约了卫星城的发展，市区仍是城市建设的重点。[26]</p>
+<table>
+<thead>
+<tr class="header">
+<th><img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E5%8C%97%E4%BA%AC%E6%80%BB%E8%A7%84.jpg" alt="img" /></th>
+<th><img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E5%8C%97%E4%BA%AC%E5%9F%8E%E5%B8%82%E5%BD%A2%E6%80%81.png" alt="img" /></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>图</strong> <strong>4</strong> 1958年北京总规方案[15]</td>
+<td><strong>图</strong> <strong>5</strong> 1958 年北京城市形态示意图[14]</td>
+</tr>
+</tbody>
+</table>
+<p>平壤则实际规划了两套轴线系统：一为城市经济的主要开发轴线，一为城市空间领域的主要发展方向。基于这两套轴线系统，平壤也规划出了很有方向性的卫星城体系布局。平壤的卫星城镇一般布置在市区边缘10公里以外，平壤市内基本不设工业区，仅在市郊城设置工业[13]。卫星城地带与母城间留有10～20余公里隔离地带，同时在距市中心20余公里半径内设置通勤圈[6]。卫星城按工业性质分类，包含食品、纺织、机械等等。</p>
+<p>卫星城综合形成“卫星城群体”式的综合性工业区，以便能合理、高效地组织工业协作和交通联系，求得较高的经济效益，也利于对工业污染集中采取对策[6]。卫星城或卫星城群体一般都兼备生产、生活双重职能，有较完备的生活福利设施和工人居住区。卫星城的居民一般就地就业学习，生活水准（供应标准）也与市区居民相同，职工就业稳定[6]，人口极少回流母城。</p>
+<table>
+<thead>
+<tr class="header">
+<th><img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E5%B9%B3%E5%A3%A4%E5%8F%91%E5%B1%95%E6%88%98%E7%95%A5.png" alt="img" /></th>
+<th><img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E5%B9%B3%E5%A3%A4%E5%8D%AB%E6%98%9F%E5%9F%8E.jpg" alt="img" /></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>图</strong> <strong>6</strong> 平壤发展战略图[6]</td>
+<td><strong>图</strong> <strong>7</strong> 平壤卫星城体系示意图[13]</td>
+</tr>
+</tbody>
+</table>
+<p>城市布局对城市的影响主要体现在工业区的分布上。总结北京和平壤的城市布局来看，北京过去将农业、工业结合进生活区，而平壤则注重将工业区分离出市区。如果不考虑地理环境对工业区分布的影响，这也体现出过去两国对同一种社会主义和人民关系不同的理解——大跃进时期的北京规划者将城市“引入工人阶级”形成了大院，而重建时期的平壤规划者为“方便人民生活”的城市环境出发做出了花园城市。</p>
+<h3 id="城市空间结构">城市空间结构</h3>
+<p>进一步从城市微观的角度探讨这两座城市的不同，也能看到很多有趣之处。从城市空间上看，北京和平壤有着各种对比关系。北京的城市面积在1.6万平方千米左右[3]，而平壤的城市面积仅仅为0.3万平方千米左右[1]。平壤比北京小得多，能够更轻松地规划各种细节尺度上的城市区域，在居民生活上也会有更丰富的体验；北京则在宏大的尺度上有着更为规整的规划结构。</p>
+<h4 id="城市交通">城市交通</h4>
+<p>现在的北京城市空间结构、道路网骨架基本来源于1953年版的北京总规。1953年版北京城市总体规划结合苏联专家巴拉金的意见，确定了“环形+放射”的路网结构：旧城内的一环即“新街口–菜市口–蒜市口–北新桥”“除内环及沿护城河环路外，再增设若干环路和辅助环路，其宽度一般为四十~九十公尺左右”，仍然保持棋盘式的横平竖直的布局；“从东直门、西直门、菜市口、蒜市口向外开辟四条放射干路，分别直达东北部工业区和民航机场并通往古北口，文教区及休养区，丰台及良乡，东南部工业区并通往天津，其宽度均应不少于七十公尺”，形成环形加放射性的格局。</p>
+<p>之后北京又规划建设了几条城市快速路网，五条环路（二环路、三环路、四环路、五环路和六环路）以及若干城市快速联络线。更为现代的公共交通如地铁等也是按照类似的环线设计的，此处不再赘述。</p>
+<table>
+<thead>
+<tr class="header">
+<th><img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E5%8C%97%E4%BA%AC%E9%81%93%E8%B7%AF%E8%A7%84%E5%88%92.png" alt="img" /></th>
+<th><img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E5%8C%97%E4%BA%AC%E5%B9%B2%E9%81%93.png" alt="img" /></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>图</strong> <strong>8</strong> 北京市道路宽度规划草图 (1953年11月27日)[18]</td>
+<td><strong>图</strong> <strong>9</strong> 北京卫星干道数据（1988年）[19]</td>
+</tr>
+</tbody>
+</table>
+<p>新的平壤几乎是从一片瓦砾中拔地而起的。建筑师华揽洪写道，“据统计，在平壤地区，平均每十平方公尺就投下了一枚炸弹，总共毁坏了六万四千多所住宅，三百多个工厂和企业，一百多个学校，三十多个剧院和电影院。”[20] 但是通过比较20世纪30年代和90年代这两个时期的地图可以发现，尽管几乎被摧毁，但平壤一些街道，特别是从铁路和大东桥延伸的两条轴线（图10）被保留了下来。不过其他的支路则大多被重绘，形成更规整的规划平面效果。</p>
+<table>
+<thead>
+<tr class="header">
+<th><img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E5%B9%B3%E5%A3%A4%E9%81%93%E8%B7%AF%E7%BB%93%E6%9E%84.png" alt="img" /></th>
+<th><img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E5%B9%B3%E5%A3%A4%E5%8D%AB%E6%98%9F%E5%B9%B2%E9%81%93.png" alt="img" /></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>图</strong> <strong>10</strong> 20世纪30年代和70年代的平壤道路结构对比[8]</td>
+<td><strong>图</strong> <strong>11</strong> 平壤卫星干道数据（1990年）[21]</td>
+</tr>
+</tbody>
+</table>
+<p>东西平壤由大同江隔开，两岸人流密集处均架设有桥梁。全平壤共有二十多架桥。街道的组织上：西平壤主要依地势，主干道连接着各个建筑群密集点，将平成划分为连续的片形，道路的走向充分考虑了将建筑物，山、水等景观有序地组织进入视线。随着视线的移动，变化无穷。大同江中分布着几个大小不同的小岛，均有立交桥直达岛上。依岛的形状建有别致的建筑物。[22]</p>
+<p>平壤的道路非常开阔，市区内的干道几乎都是双向四车道的大马路[24]，而汽车却不多（朝鲜的汽车是单位分配的），显得空旷而冷清。</p>
+<figure>
+<img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E5%B9%B3%E5%A3%A4%E5%85%AC%E4%BA%A4.png" alt="平壤的公共交通线路[23]" /><figcaption aria-hidden="true">平壤的公共交通线路[23]</figcaption>
+</figure>
+<p>对于平壤的公共交通来说，从数据看，有轨电车和无轨电车的线路比较简单。而同时，朝鲜的地铁深埋于地下100多米处，且均有着防空级别的安全建设要求，有着高昂的建设成本，因此将遍布住宅区、交通系统发达的西部地铁系统扩展到大同江东部具有挑战性。虽然平壤的地铁只有西部的两路，但对当地市民来说足以够用。现在的平壤还从中国引入了出租车，街道上还有无锁、无押金、可以在街道上自由停放的公共自行车成为了他们的“共享单车” [24]。</p>
+<p>平壤和北京的交通结构各有特色，都结合了各自的历史与未来的发展方向，符合现代规划的科学性要求。当然，对于计划经济的社会主义国家平壤来说，应当可以有更适合自己的道路规划方式。</p>
+<h4 id="城市单元模块">城市单元模块</h4>
+<p>北京与平壤都接受了苏联1935年莫斯科重建计划的影响，形成了现代最常见的居住区模块：“小区”。</p>
+<p>北京城市用地建设部分在分散集团式的基础上被分割成了若干个集团规划区，集团内部实现了以生产单位为核心的、集生产和生活于一体的城市组成单元[15]。这种城市组团单元来源于“人民公社”，逐渐形成了各种“单位大院”，或者即“小区”。它们作为城市模块单元将城市切割。城市中，每个被地块切分后形成的大院，被围墙分隔，被一个个半封闭的小型“社会”组织着[17]，形成了特有的空间形态组织模式。</p>
+<p>平壤则在20世纪60年代末引入小区的概念，以便让工人更有效地前往工作场所，通过缩短通勤距离来减少交通拥堵，并促进住宅区的生产和消费活动[8]。与中国的传统小区相同，这些小区是自给自足的住宅区，由围绕轻工业工厂、公园、商店和其他公共设施的住房单元组成。</p>
+<table>
+<thead>
+<tr class="header">
+<th><img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E6%B0%B4%E7%A2%93%E5%AD%90%E5%B0%8F%E5%8C%BA.jpeg" alt="img" /></th>
+<th><img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E6%96%87%E7%BB%A3%E5%A4%A7%E8%A1%97%E5%B1%85%E4%BD%8F%E5%B0%8F%E5%8C%BA.png" alt="img" /></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>图</strong> <strong>13</strong> 北京水碓子小区总布置图[18]</td>
+<td><strong>图</strong> <strong>14</strong> 平壤文绣大街居住小区规划平面图[6]</td>
+</tr>
+</tbody>
+</table>
+<p>在20世纪的中后期，就地方范围而言，每个小区（社区）都可以被视为一个单独的区域。这种配置被认为是社会主义城市城市政策的结果，该政策采用小区（社区）概念作为在每个地区组织独立自治活动的一种方式，并接受了工作场所和住宅彼此靠近的原则[8]。如今，北京的小区概念一般演替为某个房地产开发商售卖的单个居住区楼盘，一般涵盖多个小区的“社区”与“居委会”承担了原有的居民自治功能；不过平壤的发展现状不得而知。</p>
+<h4 id="城市内部地域结构">城市内部地域结构</h4>
+<p>在内部地域结构上，北京和平壤都有着令游人印象深刻的轴线结构。</p>
+<p>北京的内部地域结构除了空间布局上的分散组团式，中轴线的结构也异常鲜明突出。在元代，元大都城墙即为左右对称，南边正门丽正门即在中轴线上。皇城坐落在中轴线上，也是左右对称的。中国著名建筑大师梁思成先生曾经说：“北京的独有的壮美秩序就由这条中轴线的建立而产生。”</p>
+<p>1954年，北京拆除中华门，使得天安门广场扩大到现在的规模。广场中央建造人民英雄纪念碑，东西两侧则是基本对称的人民大会堂（西侧）、中国国家博物馆（东侧）。1976年毛泽东逝世之后，在原中华门的位置建造毛主席纪念堂。21世纪初北京申奥成功后，中轴线再次向北延长，成为奥林匹克公园的轴线。东边建造国家体育场“鸟巢”，西边则是国家游泳中心“水立方”。 现在，这条中轴线向南一直延伸到正在建设中的北京大兴机场。</p>
+<p>北京中轴线的延伸实际是苏联专家巴拉金的建议。巴拉金在19世纪50年代参观畅观楼规划小组工作时发现，北京原本的规划草图中向北有两撇，“一撇是安定门延伸出去，一撇是德胜门”，因为“中轴线到了钟鼓楼就停止了，历史上没有延伸出去，谁也不敢突破这个”。巴拉金来了后，将规划方案突破了北中轴，继续向北延伸[10]。</p>
+<p>平壤一定程度上学习了北京的中轴线景观设置，同时加入了自己的小巧思。由北向南流经市中心的大同江成为了平壤的城市中心空间构图的自然轴线，由金日成广场西侧的人民大学习堂至东平壤的主体塔的东西轴线成为了其空间构图的人工轴线，因而建立起城市中心人工环境与自然环境既互相对比又互相渗透的有机关系[6]，使市中心的所有人工、自然要素都统一在这两条轴线之下，它既是人的视觉轴线也是人的活动轴线，使平壤呈现出异常强烈而鲜明的首都的纪念性特色，显得格外庄严。大型公共建筑的尺度与形态都满足了城市空间的要求并从城市轴线上延展开来，形成了层次分明、丰富有序的城市空间。</p>
+<p><img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E5%B9%B3%E5%A3%A4%E8%BD%B4%E7%BA%BF.png" alt="15 平壤市中心空间构图轴线体系[6]" />当然，这种空间结构也可能来源于因此其一脉相承的“主体意识形态”，正如朝鲜第一位最高领导人金日成所宣布的那样，这种意识形态是政治、经济发展和外交关系的典范，由朝鲜的独特思想与社会主义相结合。</p>
+<p><img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E5%8A%B3%E5%8A%A8%E5%85%9A%E7%BA%AA%E5%BF%B5%E7%A2%91.jpg" alt="位于轴线上的朝鲜劳动党纪念碑 Emma Graham-Harrison摄[27]" />除了两条庄严的轴线，在城市功能上建立辐射式的均匀分布的多中心体系也是平壤市中心区规划建设的主要特色之一[6]。从五十年代恢复建设起，平壤就特别强调根据城市功能分区及建筑空间艺术布局建立均匀分布的城市各级中心。六十年代后，随着城市建设全面铺开，市中心的功能逐步分散开，初步形成了辐射状的多中心体系。这个多中心体系以金日成广场一带为核心，包括4～5个副中心。即以金日成广场为主。金日成广场一带的功能核心是行政、文化思想教育、服务中心；凯旋门一带的功能为体育、服务、游览、纪念中心；千里马大街一带的功能为文化、体育、服务中心；东平壤文锈大街一带的建筑群则构成教育、医疗卫生、服务中心，等等[6]。在这些中心分散布置了平壤市的大型公共建筑物、公园和高层住宅，基本上都具有综合居住区的功能，大大便利了城市居民的物质文化生活，避免了单一中心功能密集、人口密集、交通密集及由此造成的社会和环境问题。</p>
+<h4 id="城市与自然地理">城市与自然地理</h4>
+<p>一般来说，自然地理尤其是地形对城市的影响很大，对比北京和平壤两个城市，我们也能体会到地理条件对建筑与功能区布局的影响。</p>
+<p>波兰建筑师彼得·萨伦巴就曾在1956年援助朝鲜和中国时指出，“在中国和朝鲜的某些复杂的丘陵地区，从地理或地质的观点来看，缺乏修建大量城市建筑的地点。”[28] 很多时候，或许因为当地不适宜建设而导致需要将整个区块重新选址。</p>
+<p>但事实上，北京处于华北平原，地理地质条件都很好，在建设上没有需要特别考虑之处，因此各种规划可以任意实施，这也形成了现在北京中心放射形的，具备完整几何之美的一种城市形态。</p>
+<p>但平壤没有北京那么幸运。“平壤”两字，在朝鲜语中意即一条大江穿流的平原。但其实，大同江及其支流普通江穿流而过的平壤市区并非绝对低平，在冲积平原上分布有低丘和小山[11]。作为曾经古都的选址地，平壤在农业和地质上有比其他城市更突出的优势，但周边连绵的丘陵阻碍了其摊大饼发展的潜在可能。因此事实上，平壤城市规划和建设按地尽其利之原则，巧妙地利用了两河与波状起伏的地形来形成其独具特色的田园城市风格：平壤西部是顺应普通江和丘陵脉胳而组成的自由式路网结构，大同江以东地形较为平坦，路网结构较为规整[29]。河流两岸建设宽阔的绿化带，低丘、小山保持原有高程并给以绿化美化，有的建成公园，修建适量园林小品；充分考虑地形而设计的环形加放射形式的道路系统；因地制宜布置多层、高层建筑和大型公共设施，疏密相间、错落有致，视野的任何角度都呈现层次丰富、色彩斑斓的城市景观，无论是鸟瞰、平眺，都可见到 “公园里的城市”的整体美[11]。同时，根据意识形态建设的需要，平壤的规划还利用了自然地形的起伏来衬托重要建筑物和纪念物，譬如牡丹峰的脚下的解放塔、面对着大同桥的小山顶端的人民军纪念塔、三岔路广场的火车站……这样，许多重要的建筑物都被放在显著的位置上，不但可以使市民经常见到内容和意义很丰富的东西，同时也联系了城市的各个部分[20]。</p>
+<h3 id="城市景观">城市景观</h3>
+<p>网上往往有这样一种论调：朝鲜看上去就像20世纪七八十年代的中国。不过事实上，平壤这座城市比我们想象中的更加现代化，尽管与北京相比确实不够有生命力。但同时，专家学者们也对平壤田园城市的实践大加赞赏。</p>
+<h4 id="典型建筑">典型建筑</h4>
+<p>除了故宫片区保留的传统建筑外，北京在20世纪中后期新建的建筑大部分并没有广泛地采用传统的大屋顶形式，而是更加简单易建的小平房。</p>
+<p>从图片对比来看，20世纪末期的北京已经开始逐渐摆脱简单的户型和立面样式，各种建筑材料和现代主义的建筑风格都得以在北京应用，传统的平房小楼以及单调平铺的窗格里面逐渐减少。不过北京对景观上的建筑风貌没有做太多的要求，导致新建建筑立面混乱，一些金色玻璃幕墙、绿色琉璃瓦装饰建筑也跻身在银色高楼之中，大面积色彩艳丽、色度饱满的灯箱、横幅或气球广告，无规则地置放到城市建筑的屋顶、立面或街道广场上。甚至一些标志性建筑也披挂上花花绿绿的广告，将整个城市切割地七零八落，给人以喧嚣和紧张的印象[30]。</p>
+<table>
+<thead>
+<tr class="header">
+<th><img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E5%8C%97%E4%BA%AC%E5%BB%BA%E5%9B%BD%E9%97%A8%E5%A4%96%E5%A4%A7%E8%A1%97.jpg" alt="img" /></th>
+<th><img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E6%9C%9D%E9%B2%9C%E9%AB%98%E5%B1%82%E5%85%AC%E5%AF%93.jpg" alt="img" /></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>图</strong> <strong>17</strong> 1976年的北京建国门外大街[31]</td>
+<td><strong>图</strong> <strong>18</strong> 从主体思想塔望向林立的高层公寓 Emma Graham-Harrison摄[27]</td>
+</tr>
+</tbody>
+</table>
+<p>而平壤至今还没有发展到玻璃幕墙大规模应用的阶段。城市的主要住宅建筑建筑仍然是小洞窗平铺的单调平顶联排，立面甚至没有空间体块组合的穿插变化，在形态上单调乏味。平壤的城市道路基本上采用自由式加方格网的道路系统，街道和建筑群都按城市总体规划的要求建造，各个建筑在建筑规模、造型、风格及色彩上特别注意与周围建筑的统一[33]。一方面，这种统一给人一气呵成、自然流畅之感，另一方面，它也使人感到缺少变化的无趣。这种单调正是六七十年代的中国常见的。</p>
+<p>平壤的建筑比较重视色彩的自然。建筑大多选用较柔和而沉实的色调，普通建筑多用水刷石、瓷砖拼贴等，多用纯一色调的建筑外表加以精美的线条、浮雕装饰。局部的点缀也多用比较柔和的调和色，给人以朴素清雅的感觉[33]，但同时也给人时光错乱之感。</p>
+<p>不过，或许因为平壤的公共建筑花费更大的财力物力，这些备受重视的公建在布局上更加注意均匀台理，而且在建筑形式上力求与城市总体建筑艺术风格的统一和谐，又重点突出。如人民大学习堂、人民文化宫、平壤大剧院、玉流馆等“具有强烈地区民族特征”的大型公共建筑往往选用花岗岩、大理石等天然石材的饰面，均衡分布在市中心区的呈正三角形的空间领域内，为市中心的整个建筑艺术风格定了基调[6]。</p>
+<h4 id="典型景观">典型景观</h4>
+<p>改革开放以来，北京作为开放的现代化大都市，愈发没有典型的景观。除了二环内片区外，北京越来越接近发达国家的现代化都市。因此，这里主要比较平壤的花园城市景观。</p>
+<p>平壤市的绿地、公园、花园占全市面积的百分之八十以上，按1983年左右的人口计算，每人拥有绿地面积高达48平方米[32]，基本是北京的二十倍[22]。平壤市区的中心和周围拥有12个大公园和40多个公园、儿童公园。整个城市处在绿色园林包围之中[32]。平壤的规划从一开始就充分考虑了自然生态环境的保持。道路、建筑等更丰富和发展了自然景观、使自然更富有生气，沿江两岸有很长的绿化带与丘陵相连，较平坦的地面都被绿色覆盖。工厂离市区的距离较远，有效防止了大气、水体、植被的污染。90年代有学者夸赞说，只要像平壤这样按生态建筑学原则考虑规划问题，任何城市都会成为理想的人居环境[22]。从人与自然协调共生的角度看，平壤不失为田园城市应用成功的典范。</p>
+<p><img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E6%9C%9D%E9%B2%9C%E7%BB%BF%E5%8C%96%E7%B3%BB%E7%BB%9F.png" alt="平壤市同心圆放射式绿化系统[6]" />与霍华德的原始理论图景类似，首先，依据平壤市的自然优势，确定采取同心圆放射式的城市绿化模式。中心区的大同江、普通江及牡丹峰为第一个绿化圈，城市东北边缘的大成山游园地，中央植物园、动物园、万景台游园地等为第二个绿化圈，与大自然融为一体[6]。城市干道网从中心向四周辐射，把两个绿化圈连接起来，两个绿化圈之间的建成区和中心区内建立居住区级、小区级公园绿化系统及街道绿化系统，居住区和街道的空间布局全部力求开敞，并最大限度地将开放的空间以绿地形式与自然绿地相连。各种山川秀美的景区在规划建设中力求保留自然山林野趣，且部分景区（牡丹峰公园)四周不设围墙，与城市保持自由开放状态，游人可以不受时间、路线限制，无需买门票就可以任意游览[6]。能够漫步自然体会山林野趣在国家首都的中心区绝对是难得的景象。</p>
+<p>同时在园林景观上，规划师也做了不少考虑，在树种、花卉的配置上有着细致的安排。同时，各种喷泉公园和其中的雕塑也成为了平壤独特的城市空间。</p>
+<p>这种景观上的差异，使得平壤在城市规划史上有着独特的优势。这在某种角度来说，或许也是社会主义可以按领导人思想规划的优势所在。</p>
+<h2 id="世纪中后期的城市发展对现今两个城市的影响">20世纪中后期的城市发展对现今两个城市的影响</h2>
+<p>不可否认，这段时期的城市发展对现今北京和平壤的发展都产生了极为深刻的影响。规划在废墟中重建的平壤市就如同在白纸上作画，避免了许多城市在建设中新老建筑间带来的矛盾和难题，城市规划得以完全按统一有序的设想实施，较好地保持了城市空间的完整与连续[33]。而一如北京，50年代北京总规还为首都北京数十年来的城市建设和未来发展提供了一个基本的维形和框架，其所确定的北京城市空间结构、道路网骨架及用地布局模式，对70年来首都城市建设与发展起到了重要的形塑作用[10]。</p>
+<h3 id="首府城市">首府城市</h3>
+<p>作为社会主义国家的首府城市，北京和平壤或许面临着类似的首位城市与首府城市重合的城市困境。在社会主义国家大一统的政治长期支配经济社会文化的运行机制下，产业、军事、科技、教育、文艺等等各种资源，都集聚到首府麾下。人员、财政、建筑物等的过度集聚效应的出现，往往会使首府城市逐渐膨胀、饱和、壅塞，不利于社会的均衡发育和运行[34]。北京已经着手将城市职能分散到雄安新区，平壤的对策则不得而知。</p>
+<h3 id="城市问题">城市问题</h3>
+<p>所有的规划都不可能完全正确、不带来新的问题。北京和平壤一部分的城市问题就来源于当时的城市发展模式。</p>
+<p>对北京来说，今天看来粗犷的城市规划下适应城市发展的大院，在需要紧凑城市发展的今天出现了一系列问题。这些大院一方面占用了大量的土地，同时，大院空间封闭，内部形成“孤岛”，将城市用地割裂。众多单位大院的集体产权以集体名义占据大量公共的优质资源，给后期城市更新带来了一些问题和阻力[14]。</p>
+<p>对平壤而言，也可能有公共建筑的实用与功能注意不够而过分讲究形式的弊病，导致尺度过于庞大。同时，城市的发展也应当配套强大的基础设施，平壤在2010年前的电力供应一直不足，即使是现今往往20层的高楼只在上下班期间才会开启电梯，平时无法保障正常运行[24]，对人民的便捷生活有着巨大的影响。由于资料的匮乏，也未能得知朝鲜居民在平壤生活的实际感受。</p>
+<h2 id="结语">结语</h2>
+<p>北京和平壤同为社会主义现代国家的首都，在城市建设的初期，方方面面有着相似之处也有着巨大的不同。例如，它们都以“人民主体性”作为规划原则，都尝试了卫星城的布局，在空间结构上都采用了轴线体系，大型公建都喜好结合现代建筑和传统风格，都有着苏联式的小区，建设过快速的平房，也都有着首府独特的城市问题……同时，北京在规划理论上更偏向整合创新，城市布局选用分散集团式，城市交通采用环形与放射结构，愈发向欧美的现代化都市靠拢；相比之下，平壤偏爱“花园城市”，对卫星城布局的应用得心应手，在市区避免工业，交通也有着超越人民需求的建设，尤其在城市设计上结合自然地理，布置了大量各有特色的地标和颜色淡雅的建筑，并大量放置公园和喷泉，真正打造了一个花园之城。</p>
+<figure>
+<img src="https://raw.githubusercontent.com/Keldos-Li/P-pic/main/img/%E5%8C%97%E4%BA%AC%E5%B9%B3%E5%A3%A4%E5%9F%8E%E5%B8%82%E5%AF%B9%E6%AF%94%E6%80%BB%E7%BB%93.png" alt="北京平壤城市对比总结" /><figcaption aria-hidden="true">北京平壤城市对比总结</figcaption>
+</figure>
+<p>在目前社会主义国家极少的情况下，如何形成一种适合社会主义的城市规划方法与理论有一定重要意义。我们可以对比借鉴北京和平壤的经验，探索出一条独特而科学的规划道路。</p>
+<p><strong>参考文献:</strong></p>
+<p>［1］ 위키백과 기여자. 평양시 [인터넷]. 위키백과, ; 2022 6 4, 04:01 UTC [2022 6 7에 인용]. 다음에서 찾아볼 수 있음: https://ko.wikipedia.org/w/index.php?title=평양시&amp;oldid=32754497.</p>
+<p>［2］ Wikipedia contributors. "Pyongyang." <em>Wikipedia, The Free Encyclopedia</em>. 6 Jun. 2022. Web. 7 Jun. 2022. https://en.wikipedia.org/w/ index.php?title=Pyongyang&amp;oldid=1091823814</p>
+<p>［3］ 维基百科编者. 北京市[G/OL]. 维基百科, 2022(20220604)[2022-06-04]. https://zh.wikipedia.org/w/index.php?title= %E5%8C%97%E4%BA%AC%E5%B8%82&amp;oldid=71999655.</p>
+<p>［4］ Deutsch Ostasiatisches Expeditions Korps. Feldtopograph &amp; Prussia . Landesaufnahme. Kartogr. Abteilung. (1914) <em>Beijing quan tu = Peking.</em> [Berlin: Kartographischen Abtheilung sic der Königl. Preuss. Landes-Aufnahme] [Map] Retrieved from the Library of Congress, https://www.loc.gov/item/2006458553/.</p>
+<p>［5］ Schinz, A., &amp; Dege, E. (1990). P’yŏngyang — ancient and modern —the capital of North Koreangyang — ancient and modern —the capital of North Korea. <em>GeoJournal</em>, <em>22</em>(1), 21–32. https://doi.org/10.1007/bf02428536</p>
+<p>［6］ 金笠铭.千里马铜像下的花园城——平壤市规划建设经验初探[J].国外城市规划,1988(01):26-35.</p>
+<p>［7］ Ishizuka, N. A. N. &amp; Tamenaga, S. (1873) <em>Detailed Map of the Country of Chōsen.</em> Tokyo: Tokyo Publishing Company. [Map] Retrieved from the Library of Congress, https://www.loc.gov/item/2021668283/.</p>
+<p>［8］ Jeong, S. K., Lee, T. H., &amp; Ban, Y. U. (2015). Characteristics of spatial configurations in Pyongyang, North Korea. <em>Habitat International</em>, <em>47</em>, 148–157. https://doi.org/10.1016/j.habitatint.2015.01.010</p>
+<p>［9］ Lee, H. (1989). Korean Architectural History (2). <em>Science Encyclopedia General Publishers.</em></p>
+<p>［10］李浩. 首都北京第一版城市总体规划的历史考察——1953年《改建与扩建北京市规划草案》评述[J]. 城市规划学刊,2021(4):96-103. DOI:10.16361/j.upf.202104014.</p>
+<p>［11］周复多.朝鲜平壤的城市规划与建设[J].现代城市研究,1996(05):29-31.</p>
+<p>［12］王亚男.城市规划思想在北京的近现代化[J].北京规划建设,2010,(05):119-122.</p>
+<p>［13］沈玉麟.外国城市建设史[M]. 北京：中国建筑工业出版社, 1989: 175.</p>
+<p>［14］王润娴,石纯煜. 北京1958年城市规划决策对城市空间形态的影响[J]. 住宅科技,2021,41(7):7-11,17. DOI:10.3969/j.issn.1002-0454.2021.07.002.</p>
+<p>［15］李浩.北京规划70年的历史回顾——赵知敬先生访谈（上）[J].北京规划建设,2020(03):158-164.</p>
+<p>［16］董鉴泓.中国城市建设史[M]. 3版. 北京: 中国建筑工业出版社, 2004: 410-411.</p>
+<p>［17］李晨.南昌单位大院与城市物质空间形态 的关联性[D].南京:东南大学,2016</p>
+<p>［18］畅观楼规划小组.北京市规划草图——道路宽度[R].北京市城市规划管理局档案, 1953.</p>
+<p>［19］Atlas of Urban Expansion. (n.d.). <em>Beijing Urban Expansion</em>. Retrieved June 8, 2022, from http://atlasofurbanexpansion.org/cities/ view/Beijing_Beijing</p>
+<p>［20］华揽洪.积极重建中的平壤——一个建筑师的笔记[J].世界知识,1957(12):29-30.</p>
+<p>［21］Atlas of Urban Expansion. (n.d.). <em>Pyongyang Urban Expansion</em>. Retrieved June 8, 2022, from http://atlasofurbanexpansion.org/cities/view/Pyongyang</p>
+<p>［22］李云兰.一曲优美的交响诗——谈平壤的城市规划[J].中外建筑,1996(01):15-16.</p>
+<p>［23］Chua, C. (2018). Productive Pyongyang – A Research on its Recent Urban Transformation [E-book]. Choson Exchange. from https://static1.squarespace.com/static/52dd9f05e4b0089d6701446a/t/5c7f4703499b47a5b0ec78bf/1551845248980/Productive+Pyongyang+-+Research+On+Recent+Urban+Transformation.pdf</p>
+<p>［24］壮游者.同志，平壤人的日子怎么样啊-酒吧、菜市场、共享单车和春日樱花[Podcast]. 2021. https://www.xiaoyuzhoufm.com/episode/ 5ffbc241411484ec3e9fff9d?s=eyJ1IjoiNWU4MWM3MTgwYTdiZDgwOWMyZWIxOTUzIiwiZCI6MX0%3D</p>
+<p>［25］华揽洪. 重建中国:城市规划三十年(1949- 1979)[M].上海:三联书店,2006:177.</p>
+<p>［26］孟雷雷.北京与东京城市空间结构演变的交通配套比较研究[J].城市发展研究,2022,29(03):47-52+41.</p>
+<p>［27］陈全. 走进都市平壤：从主体思想塔到高层公寓[DB/OL]. 环球网. [2018-11-28]. https://3w.huanqiu.com/a/c36dc8/ 9CaKrnQhNaM?agt=8&amp;p=4&amp;s=a%2Fc36dc8%2F9CaKrnQhNaM.</p>
+<p>［28］Петр Заремба,程应銓.实际的城市规划问题[J].建筑学报,1957(02):1-16.</p>
+<p>［29］张建华.平壤城市中心区环境景观[J].世界建筑,1995(03):60-61+42-43.DOI:10.16414/j.wa.1995.03.013.</p>
+<p>［30］杨学太. 北京城市色彩规划存在问题及对策研究[J]. 华侨大学学报（哲学社会科学版）,2008(4):125-129. DOI:10.3969/j.issn.1006-1398.2008.04.019.</p>
+<p>［31］国家基本建设委员会建筑科学研究院.新中国建筑[M].北京：中国建筑工业出版社,1976.</p>
+<p>［32］吴观张.平壤印象[J].世界建筑,1983(06):78-82.</p>
+<p>［33］王晓青.平壤城市建设刍议[J].山西建筑,1999(02):43-44.</p>
+<p>［34］宋俊岭. 中美首位城市与首府城市对比与思考[J]. 北京城市学院学报,2011(3):13-15.</p>
+]]></content>
+      <tags>
         <tag>作业</tag>
         <tag>城市规划</tag>
       </tags>
