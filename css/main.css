@@ -213,7 +213,7 @@ body {
 body {
   background: var(--body-bg-color);
   color: var(--text-color);
-  font-family: Monda, Lato, Noto Sans SC, "PingFang SC", "PingFangSC", "PingFang TC", "PingFangTC", "思源黑体", "思源黑体 CN", "SourceHanSansSC", "SourceHanSansTC", "Microsoft YaHei", sans-serif;
+  font-family: Monda, Noto Sans SC, "PingFang SC", "PingFangSC", "PingFang TC", "PingFangTC", "思源黑体", "思源黑体 CN", "SourceHanSansSC", "SourceHanSansTC", "Microsoft YaHei", sans-serif;
   font-size: 1em;
   line-height: 2;
   transition: all 0.2s ease-in-out;
@@ -224,7 +224,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Rubik, Monda, Lato, Noto Sans SC, "PingFang SC", "PingFangSC", "PingFang TC", "PingFangTC", "思源黑体", "思源黑体 CN", "SourceHanSansSC", "SourceHanSansTC", "Microsoft YaHei", sans-serif;
+  font-family: Rubik, Monda, Noto Sans SC, "PingFang SC", "PingFangSC", "PingFang TC", "PingFangTC", "思源黑体", "思源黑体 CN", "SourceHanSansSC", "SourceHanSansTC", "Microsoft YaHei", sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 20px 0 15px;
@@ -1380,7 +1380,7 @@ pre code {
   color: var(--brand-hover-color);
 }
 .site-title {
-  font-family: Permanent Marker, Monda, Lato, Noto Sans SC, "PingFang SC", "PingFangSC", "PingFang TC", "PingFangTC", "思源黑体", "思源黑体 CN", "SourceHanSansSC", "SourceHanSansTC", "Microsoft YaHei", sans-serif;
+  font-family: Permanent Marker, Monda, Noto Sans SC, "PingFang SC", "PingFangSC", "PingFang TC", "PingFangTC", "思源黑体", "思源黑体 CN", "SourceHanSansSC", "SourceHanSansTC", "Microsoft YaHei", sans-serif;
   font-size: 2.5em;
   font-weight: normal;
   margin: 0;
@@ -1882,7 +1882,7 @@ pre code {
   bottom: 0;
 }
 .post-body {
-  font-family: Noto Sans SC, Monda, Lato, Noto Sans SC, "PingFang SC", "PingFangSC", "PingFang TC", "PingFangTC", "思源黑体", "思源黑体 CN", "SourceHanSansSC", "SourceHanSansTC", "Microsoft YaHei", sans-serif;
+  font-family: Noto Sans SC, Monda, Noto Sans SC, "PingFang SC", "PingFangSC", "PingFang TC", "PingFangTC", "思源黑体", "思源黑体 CN", "SourceHanSansSC", "SourceHanSansTC", "Microsoft YaHei", sans-serif;
   font-weight: 200;
   overflow-wrap: break-word;
 }
@@ -2198,7 +2198,7 @@ figcaption {
 }
 .posts-expand .post-meta {
   color: #999;
-  font-family: Noto Sans SC, Monda, Lato, Noto Sans SC, "PingFang SC", "PingFangSC", "PingFang TC", "PingFangTC", "思源黑体", "思源黑体 CN", "SourceHanSansSC", "SourceHanSansTC", "Microsoft YaHei", sans-serif;
+  font-family: Noto Sans SC, Monda, Noto Sans SC, "PingFang SC", "PingFangSC", "PingFang TC", "PingFangTC", "思源黑体", "思源黑体 CN", "SourceHanSansSC", "SourceHanSansTC", "Microsoft YaHei", sans-serif;
   font-size: 0.75em;
   margin-top: 3px;
 }
