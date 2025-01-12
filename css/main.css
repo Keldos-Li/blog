@@ -605,7 +605,7 @@ pre {
 }
 pre,
 code {
-  font-family: SF Mono, Courier Prime, consolas, Menlo, monospace, "PingFang SC", "PingFangSC", "PingFang TC", "PingFangTC", "思源黑体", "思源黑体 CN", "SourceHanSansSC", "SourceHanSansTC", "Microsoft YaHei";
+  font-family: IBM Plex Mono, consolas, Menlo, monospace, "PingFang SC", "PingFangSC", "PingFang TC", "PingFangTC", "思源黑体", "思源黑体 CN", "SourceHanSansSC", "SourceHanSansTC", "Microsoft YaHei";
 }
 code {
   border-radius: 3px;
