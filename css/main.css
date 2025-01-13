@@ -1235,7 +1235,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #38c35b;
+    background: #32d1f9;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2761,14 +2761,14 @@ header.header {
 }
 .post-body b,
 .post-body strong {
-  font-weight: 700;
+  font-weight: 500;
+}
+.post-body figcaption {
+  font-weight: 600 !important;
 }
 #valine-comments .vpower {
   display: none;
 }
 #valine-comments .vcard {
-  font-weight: 200;
-}
-#valine-comments .vcard .vnick {
-  font-weight: 400;
+  font-weight: normal;
 }
