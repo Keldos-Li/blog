@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
-<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 5.0.0">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 7.3.0">
 <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
 <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
@@ -394,7 +394,7 @@
 </tr>
 </tbody>
 </table>
-<a id="more"></a>
+<span id="more"></span>
 <details class="note primary"><summary><p>本文如果使用该主题导出，效果是这样的：</p>
 </summary>
 <div class="pdf-container" data-target="/assets/typora-latex-css.pdf" data-height="1200px">
@@ -420,18 +420,7 @@
 <li><p>解压这个文件，然后您将可以选择手动安装还是自动安装（cool~）！ <div class="tabs" id="安装方式"><ul class="nav-tabs"><li class="tab"><a href="#安装方式-1">手动安装</a></li><li class="tab active"><a href="#安装方式-2">自动安装</a></li></ul><div class="tab-content"><div class="tab-pane" id="安装方式-1"><p>请您打开安装包的 <code>target</code> 文件夹，按照<a target="_blank" rel="noopener" href="https://theme.typora.io/doc/Install-Theme/">官方教程（英文）</a>，将这个文件夹里的所有 CSS 文件复制到指定的 <a href="技术细节#主题文件夹">Typora 主题文件夹</a>中。</p></div><div class="tab-pane active" id="安装方式-2"><ul>
 <li><p>如果您在使用 Windows ，请运行 <code>install.ps1</code> 文件。具体的运行方式是：右键点击 <code>install.ps1</code> 文件，然后点击“使用 PowerShell 运行”。<br />
 若您看到了以下提示，请输入<code>Y</code>，然后按下回车<code>enter</code>：</p>
-<figure class="highlight shell">
-<table>
-<tr>
-<td class="gutter">
-<pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre>
-</td>
-<td class="code">
-<pre><span class="line"><span class="meta">&gt;</span><span class="bash"> 执行策略更改</span>  </span><br><span class="line"><span class="meta">&gt;</span><span class="bash"> 执行策略可帮助你防止执行不信任的脚本。更改执行策略可能会产生安全风险，如 https:/go.microsoft.com/fwlink/?LinkID=135170 中的 about_Execution_Policies 帮助主题所述。是否要更改执行策略?</span>  </span><br><span class="line"><span class="meta">&gt;</span><span class="bash"> [Y] 是(Y)  [A] 全是(A)  [N] 否(N)  [L] 全否(L)  [S] 暂停(S)  [?] 帮助 (默认值为“N”):</span>  </span><br></pre>
-</td>
-</tr>
-</table>
-</figure></li>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_">&gt; </span><span class="language-bash">执行策略更改</span>  </span><br><span class="line"><span class="meta prompt_">&gt; </span><span class="language-bash">执行策略可帮助你防止执行不信任的脚本。更改执行策略可能会产生安全风险，如 https:/go.microsoft.com/fwlink/?LinkID=135170 中的 about_Execution_Policies 帮助主题所述。是否要更改执行策略?</span>  </span><br><span class="line"><span class="meta prompt_">&gt; </span><span class="language-bash">[Y] 是(Y)  [A] 全是(A)  [N] 否(N)  [L] 全否(L)  [S] 暂停(S)  [?] 帮助 (默认值为“N”):</span>  </span><br></pre></td></tr></table></figure></li>
 <li><p>如果您在使用 macOS 或 Linux ，只需在终端执行 <code>sh ./install.sh</code> 即可完成安装。</p>
 <blockquote>
 <p>什么？你是 mac 用户却不知道怎么用<em>终端</em>？好吧。打开<em>终端</em>，将 <code>install.sh</code> 文件拖入终端窗口中也是可以执行的。什么？你不知道怎么打开<em>终端</em>？请参考以下步骤：打开<a target="_blank" rel="noopener" href="https://support.apple.com/zh-cn/HT202635">启动台</a>；在启动台顶部的搜索栏里，搜索“终端”，然后点击搜索结果中的终端图标。</p>
@@ -457,7 +446,7 @@
 </ol>
 <h2 id="使用">使用</h2>
 <p>在完成安装后，您可以选择<a target="_blank" rel="noopener" href="https://github.com/Keldos-Li/typora-latex-theme/wiki/常见问题#为什么要个性化设置">按照学校的要求进行个性化设置</a>。在 CSS 文件中，您可以根据代码中的注释提示修改变量取值，轻松地更换正文、标题等不同元素的字体、字号、行距、页边距等：</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* 代码字体（代码中的中文会调用ui-font） */</span></span><br><span class="line">--<span class="selector-tag">code</span>-<span class="attribute">font</span>: <span class="string">&quot;Latin Modern Mono&quot;</span>, <span class="string">&quot;Latin Modern Mono 10&quot;</span>;  <span class="comment">/* 您可以修改这里的值 */</span></span><br><span class="line"><span class="comment">/* 侧边栏字体 */</span></span><br><span class="line">--ui-<span class="attribute">font</span>: <span class="string">&quot;阿里巴巴普惠体 2.0&quot;</span>;  <span class="comment">/* 您可以修改这里的值 */</span></span><br><span class="line"><span class="comment">/* source mode 字体 */</span></span><br><span class="line">--sourceMode-<span class="attribute">font</span>: <span class="string">&quot;SF Mono&quot;</span>, <span class="string">&quot;阿里巴巴普惠体 2.0&quot;</span>;  <span class="comment">/* 您可以修改这里的值 */</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* 代码字体（代码中的中文会调用ui-font） */</span></span><br><span class="line"><span class="attr">--code-font</span>: <span class="string">&quot;Latin Modern Mono&quot;</span>, <span class="string">&quot;Latin Modern Mono 10&quot;</span>;  <span class="comment">/* 您可以修改这里的值 */</span></span><br><span class="line"><span class="comment">/* 侧边栏字体 */</span></span><br><span class="line"><span class="attr">--ui-font</span>: <span class="string">&quot;阿里巴巴普惠体 2.0&quot;</span>;  <span class="comment">/* 您可以修改这里的值 */</span></span><br><span class="line"><span class="comment">/* source mode 字体 */</span></span><br><span class="line"><span class="attr">--sourceMode-font</span>: <span class="string">&quot;SF Mono&quot;</span>, <span class="string">&quot;阿里巴巴普惠体 2.0&quot;</span>;  <span class="comment">/* 您可以修改这里的值 */</span></span><br></pre></td></tr></table></figure>
 <p>进行个性化设置有两种方案：</p>
 <ol type="1">
 <li>您可以直接在您下载的安装包中进行修改。<strong>在完成修改后，请重新执行与您操作系统相匹配的脚本（<code>install.ps1</code> 或 <code>install.sh</code>），并重新启动 Typora，以应用您的更改</strong>。<br />
@@ -469,7 +458,7 @@
 <p>如果您看不懂注释，或不知道修改代码会造成什么效果，请首先尝试百度/谷歌/必应，然后尝试联系开发者。</p>
 <h3 id="调整字号">调整字号</h3>
 <p>从 v0.3.0 开始，本主题支持根据 <code>--base-font-size</code>（正文字号）全局调整各元素（如小标题、脚注、代码，甚至行距）大小。</p>
-<p>一般而言，如果需要调整正文字号大小，您只需要更改 CSS 文件中这一行（可能是第8行）中“9.5pt”这一数值： <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">--base-<span class="attribute">font-size</span>: <span class="number">9.5pt</span>;</span><br></pre></td></tr></table></figure> 您只需要调整这一项数值，其他元素的大小会自动根据该基准字号进行合适倍率的缩放，以达成美观的效果。例如，在 v0.3.0 的主题文件中，默认的引文的字号设置为： <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">--<span class="selector-tag">quote</span>-<span class="attribute">font-size</span>: <span class="number">1.05em</span>;</span><br></pre></td></tr></table></figure> 在这里，em单位为一个正文字符（<code>--base-font-size</code>）大小，此时 1.05em = 1.05x9.5pt ≈ 10pt。其他元素也遵循相应的规则。</p>
+<p>一般而言，如果需要调整正文字号大小，您只需要更改 CSS 文件中这一行（可能是第8行）中“9.5pt”这一数值： <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">--base-font-size</span>: <span class="number">9.5pt</span>;</span><br></pre></td></tr></table></figure> 您只需要调整这一项数值，其他元素的大小会自动根据该基准字号进行合适倍率的缩放，以达成美观的效果。例如，在 v0.3.0 的主题文件中，默认的引文的字号设置为： <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">--quote-font-size</span>: <span class="number">1.05em</span>;</span><br></pre></td></tr></table></figure> 在这里，em单位为一个正文字符（<code>--base-font-size</code>）大小，此时 1.05em = 1.05x9.5pt ≈ 10pt。其他元素也遵循相应的规则。</p>
 <blockquote>
 <p>当然，如果学校或您有明确的要求，您也可以直接设置以 pt 或 px 为单位的数值，将元素的大小固定下来，如 <code>--quote-font-size: 10pt</code>;</p>
 </blockquote>
@@ -605,7 +594,7 @@
 <p>如果您不希望论文有段后的额外行距，可以在 Typora 的<code>偏好设置</code> – <code>Markdown</code> 中选取<code>保留连续的空格与单个换行</code>。</p>
 <h3 id="页边距">页边距</h3>
 <p>若要修改页边距，您首先需要打开您想要修改的 CSS 文件。您需要在这个 CSS 文件中，分别找到两段类似这样的代码：</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* == 页面设置 == */</span></span><br><span class="line"><span class="comment">/* 打印页边距 */</span></span><br><span class="line">--set-<span class="attribute">margin</span>: <span class="number">1.8cm</span> <span class="number">2cm</span> <span class="number">1.2cm</span> <span class="number">2cm</span> <span class="meta">!important</span>;</span><br></pre></td></tr></table></figure>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* == 页面设置 == */</span></span><br><span class="line"><span class="comment">/* 打印页边距 */</span></span><br><span class="line"><span class="attr">--set-margin</span>: <span class="number">1.8cm</span> <span class="number">2cm</span> <span class="number">1.2cm</span> <span class="number">2cm</span> <span class="meta">!important</span>;</span><br></pre></td></tr></table></figure>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">@media</span> print &#123;</span><br><span class="line">    <span class="keyword">@page</span> &#123;</span><br><span class="line">        <span class="comment">/* size: A4;  强制A4大小 */</span></span><br><span class="line">         <span class="attribute">margin</span>: <span class="number">1.8cm</span> <span class="number">2cm</span> <span class="number">1.2cm</span> <span class="number">2cm</span> <span class="meta">!important</span>;</span><br><span class="line">         <span class="comment">/* 按次序为 上 右 下 左 的页边距 */</span></span><br></pre></td></tr></table></figure>
 <p>真实的代码内容可能与以上描述不完全相同，但是嵌套关系一定是相同的。推荐您搜索<code>页边距</code>这个关键词，从而快速找到这两段代码。<br />
 以上的第一处的设置调整了 Typora 预览界面包括导出 HTML 时的页面边距，第二处调整了 Typora 导出 PDF 时的页边距。</p>

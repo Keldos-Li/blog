@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
-<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 5.0.0">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 7.3.0">
 <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
 <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
@@ -27,12 +27,12 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"blog.keldos.me","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.22.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"always","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":true,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":null,"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInLeft","coll_header":"bounceInDown","sidebar":null}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false,"trigger":"auto"}}</script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-next/8.22.0/config.min.js"></script>
 
-    <meta name="description" content="Centered Quote 1&amp;#123;% cq %&amp;#125;居中引用&amp;#123;% endcq %&amp;#125;  居中引用">
+    <meta name="description" content="Centered Quote 1&#123;% cq %&#125;居中引用&#123;% endcq %&#125;  居中引用">
 <meta property="og:type" content="article">
 <meta property="og:title" content="博文非HTML语法小计">
 <meta property="og:url" content="https://blog.keldos.me/2020/08/hello-world/">
 <meta property="og:site_name" content="Keldos !">
-<meta property="og:description" content="Centered Quote 1&amp;#123;% cq %&amp;#125;居中引用&amp;#123;% endcq %&amp;#125;  居中引用">
+<meta property="og:description" content="Centered Quote 1&#123;% cq %&#125;居中引用&#123;% endcq %&#125;  居中引用">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://blog.keldos.me/images/logo.png">
 <meta property="og:image" content="https://blog.keldos.me/images/logo.png">
@@ -295,7 +295,7 @@
 <p>居中引用</p>
 
 </blockquote>
-<a id="more"></a>
+<span id="more"></span>
 <h2 id="video">video</h2>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% video https://example.com/sample.mp4 %&#125;</span><br></pre></td></tr></table></figure>
 <p>可能需要我自己传cdn存吧orz</p>
@@ -317,7 +317,7 @@
 <div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/images/logo.png" /></div><div class="group-picture-column"><img src="/images/logo.png" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/images/logo.png" /></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/images/logo.png" /></div><div class="group-picture-column"><img src="/images/logo.png" /></div><div class="group-picture-column"><img src="/images/logo.png" /></div></div></div>
 <h2 id="label">label</h2>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#123;% label [class]@Text %&#125;</span><br><span class="line"></span><br><span class="line">[class] : default | primary | success | info | warning | danger.</span><br><span class="line">          &#x27;@Text&#x27; can be specified with or without space</span><br><span class="line">          E.g. &#x27;success @text&#x27; similar to &#x27;success@text&#x27;.</span><br><span class="line">          If not specified, default class will be selected.</span><br></pre></td></tr></table></figure>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Lorem &#123;% label @ipsum %&#125; &#123;% label primary@dolor sit %&#125; amet, consectetur &#123;% label success@adipiscing elit, %&#125; sed &#123;% label info@do eiusmod %&#125; tempor incididunt ut labore et dolore magna aliqua.</span><br><span class="line"></span><br><span class="line">Ut enim <span class="emphasis">*&#123;% label warning @ad %&#125;*</span> minim veniam, quis <span class="strong">**&#123;% label danger@nostrud %&#125;**</span> exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span><br><span class="line"></span><br><span class="line">Duis aute irure dolor in reprehenderit in voluptate ~~&#123;% label default @velit %&#125;~~ <span class="xml"><span class="tag">&lt;<span class="name">mark</span>&gt;</span></span>esse<span class="xml"><span class="tag">&lt;/<span class="name">mark</span>&gt;</span></span> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span><br></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Lorem &#123;% label @ipsum %&#125; &#123;% label primary@dolor sit %&#125; amet, consectetur &#123;% label success@adipiscing elit, %&#125; sed &#123;% label info@do eiusmod %&#125; tempor incididunt ut labore et dolore magna aliqua.</span><br><span class="line"></span><br><span class="line">Ut enim <span class="emphasis">*&#123;% label warning @ad %&#125;*</span> minim veniam, quis <span class="strong">**&#123;% label danger@nostrud %&#125;**</span> exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span><br><span class="line"></span><br><span class="line">Duis aute irure dolor in reprehenderit in voluptate ~~&#123;% label default @velit %&#125;~~ <span class="language-xml"><span class="tag">&lt;<span class="name">mark</span>&gt;</span></span>esse<span class="language-xml"><span class="tag">&lt;/<span class="name">mark</span>&gt;</span></span> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span><br></pre></td></tr></table></figure>
 <p>Lorem <mark class="label ">ipsum</mark> <mark class="label primary">dolor sit</mark> amet, consectetur <mark class="label success">adipiscing elit,</mark> sed <mark class="label info">do eiusmod</mark> tempor incididunt ut labore et dolore magna aliqua.</p>
 <p>Ut enim <em><mark class="label warning">ad</mark></em> minim veniam, quis <strong><mark class="label danger">nostrud</mark></strong> exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 <p>Duis aute irure dolor in reprehenderit in voluptate <del><mark class="label default">velit</mark></del> <mark>esse</mark> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
