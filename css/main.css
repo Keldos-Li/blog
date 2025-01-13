@@ -1235,7 +1235,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #25f6ff;
+    background: #ff9449;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2761,4 +2761,10 @@ header.header {
 }
 #valine-comments .vpower {
   display: none;
+}
+#valine-comments .vcard {
+  font-weight: 200;
+}
+#valine-comments .vcard .vnick {
+  font-weight: 400;
 }
