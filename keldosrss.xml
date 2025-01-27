@@ -3,11 +3,11 @@
   <title>Keldos !</title>
   
   <subtitle>Keldos の 博客</subtitle>
-  <link href="https://blog.keldos.me/keldosrss.xml" rel="self"/>
+  <link href="https://old.blog.keldos.me/keldosrss.xml" rel="self"/>
   
-  <link href="https://blog.keldos.me/"/>
+  <link href="https://old.blog.keldos.me/"/>
   <updated>2024-07-06T17:37:13.020Z</updated>
-  <id>https://blog.keldos.me/</id>
+  <id>https://old.blog.keldos.me/</id>
   
   <author>
     <name>Keldos</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>，逗号还在行首？【图纸中的文字排印之标点悬挂】</title>
-    <link href="https://blog.keldos.me/2024/07/douhaozaihangshou/"/>
-    <id>https://blog.keldos.me/2024/07/douhaozaihangshou/</id>
+    <link href="https://old.blog.keldos.me/2024/07/douhaozaihangshou/"/>
+    <id>https://old.blog.keldos.me/2024/07/douhaozaihangshou/</id>
     <published>2024-07-06T16:19:15.000Z</published>
     <updated>2024-07-06T17:37:13.020Z</updated>
     
@@ -33,18 +33,18 @@
     
     
     
-    <category term="排版" scheme="https://blog.keldos.me/tags/%E6%8E%92%E7%89%88/"/>
+    <category term="排版" scheme="https://old.blog.keldos.me/tags/%E6%8E%92%E7%89%88/"/>
     
-    <category term="文字排印" scheme="https://blog.keldos.me/tags/%E6%96%87%E5%AD%97%E6%8E%92%E5%8D%B0/"/>
+    <category term="文字排印" scheme="https://old.blog.keldos.me/tags/%E6%96%87%E5%AD%97%E6%8E%92%E5%8D%B0/"/>
     
-    <category term="教学" scheme="https://blog.keldos.me/tags/%E6%95%99%E5%AD%A6/"/>
+    <category term="教学" scheme="https://old.blog.keldos.me/tags/%E6%95%99%E5%AD%A6/"/>
     
   </entry>
   
   <entry>
     <title>结束了…2023…</title>
-    <link href="https://blog.keldos.me/2024/03/2023Review/"/>
-    <id>https://blog.keldos.me/2024/03/2023Review/</id>
+    <link href="https://old.blog.keldos.me/2024/03/2023Review/"/>
+    <id>https://old.blog.keldos.me/2024/03/2023Review/</id>
     <published>2024-03-31T07:00:46.000Z</published>
     <updated>2024-03-31T16:39:02.842Z</updated>
     
@@ -59,14 +59,14 @@
     
     
     
-    <category term="随笔" scheme="https://blog.keldos.me/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://old.blog.keldos.me/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>温岭博物馆：市民能否感知建筑的“言”与“意”？</title>
-    <link href="https://blog.keldos.me/2023/09/wenling-museum/"/>
-    <id>https://blog.keldos.me/2023/09/wenling-museum/</id>
+    <link href="https://old.blog.keldos.me/2023/09/wenling-museum/"/>
+    <id>https://old.blog.keldos.me/2023/09/wenling-museum/</id>
     <published>2023-09-14T08:41:16.000Z</published>
     <updated>2025-01-13T08:08:43.714Z</updated>
     
@@ -81,18 +81,18 @@
     
     
     
-    <category term="随笔" scheme="https://blog.keldos.me/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://old.blog.keldos.me/tags/%E9%9A%8F%E7%AC%94/"/>
     
-    <category term="作业" scheme="https://blog.keldos.me/tags/%E4%BD%9C%E4%B8%9A/"/>
+    <category term="作业" scheme="https://old.blog.keldos.me/tags/%E4%BD%9C%E4%B8%9A/"/>
     
-    <category term="城市规划" scheme="https://blog.keldos.me/tags/%E5%9F%8E%E5%B8%82%E8%A7%84%E5%88%92/"/>
+    <category term="城市规划" scheme="https://old.blog.keldos.me/tags/%E5%9F%8E%E5%B8%82%E8%A7%84%E5%88%92/"/>
     
   </entry>
   
   <entry>
     <title>祝我生日快乐~</title>
-    <link href="https://blog.keldos.me/2023/04/happy-birthday-2023/"/>
-    <id>https://blog.keldos.me/2023/04/happy-birthday-2023/</id>
+    <link href="https://old.blog.keldos.me/2023/04/happy-birthday-2023/"/>
+    <id>https://old.blog.keldos.me/2023/04/happy-birthday-2023/</id>
     <published>2023-04-12T16:16:06.000Z</published>
     <updated>2023-05-10T08:04:50.943Z</updated>
     
@@ -104,14 +104,14 @@
     
     
     
-    <category term="随笔" scheme="https://blog.keldos.me/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://old.blog.keldos.me/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>再见，2022</title>
-    <link href="https://blog.keldos.me/2023/01/2022Review/"/>
-    <id>https://blog.keldos.me/2023/01/2022Review/</id>
+    <link href="https://old.blog.keldos.me/2023/01/2022Review/"/>
+    <id>https://old.blog.keldos.me/2023/01/2022Review/</id>
     <published>2023-01-27T06:23:47.000Z</published>
     <updated>2023-02-07T12:10:55.074Z</updated>
     
@@ -124,14 +124,14 @@
     
     
     
-    <category term="随笔" scheme="https://blog.keldos.me/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://old.blog.keldos.me/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>20世纪中后期北京与平壤的城市简单比较研究</title>
-    <link href="https://blog.keldos.me/2022/06/%E5%8C%97%E4%BA%AC%E5%B9%B3%E5%A3%A4/"/>
-    <id>https://blog.keldos.me/2022/06/%E5%8C%97%E4%BA%AC%E5%B9%B3%E5%A3%A4/</id>
+    <link href="https://old.blog.keldos.me/2022/06/%E5%8C%97%E4%BA%AC%E5%B9%B3%E5%A3%A4/"/>
+    <id>https://old.blog.keldos.me/2022/06/%E5%8C%97%E4%BA%AC%E5%B9%B3%E5%A3%A4/</id>
     <published>2022-06-11T08:57:36.000Z</published>
     <updated>2022-06-11T11:28:47.690Z</updated>
     
@@ -144,16 +144,16 @@
     
     
     
-    <category term="作业" scheme="https://blog.keldos.me/tags/%E4%BD%9C%E4%B8%9A/"/>
+    <category term="作业" scheme="https://old.blog.keldos.me/tags/%E4%BD%9C%E4%B8%9A/"/>
     
-    <category term="城市规划" scheme="https://blog.keldos.me/tags/%E5%9F%8E%E5%B8%82%E8%A7%84%E5%88%92/"/>
+    <category term="城市规划" scheme="https://old.blog.keldos.me/tags/%E5%9F%8E%E5%B8%82%E8%A7%84%E5%88%92/"/>
     
   </entry>
   
   <entry>
     <title>一些美术作业</title>
-    <link href="https://blog.keldos.me/2022/05/meishu/"/>
-    <id>https://blog.keldos.me/2022/05/meishu/</id>
+    <link href="https://old.blog.keldos.me/2022/05/meishu/"/>
+    <id>https://old.blog.keldos.me/2022/05/meishu/</id>
     <published>2022-05-31T13:57:14.000Z</published>
     <updated>2025-01-12T13:12:29.339Z</updated>
     
@@ -166,16 +166,16 @@
     
     
     
-    <category term="笔记" scheme="https://blog.keldos.me/tags/%E7%AC%94%E8%AE%B0/"/>
+    <category term="笔记" scheme="https://old.blog.keldos.me/tags/%E7%AC%94%E8%AE%B0/"/>
     
-    <category term="作业" scheme="https://blog.keldos.me/tags/%E4%BD%9C%E4%B8%9A/"/>
+    <category term="作业" scheme="https://old.blog.keldos.me/tags/%E4%BD%9C%E4%B8%9A/"/>
     
   </entry>
   
   <entry>
     <title>中国现代城市起步的见证——评《重建中国》</title>
-    <link href="https://blog.keldos.me/2022/04/%E9%87%8D%E5%BB%BA%E4%B8%AD%E5%9B%BD/"/>
-    <id>https://blog.keldos.me/2022/04/%E9%87%8D%E5%BB%BA%E4%B8%AD%E5%9B%BD/</id>
+    <link href="https://old.blog.keldos.me/2022/04/%E9%87%8D%E5%BB%BA%E4%B8%AD%E5%9B%BD/"/>
+    <id>https://old.blog.keldos.me/2022/04/%E9%87%8D%E5%BB%BA%E4%B8%AD%E5%9B%BD/</id>
     <published>2022-04-12T17:30:47.000Z</published>
     <updated>2022-06-11T11:30:38.586Z</updated>
     
@@ -191,18 +191,18 @@
     
     
     
-    <category term="随笔" scheme="https://blog.keldos.me/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://old.blog.keldos.me/tags/%E9%9A%8F%E7%AC%94/"/>
     
-    <category term="作业" scheme="https://blog.keldos.me/tags/%E4%BD%9C%E4%B8%9A/"/>
+    <category term="作业" scheme="https://old.blog.keldos.me/tags/%E4%BD%9C%E4%B8%9A/"/>
     
-    <category term="城市规划" scheme="https://blog.keldos.me/tags/%E5%9F%8E%E5%B8%82%E8%A7%84%E5%88%92/"/>
+    <category term="城市规划" scheme="https://old.blog.keldos.me/tags/%E5%9F%8E%E5%B8%82%E8%A7%84%E5%88%92/"/>
     
   </entry>
   
   <entry>
     <title>混音</title>
-    <link href="https://blog.keldos.me/2022/02/sound-mix/"/>
-    <id>https://blog.keldos.me/2022/02/sound-mix/</id>
+    <link href="https://old.blog.keldos.me/2022/02/sound-mix/"/>
+    <id>https://old.blog.keldos.me/2022/02/sound-mix/</id>
     <published>2022-02-20T03:14:01.000Z</published>
     <updated>2022-02-20T03:17:26.349Z</updated>
     
@@ -262,14 +262,14 @@
     
     
     
-    <category term="音乐" scheme="https://blog.keldos.me/tags/%E9%9F%B3%E4%B9%90/"/>
+    <category term="音乐" scheme="https://old.blog.keldos.me/tags/%E9%9F%B3%E4%B9%90/"/>
     
   </entry>
   
   <entry>
     <title>QQ变更声明</title>
-    <link href="https://blog.keldos.me/2021/06/QQ%E5%8F%98%E6%9B%B4%E5%A3%B0%E6%98%8E/"/>
-    <id>https://blog.keldos.me/2021/06/QQ%E5%8F%98%E6%9B%B4%E5%A3%B0%E6%98%8E/</id>
+    <link href="https://old.blog.keldos.me/2021/06/QQ%E5%8F%98%E6%9B%B4%E5%A3%B0%E6%98%8E/"/>
+    <id>https://old.blog.keldos.me/2021/06/QQ%E5%8F%98%E6%9B%B4%E5%A3%B0%E6%98%8E/</id>
     <published>2021-06-05T12:02:01.000Z</published>
     <updated>2021-06-05T12:11:10.867Z</updated>
     
@@ -290,8 +290,8 @@
   
   <entry>
     <title>Typora伪装LaTeX中文样式主题简介</title>
-    <link href="https://blog.keldos.me/2021/05/typora-latex-css/"/>
-    <id>https://blog.keldos.me/2021/05/typora-latex-css/</id>
+    <link href="https://old.blog.keldos.me/2021/05/typora-latex-css/"/>
+    <id>https://old.blog.keldos.me/2021/05/typora-latex-css/</id>
     <published>2021-05-27T12:00:34.000Z</published>
     <updated>2025-01-12T08:22:41.282Z</updated>
     
@@ -387,14 +387,14 @@
     
     
     
-    <category term="tech" scheme="https://blog.keldos.me/tags/tech/"/>
+    <category term="tech" scheme="https://old.blog.keldos.me/tags/tech/"/>
     
   </entry>
   
   <entry>
     <title>把markdown伪装成LaTeX</title>
-    <link href="https://blog.keldos.me/2021/05/md-latex-template/"/>
-    <id>https://blog.keldos.me/2021/05/md-latex-template/</id>
+    <link href="https://old.blog.keldos.me/2021/05/md-latex-template/"/>
+    <id>https://old.blog.keldos.me/2021/05/md-latex-template/</id>
     <published>2021-05-23T15:35:54.000Z</published>
     <updated>2021-05-28T10:17:00.961Z</updated>
     
@@ -410,16 +410,16 @@
     
     
     
-    <category term="tech" scheme="https://blog.keldos.me/tags/tech/"/>
+    <category term="tech" scheme="https://old.blog.keldos.me/tags/tech/"/>
     
-    <category term="笔记" scheme="https://blog.keldos.me/tags/%E7%AC%94%E8%AE%B0/"/>
+    <category term="笔记" scheme="https://old.blog.keldos.me/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>名片设计作业说明文档</title>
-    <link href="https://blog.keldos.me/2021/04/%E5%90%8D%E7%89%87%E8%AE%BE%E8%AE%A1%E4%BD%9C%E4%B8%9A/"/>
-    <id>https://blog.keldos.me/2021/04/%E5%90%8D%E7%89%87%E8%AE%BE%E8%AE%A1%E4%BD%9C%E4%B8%9A/</id>
+    <link href="https://old.blog.keldos.me/2021/04/%E5%90%8D%E7%89%87%E8%AE%BE%E8%AE%A1%E4%BD%9C%E4%B8%9A/"/>
+    <id>https://old.blog.keldos.me/2021/04/%E5%90%8D%E7%89%87%E8%AE%BE%E8%AE%A1%E4%BD%9C%E4%B8%9A/</id>
     <published>2021-04-28T11:33:43.000Z</published>
     <updated>2021-04-28T11:49:25.352Z</updated>
     
@@ -431,16 +431,16 @@
     
     
     
-    <category term="笔记" scheme="https://blog.keldos.me/tags/%E7%AC%94%E8%AE%B0/"/>
+    <category term="笔记" scheme="https://old.blog.keldos.me/tags/%E7%AC%94%E8%AE%B0/"/>
     
-    <category term="作业" scheme="https://blog.keldos.me/tags/%E4%BD%9C%E4%B8%9A/"/>
+    <category term="作业" scheme="https://old.blog.keldos.me/tags/%E4%BD%9C%E4%B8%9A/"/>
     
   </entry>
   
   <entry>
     <title>班徽评选</title>
-    <link href="https://blog.keldos.me/2020/11/banhui/"/>
-    <id>https://blog.keldos.me/2020/11/banhui/</id>
+    <link href="https://old.blog.keldos.me/2020/11/banhui/"/>
+    <id>https://old.blog.keldos.me/2020/11/banhui/</id>
     <published>2020-11-19T06:30:18.000Z</published>
     <updated>2021-03-09T06:36:59.839Z</updated>
     
@@ -460,8 +460,8 @@
   
   <entry>
     <title>博文非HTML语法小计</title>
-    <link href="https://blog.keldos.me/2020/08/hello-world/"/>
-    <id>https://blog.keldos.me/2020/08/hello-world/</id>
+    <link href="https://old.blog.keldos.me/2020/08/hello-world/"/>
+    <id>https://old.blog.keldos.me/2020/08/hello-world/</id>
     <published>2020-08-08T12:25:07.000Z</published>
     <updated>2020-11-19T06:51:00.254Z</updated>
     
@@ -478,14 +478,14 @@
     
     
     
-    <category term="tech" scheme="https://blog.keldos.me/tags/tech/"/>
+    <category term="tech" scheme="https://old.blog.keldos.me/tags/tech/"/>
     
   </entry>
   
   <entry>
     <title>励志联</title>
-    <link href="https://blog.keldos.me/2017/06/%E5%8A%B1%E5%BF%97%E8%81%94/"/>
-    <id>https://blog.keldos.me/2017/06/%E5%8A%B1%E5%BF%97%E8%81%94/</id>
+    <link href="https://old.blog.keldos.me/2017/06/%E5%8A%B1%E5%BF%97%E8%81%94/"/>
+    <id>https://old.blog.keldos.me/2017/06/%E5%8A%B1%E5%BF%97%E8%81%94/</id>
     <published>2017-06-16T16:00:00.000Z</published>
     <updated>2023-11-19T13:25:48.854Z</updated>
     
@@ -505,14 +505,14 @@
     
     
     
-    <category term="随笔" scheme="https://blog.keldos.me/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://old.blog.keldos.me/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>莊子淺摘（後記）</title>
-    <link href="https://blog.keldos.me/2017/05/zhuangzi-houji/"/>
-    <id>https://blog.keldos.me/2017/05/zhuangzi-houji/</id>
+    <link href="https://old.blog.keldos.me/2017/05/zhuangzi-houji/"/>
+    <id>https://old.blog.keldos.me/2017/05/zhuangzi-houji/</id>
     <published>2017-05-27T16:00:00.000Z</published>
     <updated>2020-08-26T13:43:49.719Z</updated>
     
@@ -525,16 +525,16 @@
     
     
     
-    <category term="随笔" scheme="https://blog.keldos.me/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://old.blog.keldos.me/tags/%E9%9A%8F%E7%AC%94/"/>
     
-    <category term="庄子" scheme="https://blog.keldos.me/tags/%E5%BA%84%E5%AD%90/"/>
+    <category term="庄子" scheme="https://old.blog.keldos.me/tags/%E5%BA%84%E5%AD%90/"/>
     
   </entry>
   
   <entry>
     <title>今译王世贞《蔺相如完璧归赵论》</title>
-    <link href="https://blog.keldos.me/2017/05/translate-wanbiguizhao/"/>
-    <id>https://blog.keldos.me/2017/05/translate-wanbiguizhao/</id>
+    <link href="https://old.blog.keldos.me/2017/05/translate-wanbiguizhao/"/>
+    <id>https://old.blog.keldos.me/2017/05/translate-wanbiguizhao/</id>
     <published>2017-05-13T16:00:00.000Z</published>
     <updated>2020-08-26T11:13:51.108Z</updated>
     
@@ -546,14 +546,14 @@
     
     
     
-    <category term="随笔" scheme="https://blog.keldos.me/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://old.blog.keldos.me/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>莊子淺摘（內篇）</title>
-    <link href="https://blog.keldos.me/2017/01/zhuangzi-1/"/>
-    <id>https://blog.keldos.me/2017/01/zhuangzi-1/</id>
+    <link href="https://old.blog.keldos.me/2017/01/zhuangzi-1/"/>
+    <id>https://old.blog.keldos.me/2017/01/zhuangzi-1/</id>
     <published>2017-01-17T16:00:00.000Z</published>
     <updated>2020-08-26T13:43:35.254Z</updated>
     
@@ -568,9 +568,9 @@
     
     
     
-    <category term="哲学" scheme="https://blog.keldos.me/tags/%E5%93%B2%E5%AD%A6/"/>
+    <category term="哲学" scheme="https://old.blog.keldos.me/tags/%E5%93%B2%E5%AD%A6/"/>
     
-    <category term="庄子" scheme="https://blog.keldos.me/tags/%E5%BA%84%E5%AD%90/"/>
+    <category term="庄子" scheme="https://old.blog.keldos.me/tags/%E5%BA%84%E5%AD%90/"/>
     
   </entry>
   
